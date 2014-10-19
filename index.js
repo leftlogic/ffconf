@@ -15,6 +15,12 @@ http.createServer(function (req, res) {
   var url = parse(req.url);
   var file = url.pathname.replace(/\./g, '').replace(/^\//, ''); // poor man's sanity
 
+  // keeps our dyno awake via the main site
+  if (url === 'ping') {
+    res.writeHead(204);
+    res.end();
+  }
+
   if (cache[file] === undefined) {
     // one off readsync - quick and dirty
     try {
