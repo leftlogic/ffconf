@@ -18,7 +18,7 @@ http.createServer(function (req, res) {
   if (cache[file] === undefined) {
     // one off readsync - quick and dirty
     try {
-      cache[file] = fs.readSync('./redirects/' + file);
+      cache[file] = fs.readFileSync('./redirects/' + file, 'utf8');
     } catch (e) {
       cache[file] = null; // don't bother looking again until restart
       console.warn('failed redirect on ' + file);
