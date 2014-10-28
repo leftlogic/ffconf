@@ -35,5 +35,5 @@ http.createServer(function (req, res) {
     return redirect(res, cache[file]);
   }
 
-  redirect(res, 'http://' + year + '.ffconf.org');
+  redirect(res, 'http://' + year + '.ffconf.org' + req.url);
 }).listen(process.env.PORT || 8000);
