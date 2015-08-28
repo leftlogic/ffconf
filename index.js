@@ -4,7 +4,7 @@ var parse = require('url').parse;
 
 var cache = {};
 
-var year = process.env.YEAR || 2014;
+var year = process.env.YEAR || 2015;
 
 function redirect(res, url) {
   res.writeHead(302, { location: url, 'content-type': 'text/html' });
