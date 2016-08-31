@@ -12,7 +12,7 @@
   "author": "Remy Sharp",
   "license": "MIT",
   "dependencies": {
-    "@remy/ffconf2009": "^1.0.1",
+    "@remy/ffconf2009": "^1.0.2",
     "@remy/ffconf2010": "^1.0.1",
     "@remy/ffconf2011": "^1.0.1",
     "@remy/ffconf2012": "^1.0.3",
