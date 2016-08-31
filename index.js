@@ -6,7 +6,7 @@ const year = process.env.YEAR || 2016;
 const app = express();
 const vhost = require('vhost');
 const port = process.env.PORT || 8000;
-const root = '.ffconf.dev'; //'.ffconf.org';
+const root = process.env.NODE_ENV==='production' ? '.ffconf.org' : '.ffconf.dev'; //'.ffconf.org';
 const years = {
   2011: require('@remy/ffconf2011'),
   2012: require('@remy/ffconf2012'),
