@@ -20,6 +20,11 @@ const years = {
 
 app.disable('x-powered-by');
 
+app.use((req, res, next) => {
+  res.setHeader('x-powered-by', 'ffconf');
+  next();
+});
+
 Object.keys(years).forEach(year => {
   console.log(`registering http://${year}${root}:${port}`);
   app.use(vhost(year + root, years[year]));
