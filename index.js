@@ -1,24 +1,37 @@
-var http = require('http');
-var fs = require('fs');
-var parse = require('url').parse;
+const express = require('express');
+const fs = require('fs');
+const parse = require('url').parse;
+const cache = {};
+const year = process.env.YEAR || 2016;
+const app = express();
+const vhost = require('vhost');
+const port = process.env.PORT || 8000;
+const root = '.ffconf.dev'; //'.ffconf.org';
+const years = {
+  2011: require('@remy/ffconf2011'),
+  2012: require('@remy/ffconf2012'),
+  2013: require('@remy/ffconf2013'),
+  2014: require('@remy/ffconf2014'),
+  2015: require('@remy/ffconf2015'),
+  2016: require('@remy/ffconf2016'),
+};
 
-var cache = {};
+app.disable('x-powered-by');
 
-var year = process.env.YEAR || 2015;
+Object.keys(years).forEach(year => {
+  console.log(`registering http://${year}${root}:${port}`);
+  app.use(vhost(year + root, years[year]));
+});
 
-function redirect(res, url) {
-  res.writeHead(302, { location: url, 'content-type': 'text/html' });
-  res.end('<title>Redirecting...</title><meta http-equiv="refresh" content="0; url=' + url + '">');
-}
+// middleware via vhost to listen to each year
 
-http.createServer(function (req, res) {
-  var url = parse(req.url);
-  var file = url.pathname.replace(/\./g, '').replace(/^\//, ''); // poor man's sanity
+app.get('/*', (req, res) => {
+  const url = parse(req.url);
+  const file = url.pathname.replace(/\./g, '').replace(/^\//, ''); // poor man's sanity
 
   // keeps our dyno awake via the main site
   if (url === 'ping') {
-    res.writeHead(204);
-    res.end();
+    return res.status(204).end();
   }
 
   if (cache[file] === undefined) {
@@ -27,13 +40,15 @@ http.createServer(function (req, res) {
       cache[file] = fs.readFileSync('./redirects/' + file, 'utf8').split('\n')[0].trim();
     } catch (e) {
       cache[file] = null; // don't bother looking again until restart
-      console.warn('failed redirect on ' + file);
+      console.warn('failed redirect on ' + req.url);
     }
   }
 
   if (cache[file]) {
-    return redirect(res, cache[file]);
+    return res.redirect(302, cache[file]);
   }
 
-  redirect(res, 'http://' + year + '.ffconf.org' + req.url);
-}).listen(process.env.PORT || 8000);
+  res.redirect(302, 'https://' + year + root + req.url);
+});
+
+app.listen(port);
