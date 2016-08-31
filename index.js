@@ -8,6 +8,8 @@ const vhost = require('vhost');
 const port = process.env.PORT || 8000;
 const root = process.env.NODE_ENV==='production' ? '.ffconf.org' : '.ffconf.dev'; //'.ffconf.org';
 const years = {
+  2009: require('@remy/ffconf2009'),
+  2010: require('@remy/ffconf2010'),
   2011: require('@remy/ffconf2011'),
   2012: require('@remy/ffconf2012'),
   2013: require('@remy/ffconf2013'),
