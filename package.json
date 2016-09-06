@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Root for ffconf",
   "main": "index.js",
+  "private": true,
   "engines": {
     "node": "5.x.x"
   },
@@ -17,7 +18,7 @@
     "@remy/ffconf2010": "^1.0.1",
     "@remy/ffconf2011": "^1.0.1",
     "@remy/ffconf2012": "^1.0.3",
-    "@remy/ffconf2013": "^1.0.2",
+    "@remy/ffconf2013": "^1.0.3",
     "@remy/ffconf2014": "^1.0.1",
     "@remy/ffconf2015": "^1.0.2",
     "@remy/ffconf2016": "^1.1.2",
