@@ -33,6 +33,7 @@ Object.keys(years).forEach(year => {
 // middleware via vhost to listen to each year
 
 app.get('/*', (req, res) => {
+  res.setHeader('x-route', 'main');
   const url = parse(req.url);
   const file = url.pathname.replace(/\./g, '').replace(/^\//, ''); // poor man's sanity
 
