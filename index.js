@@ -16,7 +16,7 @@ const years = {
   2014: require('@remy/ffconf2014'),
   2015: require('@remy/ffconf2015'),
   2016: require('@remy/ffconf2016'),
-  2017: require('@remy/ffconf2017'),
+//  2017: require('@remy/ffconf2017'),
 };
 
 app.disable('x-powered-by');
