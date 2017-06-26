@@ -22,7 +22,7 @@
     "@remy/ffconf2014": "^1.0.1",
     "@remy/ffconf2015": "^1.0.3",
     "@remy/ffconf2016": "^1.4.4",
-    "@remy/ffconf2017": "^1.0.6",
+    "@remy/ffconf2017": "^1.1.0",
     "express": "^4.14.0",
     "vhost": "^3.0.2"
   }
