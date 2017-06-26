@@ -5,7 +5,8 @@
   "main": "index.js",
   "private": true,
   "engines": {
-    "node": "5.x.x"
+    "node": "5.x.x",
+    "npm": "5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
