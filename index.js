@@ -6,7 +6,8 @@ const year = process.env.YEAR || 2017;
 const app = express();
 const vhost = require('vhost');
 const port = process.env.PORT || 8000;
-const root = process.env.NODE_ENV==='production' ? '.ffconf.org' : '.ffconf.dev'; //'.ffconf.org';
+const root =
+  process.env.NODE_ENV === 'production' ? '.ffconf.org' : '.ffconf.dev'; //'.ffconf.org';
 const years = {
   2009: require('@remy/ffconf2009'),
   2010: require('@remy/ffconf2010'),
@@ -33,6 +34,8 @@ Object.keys(years).forEach(year => {
 
 // middleware via vhost to listen to each year
 
+app.use('/static', express.static('static', { extensions: ['html'] }));
+
 app.get('/*', (req, res) => {
   res.setHeader('x-route', 'main');
   const url = parse(req.url);
@@ -46,7 +49,10 @@ app.get('/*', (req, res) => {
   if (cache[file] === undefined) {
     // one off readsync - quick and dirty
     try {
-      cache[file] = fs.readFileSync('./redirects/' + file, 'utf8').split('\n')[0].trim();
+      cache[file] = fs
+        .readFileSync('./redirects/' + file, 'utf8')
+        .split('\n')[0]
+        .trim();
     } catch (e) {
       cache[file] = null; // don't bother looking again until restart
       console.warn('failed redirect on ' + req.url);
