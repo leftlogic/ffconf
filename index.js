@@ -27,6 +27,8 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use('/api', require('./api'));
+
 Object.keys(years).forEach(year => {
   console.log(`registering http://${year}${root}:${port}`);
   app.use(vhost(year + root, years[year]));
