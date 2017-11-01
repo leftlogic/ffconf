@@ -31,7 +31,7 @@ router.get('/', (req, res, next) => {
     .catch(next);
 });
 
-router.get('/:year?', (req, res, next) => {
+router.get('/event/:year?', (req, res, next) => {
   const { year } = req.params;
   client
     .request(
@@ -50,7 +50,7 @@ router.get('/:year?', (req, res, next) => {
     .catch(next);
 });
 
-router.get('/:slug?', (req, res, next) => {
+router.get(['/session/:slug?', '/:year/:slug'], (req, res, next) => {
   const { slug } = req.params;
   client
     .request(
