@@ -1,6 +1,7 @@
 const express = require('express');
 const { GraphQLClient } = require('graphql-request');
 const router = express.Router();
+const cors = require('./cors');
 
 const endpoint = 'https://api.graph.cool/simple/v1/ffconf';
 
@@ -8,11 +9,13 @@ const client = new GraphQLClient(endpoint, { headers: {} });
 
 module.exports = router;
 
+router.use(cors);
+
 router.get('/', (req, res, next) => {
   client
     .request(
       `{
-          allEvents {
+          allEvents(orderBy:year_ASC) {
             year
             url
             sessions {
@@ -28,25 +31,44 @@ router.get('/', (req, res, next) => {
     .catch(next);
 });
 
-router.get('/:year/:slug?', (req, res, next) => {
-  const filter = [];
-  const { year, slug = false } = req.params;
-  filter.push(`year: ${year}`);
-  if (slug) {
-    filter.push(`slug: ${slug}`);
-  }
+router.get('/:year?', (req, res, next) => {
+  const { year } = req.params;
   client
     .request(
       `{
-        allEvents(filter:{ ${filter.join(' ')} }) {
-          sessions {
+        Event(year:${year}) {
+          sessions(orderBy:order_ASC) {
+            slug
+            order
             title
             description
           }
         }
       }`
     )
-    .then(results => res.status(200).json(results.allEvents[0].sessions))
+    .then(results => res.status(200).json(results.Event.sessions))
+    .catch(next);
+});
+
+router.get('/:slug?', (req, res, next) => {
+  const { slug } = req.params;
+  client
+    .request(
+      `{
+        Session(slug:"${slug}") {
+          title
+          slug
+          description
+          time
+          event {
+            year
+          }
+          slides
+          video
+        }
+      }`
+    )
+    .then(results => res.status(200).json(results.Session))
     .catch(next);
 });
 
