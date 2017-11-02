@@ -36,7 +36,7 @@ Object.keys(years).forEach(year => {
 
 // middleware via vhost to listen to each year
 
-app.use('/static', express.static('static', { extensions: ['html'] }));
+app.use('/', express.static('static', { extensions: ['html'] }));
 
 app.get('/*', (req, res) => {
   res.setHeader('x-route', 'main');
