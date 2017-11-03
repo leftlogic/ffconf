@@ -1,6 +1,7 @@
 const express = require('express');
 const { GraphQLClient } = require('graphql-request');
 const router = express.Router();
+const { json } = require('body-parser');
 const cors = require('./cors');
 
 const endpoint = 'https://api.graph.cool/simple/v1/ffconf';
@@ -10,6 +11,9 @@ const client = new GraphQLClient(endpoint, { headers: {} });
 module.exports = router;
 
 router.use(cors);
+router.use(json());
+
+router.use('/user', require('./user'));
 
 router.get('/', (req, res, next) => {
   client
@@ -50,7 +54,7 @@ router.get('/event/:year?', (req, res, next) => {
     .catch(next);
 });
 
-router.get(['/session/:slug?', '/:year/:slug'], (req, res, next) => {
+router.get(['/session/:slug', '/:year/:slug'], (req, res, next) => {
   const { slug } = req.params;
   client
     .request(
