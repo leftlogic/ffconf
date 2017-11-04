@@ -1,5 +1,6 @@
 const express = require('express');
 const { GraphQLClient } = require('graphql-request');
+const jwt = require('jwt-decode');
 const router = express.Router();
 
 const endpoint = 'https://api.graph.cool/simple/v1/ffconf';
@@ -9,13 +10,39 @@ const client = new GraphQLClient(endpoint, { headers: {} });
 module.exports = router;
 
 router.get('/', (req, res, next) => {
-  console.log(req.cookies);
   res.status(400).send(false);
 });
 
 router.delete('/', (req, res) => {
   res.cookie('token', '', { expires: new Date() });
   res.status(200).json(true);
+});
+
+router.get('/notes', (req, res, next) => {
+  const userId = jwt(req.cookies.token).userId;
+  const query = `query {
+    User(id:"${userId}") {
+      note {
+        id
+        contents
+        session {
+          title
+          slug
+        }
+      }
+    }
+  }`;
+
+  const client = new GraphQLClient(endpoint, {
+    headers: {
+      authorization: `Bearer ${req.cookies.token}`,
+    },
+  });
+
+  client
+    .request(query)
+    .then(results => res.json(results.User.note))
+    .catch(next);
 });
 
 router.post('/', (req, res, next) => {

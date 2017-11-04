@@ -15,6 +15,11 @@ router.use(cors);
 router.use(cookieParser());
 router.use(json());
 
+router.use((req, res, next) => {
+  console.log(`${req.method} ${req.url}`);
+  next();
+});
+
 router.use('/user', require('./user'));
 router.use('/session', require('./session'));
 
