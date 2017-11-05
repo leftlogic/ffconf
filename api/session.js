@@ -25,10 +25,14 @@ const querySession = slug => `{
 
 // TODO I know this should be part of the `querySession` but it's for a workshop
 // so it's contrived.
-const querySessionNotes = slug => `{
+const querySessionNotes = (slug, userId) => `{
   Session(slug:"${slug}") {
     sessionId:id
-    note {
+    note(filter:{
+      user:{
+        id:"${userId}"
+      }
+    }) {
       id
       contents
       rating
@@ -77,10 +81,15 @@ router.get('/:slug/notes', (req, res, next) => {
     },
   });
 
+  const userId = jwt(req.cookies.token).userId;
+
   client
-    .request(querySessionNotes(req.params.slug))
+    .request(querySessionNotes(req.params.slug, userId))
     .then(results => res.status(200).json(results.Session.note))
-    .catch(next);
+    .catch(e => {
+      console.log(e);
+      next(e);
+    });
 });
 
 router.post('/:slug/notes', (req, res, next) => {
