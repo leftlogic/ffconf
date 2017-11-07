@@ -20,6 +20,12 @@ const querySession = slug => `{
     }
     slides
     video
+    speaker {
+      name
+      twitter
+      photo
+      bio
+    }
   }
 }`;
 
