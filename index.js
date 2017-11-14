@@ -18,6 +18,7 @@ const years = {
   2015: require('@remy/ffconf2015'),
   2016: require('@remy/ffconf2016'),
   2017: require('@remy/ffconf2017'),
+  2018: require('./news'),
 };
 
 app.disable('x-powered-by');
