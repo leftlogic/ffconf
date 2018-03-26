@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const parse = require('url').parse;
 const cache = {};
-const year = process.env.YEAR || 2017;
+const year = process.env.YEAR || 2018;
 const app = express();
 const vhost = require('vhost');
 const port = process.env.PORT || 8000;
@@ -18,7 +18,8 @@ const years = {
   2015: require('@remy/ffconf2015'),
   2016: require('@remy/ffconf2016'),
   2017: require('@remy/ffconf2017'),
-  2018: require('./news'),
+  2018: require('@remy/ffconf2018'),
+  2019: require('./news'),
 };
 
 app.disable('x-powered-by');
