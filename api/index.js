@@ -54,6 +54,12 @@ router.get('/event/:year?', (req, res, next) => {
             order
             title
             description
+            speaker {
+              name
+              twitter
+              photo
+              bio
+            }
           }
         }
       }`
