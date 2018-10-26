@@ -1,5 +1,5 @@
 /* global self, caches, fetch */
-const cacheName = 'v3/ffconf/speaker';
+const cacheName = 'v4/ffconf/speaker';
 
 self.addEventListener('activate', e => {
   e.waitUntil(
