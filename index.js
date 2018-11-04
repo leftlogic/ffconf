@@ -22,6 +22,8 @@ const years = {
   2019: require('./news'),
 };
 
+years.www = years[year];
+
 app.disable('x-powered-by');
 
 app.use((req, res, next) => {
