@@ -52,6 +52,7 @@ router.get('/event/:year?', (req, res, next) => {
           sessions(orderBy:order_ASC) {
             slug
             order
+            time
             title
             description
             speaker {
