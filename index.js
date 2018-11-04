@@ -22,7 +22,13 @@ const years = {
   2019: require('./news'),
 };
 
-years.www = years[year];
+// FIXME all the vhosts should have a 404 error handler, but they don't
+// so it falls down into the catch all at the end of this script, and
+// causes an infinite redirect loop
+
+const www = express();
+www.use((req, res) => res.redirect(`https://${year}.ffconf.org`));
+years.www = www;
 
 app.disable('x-powered-by');
 
