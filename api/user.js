@@ -12,11 +12,13 @@ const client = new GraphQLClient(endpoint, { headers: {} });
 module.exports = router;
 
 const getToken = req => {
-  let token = req.cookies.token;
+  let token = null;
 
-  if (!token && req.headers.authorization) {
+  if (req.headers.authorization) {
     const [, t] = req.headers.authorization.split(' ');
     token = t;
+  } else if (req.cookies.token) {
+    token = req.cookies.token;
   }
 
   return token;
