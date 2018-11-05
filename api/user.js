@@ -29,7 +29,13 @@ router.get('/', (req, res, next) => {
     return res.status(400).json({ error: 'invalid token' });
   }
 
-  const { userId } = jwt(token);
+  let userId = null;
+  try {
+    const parsed = jwt(token);
+    userId = parsed.userId;
+  } catch (e) {
+    return res.status(400).json({ error: 'invalid token' });
+  }
 
   const client = new GraphQLClient(endpoint, {
     headers: {
