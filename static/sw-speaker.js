@@ -1,5 +1,5 @@
 /* global self, caches, fetch */
-const cacheName = 'v5/ffconf/speaker';
+const cacheName = 'v6/ffconf/speaker';
 
 self.addEventListener('activate', e => {
   e.waitUntil(
@@ -19,7 +19,7 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache
-        .addAll(['/speaking', '/details', '/workshop-details'])
+        .addAll(['/speaking', '/details', '/workshop-details', '/details.css'])
         .then(() => self.skipWaiting());
     })
   );
