@@ -10,7 +10,29 @@ const client = new GraphQLClient(endpoint, { headers: {} });
 module.exports = router;
 
 router.get('/', (req, res, next) => {
-  res.status(400).send(false);
+  if (!req.cookies.token) {
+    return res.status(400).json({ error: 'invalid token' });
+  }
+
+  const { userId } = jwt(req.cookie.token);
+
+  const client = new GraphQLClient(endpoint, {
+    headers: {
+      authorization: `Bearer ${req.cookies.token}`,
+    },
+  });
+
+  const query = `query getUser($userId:ID!) {
+    User(id:$userId) {
+      email
+      avatar
+    }
+  }`;
+
+  client
+    .request(query, { userId })
+    .then(results => res.json(results.User))
+    .catch(next);
 });
 
 router.delete('/', (req, res) => {
