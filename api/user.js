@@ -2,6 +2,8 @@ const express = require('express');
 const { GraphQLClient } = require('graphql-request');
 const jwt = require('jwt-decode');
 const router = express.Router();
+const LRU = require('lru-cache');
+const cache = LRU({ max: 500 });
 
 const endpoint = 'https://api.graph.cool/simple/v1/ffconf';
 
@@ -53,31 +55,81 @@ router.delete('/', (req, res) => {
   res.status(200).json(true);
 });
 
-router.get('/notes', (req, res, next) => {
+router.get('/notes/:slug', (req, res, next) => {
   const token = getToken(req);
-  const userId = jwt(token).userId;
-  const query = `query {
-    User(id:"${userId}") {
-      note {
-        id
-        contents
-        session {
-          title
-          slug
-        }
-      }
+  const { userId } = jwt(token);
+
+  const note = cache.get(`note-${userId}-${req.params.slug}`);
+
+  res.status(note ? 200 : 404).json(note || {});
+  return;
+
+  const query = `query getNotesForSlug($slug:String!){
+    allNotes(filter:{session:{slug:$slug}}) {
+      contents
+      rating
+      id
     }
   }`;
 
   const client = new GraphQLClient(endpoint, {
     headers: {
-      authorization: `Bearer ${req.cookies.token}`,
+      authorization: `Bearer ${token}`,
     },
   });
 
   client
-    .request(query)
+    .request(query, { slug: req.params.slug })
     .then(results => res.json(results.User.note))
+    .catch(next);
+});
+
+router.post('/notes/:slug', (req, res, next) => {
+  const token = getToken(req);
+  const { userId } = jwt(token);
+
+  cache.set(`note-${userId}-${req.params.slug}`, req.body);
+
+  return res.json(true);
+
+  const query = `query sessions($slug:String!) {
+    allSessions(filter:{slug:$slug}) {
+      id
+    }
+  }`;
+
+  const mutation = `mutation createNote($contents: String!, $sessionId: ID!, $userId: ID!, $rating: Int!) {
+    createNote(
+      contents: $contents,
+      sessionId: $sessionId,
+      userId: $userId,
+      rating: $rating
+    ) {
+      id
+    }
+  }
+  `;
+
+  const client = new GraphQLClient(endpoint, {
+    headers: {
+      authorization: `Bearer ${token}`,
+    },
+  });
+
+  client
+    .request(query, { slug: req.params.slug })
+    .then(results => {
+      const sessionId = results.allSessions[0].id;
+      return client.request(mutation, {
+        sessionId,
+        userId,
+        contents: req.body.contents || '',
+        rating: req.body.rating || 0,
+      });
+    })
+    .then(() => {
+      res.json(true);
+    })
     .catch(next);
 });
 
