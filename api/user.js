@@ -48,22 +48,23 @@ router.get('/notes', (req, res, next) => {
 router.post('/', (req, res, next) => {
   const { email, password } = req.body;
 
-  const query = `mutation {
-    authenticateUser(email: "${email}", password: "${password}") {
+  const query = `mutation auth($email: String!, $password: String!) {
+    authenticateUser(email: $email, password: $password) {
       token
     }
-  }`;
+  }
+`;
 
   client
-    .request(query)
+    .request(query, { password, email })
     .catch(() => {
-      const query = `mutation {
-        signupUser(email: "${email}", password: "${password}") {
+      const query = `mutation signIn($email: String!, $password: String!) {
+        signupUser(email: $email, password: $password) {
           id
           token
         }
       }`;
-      return client.request(query);
+      return client.request(query, { password, email });
     })
     .then(reply => {
       let root = reply.signupUser ? 'signupUser' : 'authenticateUser';
