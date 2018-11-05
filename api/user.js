@@ -68,7 +68,7 @@ router.post('/', (req, res, next) => {
     })
     .then(reply => {
       let root = reply.signupUser ? 'signupUser' : 'authenticateUser';
-      res.cookie('token', reply[root].token, { httpOnly: true });
+      res.cookie('token', reply[root].token, { httpOnly: false });
       res.status(root === 'signupUser' ? 201 : 200).send(true);
     })
     .catch(e => {
