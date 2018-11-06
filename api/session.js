@@ -76,7 +76,10 @@ router.get('/:slug', (req, res, next) => {
   const { slug } = req.params;
   client
     .request(querySession(slug))
-    .then(results => res.status(200).json(results.Session))
+    .then(results => {
+      res.locals.data = results.Session;
+      next();
+    })
     .catch(next);
 });
 
