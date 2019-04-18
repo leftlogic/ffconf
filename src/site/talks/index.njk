@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+
+<section>
+  <h1>Talks</h1>
+</section>
+
+<section>
+<ul>
+{%- for talk in talks %}
+<li class="talk-card">
+  <a href="/talks/{{ talk.slug }}/">
+  <img src="{{ talk.speaker.photo }}" />
+  <header>
+    <h2>
+      {{ talk.speaker.name }}
+    </h2>
+    <h3>{{ talk.title }}</h3>
+  </header>
+  <span class="pill">{{ talk.event.year }}</span>
+</a>
+</li>
+{%- endfor %}
+</ul>
+</section>

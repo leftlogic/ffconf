@@ -1,0 +1,22 @@
+---
+pagination:
+  data: talks
+  size: 1
+  alias: talk
+permalink: talks/{{ pagination.items[0].slug }}/index.html
+layout: layouts/base.njk
+---
+
+<span class="pill">{{ talk.event.year }}</span>
+
+<h1>{{ talk.title }}</h1>
+
+<img class="speaker-photo" src="{{ talk.speaker.photo}}">
+
+<h2>Talk description</h2>
+<section>{{ talk.description | markdown | safe }}</section>
+
+<h2>About {{ talk.speaker.name }}</h2>
+<section>{{ talk.speaker.bio | markdown | safe }}</section>
+
+<!-- links -->

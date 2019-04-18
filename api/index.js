@@ -49,6 +49,7 @@ router.get('/', (req, res, next) => {
             url
             sessions {
               title
+              photo
               description
             }
           }
