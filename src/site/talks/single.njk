@@ -7,16 +7,39 @@ permalink: talks/{{ pagination.items[0].slug }}/index.html
 layout: layouts/base.njk
 ---
 
-<span class="pill">{{ talk.event.year }}</span>
 
-<h1>{{ talk.title }}</h1>
+<section class="talk">
+  <a class="back Link-Dark-Left" href="/talks">Back to all Talks</a>
+  <span class="pill-active Pill-Light-Center">{{ talk.event.year }}</span>
 
-<img class="speaker-photo" src="{{ talk.speaker.photo}}">
+  <h1 class="Heading-Dark-Left">{{ talk.title }}</h1>
 
-<h2>Talk description</h2>
-<section>{{ talk.description | markdown | safe }}</section>
+  <section class="media">
+    <div class="speaker-image" style="background-image: url({{ talk.speaker.photo }})"></div>
+    <div class="links">
+      <div class="audio box">
+        <h2>Audio</h2>
+        <a download="{{ talk.slug }}.mp3" href="{{ talk.audio }}">Download</a>
+        <audio controls src="{{ talk.audio }}">
+      </div>
+      <div class="video solid-box">
+        <h2>Video</h2>
+        <a target="_blank" class="ext" href="{{ talk.video }}">Watch<span> on YouTube</span></a>
+      </div>
+      <div class="slide solid-box">
+        <h2>Slides</h2>
+        <a target="_blank" class="ext" href="{{ talk.slides }}">View</a>
+      </div>
+    </div>
+  </section>
 
-<h2>About {{ talk.speaker.name }}</h2>
-<section>{{ talk.speaker.bio | markdown | safe }}</section>
 
-<!-- links -->
+  <section class="descriptions">
+    <h2>Talk description</h2>
+    <div>{{ talk.description | markdown | safe }}</div>
+
+    <h2>About {{ talk.speaker.name }}</h2>
+    <div>{{ talk.speaker.bio | markdown | safe }}</div>
+  </section>
+  <!-- links -->
+</section>

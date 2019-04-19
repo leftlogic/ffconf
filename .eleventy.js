@@ -1,3 +1,4 @@
+const { basename } = require('path');
 var env = process.env.ELEVENTY_ENV;
 let markdownIt = require('markdown-it');
 let options = {
@@ -12,6 +13,10 @@ module.exports = function(eleventyConfig) {
   // Add filters to Nunjucks
   eleventyConfig.addFilter('kebab', require('./src/site/_filters/kebab'));
   eleventyConfig.addFilter('markdown', s => markdown.render(s));
+  eleventyConfig.addFilter('filename', s => {
+    console.log('>>>>', s);
+    if (s) return basename(s);
+  });
   eleventyConfig.addFilter(
     'stringify',
     require('./src/site/_filters/stringify')

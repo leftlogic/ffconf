@@ -1,0 +1,76 @@
+type Event {
+  year: ID!
+  url: String!
+  sessions: [Session!]!
+  speakers: [Speaker!]!
+}
+
+type Speaker {
+  id: ID!
+  bio: String!
+  name: String!
+  photo: String!
+  twitter: String!
+  session: Session!
+  websites: [Websites!]!
+}
+
+type Websites {
+  url: ID!
+  title: String!
+}
+
+type Session {
+  id: ID!
+  audio: String
+  description: String
+  duration: Int
+  event: Event!
+  order: Int
+  slides: String
+  slug: String
+  speaker: Speaker
+  time: String
+  title: String!
+  video: String
+}
+
+type Query {
+  event(year: ID!): Event
+  events(where: EventsWhereInput, orderBy: EventsOrderByInput): [Event!]!
+  session(id: ID, slug: String): Session
+  sessions(where: SessionWhereInput, orderBy: SessionOrderByInput): [Session!]!
+  speaker(id: ID, twitter: String): Speaker
+  speakers(where: SpeakerWhereInput, orderBy: SpeakerOrderByInput): [Speaker!]!
+}
+
+input SpeakerWhereInput {
+  id: String
+  twitter: String
+}
+
+enum SpeakerOrderByInput {
+  name_ASC
+  name_DESC
+}
+
+input SessionWhereInput {
+  id: ID
+  slug: String
+}
+
+enum SessionOrderByInput {
+  order_ASC
+  order_DESC
+  time_ASC
+  time_DESC
+}
+
+input EventsWhereInput {
+  year: ID
+}
+
+enum EventsOrderByInput {
+  id_ASC
+  id_DESC
+}

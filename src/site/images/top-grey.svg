@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <g fill="#D8D8D8" fill-rule="evenodd">
+        <circle cx="2" cy="2" r="2" transform="matrix(1 0 0 -1 0 4)"/>
+        <circle cx="10" cy="2" r="2" transform="matrix(1 0 0 -1 0 4)"/>
+        <circle cx="18" cy="10" r="2" transform="matrix(1 0 0 -1 0 20)"/>
+        <circle cx="18" cy="18" r="2" transform="matrix(1 0 0 -1 0 36)"/>
+        <circle cx="26" cy="26" r="2" transform="matrix(1 0 0 -1 0 52)"/>
+        <circle cx="34" cy="34" r="2" transform="matrix(1 0 0 -1 0 68)"/>
+        <circle cx="42" cy="42" r="2" transform="matrix(1 0 0 -1 0 84)"/>
+        <circle cx="42" cy="34" r="2" transform="matrix(1 0 0 -1 0 68)"/>
+        <circle cx="34" cy="26" r="2" transform="matrix(1 0 0 -1 0 52)"/>
+        <circle cx="10" cy="10" r="2" transform="matrix(1 0 0 -1 0 20)"/>
+        <circle cx="18" cy="2" r="2" transform="matrix(1 0 0 -1 0 4)"/>
+        <circle cx="26" cy="2" r="2" transform="matrix(1 0 0 -1 0 4)"/>
+        <circle cx="26" cy="10" r="2" transform="matrix(1 0 0 -1 0 20)"/>
+        <circle cx="26" cy="18" r="2" transform="matrix(1 0 0 -1 0 36)"/>
+        <circle cx="34" cy="18" r="2" transform="matrix(1 0 0 -1 0 36)"/>
+        <circle cx="34" cy="10" r="2" transform="matrix(1 0 0 -1 0 20)"/>
+        <circle cx="34" cy="2" r="2" transform="matrix(1 0 0 -1 0 4)"/>
+        <circle cx="42" cy="2" r="2" transform="matrix(1 0 0 -1 0 4)"/>
+        <circle cx="42" cy="10" r="2" transform="matrix(1 0 0 -1 0 20)"/>
+        <circle cx="42" cy="18" r="2" transform="matrix(1 0 0 -1 0 36)"/>
+        <circle cx="42" cy="26" r="2" transform="matrix(1 0 0 -1 0 52)"/>
+    </g>
+</svg>

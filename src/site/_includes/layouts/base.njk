@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="{{ pageClass }}">
+<html lang="en" class="{{ pageClass }}" id="ffconf">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,30 +12,18 @@
     {# {% include "favicons.njk" %} #}
     {# {% include "social.njk" %} #}
   </head>
-  <body >
-    <div class="sidebar">
-      <header>
-        <div class="sidebar-container">
-          <div class="page-details">
-          {% block sidebar %}
-            <h1>{{ title | safe }}</h1>
-            <p>{{ subtitle | safe }}</p>
-          {% endblock %}
-          </div>
-        </div>
-      </header>
-    </div>
-    <div class="main">
-      <div class="container">
+  <body>
+    <div class="body">
+      <main>
         {% block content %}
         {{ content | safe }}
         {% endblock %}
         {% block credits %}
         {% endblock %}
-      </div>
+      </main>
       <footer>
         <p>Organised by Left Logic, a small Brighton (UK) based development company, specialising in Node based applications and bleeding edge front end technology. Curated and created with much love, tears and sweat by Remy & Julie of Left Logic.</p>
-        <object type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
+        <object class="logo" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
       </footer>
     </div>
   </body>

@@ -1,3 +1,205 @@
 html {
   font-family: 'BasierSquare';
 }
+
+.talk {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.talk h1 {
+  font-size: 56px;
+  margin: 27px 0 50px 0;
+}
+
+.talk h2 {
+  margin: 0;
+}
+
+.talk .descriptions h2 {
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: var(--primary);
+}
+
+.talk .media {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 50px 0 60px 0;
+}
+
+.talk .media > * {
+  width: 440px;
+}
+
+.speaker-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* max-height: 328px; */
+}
+
+.talk .media audio {
+  width: 100%;
+  margin: 32px 0 7px 0;
+}
+
+.media h2::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 16px;
+}
+
+.audio h2::before {
+  background-image: url(/images/audio.svg);
+}
+
+.video h2::before {
+  background-image: url(/images/video.svg);
+}
+
+.slide h2::before {
+  background-image: url(/images/slides.svg);
+}
+
+.talk .links > * {
+  width: 440px;
+  padding: 25px 40px;
+  margin: 8px 0;
+}
+
+.talk .links h2 {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--primary);
+  display: inline-flex;
+}
+
+.links h2 + a {
+  float: right;
+  text-align: right;
+  text-decoration: none;
+
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--dark-grey);
+}
+
+.talk .links > :first-child {
+  margin-top: 0;
+}
+
+.talk .links > :last-child {
+  margin-bottom: 0;
+}
+
+.box {
+  border: solid 2px var(--light-grey);
+}
+
+.solid-box {
+  background-color: var(--box);
+}
+
+.back {
+  display: block;
+  margin: 72px 0;
+}
+
+.back::before {
+  content: '';
+  background: url(/images/back.svg) no-repeat;
+  display: inline-block;
+  width: 12px;
+  height: 10px;
+  background-size: contain;
+  margin-right: 14px;
+}
+
+.pill-active {
+  font-size: 16px;
+  /* width: 153px; */
+  /* height: 32px; */
+  border-radius: 18.5px;
+  background-color: var(--salmon);
+  color: white;
+  text-transform: lowercase;
+  padding: 6px 18px;
+  display: inline-block;
+  text-align: center;
+}
+
+body {
+  padding: 0 44px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main p {
+  font-size: 18px;
+  margin: 28px 0;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--primary);
+}
+
+.body > footer {
+  margin: 60px 0;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--dark-grey);
+
+  display: flex;
+  align-items: center;
+}
+
+.body > footer p {
+  margin: 0;
+  margin-right: 180px;
+}
+
+.body > footer .logo {
+  height: 25px;
+}
+
+a.ext::after {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 6px;
+  opacity: 0.5;
+  background-image: url(/images/external.svg);
+}
+
+a:hover {
+  text-decoration: underline !important;
+}

@@ -31,6 +31,10 @@
   --salmon: #ff7063;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* Text styles */
 
 .Heading-Dark-Left {
