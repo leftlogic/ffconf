@@ -2,9 +2,113 @@ html {
   font-family: 'BasierSquare';
 }
 
+button {
+  border: 0;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.body > header {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--light-grey);
+  height: 80px;
+}
+
+.body > main {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--primary);
+}
+
+.body > header .logo {
+  margin: 0;
+  font-size: 16px;
+  background: url(/images/logo.svg) no-repeat;
+  background-size: contain;
+  display: block;
+  color: transparent;
+  height: 96px;
+  width: 96px;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.body > header li.selected::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: var(--salmon);
+  width: 100%;
+  position: absolute;
+  bottom: -29px;
+}
+
+.body > header a {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.body > header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.body > header li {
+  margin: 0 20px;
+  position: relative;
+}
+
+.body > header li:last-child {
+  margin-right: 0;
+}
+
+.body > header a.ext::after {
+  opacity: 1;
+}
+
 .talk {
-  width: 920px;
   margin: 0 auto;
+  max-width: 920px;
+}
+
+.talk .urls {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.talk .urls a[href^="https://twitter.com"] {
+  display: inline-block;
+  background: url(/images/twitter.svg) no-repeat;
+  width: 24px;
+  height: 20px;
+  overflow: hidden;
+  text-indent: -9999px;
 }
 
 .talk h1 {
@@ -42,6 +146,7 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  border-radius: 2px;
   /* max-height: 328px; */
 }
 
@@ -122,7 +227,7 @@ html {
 
 .back {
   display: block;
-  margin: 72px 0;
+  margin: 30px 0 70px 0;
 }
 
 .back::before {
@@ -135,21 +240,65 @@ html {
   margin-right: 14px;
 }
 
-.pill-active {
+.pill {
+  border-radius: 999px;
+  background-color: var(--box);
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--primary);
+  /* text-transform: lowercase; */
+  padding: 6px 18px;
+  display: inline-block;
+}
+
+.pill.active {
+  background-color: var(--salmon);
+  color: white;
+}
+
+.pill-button {
   font-size: 16px;
   /* width: 153px; */
   /* height: 32px; */
-  border-radius: 18.5px;
+  border-radius: 999px;
   background-color: var(--salmon);
   color: white;
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   padding: 6px 18px;
   display: inline-block;
   text-align: center;
+  user-select: none;
+  white-space: nowrap;
+  font-size: 18px;
+  color: var(--white);
+  padding: 15px 28px;
+  cursor: pointer;
+}
+
+.filter {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+
+  padding: 15px 60px 15px 25px;
+  background-image: url(/images/filter.svg);
+  background-repeat: no-repeat;
+  background-position: 85% center;
+  cursor: pointer;
+
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 body {
-  padding: 0 44px;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -201,5 +350,95 @@ a.ext::after {
 }
 
 a:hover {
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
+
+header.with-filter {
+  position: relative;
+}
+
+.with-filter details .body {
+  position: absolute;
+  background: white;
+  box-shadow: 0 20px 20px 0 rgba(51, 51, 51, 0.2);
+  padding: 40px;
+  margin: 0 -40px;
+}
+
+.talks h1 {
+  margin: 40px 0;
+}
+
+.talk-card {
+  width: 45%;
+  height: 360px;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-right: 5%;
+  margin-bottom: 40px;
+  border-radius: 2px;
+
+  flex:1 1 auto;
+
+  margin: 20px;  /* and that, will result in a 10px gap */
+}
+
+.talk-card p {
+  margin: 0;
+}
+
+.talk-card a {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column-reverse;
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(30, 30, 30, 0), #1e1e1e);
+  width: 100%;
+}
+
+.talk-card a:hover {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(30, 30, 30, 0), var(--salmon));
+}
+
+.talk-card a:hover * {
+  text-decoration: none;
+}
+
+.talk-card h2 {
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.talk-card p {
+  font-family: BasierSquare;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.talk-card .pill {
+  width: min-content;
+}
+
+.talks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: -20px;
+  padding: 0;
+}
+

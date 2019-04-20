@@ -33,6 +33,11 @@
 
 * {
   box-sizing: border-box;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 /* Text styles */

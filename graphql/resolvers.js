@@ -23,7 +23,6 @@ const Types = {
       return get(events, 'id', parent.eventId);
     },
     speaker: parent => {
-      console.log(parent);
       return get(speakers, 'id', parent.speakerId);
     },
   },

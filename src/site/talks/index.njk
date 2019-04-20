@@ -2,25 +2,31 @@
 layout: layouts/base.njk
 ---
 
-<section>
-  <h1>Talks</h1>
-</section>
-
-<section>
-<ul>
-{%- for talk in talks %}
-<li class="talk-card">
-  <a href="/talks/{{ talk.slug }}/">
-  <img src="{{ talk.speaker.photo }}" />
-  <header>
-    <h2>
-      {{ talk.speaker.name }}
-    </h2>
-    <h3>{{ talk.title }}</h3>
+<section class="talks">
+  <header class="with-filter">
+    <h1>{{ talks.length }} Talks</h1>
+    <details>
+      <summary class="pill-button filter"><span class="label">Filter Talks</span></summary>
+      <div class="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque odio minima praesentium veniam error cum ducimus, non quibusdam earum, corporis quaerat modi nemo libero nisi, magni perferendis officiis eveniet!</div>
+    </details>
   </header>
-  <span class="pill">{{ talk.event.year }}</span>
-</a>
-</li>
-{%- endfor %}
-</ul>
+
+
+  <div class="talk-list">
+    <ul>
+    {%- for talk in talks %}
+      <li class="talk-card" style="background-image: url({{ talk.speaker.photo }})" data-year="{{ talk.event.year }}">
+        <a href="/talks/{{ talk.slug }}/">
+          <header>
+            <h2>
+              {{ talk.speaker.name }}
+            </h2>
+            <p>{{ talk.title }}</p>
+          </header>
+          <span class="pill">{{ talk.event.year }}</span>
+        </a>
+      </li>
+    {%- endfor %}
+    </ul>
+  </div>
 </section>

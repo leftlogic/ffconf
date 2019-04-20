@@ -1,0 +1,90 @@
+<style>
+.newsletter {
+  border: solid 2px var(--salmon);
+  background-color: var(--white);
+  padding: 8px;
+  background: url(/images/top-grey.svg) no-repeat top right, url(/images/bottom-grey.svg) no-repeat bottom left;
+  background-origin: content-box;
+}
+
+.newsletter > div {
+  padding: 80px 88px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newsletter > div > * {
+  width: 48%;
+  max-width: 440px;
+  position: relative;
+}
+
+.newsletter h2 {
+  font-family: BasierSquare;
+  font-size: 32px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--primary);
+  margin: 25px 0;
+}
+
+.newsletter h2::before {
+  content: '';
+  background: url(/images/newsletter.svg) no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -20px;
+}
+
+.newsletter form > div {
+  max-width: 380px;
+
+}
+
+.newsletter form label {
+  display: block;
+  border-radius: 9999px;
+  background-color: var(--box);
+  margin-bottom: 20px;
+  padding: 18px 28px;
+  font-size: 18px;
+  color: var(--dark-grey);
+}
+
+.newsletter form label input {
+  background: none;
+  font-size: 18px;
+  color: var(--dark-grey);
+  margin-left: 10px;
+  border: 0;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.newsletter form label input:focus {
+  outline: none;
+  border-bottom: 2px solid var(--salmon);
+}
+
+</style>
+
+<section class="newsletter">
+  <div>
+    <div>
+      <h2>Get the latest insights & news for ffconf</h2>
+      <p>Announcements for conference details, workshops, products and more – including early bird access and video releases from previous years.</p>
+    </div>
+    <form>
+      <div>
+        <label><span>Name</span><input name="name"></label>
+        <label><span>Email</span><input type="email" name="email"></label>
+        <button class="pill-button" type="submit">Subscribe</button>
+      </div>
+    </form>
+  </div>
+</section>

@@ -92,14 +92,16 @@
   },
   {
     "name": "Brendan Dawes",
-    "photo": "https://2011.ffconf.org/images/speakers/brendan.jpg",
+    "_photo": "https://2011.ffconf.org/images/speakers/brendan.jpg",
+    "photo": "/images/speakers/brendand.jpg",
     "bio": "Brendan Dawes is Creative Director for magneticNorth, a digital design company based in Manchester, UK.",
     "id": "cja08vv2fyw4h01311whb66nh",
     "twitter": "brendandawes"
   },
   {
     "name": "Paul Rouget",
-    "photo": "https://2010.ffconf.org/images/speakers/paulr_profile.jpg",
+    "_photo": "https://2010.ffconf.org/images/speakers/paulr_profile.jpg",
+    "photo": "/images/speakers/paulr.jpg",
     "bio": "Paul Rouget works on promoting the OpenWeb and Mozilla as a platform. He has been involved in the Mozilla project since 2003. He works for Mozilla as a Technology Evangelist. Paul experiments with the new technologies of the Web and the Mozilla platform. Lately, he has been working on set of demos demonstrating how far we can go with the new standards and Firefox 3.5, and promoting the new video tag on Firefox.",
     "id": "cja08vv2gybfa01463p5fted8",
     "twitter": "paulrouget"

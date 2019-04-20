@@ -14,6 +14,7 @@
   </head>
   <body>
     <div class="body">
+      {% include "header.njk" %}
       <main>
         {% block content %}
         {{ content | safe }}
@@ -21,6 +22,7 @@
         {% block credits %}
         {% endblock %}
       </main>
+      {% include "newsletter.njk" %}
       <footer>
         <p>Organised by Left Logic, a small Brighton (UK) based development company, specialising in Node based applications and bleeding edge front end technology. Curated and created with much love, tears and sweat by Remy & Julie of Left Logic.</p>
         <object class="logo" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>

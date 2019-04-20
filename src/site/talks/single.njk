@@ -10,7 +10,7 @@ layout: layouts/base.njk
 
 <section class="talk">
   <a class="back Link-Dark-Left" href="/talks">Back to all Talks</a>
-  <span class="pill-active Pill-Light-Center">{{ talk.event.year }}</span>
+  <span class="pill active">{{ talk.event.year }}</span>
 
   <h1 class="Heading-Dark-Left">{{ talk.title }}</h1>
 
@@ -22,14 +22,14 @@ layout: layouts/base.njk
         <a download="{{ talk.slug }}.mp3" href="{{ talk.audio }}">Download</a>
         <audio controls src="{{ talk.audio }}">
       </div>
-      <div class="video solid-box">
+      {% if talk.video %} <div class="video solid-box">
         <h2>Video</h2>
         <a target="_blank" class="ext" href="{{ talk.video }}">Watch<span> on YouTube</span></a>
-      </div>
-      <div class="slide solid-box">
+      </div>{% endif %}
+      {% if talk.slides %} <div class="slide solid-box">
         <h2>Slides</h2>
         <a target="_blank" class="ext" href="{{ talk.slides }}">View</a>
-      </div>
+      </div>{% endif %}
     </div>
   </section>
 
@@ -40,6 +40,8 @@ layout: layouts/base.njk
 
     <h2>About {{ talk.speaker.name }}</h2>
     <div>{{ talk.speaker.bio | markdown | safe }}</div>
+    <ul class="urls">
+      <li><a target="_blank" title="@{{talk.speaker.twitter }}" href="https://twitter.com/{{ talk.speaker.twitter }}">@{{ talk.speaker.twitter }}</a></li>
+    </ul>
   </section>
-  <!-- links -->
 </section>
