@@ -5,12 +5,13 @@
   "main": "index.js",
   "private": true,
   "engines": {
-    "node": 7,
-    "npm": 5
+    "node": "10"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "PORT=7000 node ./graphql & eleventy --serve",
+    "server:dev": "PORT=7000 nodemon ./graphql",
+    "server": "PORT=7000 node ./graphql",
+    "dev": "eleventy --serve",
     "start": "node index.js"
   },
   "author": "Remy Sharp",
@@ -37,6 +38,8 @@
   "dependencies": {
     "@11ty/eleventy": "^0.8.2",
     "graphql-request": "^1.8.2",
-    "graphql-yoga": "^1.17.4"
+    "graphql-yoga": "^1.17.4",
+    "node-sass": "^4.11.0",
+    "undefsafe": "^2.0.2"
   }
 }

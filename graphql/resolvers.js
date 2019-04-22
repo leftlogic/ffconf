@@ -32,6 +32,11 @@ const Types = {
 };
 
 const Query = {
+  tags: () => {
+    return Array.from(
+      new Set(sessions.reduce((acc, curr) => [...curr.tags, ...acc], []))
+    ).sort();
+  },
   speaker: (parent, { id, twitter }) => {
     if (id) {
       return get(speakers, 'id', id);

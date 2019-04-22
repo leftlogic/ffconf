@@ -1,98 +1,97 @@
 [
   {
     "name": "Christian Heilmann",
-    "photo": "https://2009.ffconf.org/images/speakers/christian.jpg",
+    "photo": "/images/speakers/christianh.jpg",
     "bio": "Web Architect and standards evangelist at Yahoo UK: Frontloaded and zipped up - do loose types sink ships.",
     "id": "cja08vl66ydqz0175zyd5mdf7",
     "twitter": "codepo8"
   },
   {
     "name": "Simon Willison",
-    "photo": "https://2009.ffconf.org/images/speakers/simon.jpg",
+    "photo": "/images/speakers/simonw.jpg",
     "bio": "International speaker and renowned developer, talking about Web API mischief with JavaScript.",
     "id": "cja08vl6aydr50175qjou1tq5",
     "twitter": "simonw"
   },
   {
     "name": "Todd Kloots",
-    "photo": "https://2009.ffconf.org/images/speakers/todd.jpg",
+    "photo": "/images/speakers/toddk.jpg",
     "bio": "Frontend engineer working on the YUI library, talking about More accessible user interfaces with ARIA.",
     "id": "cja08vl6hz62y0116qpg8crmj",
     "twitter": "todd"
   },
   {
     "name": "Stuart Langridge",
-    "photo": "https://2009.ffconf.org/images/speakers/stuart.jpg",
+    "photo": "/images/speakers/stuartl.jpg",
     "bio": "Stuart is a web hacker, author, and speaker living in the UK, talking about: New things that HTML5 provides to JavaScript hackers.",
     "id": "cja08vl6iypdy0183rs4kb01z",
     "twitter": "sil"
   },
   {
     "name": "Robert Nyman",
-    "photo": "https://2009.ffconf.org/images/speakers/robert.jpg",
+    "photo": "/images/speakers/robertn.jpg",
     "bio": "Working in the frontend since 1998, talking about JavaScript: from birth to closure.",
     "id": "cja08vl6qz6350116mv0u5el5",
     "twitter": "robertnyman"
   },
   {
     "name": "Jake Archibald",
-    "photo": "https://2009.ffconf.org/images/speakers/jake.jpg",
+    "photo": "/images/speakers/jakea.jpg",
     "bio": "Jake worked on the BBC's Glow JavaScript library, talking about: Optimising where it hurts.",
     "id": "cja08vl6yytem0160p0evgdpc",
     "twitter": "jaffathecake"
   },
   {
     "name": "Peter-Paul Koch",
-    "photo": "https://2009.ffconf.org/images/speakers/peter-paul.jpg",
+    "photo": "/images/speakers/ppk.jpg",
     "bio": "The author of the infinitely useful QuirksMode talking about: W3C Widgets.",
     "id": "cja08vl70ype40183xs595g0b",
     "twitter": "ppk"
   },
   {
     "name": "Glenn Jones",
-    "photo": "https://2011.ffconf.org/images/speakers/glenn.jpg",
+    "photo": "/images/speakers/glennj.jpg",
     "bio": "Glenn Jones is a Founder/Director of Madgex. After 20 years in digital design he is equally as passionate about coding as interaction design.",
     "id": "cja08vv1yyw450131hcb88d30",
     "twitter": "glennjones"
   },
   {
     "name": "Rik Arends",
-    "photo": "https://2011.ffconf.org/images/speakers/rik.jpg",
+    "photo": "/images/speakers/rika.jpg",
     "bio": "Rik Arends is co-founder and CTO of Cloud9 IDE, Inc (previously Ajax.org).",
     "id": "cja08vv27ypmc0183z6k65khl",
     "twitter": "rikarends"
   },
   {
     "name": "Phil Hawksworth",
-    "photo": "https://2011.ffconf.org/images/speakers/phil.jpg",
+    "photo": "/images/speakers/philh.jpg",
     "bio": "Phil is a JavaScript developer who has been developing web applications since the late 90s. These days, he's the Technical Director for The Team.",
     "id": "cja08vv27yw4b0131i2cso4so",
     "twitter": "philhawksworth"
   },
   {
     "name": "Nicholas Zakas",
-    "photo": "https://2011.ffconf.org/images/speakers/nicholas.jpg",
+    "photo": "/images/speakers/nicholasz.jpg",
     "bio": "Nicholas C. Zakas worked at Yahoo! for almost five years, building and defining front-end strategy for some of Yahoo's largest sites.",
     "id": "cja08vv27z68l0116g18qqd1k",
     "twitter": "slicknet"
   },
   {
     "name": "Marijn Haverbeke",
-    "photo": "https://2011.ffconf.org/images/speakers/marijn.jpg",
+    "photo": "/images/speakers/marijnh.jpg",
     "bio": "Author of Eloquent JavaScript and main developer of CodeMirror.",
     "id": "cja08vv29ypmf0183ldqlgp83",
     "twitter": "MarijnJH"
   },
   {
     "name": "Jan Lehnardt",
-    "photo": "https://2010.ffconf.org/images/speakers/jan_profile.jpg",
+    "photo": "/images/speakers/janl.jpg",
     "bio": "Jan is a contributor to Apache CouchDB and co-organizer of JSConf.eu, the other great JavaScript conference.",
     "id": "cja08vv2fybf90146azikutj0",
     "twitter": "janl"
   },
   {
     "name": "Brendan Dawes",
-    "_photo": "https://2011.ffconf.org/images/speakers/brendan.jpg",
     "photo": "/images/speakers/brendand.jpg",
     "bio": "Brendan Dawes is Creative Director for magneticNorth, a digital design company based in Manchester, UK.",
     "id": "cja08vv2fyw4h01311whb66nh",
@@ -100,7 +99,6 @@
   },
   {
     "name": "Paul Rouget",
-    "_photo": "https://2010.ffconf.org/images/speakers/paulr_profile.jpg",
     "photo": "/images/speakers/paulr.jpg",
     "bio": "Paul Rouget works on promoting the OpenWeb and Mozilla as a platform. He has been involved in the Mozilla project since 2003. He works for Mozilla as a Technology Evangelist. Paul experiments with the new technologies of the Web and the Mozilla platform. Lately, he has been working on set of demos demonstrating how far we can go with the new standards and Firefox 3.5, and promoting the new video tag on Firefox.",
     "id": "cja08vv2gybfa01463p5fted8",
@@ -108,406 +106,406 @@
   },
   {
     "name": "Marcin Wichary",
-    "photo": "https://2011.ffconf.org/images/speakers/marcin.jpg",
+    "photo": "/images/speakers/marcinw.jpg",
     "bio": "Marcin Wichary has been coding HTML by hand since 1994 and still finds it fascinating today as a senior user experience designer and developer at Google.",
     "id": "cja08vv2oytkd01600jndhkd8",
     "twitter": "mwichary"
   },
   {
     "name": "Dan Webb",
-    "photo": "https://2010.ffconf.org/images/speakers/dan_profile.jpg",
+    "photo": "/images/speakers/danw.jpg",
     "bio": "Dan Webb is a british JavaScript bloke working on the platform team at Twitter. Recently he's spent a lot of time delving into the dark recesses of cross domain communication and security while working on @anywhere. In the past, as director of Massive Robot, he's been involved in a wide range of projects including work for Channel 4, A Bathing Ape and People's Music Store as well as popular Twitter app, twaud.io. When he's not doing that he's DJing, hording trainers and drinking fine beers.",
     "id": "cja08vv2oyw4n013157oul576",
     "twitter": "danwrong"
   },
   {
     "name": "James Kyle",
-    "photo": "https://2017.ffconf.org/images/speakers/james.gif",
+    "photo": "/images/speakers/jamesk.jpg",
     "bio": "I dropped out of high school at 16, made email templates for a marketing internship, then started selling WordPress installs for $50",
     "id": "cja08vv2pz68r0116jlsshe16",
     "twitter": "thejameskyle"
   },
   {
     "name": "Alex Russell",
-    "photo": "https://2010.ffconf.org/images/speakers/alex_profile.jpg",
+    "photo": "/images/speakers/alexr.jpg",
     "bio": "Alex Russell is a software engineer at Google. Prior to joining Google he contributed to the development of the Dojo Toolkit. He's fighting IE 6 so you don't have to.",
     "id": "cja08vv2qydxr017524tkum24",
     "twitter": "slightlylate"
   },
   {
     "name": "Jeremy Ashkenas",
-    "photo": "https://2011.ffconf.org/images/speakers/jeremy.jpg",
+    "photo": "/images/speakers/jeremya.jpg",
     "bio": "Jeremy Ashkenas works on CoffeeScript, Backbone.js, Underscore.js, Docco, and Jammit, among other opensource projects.",
     "id": "cja08vv2qytkf0160kv8xqx16",
     "twitter": "jashkenas"
   },
   {
     "name": "Brian LeRoux",
-    "photo": "https://2010.ffconf.org/images/speakers/brian_profile.jpg",
+    "photo": "/images/speakers/brianl.jpg",
     "bio": "Co-creator of XUI and contributor to the open source PhoneGap project, Brian LeRoux believes that the future of the Internet is mobile and will rely on web standards, open source and developers like you. Brian is a software developer at Nitobi Software.",
     "id": "cja08vv2tydxw0175voatkmun",
     "twitter": "brianleroux"
   },
   {
     "name": "Paul Bakaus",
-    "photo": "https://2010.ffconf.org/images/speakers/paul_profile.jpg",
+    "photo": "/images/speakers/paulb.jpg",
     "bio": "Paul is the CTO of the browser game startup Dextrose AG, as well as a jQuery team member and his corporate work mostly focusses on UX, UI and tricky JavaScript challenges. He is well known in the JavaScript community for having created the popular user interface framework jQuery UI, where he was the driving force behind many of its plugins.\n\n\n\nIn 2010, he finally decided it‘s time for a long envisioned challenge – delivering the first commercial game engine for the web, running pluginless in web browsers. In addition to his main work, he enjoys his well booked speaking engagements at various conferences around the world. His favorite topics cover innovative user interfaces and experiences, JavaScript wisdom and of course, jQuery.",
     "id": "cja08vv2wydy10175btyw1ouj",
     "twitter": "pbakaus"
   },
   {
     "name": "Blaine Cook",
-    "photo": "https://2017.ffconf.org/images/speakers/blaine.gif",
+    "photo": "/images/speakers/blainec.jpg",
     "bio": "A glowing green screen, still fascinating despite its sole output: \"SYNTAX ERROR\"; Years later, the moment I used ATA and ATDT to talk to a friend.",
     "id": "cja08vv2wz68x011683fs5wdg",
     "twitter": "blaine"
   },
   {
     "name": "Bruce Lawson",
-    "photo": "https://2017.ffconf.org/images/speakers/bruce.gif",
+    "photo": "/images/speakers/brucel.jpg",
     "bio": "1981, my Physics teacher made up a UK101 kit in a tiny computer room which I could use instead of Physical Exercise. So I programmed games.",
     "id": "cja08vv30ybfi0146qmveu28w",
     "twitter": "brucel"
   },
   {
     "name": "Umar Hansa",
-    "photo": "https://2016.ffconf.org/images/speakers/umar.jpg",
+    "photo": "/images/speakers/umarh.jpg",
     "bio": "",
     "id": "cja08vv32ypmo018333wexf24",
     "twitter": "umaar"
   },
   {
     "name": "Monica Dinculescu",
-    "photo": "https://2017.ffconf.org/images/speakers/monica.gif",
+    "photo": "/images/speakers/monicad.jpg",
     "bio": "I found out my mum always won at the QBasic Gorrilas game bc she changed the other player's code to randomly miss. Then she taught me how.",
     "id": "cja08vv32z69301169js2nkeb",
     "twitter": "notwaldorf"
   },
   {
     "name": "Addy Osmani",
-    "photo": "https://2017.ffconf.org/images/speakers/addy.gif",
+    "photo": "/images/speakers/addyo.jpg",
     "bio": "At 16, wrote a web browser in C++ to understand how HTML, CSS and JavaScript worked…15 years later, still learning",
     "id": "cja08vv33ytkn01604t3emflr",
     "twitter": "addyosmani"
   },
   {
     "name": "Katie Fenn",
-    "photo": "https://2017.ffconf.org/images/speakers/katie.gif",
+    "photo": "/images/speakers/katief.jpg",
     "bio": "In 2001 I started making post signatures for a Final Fantasy forum, and then started coding new features for the forum itself.",
     "id": "cja08vv34ypmt0183k3tidohl",
     "twitter": "katie_fenn"
   },
   {
     "name": "Ashley Williams",
-    "photo": "https://2016.ffconf.org/images/speakers/ashley.jpg",
+    "photo": "/images/speakers/ashleyw.jpg",
     "bio": "",
     "id": "cja08vv3cydy70175auxl35sa",
     "twitter": "ag_dubs"
   },
   {
     "name": "Mariko Kosaka",
-    "photo": "https://2016.ffconf.org/images/speakers/mariko.jpg",
+    "photo": "/images/speakers/marikok.jpg",
     "bio": "",
     "id": "cja08vv3cyw4t01313bxca2a1",
     "twitter": "kosamari"
   },
   {
     "name": "Seb Lee-Delisle",
-    "photo": "https://2010.ffconf.org/images/speakers/seb_profile.jpg",
+    "photo": "/images/speakers/sebl.jpg",
     "bio": "Seb has been working in digital media for over 15 years and is the founding partner at award winning digital agency Plug-in Media. He is a specialist in games, physics, motion detection, 3D and visual effects (such as particle systems). His work has pushed the boundaries of what is possible on the web, and has received many accolades including a BAFTA for the Plug-in Media project Big and Small.\n\n\n\nAs a member of the Papervision3D team, he is an expert in 3D. He is regularly invited to speak at conferences, and has presented at iDesign, FITC, FlashForward and many others.",
     "id": "cja08vv3dybfo0146faablkh2",
     "twitter": "seb_ly"
   },
   {
     "name": "Léonie Watson",
-    "photo": "https://2016.ffconf.org/images/speakers/leonie.jpg",
+    "photo": "/images/speakers/leoniew.jpg",
     "bio": "",
     "id": "cja08vv3gypmz0183kufh870j",
     "twitter": "LeonieWatson"
   },
   {
     "name": "Rachel Andrew",
-    "photo": "https://2016.ffconf.org/images/speakers/rachel.jpg",
+    "photo": "/images/speakers/rachela.jpg",
     "bio": "",
     "id": "cja08vv3nybfu0146wfapxv6a",
     "twitter": "rachelandrew"
   },
   {
     "name": "Jenn Schiffer",
-    "photo": "https://2017.ffconf.org/images/speakers/jenn.gif",
+    "photo": "/images/speakers/jenns.jpg",
     "bio": "my kid laptop had a hangman game written in BASIC and i accessed the source and rigged it to cheat against my half sister!",
     "id": "cja08vv3qytku0160zziw76vf",
     "twitter": "jennschiffer"
   },
   {
     "name": "John K. Paul",
-    "photo": "https://2015.ffconf.org/images/speakers/john.jpg",
+    "photo": "/images/speakers/johnp.jpg",
     "bio": "",
     "id": "cja08vv3vyw4z0131gse68e4t",
     "twitter": "johnkpaul"
   },
   {
     "name": "Paul Lewis",
-    "photo": "https://2015.ffconf.org/images/speakers/paul.jpg",
+    "photo": "/images/speakers/paull.jpg",
     "bio": "",
     "id": "cja08vv3vz6990116jbd0tn25",
     "twitter": "aerotwist"
   },
   {
     "name": "Robin Mehner",
-    "photo": "https://2015.ffconf.org/images/speakers/robin.jpg",
+    "photo": "/images/speakers/robinm.jpg",
     "bio": "",
     "id": "cja08vv40ybg00146ttgm7ppm",
     "twitter": "rmehner"
   },
   {
     "name": "Lena Reinhard",
-    "photo": "https://2015.ffconf.org/images/speakers/lena.jpg",
+    "photo": "/images/speakers/lenar.jpg",
     "bio": "",
     "id": "cja08vv40ydyd0175nrzrxpec",
     "twitter": "lrnrd"
   },
   {
     "name": "Scott Jenson",
-    "photo": "https://2014.ffconf.org/images/speakers/scott.jpg",
+    "photo": "/images/speakers/scottj.jpg",
     "bio": "",
     "id": "cja08vv40yw550131uh9ympf4",
     "twitter": "scottjenson"
   },
   {
     "name": "Mathieu 'p01' Henri",
-    "photo": "https://2016.ffconf.org/images/speakers/mathieu.jpg",
+    "photo": "/images/speakers/mathieuh.jpg",
     "bio": "",
     "id": "cja08vv41z69f0116a4fpd06u",
     "twitter": "p01"
   },
   {
     "name": "Joe Hart",
-    "photo": "https://2017.ffconf.org/images/speakers/joe.gif",
+    "photo": "/images/speakers/joeh.jpg",
     "bio": "Parents got me Lego Mindstorms for Xmas, used it and got frustrated that the software didn't let me do exactly what I wanted. Thus here I am",
     "id": "cja08vv43ypn50183me8s6q7m",
     "twitter": "joehart"
   },
   {
     "name": "Andy Wingo",
-    "photo": "https://2014.ffconf.org/images/speakers/andy.jpg",
+    "photo": "/images/speakers/andyw.jpg",
     "bio": "",
     "id": "cja08vv46ytl0016047iqtw1v",
     "twitter": "andywingo"
   },
   {
     "name": "Anna Shipman",
-    "photo": "https://2015.ffconf.org/images/speakers/anna.jpg",
+    "photo": "/images/speakers/annas.jpg",
     "bio": "",
     "id": "cja08vv48yw5b0131tim3djsj",
     "twitter": "annashipman"
   },
   {
     "name": "Ada Rose Edwards",
-    "photo": "https://2016.ffconf.org/images/speakers/ada.jpg",
+    "photo": "/images/speakers/adar.jpg",
     "bio": "",
     "id": "cja08vv4eypne0183z9gnnawn",
     "twitter": "Lady_Ada_King"
   },
   {
     "name": "Sara Soueidan",
-    "photo": "https://2015.ffconf.org/images/speakers/sara.jpg",
+    "photo": "/images/speakers/saras.jpg",
     "bio": "",
     "id": "cja08vv4eytl601608mzhwjry",
     "twitter": "sarasoueidan"
   },
   {
     "name": "Andrew Martin",
-    "photo": "https://2016.ffconf.org/images/speakers/andrew.jpg",
+    "photo": "/images/speakers/andrewm.jpg",
     "bio": "",
     "id": "cja08vv4fypnf0183byoz6mzp",
     "twitter": "sublimino"
   },
   {
     "name": "Soledad Penadés",
-    "photo": "https://2014.ffconf.org/images/speakers/sole.jpg",
+    "photo": "/images/speakers/soledadp.jpg",
     "bio": "",
     "id": "cja08vv4hybg7014667pbw53m",
     "twitter": "supersole"
   },
   {
     "name": "Tobias Ahlin",
-    "photo": "https://2014.ffconf.org/images/speakers/tobi.jpg",
+    "photo": "/images/speakers/tobiasa.jpg",
     "bio": "",
     "id": "cja08vv4hz69m0116smudx1yz",
     "twitter": "tobiasahlin"
   },
   {
     "name": "Hannah Wolfe",
-    "photo": "https://2014.ffconf.org/images/speakers/hannah.jpg",
+    "photo": "/images/speakers/hannahw.jpg",
     "bio": "",
     "id": "cja08vv4kybgc0146g8wivkx7",
     "twitter": "ErisDS"
   },
   {
     "name": "Martin Kleppe",
-    "photo": "https://2015.ffconf.org/images/speakers/martin.jpg",
+    "photo": "/images/speakers/martink.jpg",
     "bio": "",
     "id": "cja08vv4nyw5h0131snlhf1ur",
     "twitter": "aemkei"
   },
   {
     "name": "Ben Foxall",
-    "photo": "https://2014.ffconf.org/images/speakers/ben.jpg",
+    "photo": "/images/speakers/benf.jpg",
     "bio": "",
     "id": "cja08vv4tyw5n01317mkhojw3",
     "twitter": "benjaminbenben"
   },
   {
     "name": "Joe McCann",
-    "photo": "https://2013.ffconf.org/images/speakers/happy-joe.jpg",
+    "photo": "/images/speakers/joem.jpg",
     "bio": "Joe McCann is the Director of Creative Technology at Mother, an award-winning creative agency in New York City and he is also a Managing Director and Partner at The Node Firm, a global collective of Node.js experts and enthusiasts.\n\n\n\nJoe's experience in various industries is widespread: from music and live events, to fashion, to Wall Street and even real estate, the perspective he brings to the mobile, design and software engineering industries is extremely rare and unique. Joe advises a number of technology startups and has spoken at conferences all over the world including SXSW, Adobe Phonegap Day (Amsterdam), Android Only (Stockholm),  PulsoConf (Bogota, Colombia), Morningstar Financial Developers Conference (Chicago) and many, many more.",
     "id": "cja08vv4yypnn0183fg94lpe9",
     "twitter": "joemccann"
   },
   {
     "name": "Andrew Nesbitt",
-    "photo": "https://2013.ffconf.org/images/speakers/andrewnesbitt.jpg",
+    "photo": "/images/speakers/andrewn.jpg",
     "bio": "Andrew is a passionate full stack developer. He spends most of his days programming in Ruby, playing with Node.js, contributing to open source projects and organising local developer user groups. He also aspires to one day take over the world with a fleet of JavaScript powered quadcopters.",
     "id": "cja08vv4yytlc0160vc1w09i0",
     "twitter": "teabass"
   },
   {
     "name": "Chris Wilson",
-    "photo": "https://2012.ffconf.org/images/speakers/chris.png",
+    "photo": "/images/speakers/chrisw.jpg",
     "bio": "Chris Wilson has worked on NCSA Mosaic, IE and now Chrome as an Open Web advocate.  He loves enabling awesome user experiences on the web.",
     "id": "cja08vv4yz69v0116yzp98bj7",
     "twitter": "cwilso"
   },
   {
     "name": "Henrik Joreteg",
-    "photo": "https://2014.ffconf.org/images/speakers/henrik.jpg",
+    "photo": "/images/speakers/henrikj.jpg",
     "bio": "",
     "id": "cja08vv4zz69w0116piin7txb",
     "twitter": "HenrikJoreteg"
   },
   {
     "name": "Caolan McMahon",
-    "photo": "https://2014.ffconf.org/images/speakers/caolan.jpg",
+    "photo": "/images/speakers/caolanm.jpg",
     "bio": "",
     "id": "cja08vv56ydyo01753h80yav8",
     "twitter": "caolan"
   },
   {
     "name": "Angus Croll",
-    "photo": "https://2013.ffconf.org/images/speakers/angus.jpg",
+    "photo": "/images/speakers/angusc.jpg",
     "bio": "Angus is a displaced Brit who now works for Twitter’s web platform team in San Francisco, and is one of the principal authors and maintainers of Twitter's Flight web framework. He's obsessed with JavaScript and literature in equal measure, and is a passionate advocate for the greater involvement of artists and creative thinkers in software.",
     "id": "cja08vv56ypnt0183koqgbgm4",
     "twitter": "angustweets"
   },
   {
     "name": "Marcy Sutton",
-    "photo": "https://2015.ffconf.org/images/speakers/marcy.jpg",
+    "photo": "/images/speakers/marcys.jpg",
     "bio": "",
     "id": "cja08vv58ydys0175nr5h6d1y",
     "twitter": "marcysutton"
   },
   {
     "name": "Andrew Grieve",
-    "photo": "https://2013.ffconf.org/images/speakers/agrieve.jpg",
+    "photo": "/images/speakers/andrewg.jpg",
     "bio": "Andrew is a developer at Google who has worked on several mobile web projects, including Gmail and Google Docs. More recently, he's been leading a team working full-time on Cordova Android & iOS ports, both as part of the \"make the web better\" initiative, as well as a part of the Chrome Apps team",
     "id": "cja08vv5aydyu0175f6hq3840",
     "twitter": "grieveandrew"
   },
   {
     "name": "James Pearce",
-    "photo": "https://2012.ffconf.org/images/speakers/james.png",
+    "photo": "/images/speakers/jamesp.jpg",
     "bio": "Head of Mobile Developer Relations at Facebook, a developer and writer with a special passion for mobile and exploring its untapped potential.",
     "id": "cja08vv5gypnz0183fsckwiyd",
     "twitter": "jamespearce"
   },
   {
     "name": "Kenneth Auchenberg",
-    "photo": "https://2013.ffconf.org/images/speakers/kenneth.jpg",
+    "photo": "/images/speakers/kennetha.jpg",
     "bio": "",
     "id": "cja08vv5hybgk0146lmh1w0ne",
     "twitter": "auchenberg"
   },
   {
     "name": "Paul Kinlan",
-    "photo": "https://2012.ffconf.org/images/speakers/paul.png",
+    "photo": "/images/speakers/paulk.jpg",
     "bio": "Developer Advocate @ Google on Chrome. Mr [Web Intents](http://webintents.org). Developer of many techie things including Twollo, Twe2, Topicala, Ahoyo and FriendDeck.",
     "id": "cja08vv5iytlj016001ogyi65",
     "twitter": "Paul_Kinlan"
   },
   {
     "name": "Steven Wittens",
-    "photo": "https://2012.ffconf.org/images/speakers/steven.png",
+    "photo": "/images/speakers/stevenw.jpg",
     "bio": "[Steven Wittens](http://acko.net) is a wannabe demo scener, recreational mathematician and maker of webs front and back who desperately wants the browser to become a real boy already.",
     "id": "cja08vv5kybgp01469x4fzq7b",
     "twitter": "unconed"
   },
   {
     "name": "Jeremy Keith",
-    "photo": "https://2013.ffconf.org/images/speakers/jeremy.jpg",
+    "photo": "/images/speakers/jeremyk.jpg",
     "bio": "Jeremy Keith lives in Brighton, England where he makes websites with the splendid design agency [Clearleft](http://clearleft.com). You may know him from such books as [DOM Scripting: JavaScript’s New Hope](http://domscripting.com/), [Bulletproof Ajax: The Browser Strikes Back](http://bulletproofajax.com/), and [HTML5 For Web Designers: Return Of The Standards](http://html5forwebdesigners.com/).\n\n\n\nHe’s the curator of the [dConstruct conference](http://dconstruct.org/) as well as [Brighton SF](http://brightonsf.adactio.com/), and he organised the world’s first [Science Hack Day](http://sciencehackday.com/). He also made the website [Huffduffer](http://huffduffer.com/) to allow people to make podcasts of found sounds—it’s like Instapaper for audio files.\n\n\n\nJeremy spends most of his time goofing off on the internet, documenting his time-wasting on [adactio.com](http://adactio.com), where he has been writing for over ten years.",
     "id": "cja08vv5lz6a40116rarmsnbo",
     "twitter": "adactio"
   },
   {
     "name": "Angelina Fabbro",
-    "photo": "https://2013.ffconf.org/images/speakers/angelina.jpg",
+    "photo": "/images/speakers/angelinaf.jpg",
     "bio": "",
     "id": "cja08vv5nypo50183i2kdh0k2",
     "twitter": "null"
   },
   {
     "name": "Andrew Betts",
-    "photo": "https://2012.ffconf.org/images/speakers/andrew.png",
+    "photo": "/images/speakers/andrewb.jpg",
     "bio": "Founder of [Assanka](http://assanka.net), the company acquired earlier this year by the FT, Andrew now heads up FT Labs (the team that builds some of the world's finest HTML5 web apps) and is co-chair of the W3C 'Fixing appcache' community group.",
     "id": "cja08vv5nytlp0160shw4038g",
     "twitter": "triblondon"
   },
   {
     "name": "John Allsopp",
-    "photo": "https://2012.ffconf.org/images/speakers/john.png",
+    "photo": "/images/speakers/johna.jpg",
     "bio": "[John](http://johnfallsopp.com/) has been doing things to the web since before many of you were born. This is not necessarily a good thing.",
     "id": "cja08vv5nyw5x0131rxqfu88g",
     "twitter": "johnallsopp"
   },
   {
     "name": "Rebecca Murphey",
-    "photo": "https://2012.ffconf.org/images/speakers/rebecca.png",
+    "photo": "/images/speakers/rebeccam.jpg",
     "bio": "Senior JS dev at [Bocoup](http://bocoup.com/), client-side architecture fanatic, co-host of the long-lost [yayQuery](http://yayquery.com/) podcast",
     "id": "cja08vv5oyw5y0131v58pybct",
     "twitter": "rmurphey"
   },
   {
     "name": "Anna Debenham",
-    "photo": "https://2012.ffconf.org/images/speakers/anna.png",
+    "photo": "/images/speakers/annad.jpg",
     "bio": "Anna is a freelance front end developer based in Brighton. She mostly works on projects in education and tweets a lot about Adventure Time.",
     "id": "cja08vv5sz6aa0116b3zbmxwp",
     "twitter": "anna_debenham"
   },
   {
     "name": "Ana Tudor",
-    "photo": "https://2013.ffconf.org/images/speakers/ana.jpg",
+    "photo": "/images/speakers/anat.jpg",
     "bio": "Loves maths, especially geometry. Enjoys playing with code. Passionate about experimenting & learning new things. Fascinated by astrophysics and science in general. Huge fan of technological advance & its applications in all fields. Shows an interest in motor sports, drawing, classic cartoons, rock music, cuddling toys and animals with sharp claws & big teeth. Dreams about owning a real tiger.",
     "id": "cja08vv5wydz30175mf1sfrf1",
     "twitter": "thebabydino"
   },
   {
     "name": "Lisi Linhart",
-    "photo": "https://media.ffconf.org/2018/images/lisi.jpg",
+    "photo": "/images/speakers/lisil.jpg",
     "bio": "Studied city planning for some time, but since I’m quite an impatient person and it takes decades to build cities, I decided to build websites instead. Still loving having immediate results and instant feedback from people interacting with what I build.",
     "id": "cjialrmraly2g0197f58ajmiw",
     "twitter": "lisi_linhart"
   },
   {
     "name": "Jo Franchetti",
-    "photo": "https://media.ffconf.org/2018/images/jo.jpg",
+    "photo": "/images/speakers/jof.jpg",
     "bio": "After studying (and hating) electronic engineering, I thought I'd teach myself HTML/CSS as a better fit for my love of tech+creativity. I wrote some terrible portfolio sites, applied for 50 million jobs and eventually one let me start my career! ",
     "id": "cjialznbzly4m01978yji2mx8",
     "twitter": "ThisIsJoFrank"
   },
   {
     "name": "Remy Sharp",
-    "photo": "https://media.ffconf.org/2018/images/rem.jpg",
+    "photo": "/images/speakers/remys.jpg",
     "bio": "My dad gave me a ZX BASIC listing for Star Wars, in '88 (I think?). I spent the day coding. My codes did not work. So began my devlife.",
     "id": "cjiam2bwoloba0183mu2hxu1v",
     "twitter": "rem",
@@ -517,35 +515,35 @@
   },
   {
     "name": "Jenny Wong",
-    "photo": "https://media.ffconf.org/2018/images/jenny.jpg",
+    "photo": "/images/speakers/jennyw.jpg",
     "bio": "Combining an electronics & art background, they joined the tech world as a PHP developer and now works as a Community Engineer.",
     "id": "cjiooiyc6r0ma0197vdfxbrx9",
     "twitter": "miss_jwo"
   },
   {
     "name": "Eleanor Haproff",
-    "photo": "https://media.ffconf.org/2018/images/eleanor.jpg",
+    "photo": "/images/speakers/eleanorh.jpg",
     "bio": "Founded a startup, ran out of money, had to learn to code to build the product and absolutely loved it. Decided to be a developer.",
     "id": "cjipuukojraca0197ta3c2f2j",
     "twitter": "EleanorHaproff"
   },
   {
     "name": "Willian Martins",
-    "photo": "https://media.ffconf.org/2018/images/willian.jpg",
+    "photo": "/images/speakers/willianm.jpg",
     "bio": "I started doing CS trying to be a game developer, but I ended up doing UI engineering instead which is as funny as playing PS4 ＼(＾▽＾)／.",
     "id": "cjlxzmc8200l70147y9mtir5z",
     "twitter": "wmsbill"
   },
   {
     "name": "Charlie Owen",
-    "photo": "https://media.ffconf.org/2018/images/charlie.jpg",
+    "photo": "/images/speakers/charlieo.jpg",
     "bio": "I realised I wasn't an engineer the second I started making things for the web. I'm a designer (a very grumpy one). That doesn't mean I don't code. It's just that I design for people first, rather than skipping ahead to the technology.",
     "id": "cjmhspwl21vjw01831v8o4qrz",
     "twitter": "sonniesedge"
   },
   {
     "name": "Tim Holman",
-    "photo": "https://media.ffconf.org/2018/images/timothy.jpg",
+    "photo": "/images/speakers/timh.jpg",
     "bio": "Always enjoyed creating things, and web was the platform that stuck. If I can do it, anyone can!",
     "id": "cjmqffrer3x0m01675i9dow66",
     "twitter": "twholman"

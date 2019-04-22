@@ -33,6 +33,7 @@ type Session {
   time: String
   title: String!
   video: String
+  tags: [String!]!
 }
 
 type Query {
@@ -42,6 +43,7 @@ type Query {
   sessions(where: SessionWhereInput, orderBy: SessionOrderByInput): [Session!]!
   speaker(id: ID, twitter: String): Speaker
   speakers(where: SpeakerWhereInput, orderBy: SpeakerOrderByInput): [Speaker!]!
+  tags: [String]!
 }
 
 input SpeakerWhereInput {
