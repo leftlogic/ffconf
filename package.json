@@ -12,7 +12,7 @@
     "server:dev": "PORT=7000 nodemon ./graphql",
     "server": "PORT=7000 node ./graphql",
     "dev": "eleventy --serve",
-    "start": "node index.js"
+    "build": "eleventy"
   },
   "author": "Remy Sharp",
   "license": "MIT",
