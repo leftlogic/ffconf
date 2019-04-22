@@ -1,5 +1,4 @@
 const { basename } = require('path');
-const sass = require('node-sass');
 const markdownIt = require('markdown-it');
 const undefsafe = require('undefsafe');
 let env = process.env.ELEVENTY_ENV;
@@ -40,12 +39,6 @@ module.exports = function(eleventyConfig) {
 
     return res;
   });
-
-  eleventyConfig.addFilter('transformCSS', data =>
-    sass.renderSync({
-      data,
-    })
-  );
 
   // static passthroughs
   eleventyConfig.addPassthroughCopy('src/site/fonts');

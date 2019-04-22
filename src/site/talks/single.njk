@@ -7,11 +7,18 @@ permalink: talks/{{ pagination.items[0].slug }}/index.html
 layout: layouts/base.njk
 ---
 
+<style>
+.talk > header {
+  padding: 32px;
+}
+</style>
 
 <section class="talk">
-  <a class="back Link-Dark-Left" href="/talks">Back to all Talks</a>
-  {% for tag in talk.tags %}<span class="pill active">{{ tag }}</span>{% endfor %}<span class="pill active">{{ talk.event.year }}</span>
-  <h1 class="Heading-Dark-Left">{{ talk.title }}</h1>
+  <header>
+    <a class="back Link-Dark-Left" href="/talks">Back to all Talks</a>
+    {% for tag in talk.tags %}<span class="pill active">{{ tag }}</span>{% endfor %}<span class="pill active">{{ talk.event.year }}</span>
+    <h1 class="Heading-Dark-Left">{{ talk.title }}</h1>
+  </header>
 
   <section class="media">
     <div class="speaker-image" style="background-image: url({{ talk.speaker.photo }})"></div>
