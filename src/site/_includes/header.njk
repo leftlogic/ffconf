@@ -1,5 +1,125 @@
-<header>
-  <h1><a  class="logo" href="/">ffconf</a></h1>
+<style>
+
+#menu {
+  height: 65px;
+  flex-wrap: wrap;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  z-index: 100;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+#menu h1 {
+  height: 100%;
+  position: relative;
+  z-index: 1000;
+}
+
+#menu nav {
+  margin-top: 1px;
+}
+
+#menu nav,
+#menu #hide {
+  display: none;
+}
+
+#menu:target #open {
+  display: none;
+}
+
+#menu:target #hide {
+  display: block;
+}
+
+#menu:target nav ul {
+  display: block;
+  text-align: center;
+  background: white;
+  position: relative;
+  z-index: 100;
+  padding-bottom: 20px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding-top: 20px;
+}
+
+#menu:target li {
+  margin: 0;
+  padding: 10px 0;
+}
+
+#menu li.selected::after {
+  content: none;
+}
+
+#menu .logo {
+  margin: 0;
+  font-size: 16px;
+  background: url(/images/logo.svg) no-repeat;
+  background-size: contain;
+  display: block;
+  color: transparent;
+  overflow: hidden;
+  height: 56px;
+  width: 56px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+
+
+#menu:target nav {
+  display: block;
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 700px) {
+  #menu {
+    height: 80px;
+  }
+
+  #menu > a {
+    display: none;
+  }
+
+  #menu nav {
+    display: block;
+  }
+
+  #menu li {
+    margin: 0 10px;
+  }
+
+  #menu li:last-child {
+    margin-right: 0;
+  }
+
+  #menu .logo {
+    height: 96px;
+    width: 96px;
+    bottom: -25px;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  #menu li {
+    margin: 0 20px;
+  }
+}
+</style>
+
+<header id="menu">
+  <h1><a class="logo" href="/">ffconf</a></h1>
+  <a id="open" href="#menu">Menu</a>
+  <a id="hide" href="#"><img src="/images/hide.svg"></a>
   <nav>
     <ul>
       <li><a class="ext" href="https://2019.ffconf.org">ffconf 2019</a></li>

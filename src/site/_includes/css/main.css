@@ -9,21 +9,16 @@ button {
   margin: 0;
 }
 
+summary::-webkit-details-marker {
+  display: none;
+}
+
+[hidden] {
+  display: none !important;
+}
+
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
-}
-
-.body > header {
-  padding: 0 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid var(--light-grey);
-  height: 80px;
-}
-
-.body > main {
-  padding: 40px;
 }
 
 h1 {
@@ -34,19 +29,6 @@ h1 {
   line-height: normal;
   letter-spacing: normal;
   color: var(--primary);
-}
-
-.body > header .logo {
-  margin: 0;
-  font-size: 16px;
-  background: url(/images/logo.svg) no-repeat;
-  background-size: contain;
-  display: block;
-  color: transparent;
-  height: 96px;
-  width: 96px;
-  overflow: hidden;
-  margin-top: 40px;
 }
 
 .body > header li.selected::after {
@@ -259,6 +241,7 @@ h1 {
 .pill.active {
   background-color: var(--salmon);
   color: white;
+  margin: 0 8.5px;
 }
 
 .pill-button {
@@ -287,15 +270,15 @@ h1 {
   line-height: normal;
   letter-spacing: normal;
 
-  padding: 15px 60px 15px 25px;
+  padding: 25px;
+  background-position: center;
   background-image: url(/images/filter.svg);
   background-repeat: no-repeat;
-  background-position: 85% center;
   cursor: pointer;
 
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 0px;
+  right: 20px;
 }
 
 body {
@@ -323,14 +306,15 @@ main p {
   line-height: 1.33;
   letter-spacing: normal;
   color: var(--dark-grey);
-
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: baseline;
+  padding: 32px;
 }
 
 .body > footer p {
   margin: 0;
-  margin-right: 180px;
+  margin-bottom: 32px;
 }
 
 .body > footer .logo {
@@ -357,12 +341,17 @@ header.with-filter {
   position: relative;
 }
 
+header.with-filter summary > span {
+  display: none;
+}
+
 .with-filter details .body {
   position: absolute;
   background: white;
   box-shadow: 0 20px 20px 0 rgba(51, 51, 51, 0.2);
-  padding: 40px;
-  margin: 0 -40px;
+  padding: 0 40px 40px 40px;
+  margin-left: -40px;
+  z-index: 10;
 }
 
 .talks h1 {
@@ -370,19 +359,13 @@ header.with-filter {
 }
 
 .talk-card {
-  width: 45%;
   height: 360px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin-right: 5%;
   margin-bottom: 40px;
-  border-radius: 2px;
-
   flex:1 1 auto;
-
-  margin: 20px;  /* and that, will result in a 10px gap */
 }
 
 .talk-card p {
@@ -431,14 +414,5 @@ header.with-filter {
 
 .talk-card .pill {
   width: min-content;
-}
-
-.talks ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  list-style: none;
-  margin: -20px;
-  padding: 0;
 }
 

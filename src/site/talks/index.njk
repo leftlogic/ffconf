@@ -2,12 +2,76 @@
 layout: layouts/base.njk
 ---
 
+{% block css %}
+<style>
+.talks .checkbox-pill :checked + .pill {
+  background: var(--salmon);
+  color: white;
+  user-select: none;
+}
+
+.talks .checkbox-pill {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.talks .checkbox-pill input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}
+
+.talks .pill-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.talks .pill-list + .pill-list {
+  border-top: 1px solid var(--light-grey);
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+.talks > header {
+  padding: 0 40px;
+}
+
+.talks ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+</style>
+{% endblock %}
+
 <section class="talks">
   <header class="with-filter">
-    <h1>{{ talks.length }} Talks</h1>
+    <h1><span id="count">{{ talks.length }} Talks</span></h1>
     <details>
       <summary class="pill-button filter"><span class="label">Filter Talks</span></summary>
-      <div class="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit neque odio minima praesentium veniam error cum ducimus, non quibusdam earum, corporis quaerat modi nemo libero nisi, magni perferendis officiis eveniet!</div>
+      <div class="body">
+
+        <div class="pill-list">
+        {% for tag in talks | unique("tags") %}
+          <label tabindex="0" class="checkbox-pill"><input value="{{ tag }}" type="checkbox"><span class="pill">{{ tag }}</span></label>
+        {% endfor %}
+        </div>
+
+        <div class="pill-list">
+        {% for year in talks | unique("event.year") %}
+          <label tabindex="0" class="checkbox-pill"><input value="{{ year }}" type="checkbox"><span class="pill">{{ year }}</span></label>
+        {% endfor %}
+        <div class="pill-list">
+
+      </div>
     </details>
   </header>
 
@@ -15,7 +79,7 @@ layout: layouts/base.njk
   <div class="talk-list">
     <ul>
     {%- for talk in talks %}
-      <li class="talk-card" style="background-image: url({{ talk.speaker.photo }})" data-year="{{ talk.event.year }}">
+      <li class="talk-card" style="background-image: url({{ talk.speaker.photo }})" data-year="{{ talk.event.year }}" data-tags=" {{ talk.tags | join(" ") }} ">
         <a href="/talks/{{ talk.slug }}/">
           <header>
             <h2>
@@ -30,3 +94,49 @@ layout: layouts/base.njk
     </ul>
   </div>
 </section>
+
+<script async defer>
+const $$ = s => Array.from(document.querySelectorAll(s));
+const $ = s => document.querySelector(s);
+
+const talks = $$('.talk-card');
+
+$('details').onchange = e => {
+  let reset = true;
+  const selection = $$('input:checked').map(_ => _.value).reduce((acc, curr) => {
+    reset = false;
+    if (/^\d+$/.test(curr)) {
+      acc.years.push(curr);
+    } else {
+      acc.tags.push(curr);
+    }
+    return acc;
+  }, { tags: [], years: []});
+
+  let count = talks.length;
+  if (reset) {
+    // reset
+    talks.filter(talk => {
+      talk.hidden = false;
+      return true;
+    });
+  } else {
+    count = talks.filter(talk => {
+      let res = !selection.years.length;
+
+      if (selection.years.length) {
+        res = !!selection.years.filter(year => talk.dataset.year === year).length;
+      }
+
+      if (selection.tags.length && res) {
+        res = !!selection.tags.filter(tag => talk.dataset.tags.includes(` ${tag} `)).length;
+      }
+      talk.hidden = !res;
+      return res;
+    }).length;
+  }
+
+  $('#count').innerHTML = count === 1 ? '1 Talk' : `${count} Talks`;
+}
+</script>
+

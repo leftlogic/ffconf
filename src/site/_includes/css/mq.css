@@ -1,0 +1,64 @@
+@media only screen and (min-width: 700px) {
+  .body > main {
+    padding: 40px;
+  }
+
+  .talks ul {
+    margin: -20px;
+  }
+
+  .filter {
+    top: 0;
+    right: 0;
+    padding: 15px 60px 15px 25px;
+    background-position: 85% center;
+  }
+
+  header.with-filter summary > span {
+    display: block;
+  }
+
+  .body > footer p {
+    margin-right: 180px;
+  }
+
+  .body > footer {
+    flex-direction: column;
+    align-items: baseline;
+    padding: 0;
+  }
+
+
+  .newsletter {
+    margin: 20px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+  }
+
+  .newsletter > div {
+    padding: 80px 88px;
+    flex-direction: row;
+  }
+
+  .newsletter form > div {
+    max-width: 380px;
+  }
+
+
+  .newsletter > div > * {
+    width: 48%;
+    max-width: 440px;
+    position: relative;
+  }
+
+  .with-filter details .body {
+    margin: 0 -40px 0 -80px;
+    padding: 40px;
+  }
+
+  .talk-card {
+    width: 45%;
+    margin: 20px;  /* and that, will result in a 10px gap */
+    border-radius: 2px;
+  }
+}

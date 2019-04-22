@@ -5,17 +5,19 @@
   padding: 8px;
   background: url(/images/top-grey.svg) no-repeat top right, url(/images/bottom-grey.svg) no-repeat bottom left;
   background-origin: content-box;
+  border-left-width: 0;
+  border-right-width: 0;
 }
 
 .newsletter > div {
-  padding: 80px 88px;
+  padding: 48px 32px;
+  padding-top: 68px;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 
 .newsletter > div > * {
-  width: 48%;
-  max-width: 440px;
   position: relative;
 }
 
@@ -23,8 +25,6 @@
   font-family: BasierSquare;
   font-size: 32px;
   font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.25;
   letter-spacing: normal;
   color: var(--primary);
@@ -41,9 +41,8 @@
   top: -20px;
 }
 
-.newsletter form > div {
-  max-width: 380px;
-
+.newsletter form {
+  margin-top: 32px;
 }
 
 .newsletter form label {
@@ -54,9 +53,12 @@
   padding: 18px 28px;
   font-size: 18px;
   color: var(--dark-grey);
+  display: flex;
+  align-items: center;
 }
 
 .newsletter form label input {
+  flex-grow: 1;
   background: none;
   font-size: 18px;
   color: var(--dark-grey);

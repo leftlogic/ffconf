@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" href="/fonts/basiersquare-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/basiersquare-medium-webfont.woff2" as="font" type="font/woff2" crossorigin>
+    <title>{%- if title -%}{{ title }}{%- else -%}ffconf{%- endif -%}</title>
     <style>{% include "css/global.css" %}</style>
     <style>{% include "css/main.css" %}</style>
-    <title>{%- if title -%}{{ title }}{%- else -%}ffconf{%- endif -%}</title>
+    {% block css %}
+      {{ css | safe }}
+    {% endblock %}
     <meta name="description" content="{%- if description -%}{{ description }}{%- else -%}ffconf - the UK's best JavaScript and Web conference in Brighton{%- endif -%}"/>
     {# {% include "favicons.njk" %} #}
     {# {% include "social.njk" %} #}
@@ -28,6 +31,7 @@
         <object class="logo" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
       </footer>
     </div>
+    <style>{% include "css/mq.css" %}</style>
   </body>
 </html>
 

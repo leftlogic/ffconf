@@ -10,8 +10,7 @@ layout: layouts/base.njk
 
 <section class="talk">
   <a class="back Link-Dark-Left" href="/talks">Back to all Talks</a>
-  <span class="pill active">{{ talk.event.year }}</span>
-
+  {% for tag in talk.tags %}<span class="pill active">{{ tag }}</span>{% endfor %}<span class="pill active">{{ talk.event.year }}</span>
   <h1 class="Heading-Dark-Left">{{ talk.title }}</h1>
 
   <section class="media">

@@ -1,10 +1,6 @@
-const { GraphQLClient } = require('graphql-request');
-
-// const endpoint = 'https://api.graph.cool/simple/v1/ffconf';
-const endpoint = 'http://localhost:7000';
-
-const client = new GraphQLClient(endpoint, { headers: {} });
-
+// const { GraphQLClient } = require('graphql-request');
+// const endpoint = 'http://localhost:7000';
+// const client = new GraphQLClient(endpoint, { headers: {} });
 const query = `query {
   sessions(orderBy:order_ASC) {
     title
@@ -14,6 +10,7 @@ const query = `query {
     audio
     slides
     order
+    tags
     event {
       year
     }
@@ -26,14 +23,12 @@ const query = `query {
   }
 }`;
 
-// const data = require('./_talks.json');
-// const p = () => new Promise(resolve => resolve(data));
+const client = { request: () => Promise.resolve(require('./_talks.json')) };
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
     client
       .request(query)
-      // p()
       .then(res => {
         resolve(
           res.sessions.sort((a, b) => {
