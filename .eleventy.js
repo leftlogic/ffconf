@@ -1,6 +1,7 @@
 const { basename } = require('path');
 const markdownIt = require('markdown-it');
 const undefsafe = require('undefsafe');
+const format = require('date-fns/format');
 let env = process.env.ELEVENTY_ENV;
 const options = {
   html: true,
@@ -14,6 +15,9 @@ module.exports = function(eleventyConfig) {
   // Add filters to Nunjucks
   eleventyConfig.addFilter('kebab', require('./src/site/_filters/kebab'));
   eleventyConfig.addFilter('markdown', s => markdown.render(s));
+  eleventyConfig.addFilter('format', (s, fmt) =>
+    format(s, fmt || 'dddd D MMM YYYY')
+  );
   eleventyConfig.addFilter('filename', s => {
     if (s) return basename(s);
   });

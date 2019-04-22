@@ -1,0 +1,55 @@
+---
+layout: layouts/base.njk
+---
+
+<style>
+#home header {
+  padding: 32px;
+
+  background-color: var(--salmon);
+  background-image: url(/images/hero/1.jpg), url(/images/hero/2.jpg), url(/images/hero/3.jpg);
+  background-position: top left, top center, top right;
+  background-size: 34%, 34%, 34%;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  padding-top: 25%;
+}
+
+#home header * {
+  color: var(--white);
+}
+
+#home h2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.27;
+  border-bottom: 1px solid var(--white);
+  padding-bottom: 32px;
+}
+
+#home .next-icon {
+  font-size: 18px;
+  background: url(/images/calendar.svg) no-repeat;
+  background-size: 30px;
+  line-height: 36px;
+  padding-left: 46px;
+}
+
+#home header a {
+  font-size: 22px;
+  text-decoration: none;
+  background: url(/images/arrow-white.svg) no-repeat;
+  background-position: right;
+  padding-right: 65px;
+  display: block;
+}
+</style>
+
+<section id="home">
+  <header class="vevent">
+    <h2 class="summary">ffconf is a full day of eight carefully curated sessions for an audience that cares about the future of the web, and who want their ideas challenged.</h2>
+    <div class="next">
+      <p class="next-icon">Next edition</p>
+      <h3 class=""><a target="_blank" class="url" href="{{ next.url }}"><abbr class="dtstart" title="{{ next.date }}">{{ next.date | format }}</abbr></a></h3>
+    </div>
+  </header>
+</section>

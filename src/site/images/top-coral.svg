@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+    <g fill="#FF7063" fill-rule="evenodd">
+        <circle cx="42" cy="2" r="2" transform="rotate(180 42 2)"/>
+        <circle cx="34" cy="2" r="2" transform="rotate(180 34 2)"/>
+        <circle cx="26" cy="10" r="2" transform="rotate(180 26 10)"/>
+        <circle cx="26" cy="18" r="2" transform="rotate(180 26 18)"/>
+        <circle cx="18" cy="26" r="2" transform="rotate(180 18 26)"/>
+        <circle cx="10" cy="34" r="2" transform="rotate(180 10 34)"/>
+        <circle cx="2" cy="42" r="2" transform="rotate(180 2 42)"/>
+        <circle cx="2" cy="42" r="2" transform="rotate(180 2 42)"/>
+        <circle cx="2" cy="34" r="2" transform="rotate(180 2 34)"/>
+        <circle cx="10" cy="26" r="2" transform="rotate(180 10 26)"/>
+        <circle cx="34" cy="10" r="2" transform="rotate(180 34 10)"/>
+        <circle cx="26" cy="2" r="2" transform="rotate(180 26 2)"/>
+        <circle cx="18" cy="2" r="2" transform="rotate(180 18 2)"/>
+        <circle cx="18" cy="10" r="2" transform="rotate(180 18 10)"/>
+        <circle cx="18" cy="18" r="2" transform="rotate(180 18 18)"/>
+        <circle cx="10" cy="18" r="2" transform="rotate(180 10 18)"/>
+        <circle cx="10" cy="10" r="2" transform="rotate(180 10 10)"/>
+        <circle cx="10" cy="2" r="2" transform="rotate(180 10 2)"/>
+        <circle cx="2" cy="2" r="2" transform="rotate(180 2 2)"/>
+        <circle cx="2" cy="10" r="2" transform="rotate(180 2 10)"/>
+        <circle cx="2" cy="18" r="2" transform="rotate(180 2 18)"/>
+        <circle cx="2" cy="26" r="2" transform="rotate(180 2 26)"/>
+    </g>
+</svg>

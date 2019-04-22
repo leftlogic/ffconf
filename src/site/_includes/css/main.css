@@ -2,6 +2,10 @@ html {
   font-family: 'BasierSquare';
 }
 
+abbr[class^="dt"] {
+  text-decoration: none;
+}
+
 button {
   border: 0;
   background: none;
@@ -22,7 +26,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 56px;
+  font-size: 32px;
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
@@ -31,17 +35,7 @@ h1 {
   color: var(--primary);
 }
 
-.body > header li.selected::after {
-  content: '';
-  display: block;
-  height: 2px;
-  background: var(--salmon);
-  width: 100%;
-  position: absolute;
-  bottom: -29px;
-}
-
-.body > header a {
+#menu a {
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
@@ -91,116 +85,6 @@ h1 {
   height: 20px;
   overflow: hidden;
   text-indent: -9999px;
-}
-
-.talk h1 {
-  font-size: 56px;
-  margin: 27px 0 50px 0;
-}
-
-.talk h2 {
-  margin: 0;
-}
-
-.talk .descriptions h2 {
-  margin-top: 50px;
-  font-size: 22px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-  color: var(--primary);
-}
-
-.talk .media {
-  display: flex;
-  justify-content: space-between;
-  overflow: hidden;
-  margin: 50px 0 60px 0;
-}
-
-.talk .media > * {
-  width: 440px;
-}
-
-.speaker-image {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 2px;
-  /* max-height: 328px; */
-}
-
-.talk .media audio {
-  width: 100%;
-  margin: 32px 0 7px 0;
-}
-
-.media h2::before {
-  content: '';
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: inline-block;
-  width: 22px;
-  height: 22px;
-  margin-right: 16px;
-}
-
-.audio h2::before {
-  background-image: url(/images/audio.svg);
-}
-
-.video h2::before {
-  background-image: url(/images/video.svg);
-}
-
-.slide h2::before {
-  background-image: url(/images/slides.svg);
-}
-
-.talk .links > * {
-  width: 440px;
-  padding: 25px 40px;
-  margin: 8px 0;
-}
-
-.talk .links h2 {
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: var(--primary);
-  display: inline-flex;
-}
-
-.links h2 + a {
-  float: right;
-  text-align: right;
-  text-decoration: none;
-
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: right;
-  color: var(--dark-grey);
-}
-
-.talk .links > :first-child {
-  margin-top: 0;
-}
-
-.talk .links > :last-child {
-  margin-bottom: 0;
-}
-
-.box {
-  border: solid 2px var(--light-grey);
 }
 
 .solid-box {

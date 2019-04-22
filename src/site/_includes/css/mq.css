@@ -1,4 +1,33 @@
 @media only screen and (min-width: 700px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  .box {
+    border: solid 2px var(--light-grey);
+  }
+
+  .talk .media > * {
+    width: 440px;
+  }
+
+  .talk .links > * {
+    width: 440px;
+    padding: 25px 40px;
+    margin: 8px 0;
+  }
+
+  .talk .speaker-image img {
+    display: none;
+  }
+
+  .talk .media {
+    margin: 50px 0 60px 0;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+
   .body > main {
     padding: 40px;
   }
@@ -29,6 +58,15 @@
   }
 
 
+  #menu li.selected::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: var(--salmon);
+    width: 100%;
+    position: absolute;
+    bottom: -29px;
+  }
   .newsletter {
     margin: 20px;
     border-left-width: 2px;
@@ -43,7 +81,6 @@
   .newsletter form > div {
     max-width: 380px;
   }
-
 
   .newsletter > div > * {
     width: 48%;

@@ -9,19 +9,136 @@ layout: layouts/base.njk
 
 <style>
 .talk > header {
-  padding: 32px;
+  padding: 0 32px;
 }
+
+.talk .back {
+  margin-bottom: 35px;
+}
+
+
+.talk h1 {
+  margin: 27px 0 50px 0;
+}
+
+.talk h2 {
+  margin: 0;
+}
+
+.talk .descriptions {
+  padding: 0 32px 32px 32px;
+}
+
+.talk .descriptions h2 {
+  margin-top: 50px;
+  font-size: 22px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: var(--primary);
+}
+
+.talk .media {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 2px;
+  /* max-height: 328px; */
+}
+
+.speaker-image img {
+  opacity: 0;
+}
+
+
+.talk .media audio {
+  width: 100%;
+  margin: 32px 0 7px 0;
+}
+
+.media h2::before {
+  content: '';
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 16px;
+}
+
+.audio h2::before {
+  background-image: url(/images/audio.svg);
+}
+
+.video h2::before {
+  background-image: url(/images/video.svg);
+}
+
+.slide h2::before {
+  background-image: url(/images/slides.svg);
+}
+
+.talk .links > * {
+  padding: 25px 32px;
+  margin: 8px 0;
+}
+
+.talk .links h2 {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: var(--primary);
+  display: inline-flex;
+}
+
+.links h2 + a {
+  float: right;
+  text-align: right;
+  text-decoration: none;
+
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: var(--dark-grey);
+}
+
+.talk .links > :first-child {
+  margin-top: 0;
+}
+
+.talk .links > :last-child {
+  margin-bottom: 0;
+}
+
+
+
 </style>
 
 <section class="talk">
   <header>
     <a class="back Link-Dark-Left" href="/talks">Back to all Talks</a>
     {% for tag in talk.tags %}<span class="pill active">{{ tag }}</span>{% endfor %}<span class="pill active">{{ talk.event.year }}</span>
-    <h1 class="Heading-Dark-Left">{{ talk.title }}</h1>
+    <h1>{{ talk.title }}</h1>
   </header>
 
   <section class="media">
-    <div class="speaker-image" style="background-image: url({{ talk.speaker.photo }})"></div>
+    <div class="speaker-image" style="background-image: url({{ talk.speaker.photo }})">
+      <img src="{{talk.speaker.photo}}">
+    </div>
     <div class="links">
       <div class="audio box">
         <h2>Audio</h2>
