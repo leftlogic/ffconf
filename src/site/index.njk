@@ -1,9 +1,10 @@
 ---
 layout: layouts/base.njk
+id: home
 ---
 
 <style>
-#home header {
+#home main header {
   padding: 32px;
 
   background-color: var(--salmon);
@@ -14,11 +15,11 @@ layout: layouts/base.njk
   padding-top: 30%;
 }
 
-#home header * {
+#home main header * {
   color: var(--white);
 }
 
-#home h2 {
+#home main h2 {
   font-size: 22px;
   font-weight: 500;
   line-height: 1.27;
@@ -26,7 +27,7 @@ layout: layouts/base.njk
   padding-bottom: 32px;
 }
 
-#home .next-icon {
+#home main .next-icon {
   font-size: 18px;
   background: url(/images/calendar.svg) no-repeat;
   background-size: 30px;
@@ -34,7 +35,7 @@ layout: layouts/base.njk
   padding-left: 46px;
 }
 
-#home header a {
+#home main header a {
   font-size: 22px;
   text-decoration: none;
   background: url(/images/arrow-white.svg) no-repeat;
@@ -42,9 +43,40 @@ layout: layouts/base.njk
   padding-right: 65px;
   display: block;
 }
+
+@media only screen and (min-width: 700px) {
+  #home main header {
+    background-image: none;
+    padding: 80px;
+  }
+
+  #home main {
+    background-color: var(--salmon);
+    background-image: url(/images/hero/3a.jpg), url(/images/hero/1.jpg), url(/images/hero/3.jpg);
+    background-position: top left, top center, top right;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 34%, 34%, 34%;
+    padding-top: 16.666%;
+  }
+
+  #home main h2 {
+    font-size: 42px;
+  }
+
+  #home main header a {
+    font-size: 32px;
+    display: inline;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #home main h2 {
+    font-size: 56px;
+  }
+}
 </style>
 
-<section id="home">
+<section>
   <header class="vevent">
     <h2 class="summary">ffconf is a full day of eight carefully curated sessions for an audience that cares about the future of the web, and who want their ideas challenged.</h2>
     <div class="next">
