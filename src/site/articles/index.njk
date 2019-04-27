@@ -39,8 +39,7 @@ layout: layouts/base.njk
   }
 
   .article-list a span {
-    color: var(--dark-grey);
-    font-size: 14px
+    opacity: 0.6;
   }
 
   .article-list a[href^="http"]:after {
@@ -52,7 +51,8 @@ layout: layouts/base.njk
     background-size: 14px;
   }
 
-  .article-list a[href^="http"]:hover:after {
+  .article-list a[href^="http"]:hover:after,
+  .article-list a[href^="http"]:hover span {
     opacity: 1;
   }
 
@@ -89,7 +89,7 @@ layout: layouts/base.njk
   <ul class="article-list">
   {% for article in articles %}
   <li>
-    <a {% if article.url.startsWith('http') %}target="_blank"{% endif %} href="{{ article.url }}">{{article.data.title}}</a>
+    <a {% if article.url.startsWith('http') %}target="_blank"{% endif %} href="{{ article.url }}">{{article.data.title}}{% if article.data.by %}<span class="byLine"> by {{ article.data.by }}{% endif %}</span></a>
     <span class="pills">
         <span class="pill active">{{ article.data.date | format("MMM YYYY") }}</span>{% for tag in article.data.tags %}<span class="pill active">{{ tag }}</span>{% endfor %}
     </span>
