@@ -9,6 +9,10 @@ layout: layouts/base.njk
     padding: 0;
   }
 
+  .articles header {
+    padding: 0 32px;
+  }
+
   .article-list li {
     background-color: var(--box);
     padding: 14px 32px 14px 22px;
@@ -16,9 +20,9 @@ layout: layouts/base.njk
     font-weight: 500;
     line-height: 1.33;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin: 8px 0;
+    flex-direction: column;
   }
 
   .article-list li a {
@@ -52,12 +56,20 @@ layout: layouts/base.njk
     opacity: 1;
   }
 
+  @media only screen and (min-width: 700px) {
+    .article-list li {
+      align-items: center;
+      flex-direction: row;
+    }
+
+  }
+
 </style>
 {% set articles = collections.articles %}
 <section class="articles">
   <header class="with-filter">
-    <h1><span id="count">{{ articles.length }} Articles</span></h1>
-    <details>
+    <h1><span id="count">Articles</span></h1>
+    <!-- <details>
       <summary class="pill-button filter"><span class="label">Filter Talks</span></summary>
       <div class="body">
         <div class="pill-list">
@@ -66,7 +78,7 @@ layout: layouts/base.njk
         {% endfor %}
         </div>
       </div>
-    </details>
+    </details> -->
   </header>
 
   <ul class="article-list">

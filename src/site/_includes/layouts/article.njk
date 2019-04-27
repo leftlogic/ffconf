@@ -5,7 +5,7 @@ layout: layouts/base.njk
 <style>
 .article {
   max-width: 920px;
-  margin: 0 auto;
+  margin: 0 32px;
 }
 
 .article > header h1 {
@@ -30,11 +30,17 @@ h2 {
   margin-top: 50px;
 }
 
+@media only screen and (min-width: 700px) {
+  .article {
+    margin: 0 auto;
+  }
+}
+
 </style>
 
 <section class="article">
   <header>
-    <a class="back Link-Dark-Left" href="/articles">Back to all Articles</a>
+    <a class="back" href="/articles">Back to all Articles</a>
     <span class="pill active">{{ date | format("MMM D YYYY") }}</span>{% for tag in tags %}<span class="pill active">{{ tag }}</span>{% endfor %}
     <h1>{{ title }}</h1>
   </header>
