@@ -15,7 +15,7 @@ layout: layouts/base.njk
 
   .article-list li {
     background-color: var(--box);
-    padding: 14px 32px 14px 22px;
+    padding: 22px 32px 32px 32px;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.33;
@@ -26,7 +26,7 @@ layout: layouts/base.njk
   }
 
   .article-list li a {
-    padding: 10px;
+    padding: 10px 0 18px 0;
     color: var(--primary);
     font-weight: 500;
     line-height: 1.33;
@@ -60,6 +60,11 @@ layout: layouts/base.njk
     .article-list li {
       align-items: center;
       flex-direction: row;
+      padding: 14px 32px 14px 22px;
+    }
+
+    .article-list li a {
+      padding: 10px;
     }
 
   }

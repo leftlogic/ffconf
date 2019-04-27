@@ -132,7 +132,7 @@ h1 {
 .pill.active {
   background-color: var(--salmon);
   color: white;
-  margin: 0 8.5px;
+  margin: 0 8.5px 0 0;
 }
 
 .pill-button {
