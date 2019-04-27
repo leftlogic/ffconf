@@ -229,6 +229,40 @@ header.with-filter summary > span {
   display: none;
 }
 
+.checkbox-pill :checked + .pill {
+  background: var(--salmon);
+  color: white;
+  user-select: none;
+}
+
+.checkbox-pill {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.checkbox-pill input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}
+
+.pill-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pill-list + .pill-list {
+  border-top: 1px solid var(--light-grey);
+  margin-top: 25px;
+  padding-top: 25px;
+}
+
+
 .with-filter details .body {
   position: absolute;
   background: white;
@@ -238,7 +272,7 @@ header.with-filter summary > span {
   z-index: 10;
 }
 
-.talks h1 {
+main header h1 {
   margin: 40px 0;
 }
 

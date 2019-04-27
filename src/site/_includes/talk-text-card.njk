@@ -1,0 +1,71 @@
+<style>
+.talk-text-card {
+  max-width: 100%;
+  background-color: var(--light-grey);
+  background-image: url(/images/top-grey.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-origin: content-box;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+.talk-text-card > div {
+  padding: 40px 24px;
+  display: block;
+}
+
+.talk-text-card .pill {
+  margin: 0;
+}
+
+.talk-text-card__speaker {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  color: var(--dark-grey);
+  margin: 16px 0;
+}
+
+.talk-text-card__title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.27;
+  color: var(--primary);
+  text-decoration: none;
+  display: block;
+  background-image: url(/images/arrow-coral.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 700px) {
+  .talk-text-card {
+    margin: 0 10px;
+    text-align: center;
+    background-image: url(/images/top-coral.svg);
+    background-position: top left;
+  }
+
+  .talk-text-card__speaker {
+    font-size: 22px;
+  }
+
+  .talk-text-card__title {
+    font-size: 32px;
+    padding: 0 30px;
+    padding: 0 3vw;
+    background-position: bottom center;
+    padding-bottom: 60px;
+  }
+}
+</style>
+
+<section class="talk-text-card">
+  <div>
+    <span class="pill active">Talks</span>
+    <p class="talk-text-card__speaker">{{ talk.speaker.name }}</p>
+    <a class="talk-text-card__title" href="/talks/{{ talk.slug }}">{{ talk.title }}</a>
+  </div>
+</section>

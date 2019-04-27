@@ -2,41 +2,7 @@
 layout: layouts/base.njk
 ---
 
-{% block css %}
 <style>
-.talks .checkbox-pill :checked + .pill {
-  background: var(--salmon);
-  color: white;
-  user-select: none;
-}
-
-.talks .checkbox-pill {
-  overflow: hidden;
-  position: relative;
-  cursor: pointer;
-  margin: 10px 5px;
-}
-
-.talks .checkbox-pill input {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  visibility: hidden;
-}
-
-.talks .pill-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.talks .pill-list + .pill-list {
-  border-top: 1px solid var(--light-grey);
-  margin-top: 25px;
-  padding-top: 25px;
-}
-
 .talks > header {
   padding: 0 40px;
 }
@@ -53,7 +19,6 @@ layout: layouts/base.njk
   width: 100%;
 }
 </style>
-{% endblock %}
 
 <section class="talks">
   <header class="with-filter">

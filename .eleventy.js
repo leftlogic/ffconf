@@ -50,6 +50,14 @@ module.exports = function(eleventyConfig) {
   // eleventyConfig.addPassthroughCopy('src/site/manifest.json');
   // eleventyConfig.addPassthroughCopy('src/site/browserconfig.xml');
 
+  eleventyConfig.addCollection('articles', function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return (
+        item.inputPath.includes('/articles/') && item.inputPath.endsWith('.md')
+      );
+    });
+  });
+
   // make the prime target act like prod
   env = env == 'prime' ? 'prod' : env;
   return {

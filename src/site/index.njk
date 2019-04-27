@@ -4,6 +4,10 @@ id: home
 ---
 
 <style>
+#home main {
+  position: relative;
+}
+
 #home main header {
   padding: 32px;
 
@@ -51,12 +55,22 @@ id: home
   }
 
   #home main {
-    background-color: var(--salmon);
+    /* background-color: var(--salmon); */
     background-image: url(/images/hero/3a.jpg), url(/images/hero/1.jpg), url(/images/hero/3.jpg);
     background-position: top left, top center, top right;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 34%, 34%, 34%;
     padding-top: 16.666%;
+  }
+
+  #home main:before {
+    background-color: var(--salmon);
+    content: '';
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
   }
 
   #home main h2 {
@@ -66,6 +80,24 @@ id: home
   #home main header a {
     font-size: 32px;
     display: inline;
+  }
+
+  .talk-text-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 -10px;
+  }
+
+  .talk-text-cards:before {
+    content: '';
+    background: var(--salmon);
+    width: 100%;
+    position: absolute;
+    height: 10vh;
+    z-index: -1;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -84,4 +116,11 @@ id: home
       <h3 class=""><a target="_blank" class="url" href="{{ next.url }}"><abbr class="dtstart" title="{{ next.date }}">{{ next.date | format }}</abbr></a></h3>
     </div>
   </header>
+
+  <div class="talk-text-cards">
+  {% set talk = talks[0] %}
+  {% include "talk-text-card.njk" %}
+  {% set talk = talks[1] %}
+  {% include "talk-text-card.njk" %}
+  </div>
 </section>

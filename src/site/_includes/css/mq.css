@@ -36,6 +36,10 @@
     margin: -20px;
   }
 
+  .talks > header {
+    padding: 0;
+  }
+
   .filter {
     top: 0;
     right: 0;
@@ -55,7 +59,7 @@
   .body > footer {
     flex-direction: row;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 40px;
   }
 
 
@@ -69,7 +73,7 @@
     bottom: -29px;
   }
   .newsletter {
-    margin: 20px;
+    margin: 0 40px;
     border-left-width: 2px;
     border-right-width: 2px;
   }
