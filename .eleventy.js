@@ -51,10 +51,25 @@ module.exports = function(eleventyConfig) {
   // eleventyConfig.addPassthroughCopy('src/site/browserconfig.xml');
 
   eleventyConfig.addCollection('articles', function(collection) {
-    return collection.getAllSorted().filter(function(item) {
+    const res = collection.getAllSorted().filter(function(item) {
       return (
         item.inputPath.includes('/articles/') && item.inputPath.endsWith('.md')
       );
+    });
+
+    const others = require('./src/site/articles/articles.json').posts.map(
+      post => {
+        return {
+          data: { ...post, tags: ['write up'] },
+          url: post.url,
+        };
+      }
+    );
+
+    return [...res, ...others].sort((a, b) => {
+      return new Date(a.data.date).getTime() < new Date(b.data.date).getTime()
+        ? 1
+        : -1;
     });
   });
 

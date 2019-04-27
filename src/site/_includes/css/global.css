@@ -39,7 +39,13 @@
   letter-spacing: normal;
 }
 
-strong {
+hr {
+  border-color: var(--box);
+  border-bottom: 0;
+}
+
+strong,
+strong * {
   font-weight: 600;
 }
 

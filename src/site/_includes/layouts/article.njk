@@ -21,9 +21,15 @@ layout: layouts/base.njk
   color: var(--salmon);
 }
 
-img[alt^="large"] {
-  width: 100%;
+h2 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: var(--primary);
+  margin-top: 50px;
 }
+
 </style>
 
 <section class="article">
@@ -33,7 +39,7 @@ img[alt^="large"] {
     <h1>{{ title }}</h1>
   </header>
 
-  <div class="body">
+  <div class="body {% for tag in tags %}tag-{{tag}} {% endfor %}">
     {{ content | safe}}
   </div>
 </section>

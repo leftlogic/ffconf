@@ -170,15 +170,20 @@ body {
   margin: 0 auto;
 }
 
-main p {
+main p,
+main li {
   font-size: 18px;
   margin: 28px 0;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.33;
+  line-height: 1.4;
   letter-spacing: normal;
   color: var(--primary);
+}
+
+main li {
+  margin: 8px 0;
 }
 
 .body > footer {
@@ -274,6 +279,12 @@ header.with-filter summary > span {
 
 main header h1 {
   margin: 40px 0;
+}
+
+.body.tag-insights img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .talk-card {
