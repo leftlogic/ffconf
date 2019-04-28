@@ -26,6 +26,8 @@ module.exports = function(eleventyConfig) {
     require('./src/site/_filters/stringify')
   );
 
+  eleventyConfig.addFilter('clean-twitter', html => {});
+
   eleventyConfig.addFilter('unique', (source, prop) => {
     const res = Array.from(
       new Set(

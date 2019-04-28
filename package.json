@@ -42,5 +42,9 @@
     "graphql-request": "^1.8.2",
     "graphql-yoga": "^1.17.4",
     "undefsafe": "^2.0.2"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.4.1"
   }
 }

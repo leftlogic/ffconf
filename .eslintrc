@@ -16,17 +16,17 @@
         "SwitchCase": 1
       }
     ],
-    semi: ["error", "always"],
+    "semi": ["error", "always"],
     "no-unreachable": "error",
     "no-caller": 2,
-    "quotes": [
-      2,
-      "single"
-    ],
+    "quotes": [2, "single"],
     "no-undef": 2,
     "strict": 0,
     "no-unused-vars": 2,
     "no-else-return": 2,
-    "space-before-function-paren": ["error", { "anonymous": "always", "named": "never" }]
+    "space-before-function-paren": [
+      "error",
+      { "anonymous": "always", "named": "never" }
+    ]
   }
 }

@@ -1,0 +1,98 @@
+---
+layout: layouts/base.njk
+---
+
+<style>
+.tweet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  column-gap: 32px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+}
+
+.tweet-list .tweet {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.tweet-list .tweet * {
+  padding: 0;
+  margin: 0;
+}
+
+.tweet-list a {
+  color: var(--primary);
+  transition: color 150ms ease-out;
+}
+
+.tweet-list a:hover {
+  color: var(--salmon);
+}
+
+.tweet-list li {
+  /* flex-grow: 1; */
+  padding: 32px;
+  background: var(--box);
+  margin: 0 0 32px 0;
+  /* width: 45%; */
+}
+
+.TweetAuthor-name {
+  display: none;
+}
+
+.u-hiddenVisually {
+  font-size: 0;
+  line-height: 0;
+}
+
+.tweet-list li .pill {
+  background-color: var(--white);
+}
+
+.tweet-list li .Emoji {
+  height: 1.25em;
+  width: 1.25em;
+  padding: 0 .05em 0 .1em;
+  vertical-align: -0.2em;
+}
+
+.tweet-list header {
+  display: flex;
+  align-items: center;
+}
+
+.tweet-list header strong {
+  flex: 1;
+  margin-left: 18px;
+}
+
+.tweet-list .avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 9999px;
+}
+</style>
+
+<section class="tweets">
+  <header class="with-filter">
+    <h1><span id="count">Tweets we like</span></h1>
+  </header>
+
+  <ul class="tweet-list">
+  {% for tweet in tweets %}
+  <li>
+    <header>
+      <img class="avatar" src="{{ tweet.avatar }}">
+      <strong><a href="{{tweet.url}}" target="_blank">{{ tweet.username }}</a></strong>
+      <span class="pill">{{ tweet.date | format("D MMM YYYY") }}</span>
+    </header>
+    <div class="tweet">{{ tweet.body | safe }}</div>
+  </li>
+  {% endfor %}
+  </ul>
+</section>
