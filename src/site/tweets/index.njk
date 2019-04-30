@@ -7,15 +7,11 @@ layout: layouts/base.njk
   list-style: none;
   padding: 0;
   margin: 0;
-  columns: 2;
-  column-gap: 32px;
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
 }
 
 .tweet-list .tweet {
-  margin: 20px 0;
+  margin: 0;
+  margin-top: 20px;
   padding: 0;
 }
 
@@ -34,15 +30,11 @@ layout: layouts/base.njk
 }
 
 .tweet-list li {
-  /* flex-grow: 1; */
   padding: 32px;
   background: var(--box);
-  margin: 0 0 32px 0;
-  /* width: 45%; */
-}
-
-.TweetAuthor-name {
-  display: none;
+  margin: 0;
+  margin-bottom: 32px;
+  width: 100%;
 }
 
 .u-hiddenVisually {
@@ -76,6 +68,59 @@ layout: layouts/base.njk
   width: 40px;
   border-radius: 9999px;
 }
+
+.tweet-list .images {
+  margin-top: 20px;
+  max-height: 350px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1px;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.tweet-list .images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.images-3 img:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+</style>
+
+<style>
+  @media only screen and (min-width: 700px) {
+    .tweet-list {
+      /* height: {{ tweets.length / 2 * 282 }}px; */
+      height: calc({{tweets.length}} * 282px);
+    }
+
+    .tweet-list {
+      display: flex;
+      flex-flow: column wrap;
+      align-content: space-between;
+    }
+
+    .tweet-list li:nth-child(2n+1) { order: 1; }
+    .tweet-list li:nth-child(2n+2) { order: 2; }
+
+    .tweet-list::before{
+      content: "";
+      flex-basis: 100%;
+      width: 0;
+      order: 2;
+    }
+
+    .tweet-list li {
+      width: 49%;
+    }
+
+
+  }
 </style>
 
 <section class="tweets">
@@ -84,14 +129,25 @@ layout: layouts/base.njk
   </header>
 
   <ul class="tweet-list">
-  {% for tweet in tweets %}
+  {% for tweet in tweets | sortBy("-date") %}
   <li>
-    <header>
-      <img class="avatar" src="{{ tweet.avatar }}">
-      <strong><a href="{{tweet.url}}" target="_blank">{{ tweet.username }}</a></strong>
-      <span class="pill">{{ tweet.date | format("D MMM YYYY") }}</span>
-    </header>
-    <div class="tweet">{{ tweet.body | safe }}</div>
+
+      <header>
+        <img class="avatar" src="{{ tweet.avatar }}">
+        <strong><a href="{{tweet.url}}" target="_blank">{{ tweet.username }}</a></strong>
+        <span class="pill">{{ tweet.date | format("D MMM YYYY") }}</span>
+      </header>
+      <div class="tweet">
+        {{ tweet.body | safe }}
+        {% if tweet.images.length > 0 %}
+        <div class="images images-{{ tweet.images.length }}">
+          {% for img in tweet.images %}
+          <img src="{{ img }}">
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
   </li>
   {% endfor %}
   </ul>

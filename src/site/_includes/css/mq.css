@@ -40,7 +40,7 @@
     margin: 30px 0 70px 0;
   }
 
-  .talks > header {
+  header.with-filter {
     padding: 0;
   }
 

@@ -1,5 +1,7 @@
 html {
   font-family: 'BasierSquare';
+  scroll-behavior: smooth;
+  height: 100%;
 }
 
 abbr[class^="dt"] {
@@ -275,6 +277,9 @@ header.with-filter summary > span {
   padding-top: 25px;
 }
 
+header.with-filter {
+  padding: 0 40px;
+}
 
 .with-filter details .body {
   position: absolute;

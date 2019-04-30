@@ -41,22 +41,35 @@ async function getJSON(id) {
   const json = await res.json();
 
   let body = json[id];
-  const date = body.match(/datetime="(.*?)"/)[1];
-  body = body.replace(/<a class="calltoaction".*<\/a>/is, ''); // remove call to action
-  body = body.replace(
-    /<div class="TweetInfo">.*?<\/blockquote>/is,
-    '</blockquote>'
-  );
+  // body = body.replace(/<a class="calltoaction".*<\/a>/is, ''); // remove call to action
+  // body = body.replace(
+  //   /<div class="TweetInfo">.*?<\/blockquote>/is,
+  //   '</blockquote>'
+  // );
 
   const $ = cheerio.load(body);
 
+  // const date = body.match(/datetime="(.*?)"/)[1];
+  const date = $('time').attr('datetime');
   $('.EmbeddedTweet-ancestor').remove();
+  $('.CallToAction').remove();
+  $('.TweetInfo').remove();
+
+  const images = $('.MediaCard-mediaAsset img')
+    .map((i, el) => {
+      const $el = $(el);
+      const url = $el.attr('data-image') + '.jpg';
+      return url;
+    })
+    .get();
 
   const avatar = $('img.Avatar').attr('data-src-2x');
   const username = $('.TweetAuthor-screenName').text();
   const tweetUrl = $('blockquote').attr('cite');
 
   return {
+    source: json[id],
+    images,
     body: $('.e-entry-content').html(),
     date,
     url: tweetUrl,

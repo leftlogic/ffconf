@@ -26,7 +26,16 @@ module.exports = function(eleventyConfig) {
     require('./src/site/_filters/stringify')
   );
 
-  eleventyConfig.addFilter('clean-twitter', html => {});
+  eleventyConfig.addFilter('sortBy', (source, prop) => {
+    let m = 1;
+    if (prop.startsWith('-')) {
+      prop = prop.slice(1);
+      m = -1;
+    }
+    return Array.from(source).sort((a, b) => {
+      return undefsafe(a, prop) < undefsafe(b, prop) ? -m : m;
+    });
+  });
 
   eleventyConfig.addFilter('unique', (source, prop) => {
     const res = Array.from(
