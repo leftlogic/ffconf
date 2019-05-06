@@ -4,6 +4,10 @@ html {
   height: 100%;
 }
 
+html.quick {
+  scroll-behavior: auto;
+}
+
 abbr[class^="dt"] {
   text-decoration: none;
 }
@@ -178,6 +182,8 @@ h1 {
 body {
   max-width: 1200px;
   margin: 0 auto;
+  scroll-snap-stop: always;
+  scroll-snap-type: y proximity;
 }
 
 main p,
@@ -358,3 +364,82 @@ main header h1 {
   width: min-content;
 }
 
+/* newsletter styles */
+
+.newsletter {
+  border: solid 2px var(--salmon);
+  background-color: var(--white);
+  padding: 8px;
+  background: url(/images/top-grey.svg) no-repeat top right, url(/images/bottom-grey.svg) no-repeat bottom left;
+  background-origin: content-box;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+.newsletter > div {
+  padding: 48px 32px;
+  padding-top: 68px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.newsletter > div > * {
+  position: relative;
+}
+
+.newsletter h2 {
+  font-family: BasierSquare;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: var(--primary);
+  margin: 25px 0;
+}
+
+.newsletter h2::before {
+  content: '';
+  background: url(/images/newsletter.svg) no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: -20px;
+}
+
+.newsletter form {
+  margin-top: 32px;
+}
+
+.newsletter form label {
+  display: block;
+  border-radius: 9999px;
+  background-color: var(--box);
+  margin-bottom: 20px;
+  padding: 18px 28px;
+  font-size: 18px;
+  color: var(--dark-grey);
+  display: flex;
+  align-items: center;
+}
+
+.newsletter form label input {
+  flex-grow: 1;
+  background: none;
+  font-size: 18px;
+  color: var(--dark-grey);
+  margin-left: 10px;
+  border: 0;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.newsletter form label input:focus {
+  outline: none;
+  border-bottom: 2px solid var(--salmon);
+}
+
+.snap {
+  scroll-snap-align: start;
+}

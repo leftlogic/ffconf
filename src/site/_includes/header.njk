@@ -1,7 +1,7 @@
 <style>
 
 #menu {
-  height: 65px;
+  /* height: 65px; */
   flex-wrap: wrap;
   width: 100%;
   background: rgb(255, 255, 255);
@@ -11,32 +11,47 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--light-grey);
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex-wrap: nowrap;
 }
 
-#menu:target {
-  position: fixed;
-  top: 0;
-}
-
-#menu:target::after {
-  content: '';
-  position: fixed;
-  top: 65px;
-  left: 0;
-  right: 0;
+#menu #open {
+  width: 100%;
+  text-align: right;
+  height: 64px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.66);
-  z-index: 1;
+  width: initial;
+  align-self: flex-end;
 }
 
 #menu h1 {
+  align-self: baseline;
   height: 100%;
   position: relative;
+  position: sticky;
+  top: 60px;
+  width: 60px;
   z-index: 1000;
 }
 
-#menu nav {
-  margin-top: 1px;
+#menu nav:after {
+  content: '';
+  background: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 30%);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-attachment: fixed;
+  background-position-y: 0;
+  pointer-events: none;
+  background-size: cover;
 }
 
 #menu nav,
@@ -44,28 +59,18 @@
   display: none;
 }
 
-#menu:target #open {
-  display: none;
-}
-
-#menu:target #hide {
-  display: block;
-}
-
-#menu:target nav ul {
+#menu nav ul {
   display: block;
   text-align: center;
   background: white;
   position: relative;
   z-index: 100;
-  padding-bottom: 20px;
   width: 100%;
-  position: absolute;
   left: 0;
-  padding-top: 20px;
+  padding: 20px 0 60px 0;
 }
 
-#menu:target li {
+#menu li {
   margin: 0;
   padding: 10px 0;
 }
@@ -82,8 +87,8 @@
   display: block;
   color: transparent;
   overflow: hidden;
-  height: 56px;
-  width: 56px;
+  height: 60px;
+  width: 60px;
   display: inline-block;
   position: absolute;
   left: 0;
@@ -91,23 +96,29 @@
 }
 
 
-#menu:target nav {
+#menu nav {
   display: block;
-  width: 100%;
+  margin-top: 1px;
+  width: 80%;
 }
-
 
 @media only screen and (min-width: 700px) {
   #menu {
     height: 80px;
   }
 
-  #menu > a {
+  #menu nav ul {
+    display: flex;
+    padding: 0;
+  }
+
+  #menu #open {
     display: none;
   }
 
   #menu nav {
     display: block;
+    width: auto;
   }
 
   #menu li {
@@ -130,12 +141,12 @@
     margin: 0 20px;
   }
 }
+
 </style>
 
 <header id="menu">
   <h1><a class="logo" href="/">ffconf</a></h1>
-  <a id="open" href="#menu">Menu</a>
-  <a id="hide" href="#"><img src="/images/hide.svg"></a>
+  <!-- <a id="hide" href="#"><img src="/images/hide.svg"></a> -->
   <nav>
     <ul>
       <li><a class="ext" href="https://2019.ffconf.org">ffconf 2019</a></li>
@@ -146,4 +157,6 @@
       <li{% if page.url.startsWith('/history/') %} class="selected"{% endif %}><a href="/history">History</a></li>
     </ul>
   </nav>
+  <a id="open" class="snap" href="#menu">Menu</a>
 </header>
+

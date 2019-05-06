@@ -58,6 +58,7 @@ module.exports = function(eleventyConfig) {
   // static passthroughs
   eleventyConfig.addPassthroughCopy('src/site/fonts');
   eleventyConfig.addPassthroughCopy('src/site/images');
+  eleventyConfig.addPassthroughCopy('src/site/css');
   // eleventyConfig.addPassthroughCopy('src/site/manifest.json');
   // eleventyConfig.addPassthroughCopy('src/site/browserconfig.xml');
 
@@ -82,6 +83,10 @@ module.exports = function(eleventyConfig) {
         ? 1
         : -1;
     });
+  });
+
+  eleventyConfig.setBrowserSyncConfig({
+    ghostMode: false,
   });
 
   // make the prime target act like prod
