@@ -16,28 +16,29 @@
   <body id="{{ id }}">
     <div class="body">
       {% include "header.njk" %}
-      <main class="snap">
-        {% block content %}
-        {{ content | safe }}
-        {% endblock %}
-        {% block credits %}
-        {% endblock %}
-      </main>
-      <script>
-        if (!window.location.hash) {
-          document.documentElement.classList.add('quick');
-          document.querySelector('#open').scrollIntoView(true);
-          document.documentElement.classList.remove('quick');
-        }</script>
+        <main class="snap">
+          {% block content %}
+          {{ content | safe }}
+          {% endblock %}
+          {% block credits %}
+          {% endblock %}
+        </main>
+          {% include "newsletter.njk" %}
+          <footer>
+            <p>Organised by Left Logic, a small Brighton (UK) based development company, specialising in Node based applications and bleeding edge front end technology. Curated and created with much love, tears and sweat by Remy & Julie of Left Logic.</p>
+            <object class="logo" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
+          </footer>
 
-      {% include "newsletter.njk" %}
-      <footer>
-        <p>Organised by Left Logic, a small Brighton (UK) based development company, specialising in Node based applications and bleeding edge front end technology. Curated and created with much love, tears and sweat by Remy & Julie of Left Logic.</p>
-        <object class="logo" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
-      </footer>
     </div>
     <style>{% include "css/mq.css" %}</style>
-  </body>
+    <script defer async>
+      if (!window.location.hash) {
+        document.documentElement.classList.add('quick');
+        document.querySelector('#open').scrollIntoView(true);
+        document.documentElement.classList.remove('quick');
+      }
+    </script>
+</body>
 </html>
 
 

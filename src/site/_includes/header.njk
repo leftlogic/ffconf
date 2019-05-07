@@ -1,12 +1,10 @@
 <style>
 
 #menu {
-  /* height: 65px; */
   flex-wrap: wrap;
   width: 100%;
   background: rgb(255, 255, 255);
   z-index: 100;
-  padding: 0 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,30 +13,53 @@
   flex-direction: row;
   position: relative;
   flex-wrap: nowrap;
+
+  /* attempt v3 */
+  position: absolute;
+  top: 0;
 }
 
-#menu #open {
-  width: 100%;
+#home main {
+  position: sticky;
+  top: 60px;
+}
+
+.menu-controls {
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  justify-content: space-between;
+}
+
+#menu .menu-controls a {
+  /* width: 100%;
   text-align: right;
   height: 64px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  /* position: sticky; */
   bottom: 0;
   width: initial;
+  align-self: flex-end; */
+  height: 64px;
+  display: flex;
   align-self: flex-end;
+  align-items: center;
+  padding: 0 20px 0 0;
 }
 
 #menu h1 {
   align-self: baseline;
   height: 100%;
-  position: relative;
-  position: -webkit-sticky;
+  /* position: relative; */
   position: sticky;
-  top: 60px;
-  width: 60px;
+  top: 20px;
+  width: 80px;
   z-index: 1000;
+  padding-left: 20px;
+  flex-shrink: 1;
+  /* padding-top: 20px; */
+  height: 50px;
 }
 
 #menu nav:after {
@@ -67,9 +88,10 @@
   background: white;
   position: relative;
   z-index: 100;
-  width: 100%;
+  width: 80%;
   left: 0;
   padding: 20px 0 60px 0;
+  margin: 0 auto;
 }
 
 #menu li {
@@ -88,20 +110,23 @@
   background-size: contain;
   display: block;
   color: transparent;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 60px;
   width: 60px;
   display: inline-block;
   position: absolute;
-  left: -15px;
-  bottom: -10px;
+  /* left: 15px; */
+  /* bottom: -10px; */
+  margin-top: 0px;
+  background-position: bottom;
 }
 
 
 #menu nav {
   display: block;
   margin-top: 1px;
-  width: 80%;
+  /* width: 80%; */
+  flex-grow: 1;
 }
 
 @media only screen and (min-width: 700px) {
@@ -114,7 +139,7 @@
     padding: 0;
   }
 
-  #menu #open {
+  #menu #start {
     display: none;
   }
 
@@ -159,6 +184,9 @@
       <li{% if page.url.startsWith('/history/') %} class="selected"{% endif %}><a href="/history">History</a></li>
     </ul>
   </nav>
-  <a id="open" class="snap" href="#menu">Menu</a>
+  <div class="menu-controls">
+    <a id="close" href="#start"><img src="/images/hide.svg" alt="Close"></a>
+    <a id="start" class="snap" href="#menu">Menu</a>
+  </div>
 </header>
 
