@@ -6,7 +6,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  column-count: 3;
+  column-count: 2;
   column-gap: 10px;
   /* display: grid; */
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -30,4 +30,11 @@
   max-width: 100%;
   border-radius: 2px;
   display: block;
+}
+
+@media only screen and (min-width: 700px) {
+  .photos-list {
+    column-count: 4;
+  }
+
 }

@@ -442,7 +442,7 @@ main header h1 {
 }
 
 .snap {
-  scroll-snap-align: start;
+  /* scroll-snap-align: start; */
 }
 
 main.snap {

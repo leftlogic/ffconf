@@ -9,7 +9,7 @@ css: photos.css
   </header>
 
   <ul class="photos-list">
-  {% for photo in photos %}
+  {% for photo in photos | shuffle %}
   <li>
     <a target="_blank" href="{{ photo | toFlickrLink }}"><img src="{{ photo }}"></a>
   </li>

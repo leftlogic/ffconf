@@ -37,6 +37,10 @@ module.exports = function(eleventyConfig) {
     require('./src/site/_filters/stringify')
   );
 
+  eleventyConfig.addFilter('shuffle', a =>
+    a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1))
+  );
+
   eleventyConfig.addFilter('sortBy', (source, prop) => {
     let m = 1;
     if (prop.startsWith('-')) {
