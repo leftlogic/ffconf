@@ -3,6 +3,11 @@
     scroll-snap-align: none;
   }
 
+  main.snap {
+    margin-top: inherit;
+    padding-top: inherit;
+  }
+
   h1 {
     font-size: 56px;
   }

@@ -41,7 +41,8 @@ h1 {
   color: var(--primary);
 }
 
-#menu a {
+#menu a,
+#menu a * {
   font-size: 18px;
   font-weight: 500;
   font-style: normal;
@@ -442,4 +443,9 @@ main header h1 {
 
 .snap {
   scroll-snap-align: start;
+}
+
+main.snap {
+  padding-top: 60px;
+  margin-top: -60px;
 }

@@ -33,9 +33,14 @@
     <style>{% include "css/mq.css" %}</style>
     <script defer async>
       if (!window.location.hash) {
-        document.documentElement.classList.add('quick');
-        document.querySelector('#open').scrollIntoView(true);
-        document.documentElement.classList.remove('quick');
+        setTimeout(() => {
+
+          document.documentElement.classList.add('quick');
+          document.querySelector('main').scrollIntoView();
+          console.log('scrolling');
+
+          document.documentElement.classList.remove('quick');
+        }, 0);
       }
     </script>
 </body>
