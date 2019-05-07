@@ -29,6 +29,7 @@
 .menu-open #menu ul {
   width: 100%;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 .menu-open #open:before {
@@ -145,6 +146,13 @@
     height: 80px;
   }
 
+  .has-js #menu nav {
+    transform: none;
+    position: static;
+    border: 0;
+    width: auto;
+  }
+
   #menu .menu-controls {
     display: none;
   }
@@ -206,7 +214,6 @@
 </header>
 
 <script defer async>
-  const $ = s => document.querySelector(s);
   $('#open').onclick = e => {
     e.preventDefault();
     document.documentElement.classList.toggle('menu-open');

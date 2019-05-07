@@ -88,7 +88,7 @@
 
 @media only screen and (min-width: 700px) {
   .tweet-list {
-    height: calc(50 * 282px);
+    height: 2000px;
   }
 
   .tweet-list {

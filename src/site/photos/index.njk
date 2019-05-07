@@ -1,0 +1,18 @@
+---
+layout: layouts/base.njk
+css: photos.css
+---
+
+<section class="photos">
+  <header class="with-filter">
+    <h1><span id="count">Photos we like</span></h1>
+  </header>
+
+  <ul class="photos-list">
+  {% for photo in photos %}
+  <li>
+    <a target="_blank" href="{{ photo | toFlickrLink }}"><img src="{{ photo }}"></a>
+  </li>
+  {% endfor %}
+  </ul>
+</section>

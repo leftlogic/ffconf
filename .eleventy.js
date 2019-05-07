@@ -2,7 +2,9 @@ const { basename } = require('path');
 const markdownIt = require('markdown-it');
 const undefsafe = require('undefsafe');
 const format = require('date-fns/format');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 let env = process.env.ELEVENTY_ENV;
+
 const options = {
   html: true,
   breaks: true,
@@ -12,7 +14,16 @@ const options = {
 const markdown = markdownIt(options);
 
 module.exports = function(eleventyConfig) {
-  // Add filters to Nunjucks
+  eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addFilter('toFlickrLink', url => {
+    const id = url
+      .split('/')
+      .pop()
+      .split('_')
+      .shift();
+    return `http://flickr.com/photo.gne?id=${id}`;
+  });
   eleventyConfig.addFilter('kebab', require('./src/site/_filters/kebab'));
   eleventyConfig.addFilter('markdown', s => markdown.render(s));
   eleventyConfig.addFilter('format', (s, fmt) =>
