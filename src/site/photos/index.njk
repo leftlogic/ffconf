@@ -8,11 +8,26 @@ css: photos.css
     <h1><span id="count">Photos we like</span></h1>
   </header>
 
-  <ul class="photos-list">
+  <div id="photo-grid">
   {% for photo in photos | shuffle %}
-  <li>
-    <a target="_blank" href="{{ photo | toFlickrLink }}"><img src="{{ photo }}"></a>
-  </li>
+  <div class="grid-item">
+    <a target="_blank" href="{{ photo | toFlickrLink }}">
+      <img loading="lazy" src="{{ photo }}">
+    </a>
+  </div>
   {% endfor %}
-  </ul>
+  </div>
 </section>
+<script src="https://unpkg.com/macy@2.5.0/dist/macy.js"></script>
+<script >
+Macy({
+    container: '#photo-grid',
+    trueOrder: false,
+    waitForImages: false,
+    margin: 24,
+    columns: 3,
+    breakAt: {
+        900: 2,
+        420: 1,
+    }
+});</script>

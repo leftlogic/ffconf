@@ -3,6 +3,7 @@ const markdownIt = require('markdown-it');
 const undefsafe = require('undefsafe');
 const format = require('date-fns/format');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
+const Talks = require('./src/site/_data/talks');
 let env = process.env.ELEVENTY_ENV;
 
 const options = {
@@ -12,6 +13,8 @@ const options = {
 };
 
 const markdown = markdownIt(options);
+
+const shuffle = a => a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1));
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -37,9 +40,7 @@ module.exports = function(eleventyConfig) {
     require('./src/site/_filters/stringify')
   );
 
-  eleventyConfig.addFilter('shuffle', a =>
-    a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1))
-  );
+  eleventyConfig.addFilter('shuffle', shuffle);
 
   eleventyConfig.addFilter('sortBy', (source, prop) => {
     let m = 1;
@@ -76,6 +77,14 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/site/css');
   // eleventyConfig.addPassthroughCopy('src/site/manifest.json');
   // eleventyConfig.addPassthroughCopy('src/site/browserconfig.xml');
+
+  eleventyConfig.addCollection('randomLatest', async function(collection) {
+    const talks = await Talks();
+    const year = new Date().getFullYear();
+    const first = shuffle(talks.filter(_ => _.event.year == year - 1))[0];
+    const second = shuffle(talks.filter(_ => _.event.year == year - 2))[0];
+    return [first, second];
+  });
 
   eleventyConfig.addCollection('articles', function(collection) {
     const res = collection.getAllSorted().filter(function(item) {

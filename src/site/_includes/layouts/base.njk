@@ -3,15 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="source" content="https://github.com/leftlogic/ffconf">
     <link rel="preload" href="/fonts/basiersquare-regular-webfont.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/basiersquare-medium-webfont.woff2" as="font" type="font/woff2" crossorigin>
     <title>{%- if title -%}{{ title }} - ffconf{%- else -%}ffconf - Web development & JavaScript conference in Brighton, UK{%- endif -%}</title>
-    <style>{% include "css/global.css" %}</style>
-    <style>{% include "css/main.css" %}</style>
+    <link rel="stylesheet" href="/css/base.css">
     {% if css %}<link rel="stylesheet" href="/css/{{ css }}">{%endif%}
+    <link rel="stylesheet" href="/css/mq.css">
     <meta name="description" content="{%- if description -%}{{ description }}{%- else -%}ffconf - the UK's best JavaScript and Web conference in Brighton{%- endif -%}"/>
-    {% include "favicons.njk" %}
-    {# {% include "social.njk" %} #}
+    {%- include "favicons.njk" -%}
+    {%- include "social.njk" %}
     <script defer async>
       const $$ = s => Array.from(document.querySelectorAll(s));
       const $ = s => document.querySelector(s);
@@ -20,38 +21,19 @@
   <body id="{{ id }}">
     <div class="body">
       {% include "header.njk" %}
-        <main class="snap">
-          {% block content %}
-          {{ content | safe }}
-          {% endblock %}
-          {% block credits %}
-          {% endblock %}
-        </main>
-          {% include "newsletter.njk" %}
-          <footer>
-            <p>Organised by Left Logic, a small Brighton (UK) based development company, specialising in Node based applications and bleeding edge front end technology. Curated and created with much love, tears and sweat by Remy & Julie of Left Logic.</p>
-            <object class="logo" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
-          </footer>
-
+      <main class="snap">
+        {%- block content %}
+        {{ content | safe }}
+        {%- endblock %}
+        {%- block credits %}
+        {%- endblock %}
+      </main>
+      {% include "newsletter.njk" %}
+      <footer>
+        <p>Organised by Left Logic, a small Brighton (UK) based development company, specialising in Node based applications and bleeding edge front end technology. Curated and created with much love, tears and sweat by Remy & Julie of Left Logic.</p>
+        <object class="logo" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
+      </footer>
     </div>
-    <style>{% include "css/mq.css" %}</style>
-    <script defer async>
-      if (!window.location.hash) {
-        setTimeout(() => {
-          try {
-            if (window.innerWidth < 700) {
-              document.documentElement.classList.add('quick');
-              console.log('scrolling');
-
-              document.querySelector('main').scrollIntoView();
-              document.documentElement.classList.remove('quick');
-            }
-          } catch (e) {
-            // nothing
-          }
-        }, 0);
-      }
-    </script>
 </body>
 </html>
 

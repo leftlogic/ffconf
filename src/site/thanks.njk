@@ -1,0 +1,18 @@
+---
+id: home
+layout: layouts/base
+css: home.css
+---
+
+<section>
+  <header>
+    <h2 class="summary">Thanks! Now check your email to confirm your subscription, and you'll hear from our latest news and insights in the coming months</h2>
+  </header>
+
+  <div class="talk-text-cards">
+  {% set talk = talks[0] %}
+  {% include "talk-text-card.njk" %}
+  {% set talk = talks[1] %}
+  {% include "talk-text-card.njk" %}
+  </div>
+</section>

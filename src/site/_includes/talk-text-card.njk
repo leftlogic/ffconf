@@ -42,6 +42,7 @@
 
 @media only screen and (min-width: 700px) {
   .talk-text-card {
+    width: 50%;
     margin: 0 10px;
     text-align: center;
     background-image: url(/images/top-coral.svg);
@@ -64,7 +65,7 @@
 
 <section class="talk-text-card">
   <div>
-    <span class="pill active">Talks</span>
+    <span class="pill active">Talk from {{ talk.event.year }}</span>
     <p class="talk-text-card__speaker">{{ talk.speaker.name }}</p>
     <a class="talk-text-card__title" href="/talks/{{ talk.slug }}">{{ talk.title }}</a>
   </div>

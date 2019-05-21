@@ -8,9 +8,9 @@ css: tweets.css
     <h1><span id="count">Tweets we like</span></h1>
   </header>
 
-  <ul class="tweet-list">
+  <div class="tweet-list" id="grid">
   {% for tweet in tweets | sortBy("-date") %}
-  <li>
+    <div class="tweet-item">
 
       <header>
         <img class="avatar" src="{{ tweet.avatar }}">
@@ -28,7 +28,21 @@ css: tweets.css
         {% endif %}
       </div>
 
-  </li>
+    </div>
   {% endfor %}
-  </ul>
+  </div>
 </section>
+<script src="https://unpkg.com/macy@2.5.0/dist/macy.js"></script>
+<script >
+Macy({
+    container: '#grid',
+    trueOrder: true,
+    waitForImages: true,
+    margin: 24,
+    columns: 2,
+    breakAt: {
+        900: 2,
+        420: 1,
+    }
+});</script>
+

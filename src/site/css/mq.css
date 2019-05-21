@@ -85,6 +85,7 @@
     position: absolute;
     bottom: -14px;
   }
+
   .newsletter {
     margin: 0 40px;
     border-left-width: 2px;
@@ -115,5 +116,59 @@
     width: 45%;
     margin: 20px;  /* and that, will result in a 10px gap */
     border-radius: 2px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #menu {
+    background: white;
+    height: 80px;
+  }
+
+  .has-js #menu nav {
+    transform: none;
+    position: static;
+    border: 0;
+    width: auto;
+  }
+
+  #menu .menu-controls {
+    display: none;
+  }
+
+  #menu nav {
+    flex-grow: 0;
+    display: block;
+    width: auto;
+    margin-right: 40px;
+    margin-top: 0;
+    position: static;
+  }
+
+  #menu nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: auto;
+  }
+
+  #menu li {
+    margin: 0 10px;
+  }
+
+  #menu li:last-child {
+    margin-right: 0;
+  }
+
+  #menu .logo {
+    height: 96px;
+    width: 96px;
+    bottom: -40px;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  #menu li {
+    margin: 0 20px;
   }
 }

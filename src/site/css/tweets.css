@@ -24,11 +24,11 @@
   color: var(--salmon);
 }
 
-.tweet-list li {
+.tweet-list .tweet-item {
   padding: 32px;
   background: var(--box);
-  margin: 0;
-  margin-bottom: 32px;
+  /* margin: 0; */
+  /* margin-bottom: 32px; */
   width: 100%;
 }
 
@@ -37,11 +37,11 @@
   line-height: 0;
 }
 
-.tweet-list li .pill {
+.tweet-list .tweet-item .pill {
   background-color: var(--white);
 }
 
-.tweet-list li .Emoji {
+.tweet-list .tweet-item .Emoji {
   height: 1.25em;
   width: 1.25em;
   padding: 0 0.05em 0 0.1em;
@@ -75,6 +75,10 @@
   overflow: hidden;
 }
 
+.tweet-list .images.images-1 {
+  height: 280px;
+}
+
 .tweet-list .images img {
   width: 100%;
   height: 100%;
@@ -86,12 +90,28 @@
   grid-row: span 2;
 }
 
-@media only screen and (min-width: 700px) {
-  .tweet-list {
-    height: 2000px;
-  }
+.images-1 img {
+  grid-column: span 3;
+  grid-row: span 3;
+}
 
-  .tweet-list {
+.images-4 img:first-child {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+.images-4 img:nth-child(3) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+
+@media only screen and (min-width: 700px) {
+  /* .tweet-list {
+    height: 2000px;
+  } */
+
+  /* .tweet-list {
     display: flex;
     flex-flow: column wrap;
     align-content: space-between;
@@ -113,5 +133,5 @@
 
   .tweet-list li {
     width: 49%;
-  }
+  } */
 }

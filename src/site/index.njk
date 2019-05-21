@@ -14,9 +14,9 @@ css: home.css
   </header>
 
   <div class="talk-text-cards">
-  {% set talk = talks[0] %}
+  {% set talk = collections.randomLatest[0] %}
   {% include "talk-text-card.njk" %}
-  {% set talk = talks[1] %}
+  {% set talk = collections.randomLatest[1] %}
   {% include "talk-text-card.njk" %}
   </div>
 </section>
