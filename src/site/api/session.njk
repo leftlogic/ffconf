@@ -1,0 +1,8 @@
+---
+pagination:
+  data: talks
+  size: 1
+  alias: talk
+permalink: /api/session/{{ talk.slug }}/index.json
+---
+{{ talk | stringify | safe }}

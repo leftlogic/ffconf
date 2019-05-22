@@ -1,0 +1,20 @@
+---
+pagination:
+  data: years
+  size: 1
+  alias: year
+permalink: /api/event/{{ year }}/index.json
+---
+[
+{%- for talk in talks | filter("event.year", year) -%}
+  {
+    "title": "{{ talk.title | jsonEscape | safe }}",
+    "description": "{{ talk.description | jsonEscape | safe }}",
+    "speaker": {{ talk.speaker | stringify | safe }},
+    "slug": "{{ talk.slug }}",
+    "order": {{ talk.order }},
+    "time": "{{ talk.time }}",
+    "tags": {{ talk.tags | stringify | safe }}
+  }{%- if not loop.last -%},{%- endif -%}
+{%- endfor -%}
+]

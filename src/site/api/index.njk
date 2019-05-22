@@ -1,0 +1,19 @@
+---
+permalink: /api/index.json
+---
+[
+{%- for year in talks | unique("event.year") -%}
+  {
+    "year": {{ year }},
+    "url": "https://{{ year }}.ffconf.org",
+    "sessions": [
+    {%- for talk in talks | filter("event.year", year) -%}
+      {
+        "title": "{{ talk.title  | jsonEscape | safe }}",
+        "description": "{{ talk.description  | jsonEscape | safe }}"
+      }{%- if not loop.last -%},{%- endif -%}
+      {%- endfor -%}
+    ]
+  }{%- if not loop.last -%},{%- endif -%}
+{%- endfor -%}
+]

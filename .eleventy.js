@@ -53,6 +53,17 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter('filter', (source, prop, value) => {
+    return source.filter(source => {
+      const res = undefsafe(source, prop);
+      return res === value;
+    });
+  });
+
+  eleventyConfig.addFilter('jsonEscape', source =>
+    source.replace(/"/g, '\\"').replace(/\n/g, '\\n')
+  );
+
   eleventyConfig.addFilter('unique', (source, prop) => {
     const res = Array.from(
       new Set(
@@ -113,13 +124,10 @@ module.exports = function(eleventyConfig) {
     ghostMode: false,
   });
 
-  // make the prime target act like prod
-  env = env == 'prime' ? 'prod' : env;
   return {
     dir: {
       input: 'src/site',
       output: 'dist',
-      // data: `_data/${env}`,
     },
     templateFormats: ['njk', 'md'],
     htmlTemplateEngine: 'njk',

@@ -7,7 +7,7 @@ module.exports = router;
 const endpoint = 'https://api.graph.cool/simple/v1/ffconf';
 const client = new GraphQLClient(endpoint, { headers: {} });
 
-const clean = s => s.replace(/"/g, `\\"`).replace(/\n/g, '\\n');
+const clean = s => s.replace(/"/g, '\\"').replace(/\n/g, '\\n');
 
 const querySession = slug => `{
   Session(slug:"${slug}") {

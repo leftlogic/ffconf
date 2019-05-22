@@ -5,6 +5,7 @@ const query = `query {
   sessions(orderBy:order_ASC) {
     title
     slug
+    time
     description
     video
     audio
