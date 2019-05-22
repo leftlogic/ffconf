@@ -19,10 +19,18 @@ const main = async () => {
 
   const talks = await Talks();
 
+  const years = new Set();
+
   // add the api
   contents.push(
-    '/api /api/index.json',
-    '/api/event/2018 /api/event/2018/index.json'
+    '/api /api/index.json 200',
+    ...talks.map(_ => {
+      years.add(_.event.year);
+      return `/api/session/${_.slug} /api/session/${_.slug}/index.json 200`;
+    }),
+    ...Array.from(years).map(
+      year => `/api/event/${year} /api/event/${year}/index.json 200`
+    )
   );
 
   await writeFile(__dirname + '/dist/_redirects', contents.join('\n'));
