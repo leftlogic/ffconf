@@ -3,7 +3,7 @@ const markdownIt = require('markdown-it');
 const undefsafe = require('undefsafe');
 const format = require('date-fns/format');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
-const Talks = require('./src/site/_data/talks');
+const Talks = require('./src/_data/talks');
 let env = process.env.ELEVENTY_ENV;
 
 const options = {
@@ -27,7 +27,7 @@ module.exports = function(eleventyConfig) {
       .shift();
     return `http://flickr.com/photo.gne?id=${id}`;
   });
-  eleventyConfig.addFilter('kebab', require('./src/site/_filters/kebab'));
+  eleventyConfig.addFilter('kebab', require('./src/_filters/kebab'));
   eleventyConfig.addFilter('markdown', s => markdown.render(s));
   eleventyConfig.addFilter('format', (s, fmt) =>
     format(s, fmt || 'dddd D MMM YYYY')
@@ -35,10 +35,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('filename', s => {
     if (s) return basename(s);
   });
-  eleventyConfig.addFilter(
-    'stringify',
-    require('./src/site/_filters/stringify')
-  );
+  eleventyConfig.addFilter('stringify', require('./src/_filters/stringify'));
 
   eleventyConfig.addFilter('shuffle', shuffle);
 
@@ -83,11 +80,11 @@ module.exports = function(eleventyConfig) {
   });
 
   // static passthroughs
-  eleventyConfig.addPassthroughCopy('src/site/fonts');
-  eleventyConfig.addPassthroughCopy('src/site/images');
-  eleventyConfig.addPassthroughCopy('src/site/css');
-  eleventyConfig.addPassthroughCopy('src/site/_headers');
-  // eleventyConfig.addPassthroughCopy('src/site/browserconfig.xml');
+  eleventyConfig.addPassthroughCopy('src/fonts');
+  eleventyConfig.addPassthroughCopy('src/images');
+  eleventyConfig.addPassthroughCopy('src/css');
+  eleventyConfig.addPassthroughCopy('src/_headers');
+  // eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
 
   eleventyConfig.addCollection('randomLatest', async function(collection) {
     const talks = await Talks();
@@ -104,14 +101,12 @@ module.exports = function(eleventyConfig) {
       );
     });
 
-    const others = require('./src/site/articles/articles.json').posts.map(
-      post => {
-        return {
-          data: { ...post, tags: ['write up'] },
-          url: post.url,
-        };
-      }
-    );
+    const others = require('./src/articles/articles.json').posts.map(post => {
+      return {
+        data: { ...post, tags: ['write up'] },
+        url: post.url,
+      };
+    });
 
     return [...res, ...others].sort((a, b) => {
       return new Date(a.data.date).getTime() < new Date(b.data.date).getTime()
@@ -126,7 +121,7 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: 'src/site',
+      input: 'src',
       output: 'dist',
     },
     templateFormats: ['njk', 'md'],

@@ -3,7 +3,7 @@ const fs = require('fs');
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 const readdir = promisify(fs.readdir);
-const urls = require('./src/site/_data/twitter-urls.json');
+const urls = require('./src/_data/twitter-urls.json');
 const fetch = require('node-fetch');
 const cheerio = require('cheerio');
 const parse = require('date-fns/parse');
@@ -103,7 +103,7 @@ async function main() {
     })
   );
 
-  await writeFile('./src/site/_data/tweets.json', JSON.stringify(content));
+  await writeFile('./src/_data/tweets.json', JSON.stringify(content));
 }
 
 main();

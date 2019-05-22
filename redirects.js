@@ -3,7 +3,7 @@ const fs = require('fs');
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 const readdir = promisify(fs.readdir);
-const Talks = require('./src/site/_data/talks');
+const Talks = require('./src/_data/talks');
 
 const main = async () => {
   const files = await readdir(__dirname + '/redirects');
@@ -18,7 +18,6 @@ const main = async () => {
   );
 
   const talks = await Talks();
-
   const years = new Set();
 
   // add the api
