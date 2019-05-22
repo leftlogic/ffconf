@@ -30,7 +30,8 @@ const main = async () => {
     }),
     ...Array.from(years).map(
       year => `/api/event/${year} /api/event/${year}/index.json 200`
-    )
+    ),
+    '/api/* /api/404.json 404'
   );
 
   await writeFile(__dirname + '/dist/_redirects', contents.join('\n'));
