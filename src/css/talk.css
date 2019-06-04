@@ -1,11 +1,10 @@
-.talks .talk > header {
+.talk > header {
   padding: 0 32px;
 }
 
 .talk .back {
   margin-bottom: 35px;
 }
-
 
 .talk h1 {
   margin: 27px 0 50px 0;
@@ -46,7 +45,6 @@
 .speaker-image img {
   opacity: 0;
 }
-
 
 .talk .media audio {
   width: 100%;
@@ -129,6 +127,5 @@
   .talk > header,
   .talk .descriptions {
     padding: 0;
-
   }
 }

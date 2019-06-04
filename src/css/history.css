@@ -1,0 +1,77 @@
+.history a {
+  font-weight: 500;
+  color: var(--primary);
+  transition: color 150ms ease-out;
+}
+
+.history a:hover {
+  color: var(--salmon);
+}
+
+.history {
+  margin: 32px;
+  margin-top: 0;
+}
+
+.col {
+  column-gap: 48px;
+}
+
+.col > div {
+  break-inside: avoid-column;
+  margin-bottom: 40px;
+}
+
+.pill-list a {
+  text-decoration: none;
+  margin-right: 8px;
+}
+
+.pill-list a:hover {
+  background: var(--dark-grey);
+  color: white;
+}
+
+.team {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.involved {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.involved li {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.involved header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.involved p {
+  margin: 4px 0 8px 0;
+  font-size: 16px;
+}
+
+.involved img {
+  margin-right: 8px;
+  width: 36px;
+  border-radius: 50%;
+}
+
+@media only screen and (min-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .col {
+    columns: 2;
+  }
+}

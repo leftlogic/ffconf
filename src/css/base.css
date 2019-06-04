@@ -2,10 +2,11 @@
 @font-face {
   font-family: 'BasierSquare';
   src: url('/fonts/basiersquare-medium-webfont.eot');
-  src: url('/fonts/basiersquare-medium-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/basiersquare-medium-webfont.woff2') format('woff2'),
-       url('/fonts/basiersquare-medium-webfont.woff') format('woff'),
-       url('/fonts/basiersquare-medium-webfont.ttf') format('truetype');
+  src: url('/fonts/basiersquare-medium-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/basiersquare-medium-webfont.woff2') format('woff2'),
+    url('/fonts/basiersquare-medium-webfont.woff') format('woff'),
+    url('/fonts/basiersquare-medium-webfont.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -13,13 +14,13 @@
 @font-face {
   font-family: 'BasierSquare';
   src: url('/fonts/basiersquare-regular-webfont.eot');
-  src: url('/fonts/basiersquare-regular-webfont.eot?#iefix') format('embedded-opentype'),
-       url('/fonts/basiersquare-regular-webfont.woff2') format('woff2'),
-       url('/fonts/basiersquare-regular-webfont.woff') format('woff'),
-       url('/fonts/basiersquare-regular-webfont.ttf') format('truetype');
+  src: url('/fonts/basiersquare-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('/fonts/basiersquare-regular-webfont.woff2') format('woff2'),
+    url('/fonts/basiersquare-regular-webfont.woff') format('woff'),
+    url('/fonts/basiersquare-regular-webfont.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-
 }
 
 :root {
@@ -40,7 +41,8 @@
 }
 
 hr {
-  border-color: var(--box);
+  border-style: solid;
+  border-color: var(--light-grey);
   border-bottom: 0;
 }
 
@@ -356,7 +358,7 @@ html.quick {
   scroll-behavior: auto;
 }
 
-abbr[class^="dt"] {
+abbr[class^='dt'] {
   text-decoration: none;
 }
 
@@ -375,7 +377,13 @@ summary::-webkit-details-marker {
   display: none !important;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
 }
 
@@ -622,6 +630,9 @@ header.with-filter summary > span {
 }
 
 .pill-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
@@ -633,7 +644,7 @@ header.with-filter summary > span {
 }
 
 header.with-filter {
-  padding: 0 40px;
+  padding: 0 32px;
 }
 
 .with-filter details .body {
@@ -655,6 +666,11 @@ main header h1 {
   margin: 0 auto;
 }
 
+img.soft {
+  border-radius: 4px;
+  max-width: 100%;
+}
+
 .talk-card {
   height: 360px;
   display: flex;
@@ -662,7 +678,7 @@ main header h1 {
   background-size: cover;
   background-position: center;
   margin-bottom: 40px;
-  flex:1 1 auto;
+  flex: 1 1 auto;
 }
 
 .talk-card p {
@@ -681,7 +697,11 @@ main header h1 {
 
 .talk-card a:hover {
   text-decoration: none;
-  background-image: linear-gradient(to bottom, rgba(30, 30, 30, 0), var(--salmon));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(30, 30, 30, 0),
+    var(--salmon)
+  );
 }
 
 .talk-card a:hover * {
@@ -719,7 +739,8 @@ main header h1 {
   border: solid 2px var(--salmon);
   background-color: var(--white);
   padding: 8px;
-  background: url(/images/top-grey.svg) no-repeat top right, url(/images/bottom-grey.svg) no-repeat bottom left;
+  background: url(/images/top-grey.svg) no-repeat top right,
+    url(/images/bottom-grey.svg) no-repeat bottom left;
   background-origin: content-box;
   border-left-width: 0;
   border-right-width: 0;
@@ -798,7 +819,6 @@ main.snap {
   margin-top: -60px;
 }
 
-
 .has-js #menu {
   background: none;
   height: 70px;
@@ -847,7 +867,12 @@ main.snap {
 #menu {
   flex-wrap: wrap;
   width: 100%;
-  background: linear-gradient(rgb(255, 255, 255) 0, rgb(255, 255, 255) 70px, var(--light-grey) 70px, rgb(255, 255, 255) 72px);
+  background: linear-gradient(
+    rgb(255, 255, 255) 0,
+    rgb(255, 255, 255) 70px,
+    var(--light-grey) 70px,
+    rgb(255, 255, 255) 72px
+  );
   z-index: 100;
   display: flex;
   justify-content: space-between;
@@ -928,7 +953,6 @@ main.snap {
   margin-top: 0px;
   background-position: bottom;
 }
-
 
 #menu nav {
   display: block;

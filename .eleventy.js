@@ -79,6 +79,23 @@ module.exports = function(eleventyConfig) {
     return res;
   });
 
+  // Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars)
+  eleventyConfig.addShortcode('involved', function(
+    name,
+    url,
+    image,
+    sub,
+    what
+  ) {
+    return `
+    <header>
+      <img src="/images/involved/${image}" />
+      <span>${url ? `<a href="${url}">${name}</a>` : name}<br />
+        ${sub}</span>
+    </header>
+    <p>${what}</p>`;
+  });
+
   // static passthroughs
   eleventyConfig.addPassthroughCopy('src/fonts');
   eleventyConfig.addPassthroughCopy('src/images');
