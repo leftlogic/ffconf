@@ -36,7 +36,7 @@ metadata:
       <pubDate>{{ post.data.date | pubDate }}</pubDate>
       <guid>{{ absolutePostUrl }}</guid>
       <description>
-          <![CDATA[{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}]]>
+          <![CDATA[{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | safe }}]]>
       </description>
     </item>
     {%- endfor %}
