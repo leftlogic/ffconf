@@ -2,6 +2,7 @@ const { basename } = require('path');
 const markdownIt = require('markdown-it');
 const undefsafe = require('undefsafe');
 const format = require('date-fns/format');
+const parse = require('date-fns/parse');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const Talks = require('./src/_data/talks');
 let env = process.env.ELEVENTY_ENV;
@@ -32,6 +33,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('format', (s, fmt) =>
     format(s, fmt || 'dddd D MMM YYYY')
   );
+  eleventyConfig.addFilter('pubDate', s => parse(s).toUTCString());
   eleventyConfig.addFilter('filename', s => {
     if (s) return basename(s);
   });

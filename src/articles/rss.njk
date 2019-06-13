@@ -3,7 +3,7 @@ permalink: /articles.xml
 layout: false
 metadata:
   title: ffconf articles
-  url: https://ffconf.org/
+  url: https://ffconf.org/articles/
   feed:
     subtitle: Articles, news and community posts about ffconf
     filename: articles.xml
@@ -11,21 +11,34 @@ metadata:
     id: https://ffconf.org/
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.feed.subtitle }}</subtitle>
-  <link href="{{ metadata.feed.url }}" rel="self"/>
-  <link href="{{ metadata.url }}"/>
-  <updated>{{ collections.articles[0].date | format("ddd, DD MMM YYYY HH:mm:ss +0000") }}</updated>
-  <id>{{ metadata.feed.id }}</id>
-  {%- for post in collections.articles %}
-  {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
-  <entry>
-    <title>{{ post.data.title }}</title>
-    <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ post.date }}</updated>
-    <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
-  </entry>
-  {%- endfor %}
-</feed>
+<rss
+  version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ metadata.title }}</title>
+    <description>{{ metadata.feed.subtitle }}</description>
+    <link>{{ metadata.url }}</link>
+    <language>en</language>
+    <image>
+      <title>{{ metadata.title }}</title>
+      <link>{{ metadata.url }}</link>
+        <url>https://ffconf.org/images/logo.png</url>
+        <width>144</width>
+        <height>144</height>
+    </image>
+    <atom:link href="{{ metadata.feed.url }}" rel="self" type="application/rss+xml" />
+    {%- for post in collections.articles %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+    <item>
+      <title>{{ post.data.title }}</title>
+      <link>{{ absolutePostUrl }}</link>
+      <pubDate>{{ post.data.date | pubDate }}</pubDate>
+      <guid>{{ absolutePostUrl }}</guid>
+      <description>
+          <![CDATA[{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}]]>
+      </description>
+    </item>
+    {%- endfor %}
+  </channel>
+</rss>
