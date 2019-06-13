@@ -64,15 +64,18 @@
     display: block;
   }
 
-  .body > footer p {
-    margin-right: 180px;
-    margin-bottom: 0px;
+  .body > footer {
+    padding: 0 40px;
   }
 
-  .body > footer {
+  .body > footer p {
+    margin-right: 180px;
+    margin-bottom: 20px;
+  }
+
+  .body > footer> div {
     flex-direction: row;
     align-items: center;
-    padding: 0 40px;
   }
 
 

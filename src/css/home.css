@@ -64,7 +64,7 @@
   #home main:before {
     background-color: var(--salmon);
     content: '';
-    height: 60%;
+    height: 62%;
     width: 100%;
     position: absolute;
     left: 0;

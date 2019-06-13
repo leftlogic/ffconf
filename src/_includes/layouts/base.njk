@@ -30,8 +30,19 @@
       </main>
       {% include "newsletter.njk" %}
       <footer>
-        <p>Organised by Left Logic, a small Brighton (UK) based development company, specialising in Node based applications and bleeding edge front end technology. Curated and created with much love, tears and sweat by Remy & Julie of Left Logic.</p>
-        <object class="logo" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
+        <p class="previous-years">Previous years:
+        {% for year in years | reverse %}
+          <a
+            href="https://{{ year }}.ffconf.org"
+            target="_blank"
+            >{{ year }}</a
+          >
+        {% endfor %}
+        </p>
+        <div>
+          <p>Organised by Left Logic, a small Brighton (UK) based development company, specialising in Node based applications and bleeding edge front end technology. Curated and created with much love, tears and sweat by Remy & Julie of Left Logic.</p>
+          <object class="logo" height="25" width="110" type="image/svg+xml" data="/images/leftlogic.svg"><a href="https://leftlogic.com" target="_blank" class="left-logic">Left Logic</a></object>
+        </div>
       </footer>
     </div>
 </body>

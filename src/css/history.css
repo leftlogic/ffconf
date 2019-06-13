@@ -23,12 +23,14 @@
 }
 
 .pill-list a {
+  background: var(--salmon);
+  color: white;
   text-decoration: none;
   margin-right: 8px;
 }
 
 .pill-list a:hover {
-  background: var(--dark-grey);
+  background: var(--salmon-dark);
   color: white;
 }
 
@@ -64,6 +66,35 @@
   margin-right: 8px;
   width: 36px;
   border-radius: 50%;
+}
+
+.logo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logo-list a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: transform 50ms ease-out;
+}
+
+.logo-list a:hover {
+  transform: translateY(-2px);
+}
+
+.logo-list a span {
+  font-weight: bold;
+}
+
+.logo-list img {
+  padding: 8px;
 }
 
 @media only screen and (min-width: 700px) {
