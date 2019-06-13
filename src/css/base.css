@@ -980,3 +980,17 @@ main.snap {
   top: 110px;
   margin-top: 80px;
 }
+
+.heading-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-decoration: none;
+}
+
+.heading-link img {
+  margin-right: 8px;
+}
