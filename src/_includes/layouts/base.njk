@@ -18,6 +18,15 @@
       const $$ = s => Array.from(document.querySelectorAll(s));
       const $ = s => document.querySelector(s);
     </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1656750-37"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-1656750-37');
+    </script>
   </head>
   <body id="{{ id }}">
     <div class="body">
