@@ -104,6 +104,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/css');
   eleventyConfig.addPassthroughCopy('src/assets');
   eleventyConfig.addPassthroughCopy('src/_headers');
+  eleventyConfig.addPassthroughCopy('src/favicon.ico');
   // eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
 
   eleventyConfig.addCollection('randomLatest', async function(collection) {
