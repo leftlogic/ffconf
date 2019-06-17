@@ -23,6 +23,7 @@ const main = async () => {
   // add the api
   contents.push(
     '/api /api/index.json 200',
+    '/api/help /api/help/index.json 200',
     ...talks.map(_ => {
       years.add(_.event.year);
       return `/api/session/${_.slug} /api/session/${_.slug}/index.json 200`;
