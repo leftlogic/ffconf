@@ -1241,7 +1241,7 @@
       "description": "They say there's two things you never want to see made: sausages and web standards. Sooooo I'm going to tell you about both! How do browsers work? What are web components even? Everyone's using them and maybe you should too! 🆒🐱🎉",
       "video": "https://www.youtube.com/watch?v=326SIMmRjc8&list=PLXmT1r4krsToZPHKnv-kod6B_4DLqMTR4&index=4",
       "audio": "https://media.ffconf.org/2017/3.mp3",
-      "slides": null,
+      "slides": "https://speakerdeck.com/notwaldorf/how-to-train-your-dragon-web-standard",
       "order": 3,
       "tags": ["javascript", "standards"],
       "event": {
