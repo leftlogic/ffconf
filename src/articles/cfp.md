@@ -14,25 +14,26 @@ Here are the topics that I often think about around ffconf in no particular orde
 ## Code, development
 
 - Testing, in particular integration tests and selenium/full end to end cross browser testing
-- Accessibility first hand, what is the impact of our work?
+- Accessibility first hand, what is the impact of our work? ([example](/talks/technologic-human-after-all-accessibility-remix/))
 - Forget ES2019: what about ES2049 aka ES Blade Runner?
 - Tick box guide to security and/or performance
 - How our development practices are changing
-- Data science with the web
+- Data science with the web ([example](/talks/lessons-learned-sciencing-the-web/))
+- Fun, eccentric, art ([example](/talks/weird-web/))
 
 ## Process, ideas
 
 - The army of one: the developer that does it all (what motivates you day-to-day, what inspires you, any war stories from the web)
-- The (social) importance of progressive web apps
-- History of the tech we take for granted
+- The (social) importance of progressive web apps ([example](/talks/if-youre-going-out-of-san-francisco-be-sure-to-wear-web-standards-in-your-hair/))
+- History of the tech we take for granted ([example](/talks/tales-of-suckage-and-awesomeness/))
 
 ## Bettering ourselves and others
 
-- Community and how do we reduce the ratio of White Dudes in web
+- Community and how do we reduce the ratio of White Dudes in web ([example](/talks/abstract-art-in-a-time-of-minification/))
 - Is (or are) there other languages/disciplines that web developers should learn from?
-- What it's like to start out in web development (1st person POV). What's hard, what's easy, what helps, what doesn't?
-- Teaching the next generation of developers (in, or straight of school)
-- The sharp end of open source
+- What it's like to start out in web development (1st person POV). What's hard, what's easy, what helps, what doesn't? ([example](/talks/mentoring/))
+- Teaching the next generation of developers (in, or straight of school) ([example](/talks/dear-developer/))
+- The sharp end of open source ([example](/talks/navigating-open-source/))
 
 ---
 
@@ -47,6 +48,8 @@ Topics that don't work, unless they're genuinely going to change the World, then
 Send us the title of your talk, an outline of the talk and any extra information you want us to know about the idea:
 
 <a class="pill pill-cta" href="https://ffconf.org/cfp-apply">Apply now</a>
+
+## When will you hear back?
 
 It takes me a long time to process and decide on CFPs, so whilst there's not 8 sessions up on the site, it means your talk is still up for consideration. I will respond to everyone with a yay or nay eventually. If you want to come to ffconf, regardless of whether your CFP is selected, please buy a ticket and if your talk is selected, the ticket will be refunded and returns to the public pool of tickets.
 
