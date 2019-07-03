@@ -47,9 +47,16 @@ const Query = {
   event: (parent, { year }) => {
     return get(events, 'year', parseInt(year, 10));
   },
+  events: (parent, { where }) => {
+    if (!where) {
+      return events;
+    }
+
+    return events.filter(_ => _.year == where.year);
+  },
   sessions: (parent, { where }) => {
-    if (where) {
-      return [];
+    if (!where) {
+      return sessions;
     }
 
     return sessions;

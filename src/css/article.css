@@ -16,6 +16,28 @@
   color: var(--salmon);
 }
 
+.article .body .pill-cta {
+  font-size: 16px;
+  border-radius: 999px;
+  background-color: var(--salmon);
+  display: block;
+  text-align: center;
+  user-select: none;
+  white-space: nowrap;
+  font-size: 18px;
+  color: var(--white);
+  padding: 15px 28px;
+  cursor: pointer;
+  text-decoration: none;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.article .body .pill-cta:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
 h2 {
   font-size: 22px;
   font-weight: 500;

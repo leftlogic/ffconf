@@ -13,11 +13,12 @@ const options = {
   linkify: true,
 };
 
-const markdown = markdownIt(options);
+const markdown = markdownIt(options).use(require('markdown-it-named-headings'));
 
 const shuffle = a => a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1));
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.setLibrary('md', markdown);
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addFilter('toFlickrLink', url => {
@@ -136,9 +137,9 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-  eleventyConfig.setBrowserSyncConfig({
-    ghostMode: false,
-  });
+  // eleventyConfig.setBrowserSyncConfig({
+  //   ghostMode: false,
+  // });
 
   return {
     dir: {

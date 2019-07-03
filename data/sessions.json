@@ -1168,5 +1168,65 @@
     "time": "17:00",
     "title": "Weird Web & Curious Creation",
     "tags": ["fun", "creativity"]
+  },
+  {
+    "speakerId": "2019-git",
+    "slug": "getting-more-from-git",
+    "id": "getting-more-from-git",
+    "duration": 40,
+    "eventId": "2019",
+    "title": "Getting more from Git",
+    "description": "Git is like a Swiss Army Knife for telling the story of your project. Yet most of us are only using the big knife and maybe the scissors to fudge our code into version control. In this talk we're going to learn about some more advanced Git commands and some history too.",
+    "tags": ["development & ops"]
+  },
+  {
+    "speakerId": "2019-perf",
+    "slug": "effortless-performance-debugging",
+    "id": "effortless-performance-debugging",
+    "duration": 40,
+    "eventId": "2019",
+    "title": "Effortless Performance Debugging",
+    "description": "During the session we will talk about the causes of painful performance and look into simple and actionable steps how to make a website more performant with a little effort.",
+    "tags": ["javascript", "performance"]
+  },
+  {
+    "speakerId": "2019-art",
+    "slug": "taking-the-web-off-the-screen",
+    "id": "taking-the-web-off-the-screen",
+    "duration": 40,
+    "eventId": "2019",
+    "title": "Taking The Web Off The Screen",
+    "description": "The rise of generative art has brought a whole new wave of creativity to the web; this talk is about the myriad of ways we can use all that coding knowledge to make cool art in the physical realm.",
+    "tags": ["javascript", "creativity"]
+  },
+  {
+    "speakerId": "2019-empathy",
+    "slug": "empathy",
+    "id": "empathy",
+    "duration": 40,
+    "eventId": "2019",
+    "title": "Engaging Empathy",
+    "description": "Empathy and vulnerability aren’t necessarily two words associated with professional success, but they're invaluable to achieving long-term goals leaders set for their companies. Lets both define what those look like at work and how to engage them for optimized collaboration.",
+    "tags": ["betterment", "community"]
+  },
+  {
+    "speakerId": "2019-ms-makes-money",
+    "slug": "ms-makes-money",
+    "id": "ms-makes-money",
+    "duration": 40,
+    "eventId": "2019",
+    "title": "Untitled web business talk",
+    "description": "TBA",
+    "tags": ["betterment"]
+  },
+  {
+    "speakerId": "2019-nerdverse",
+    "slug": "nerdverse",
+    "id": "nerdverse",
+    "duration": 40,
+    "eventId": "2019",
+    "title": "Adventures in reinventing interfaces",
+    "description": "Computers and other electronic devices existed for a long time before the web made its debut. Can modern web interfaces help invigorate the small computing space, while driving a new set of creative developers to invent better and more playful experiences?",
+    "tags": ["javascript", "iot", "fun"]
   }
 ]
