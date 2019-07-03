@@ -11,7 +11,7 @@ const main = async () => {
     files.map(filename => {
       return readFile(__dirname + '/redirects/' + filename, 'utf8').then(
         url => {
-          return `/${filename.trim()} ${url.trim()} 307`;
+          return `/${filename.trim()} ${url.trim()} 302`;
         }
       );
     })
