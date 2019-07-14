@@ -10,7 +10,10 @@
         "audio": "https://media.ffconf.org/2009/1-christian.mp3",
         "slides": "http://www.wait-till-i.com/2009/11/21/frontloaded-and-zipped-up-the-full-frontal-2009-keynote/",
         "order": 1,
-        "tags": ["standards", "big web ideas"],
+        "tags": [
+          "standards",
+          "big web ideas"
+        ],
         "event": {
           "year": "2009"
         },
@@ -30,7 +33,9 @@
         "audio": "https://media.ffconf.org/2009/7-simon.mp3",
         "slides": "http://simonwillison.net/2009/Nov/23/node/",
         "order": 7,
-        "tags": ["javascript"],
+        "tags": [
+          "javascript"
+        ],
         "event": {
           "year": "2009"
         },
@@ -50,7 +55,9 @@
         "audio": "https://media.ffconf.org/2009/5-todd.mp3",
         "slides": null,
         "order": 5,
-        "tags": ["accessibility"],
+        "tags": [
+          "accessibility"
+        ],
         "event": {
           "year": "2009"
         },
@@ -70,7 +77,9 @@
         "audio": "https://media.ffconf.org/2009/4-sil.mp3",
         "slides": null,
         "order": 4,
-        "tags": ["standards"],
+        "tags": [
+          "standards"
+        ],
         "event": {
           "year": "2009"
         },
@@ -90,7 +99,10 @@
         "audio": "https://media.ffconf.org/2009/2-robert.mp3",
         "slides": "http://www.slideshare.net/robnyman/javascript-from-birth-to-closure",
         "order": 2,
-        "tags": ["javascript", "standards"],
+        "tags": [
+          "javascript",
+          "standards"
+        ],
         "event": {
           "year": "2009"
         },
@@ -110,7 +122,9 @@
         "audio": "https://media.ffconf.org/2009/6-jake.mp3",
         "slides": "https://www.slideshare.net/jaffathecake/optimising-where-it-hurts-jake-archibald",
         "order": 6,
-        "tags": ["performance"],
+        "tags": [
+          "performance"
+        ],
         "event": {
           "year": "2009"
         },
@@ -130,7 +144,9 @@
         "audio": "https://media.ffconf.org/2009/3-ppk.mp3",
         "slides": "http://www.quirksmode.org/blog/archives/2009/11/presentations_t.html",
         "order": 3,
-        "tags": ["mobile"],
+        "tags": [
+          "mobile"
+        ],
         "event": {
           "year": "2009"
         },
@@ -150,7 +166,9 @@
         "audio": "https://media.ffconf.org/2010/2.mp3",
         "slides": null,
         "order": 2,
-        "tags": ["big web ideas"],
+        "tags": [
+          "big web ideas"
+        ],
         "event": {
           "year": "2010"
         },
@@ -170,7 +188,12 @@
         "audio": "https://media.ffconf.org/2010/3.mp3",
         "slides": null,
         "order": 3,
-        "tags": ["svg", "css", "javascript", "fun"],
+        "tags": [
+          "svg",
+          "css",
+          "javascript",
+          "fun"
+        ],
         "event": {
           "year": "2010"
         },
@@ -190,7 +213,9 @@
         "audio": "https://media.ffconf.org/2010/4.mp3",
         "slides": "http://www.slideshare.net/danwrong/bringing-the-sameorigin-policy-to-its-knees",
         "order": 4,
-        "tags": ["javascript"],
+        "tags": [
+          "javascript"
+        ],
         "event": {
           "year": "2010"
         },
@@ -210,7 +235,10 @@
         "audio": "https://media.ffconf.org/2010/1.mp3",
         "slides": "https://infrequently.org/10/ffjs/ffjs.html",
         "order": 1,
-        "tags": ["big web ideas", "standards"],
+        "tags": [
+          "big web ideas",
+          "standards"
+        ],
         "event": {
           "year": "2010"
         },
@@ -230,7 +258,9 @@
         "audio": "https://media.ffconf.org/2010/6.mp3",
         "slides": "https://www.slideshare.net/brianleroux/fullfrontal-2010",
         "order": 6,
-        "tags": ["mobile"],
+        "tags": [
+          "mobile"
+        ],
         "event": {
           "year": "2010"
         },
@@ -250,7 +280,9 @@
         "audio": null,
         "slides": "https://media.ffconf.org/2010/5.mp3",
         "order": 5,
-        "tags": ["performance"],
+        "tags": [
+          "performance"
+        ],
         "event": {
           "year": "2010"
         },
@@ -270,7 +302,10 @@
         "audio": "https://media.ffconf.org/2010/7.mp3",
         "slides": "http://www.flickr.com/photos/sebleedelisle/sets/72157625272358371/",
         "order": 7,
-        "tags": ["fun", "creativity"],
+        "tags": [
+          "fun",
+          "creativity"
+        ],
         "event": {
           "year": "2010"
         },
@@ -290,7 +325,10 @@
         "audio": "https://media.ffconf.org/2011/ff2011-06-beyond-the-page.mp3",
         "slides": "https://www.slideshare.net/glennjones/beyond-the-page-10122856",
         "order": 6,
-        "tags": ["standards", "big web ideas"],
+        "tags": [
+          "standards",
+          "big web ideas"
+        ],
         "event": {
           "year": "2011"
         },
@@ -310,7 +348,10 @@
         "audio": "https://media.ffconf.org/2011/ff2011-04-cloud9-on-node.mp3",
         "slides": null,
         "order": 4,
-        "tags": ["javascript", "development & ops"],
+        "tags": [
+          "javascript",
+          "development & ops"
+        ],
         "event": {
           "year": "2011"
         },
@@ -330,7 +371,9 @@
         "audio": "https://media.ffconf.org/2011/ff2011-02-excessive.mp3",
         "slides": "https://speakerdeck.com/philhawksworth/excessive-enhancement",
         "order": 2,
-        "tags": ["standards"],
+        "tags": [
+          "standards"
+        ],
         "event": {
           "year": "2011"
         },
@@ -350,7 +393,9 @@
         "audio": "https://media.ffconf.org/2011/ff2011-05-scalable-apps.mp3",
         "slides": "https://www.slideshare.net/nzakas/scalable-javascript-application-architecture",
         "order": 5,
-        "tags": ["development & ops"],
+        "tags": [
+          "development & ops"
+        ],
         "event": {
           "year": "2011"
         },
@@ -370,7 +415,10 @@
         "audio": "https://media.ffconf.org/2011/ff2011-03-respectful-code-editing.mp3",
         "slides": "http://marijnhaverbeke.nl/talks/ff2011/",
         "order": 3,
-        "tags": ["javascript", "performance"],
+        "tags": [
+          "javascript",
+          "performance"
+        ],
         "event": {
           "year": "2011"
         },
@@ -390,7 +438,9 @@
         "audio": "https://media.ffconf.org/2011/ff2011-07-beyond-the-planet-of-geeks.mp3",
         "slides": null,
         "order": 7,
-        "tags": ["fun"],
+        "tags": [
+          "fun"
+        ],
         "event": {
           "year": "2011"
         },
@@ -410,7 +460,10 @@
         "audio": "https://media.ffconf.org/2011/ff2011-08-you-gotta-do.mp3",
         "slides": null,
         "order": 8,
-        "tags": ["fun", "creativity"],
+        "tags": [
+          "fun",
+          "creativity"
+        ],
         "event": {
           "year": "2011"
         },
@@ -430,7 +483,10 @@
         "audio": "https://media.ffconf.org/2011/ff2011-01-coffeescript.mp3",
         "slides": null,
         "order": 1,
-        "tags": ["big web ideas", "javascript"],
+        "tags": [
+          "big web ideas",
+          "javascript"
+        ],
         "event": {
           "year": "2011"
         },
@@ -450,7 +506,11 @@
         "audio": "https://media.ffconf.org/2012/8-chris.mp3",
         "slides": "https://speakerdeck.com/cwilso/tales-of-suckage-and-awesomeness",
         "order": 3,
-        "tags": ["fun", "standards", "history"],
+        "tags": [
+          "fun",
+          "standards",
+          "history"
+        ],
         "event": {
           "year": "2012"
         },
@@ -470,7 +530,10 @@
         "audio": "https://media.ffconf.org/2012/1-james.mp3",
         "slides": "https://speakerdeck.com/jamesgpearce/23181",
         "order": 7,
-        "tags": ["mobile", "javascript"],
+        "tags": [
+          "mobile",
+          "javascript"
+        ],
         "event": {
           "year": "2012"
         },
@@ -490,7 +553,10 @@
         "audio": "https://media.ffconf.org/2012/5-paul.mp3",
         "slides": "https://speakerdeck.com/paulkinlan/building-web-apps-of-the-future-tomorrow-today-and-yesterday",
         "order": 1,
-        "tags": ["standards", "javascript"],
+        "tags": [
+          "standards",
+          "javascript"
+        ],
         "event": {
           "year": "2012"
         },
@@ -510,7 +576,10 @@
         "audio": "https://media.ffconf.org/2012/7-steven.mp3",
         "slides": "http://acko.net/files/fullfrontal/fullfrontal/slides-net/",
         "order": 4,
-        "tags": ["fun", "creativity"],
+        "tags": [
+          "fun",
+          "creativity"
+        ],
         "event": {
           "year": "2012"
         },
@@ -530,7 +599,11 @@
         "audio": "https://media.ffconf.org/2012/2-john.mp3",
         "slides": "http://johnfallsopp.com/presentations/presentations/FullFrontal/preso.html?presenter",
         "order": 5,
-        "tags": ["mobile", "javascript", "standards"],
+        "tags": [
+          "mobile",
+          "javascript",
+          "standards"
+        ],
         "event": {
           "year": "2012"
         },
@@ -550,7 +623,9 @@
         "audio": "https://media.ffconf.org/2012/3-andrew.mp3",
         "slides": "https://speakerdeck.com/triblondon/offline-rules-full-frontal-2012",
         "order": 6,
-        "tags": ["offline"],
+        "tags": [
+          "offline"
+        ],
         "event": {
           "year": "2012"
         },
@@ -570,7 +645,9 @@
         "audio": "https://media.ffconf.org/2012/6-rebecca.mp3",
         "slides": "https://speakerdeck.com/rmurphey/writing-testable-javascript",
         "order": 2,
-        "tags": ["testing"],
+        "tags": [
+          "testing"
+        ],
         "event": {
           "year": "2012"
         },
@@ -590,7 +667,10 @@
         "audio": "https://media.ffconf.org/2012/4-anna.mp3",
         "slides": "https://speakerdeck.com/anna/exploring-the-game-console-browser-landscape",
         "order": 8,
-        "tags": ["mobile", "performance"],
+        "tags": [
+          "mobile",
+          "performance"
+        ],
         "event": {
           "year": "2012"
         },
@@ -610,7 +690,10 @@
         "audio": "https://media.ffconf.org/2013/3-mccann.mp3",
         "slides": "http://www.slideshare.net/joemccann/mobile-is-not-a-thing-it-is-everything",
         "order": 3,
-        "tags": ["mobile", "big web ideas"],
+        "tags": [
+          "mobile",
+          "big web ideas"
+        ],
         "event": {
           "year": "2013"
         },
@@ -630,7 +713,10 @@
         "audio": "https://media.ffconf.org/2013/2-nesbitt.mp3",
         "slides": "https://speakerdeck.com/andrew/javascript-in-the-real-world",
         "order": 2,
-        "tags": ["javascript", "iot"],
+        "tags": [
+          "javascript",
+          "iot"
+        ],
         "event": {
           "year": "2013"
         },
@@ -650,7 +736,9 @@
         "audio": "https://media.ffconf.org/2013/1-croll.mp3",
         "slides": "https://speakerdeck.com/anguscroll/es6-uncensored",
         "order": 1,
-        "tags": ["javascript"],
+        "tags": [
+          "javascript"
+        ],
         "event": {
           "year": "2013"
         },
@@ -670,7 +758,10 @@
         "audio": "https://media.ffconf.org/2013/4-grieve.mp3",
         "slides": "https://docs.google.com/presentation/d/1onNCD7APXOwbG58hvXdlogLDXbpId-KDeOLqr8xJ79Y/pub?start=false&loop=false&delayms=3000",
         "order": 4,
-        "tags": ["performance", "mobile"],
+        "tags": [
+          "performance",
+          "mobile"
+        ],
         "event": {
           "year": "2013"
         },
@@ -690,7 +781,9 @@
         "audio": "https://media.ffconf.org/2013/5-auchenberg.mp3",
         "slides": "http://auchenberg.github.io/presentations/fullfrontal-our-web-development-workflow-is-completely-broken/",
         "order": 5,
-        "tags": ["development & ops"],
+        "tags": [
+          "development & ops"
+        ],
         "event": {
           "year": "2013"
         },
@@ -710,7 +803,10 @@
         "audio": "https://media.ffconf.org/2013/8-keith.mp3",
         "slides": "https://speakerdeck.com/adactio/time",
         "order": 8,
-        "tags": ["big web ideas", "standards"],
+        "tags": [
+          "big web ideas",
+          "standards"
+        ],
         "event": {
           "year": "2013"
         },
@@ -730,7 +826,9 @@
         "audio": "https://media.ffconf.org/2013/7-fabbro.mp3",
         "slides": "http://afabbro.github.io/jsconfcolombia-2013-mobile-apps-with-brick/",
         "order": 7,
-        "tags": ["standards"],
+        "tags": [
+          "standards"
+        ],
         "event": {
           "year": "2013"
         },
@@ -750,7 +848,10 @@
         "audio": "https://media.ffconf.org/2013/6-tudor.mp3",
         "slides": null,
         "order": 6,
-        "tags": ["fun", "css"],
+        "tags": [
+          "fun",
+          "css"
+        ],
         "event": {
           "year": "2013"
         },
@@ -770,7 +871,9 @@
         "audio": "https://media.ffconf.org/2014/1-scott.mp3",
         "slides": null,
         "order": 1,
-        "tags": ["iot"],
+        "tags": [
+          "iot"
+        ],
         "event": {
           "year": "2014"
         },
@@ -790,7 +893,9 @@
         "audio": "https://media.ffconf.org/2014/4-andy.mp3",
         "slides": "https://wingolog.org/pub/ffconf-2014-slides.pdf",
         "order": 4,
-        "tags": ["javascript"],
+        "tags": [
+          "javascript"
+        ],
         "event": {
           "year": "2014"
         },
@@ -810,7 +915,10 @@
         "audio": "https://media.ffconf.org/2014/7-soledad.mp3",
         "slides": "https://web.archive.org/web/20150318191757/http://soledadpenades.com/files/t/20141107_ffconf/",
         "order": 7,
-        "tags": ["fun", "audio"],
+        "tags": [
+          "fun",
+          "audio"
+        ],
         "event": {
           "year": "2014"
         },
@@ -830,7 +938,9 @@
         "audio": "https://media.ffconf.org/2014/5-tobias.mp3",
         "slides": null,
         "order": 5,
-        "tags": ["css"],
+        "tags": [
+          "css"
+        ],
         "event": {
           "year": "2014"
         },
@@ -850,7 +960,9 @@
         "audio": "https://media.ffconf.org/2014/3-hannah.mp3",
         "slides": "https://speakerdeck.com/erisds/navigating-open-source",
         "order": 3,
-        "tags": ["community"],
+        "tags": [
+          "community"
+        ],
         "event": {
           "year": "2014"
         },
@@ -870,7 +982,10 @@
         "audio": "https://media.ffconf.org/2014/8-ben.mp3",
         "slides": null,
         "order": 8,
-        "tags": ["mobile", "fun"],
+        "tags": [
+          "mobile",
+          "fun"
+        ],
         "event": {
           "year": "2014"
         },
@@ -890,7 +1005,9 @@
         "audio": "https://media.ffconf.org/2014/6-henrick.mp3",
         "slides": "https://speakerdeck.com/henrikjoreteg/ffconf-dot-org",
         "order": 6,
-        "tags": ["javascript"],
+        "tags": [
+          "javascript"
+        ],
         "event": {
           "year": "2014"
         },
@@ -910,7 +1027,10 @@
         "audio": "https://media.ffconf.org/2014/2-caolan.mp3",
         "slides": null,
         "order": 2,
-        "tags": ["offline", "javascript"],
+        "tags": [
+          "offline",
+          "javascript"
+        ],
         "event": {
           "year": "2014"
         },
@@ -930,7 +1050,10 @@
         "audio": "https://media.ffconf.org/2015/4.mp3",
         "slides": "https://johnkpaul.github.io/presentations/ffconf/2015/WebAudioPhenomenon/assets/player/KeynoteDHTMLPlayer.html",
         "order": 4,
-        "tags": ["fun", "audio"],
+        "tags": [
+          "fun",
+          "audio"
+        ],
         "event": {
           "year": "2015"
         },
@@ -950,7 +1073,9 @@
         "audio": "https://media.ffconf.org/2015/6.mp3",
         "slides": "https://speakerdeck.com/paullewis/framework-here-its-the-bestestest",
         "order": 6,
-        "tags": ["performance"],
+        "tags": [
+          "performance"
+        ],
         "event": {
           "year": "2015"
         },
@@ -970,7 +1095,9 @@
         "audio": "https://media.ffconf.org/2015/1.mp3",
         "slides": null,
         "order": 1,
-        "tags": ["javascript"],
+        "tags": [
+          "javascript"
+        ],
         "event": {
           "year": "2015"
         },
@@ -990,7 +1117,10 @@
         "audio": "https://media.ffconf.org/2015/8.mp3",
         "slides": null,
         "order": 8,
-        "tags": ["community", "betterment"],
+        "tags": [
+          "community",
+          "betterment"
+        ],
         "event": {
           "year": "2015"
         },
@@ -1010,7 +1140,9 @@
         "audio": "https://media.ffconf.org/2015/3.mp3",
         "slides": "http://www.slideshare.net/annashipman/operations-a-developers-guide",
         "order": 3,
-        "tags": ["development & ops"],
+        "tags": [
+          "development & ops"
+        ],
         "event": {
           "year": "2015"
         },
@@ -1030,7 +1162,9 @@
         "audio": "https://media.ffconf.org/2015/2.mp3",
         "slides": null,
         "order": 2,
-        "tags": ["svg"],
+        "tags": [
+          "svg"
+        ],
         "event": {
           "year": "2015"
         },
@@ -1050,7 +1184,10 @@
         "audio": "https://media.ffconf.org/2015/7.mp3",
         "slides": "https://speakerdeck.com/aemkei/code-calligrams",
         "order": 7,
-        "tags": ["fun", "creativity"],
+        "tags": [
+          "fun",
+          "creativity"
+        ],
         "event": {
           "year": "2015"
         },
@@ -1070,7 +1207,9 @@
         "audio": "https://media.ffconf.org/2015/5.mp3",
         "slides": "http://marcysutton.github.io/mobile-a11y/",
         "order": 5,
-        "tags": ["accessibility"],
+        "tags": [
+          "accessibility"
+        ],
         "event": {
           "year": "2015"
         },
@@ -1090,7 +1229,9 @@
         "audio": "https://media.ffconf.org/2016/6.mp3",
         "slides": null,
         "order": 6,
-        "tags": ["development & ops"],
+        "tags": [
+          "development & ops"
+        ],
         "event": {
           "year": "2016"
         },
@@ -1110,7 +1251,9 @@
         "audio": "https://media.ffconf.org/2016/7.mp3",
         "slides": "https://ashleygwilliams.github.io/ffconf-2016/",
         "order": 7,
-        "tags": ["community"],
+        "tags": [
+          "community"
+        ],
         "event": {
           "year": "2016"
         },
@@ -1130,7 +1273,11 @@
         "audio": "https://media.ffconf.org/2016/5.mp3",
         "slides": null,
         "order": 5,
-        "tags": ["fun", "creativity", "history"],
+        "tags": [
+          "fun",
+          "creativity",
+          "history"
+        ],
         "event": {
           "year": "2016"
         },
@@ -1150,7 +1297,9 @@
         "audio": "https://media.ffconf.org/2016/3.mp3",
         "slides": "http://ljwatson.github.io/decks/2016/ffconf/index.html",
         "order": 3,
-        "tags": ["accessibility"],
+        "tags": [
+          "accessibility"
+        ],
         "event": {
           "year": "2016"
         },
@@ -1170,7 +1319,9 @@
         "audio": "https://media.ffconf.org/2016/1.mp3",
         "slides": "\"http://www.slideshare.net/rachelandrew/nextlevel-css",
         "order": 1,
-        "tags": ["css"],
+        "tags": [
+          "css"
+        ],
         "event": {
           "year": "2016"
         },
@@ -1190,7 +1341,10 @@
         "audio": "https://media.ffconf.org/2016/8.mp3",
         "slides": "http://www.p01.org/artjs_at_ffconf/",
         "order": 8,
-        "tags": ["fun", "creativity"],
+        "tags": [
+          "fun",
+          "creativity"
+        ],
         "event": {
           "year": "2016"
         },
@@ -1210,7 +1364,9 @@
         "audio": "https://media.ffconf.org/2016/4.mp3",
         "slides": "https://www.binarysludge.com/2016/11/11/talk-all-things-continuous-at-ffconf/",
         "order": 4,
-        "tags": ["development & ops"],
+        "tags": [
+          "development & ops"
+        ],
         "event": {
           "year": "2016"
         },
@@ -1230,7 +1386,10 @@
         "audio": "https://media.ffconf.org/2016/2.mp3",
         "slides": null,
         "order": 2,
-        "tags": ["javascript", "standards"],
+        "tags": [
+          "javascript",
+          "standards"
+        ],
         "event": {
           "year": "2016"
         },
@@ -1250,7 +1409,9 @@
         "audio": "https://media.ffconf.org/2017/1.mp3",
         "slides": null,
         "order": 1,
-        "tags": ["big web ideas"],
+        "tags": [
+          "big web ideas"
+        ],
         "event": {
           "year": "2017"
         },
@@ -1270,7 +1431,9 @@
         "audio": "https://media.ffconf.org/2017/5.mp3",
         "slides": null,
         "order": 5,
-        "tags": ["big web ideas"],
+        "tags": [
+          "big web ideas"
+        ],
         "event": {
           "year": "2017"
         },
@@ -1290,7 +1453,10 @@
         "audio": "https://media.ffconf.org/2017/2.mp3",
         "slides": "https://speakerdeck.com/brucel/ffconf-brighton-9-10-november-2017",
         "order": 2,
-        "tags": ["standards", "big web ideas"],
+        "tags": [
+          "standards",
+          "big web ideas"
+        ],
         "event": {
           "year": "2017"
         },
@@ -1310,7 +1476,10 @@
         "audio": "https://media.ffconf.org/2017/3.mp3",
         "slides": null,
         "order": 3,
-        "tags": ["javascript", "standards"],
+        "tags": [
+          "javascript",
+          "standards"
+        ],
         "event": {
           "year": "2017"
         },
@@ -1330,7 +1499,9 @@
         "audio": "https://media.ffconf.org/2017/4.mp3",
         "slides": "https://speakerdeck.com/addyosmani/lessons-learned-sciencing-the-web",
         "order": 4,
-        "tags": ["performance"],
+        "tags": [
+          "performance"
+        ],
         "event": {
           "year": "2017"
         },
@@ -1350,7 +1521,9 @@
         "audio": "https://media.ffconf.org/2017/6.mp3",
         "slides": null,
         "order": 6,
-        "tags": ["development & ops"],
+        "tags": [
+          "development & ops"
+        ],
         "event": {
           "year": "2017"
         },
@@ -1370,7 +1543,9 @@
         "audio": "https://media.ffconf.org/2017/7.mp3",
         "slides": null,
         "order": 7,
-        "tags": ["community"],
+        "tags": [
+          "community"
+        ],
         "event": {
           "year": "2017"
         },
@@ -1390,7 +1565,9 @@
         "audio": "https://media.ffconf.org/2017/8.mp3",
         "slides": null,
         "order": 8,
-        "tags": ["fun"],
+        "tags": [
+          "fun"
+        ],
         "event": {
           "year": "2017"
         },
@@ -1410,7 +1587,11 @@
         "audio": "https://media.ffconf.org/2018/3.mp3",
         "slides": "https://noti.st/lisi/whJN75/practical-web-animation",
         "order": 3,
-        "tags": ["creativity", "javascript", "css"],
+        "tags": [
+          "creativity",
+          "javascript",
+          "css"
+        ],
         "event": {
           "year": "2018"
         },
@@ -1430,7 +1611,10 @@
         "audio": "https://media.ffconf.org/2018/1.mp3",
         "slides": "https://docs.google.com/presentation/d/12Nz165q_-x7d8-K6uy5p935JCIGekL1Q1IM8HWxents/edit",
         "order": 1,
-        "tags": ["community", "betterment"],
+        "tags": [
+          "community",
+          "betterment"
+        ],
         "event": {
           "year": "2018"
         },
@@ -1450,7 +1634,9 @@
         "audio": "https://media.ffconf.org/2018/7.mp3",
         "slides": "https://speakerdeck.com/rem/using-a-modern-web-to-recreate-1980s-horribly-slow-and-loud-loading-screens",
         "order": 7,
-        "tags": ["fun"],
+        "tags": [
+          "fun"
+        ],
         "event": {
           "year": "2018"
         },
@@ -1470,7 +1656,10 @@
         "audio": "https://media.ffconf.org/2018/2.mp3",
         "slides": "https://noti.st/eleanorhap/dHp5ny/the-future-of-javascript-machine-learning",
         "order": 2,
-        "tags": ["machine learning", "javascript"],
+        "tags": [
+          "machine learning",
+          "javascript"
+        ],
         "event": {
           "year": "2018"
         },
@@ -1490,7 +1679,9 @@
         "audio": "https://media.ffconf.org/2018/4.mp3",
         "slides": "https://speakerdeck.com/missjwo/is-it-possible-to-build-a-truly-diverse-community",
         "order": 4,
-        "tags": ["community"],
+        "tags": [
+          "community"
+        ],
         "event": {
           "year": "2018"
         },
@@ -1510,7 +1701,9 @@
         "audio": "https://media.ffconf.org/2018/5.mp3",
         "slides": "",
         "order": 5,
-        "tags": ["javascript"],
+        "tags": [
+          "javascript"
+        ],
         "event": {
           "year": "2018"
         },
@@ -1530,7 +1723,9 @@
         "audio": "https://media.ffconf.org/2018/6.mp3",
         "slides": "",
         "order": 6,
-        "tags": ["standards"],
+        "tags": [
+          "standards"
+        ],
         "event": {
           "year": "2018"
         },
@@ -1550,7 +1745,10 @@
         "audio": "https://media.ffconf.org/2018/8.mp3",
         "slides": "",
         "order": 8,
-        "tags": ["fun", "creativity"],
+        "tags": [
+          "fun",
+          "creativity"
+        ],
         "event": {
           "year": "2018"
         },
@@ -1570,7 +1768,9 @@
         "audio": null,
         "slides": null,
         "order": 1,
-        "tags": ["development & ops"],
+        "tags": [
+          "development & ops"
+        ],
         "event": {
           "year": "2019"
         },
@@ -1590,7 +1790,10 @@
         "audio": null,
         "slides": null,
         "order": 2,
-        "tags": ["javascript", "performance"],
+        "tags": [
+          "javascript",
+          "performance"
+        ],
         "event": {
           "year": "2019"
         },
@@ -1610,7 +1813,10 @@
         "audio": null,
         "slides": null,
         "order": 5,
-        "tags": ["javascript", "creativity"],
+        "tags": [
+          "javascript",
+          "creativity"
+        ],
         "event": {
           "year": "2019"
         },
@@ -1630,7 +1836,10 @@
         "audio": null,
         "slides": null,
         "order": 3,
-        "tags": ["betterment", "community"],
+        "tags": [
+          "betterment",
+          "community"
+        ],
         "event": {
           "year": "2019"
         },
@@ -1638,7 +1847,7 @@
           "name": "",
           "photo": "",
           "twitter": "",
-          "bio": ""
+          "bio": "I always loved the tech industry but I couldn't code and never worked at a tech company. So I started speaking at conferences about what I knew: stuttering, marketing and vulnerability. One day, I got invited to speak at a tech conf (Hi @jremsikjr 👋🏾)"
         }
       },
       {
@@ -1650,7 +1859,9 @@
         "audio": null,
         "slides": null,
         "order": 4,
-        "tags": ["betterment"],
+        "tags": [
+          "betterment"
+        ],
         "event": {
           "year": "2019"
         },
@@ -1670,7 +1881,11 @@
         "audio": null,
         "slides": null,
         "order": 6,
-        "tags": ["javascript", "iot", "fun"],
+        "tags": [
+          "javascript",
+          "iot",
+          "fun"
+        ],
         "event": {
           "year": "2019"
         },
@@ -1678,7 +1893,7 @@
           "name": "",
           "photo": "",
           "twitter": "",
-          "bio": ""
+          "bio": "My dad brought home our first family computer, a second-hand Commodore 64, when all of my friends were already using PCs with Windows 3.1. I fell in love with programming from that first day of typing commands in BASIC."
         }
       }
     ]
