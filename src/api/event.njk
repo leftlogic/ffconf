@@ -12,7 +12,7 @@ permalink: /api/event/{{ year }}/index.json
     "description": "{{ talk.description | jsonEscape | safe }}",
     "speaker": {{ talk.speaker | stringify | safe }},
     "slug": "{{ talk.slug }}",
-    "order": {{ talk.order }},
+    "order": {{ talk.order | stringify | safe }},
     "time": "{{ talk.time }}",
     "tags": {{ talk.tags | stringify | safe }}
   }{%- if not loop.last -%},{%- endif -%}
