@@ -52,7 +52,9 @@ const Query = {
       return events;
     }
 
-    return events.filter(_ => _.year == where.year);
+    return events.filter(
+      _ => parseInt(_.year, 10) === parseInt(where.year, 10)
+    );
   },
   sessions: (parent, { where }) => {
     if (!where) {
