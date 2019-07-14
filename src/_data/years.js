@@ -1,4 +1,4 @@
-const talks = require('./_talks.json').sessions;
+const talks = require('./_talks.json').data.sessions;
 
 module.exports = () => {
   const res = Array.from(

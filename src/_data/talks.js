@@ -24,7 +24,9 @@ const query = `query {
   }
 }`;
 
-const client = { request: () => Promise.resolve(require('./_talks.json')) };
+const client = {
+  request: () => Promise.resolve(require('./_talks.json').data),
+};
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
