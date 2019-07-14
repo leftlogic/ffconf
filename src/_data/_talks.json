@@ -1680,6 +1680,46 @@
           "twitter": "",
           "bio": ""
         }
+      },
+      {
+        "title": "TBA - maybe you?",
+        "slug": "2019-unknown1",
+        "time": null,
+        "description": "This talk is yet to be finalised. We have an [open CFP](https://ffconf.org/articles/cfp/) which you can apply to, perhaps this is your time?",
+        "video": null,
+        "audio": null,
+        "slides": null,
+        "order": null,
+        "tags": [],
+        "event": {
+          "year": "2019"
+        },
+        "speaker": {
+          "name": "",
+          "photo": "",
+          "twitter": "",
+          "bio": ""
+        }
+      },
+      {
+        "title": "TBA - maybe you?",
+        "slug": "2019-unknown2",
+        "time": null,
+        "description": "This talk is yet to be finalised. We have an [open CFP](https://ffconf.org/articles/cfp/) which you can apply to, perhaps this is your time?",
+        "video": null,
+        "audio": null,
+        "slides": null,
+        "order": null,
+        "tags": [],
+        "event": {
+          "year": "2019"
+        },
+        "speaker": {
+          "name": "",
+          "photo": "",
+          "twitter": "",
+          "bio": ""
+        }
       }
     ]
   }

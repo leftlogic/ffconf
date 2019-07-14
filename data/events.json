@@ -52,6 +52,7 @@
   {
     "id": "2019",
     "url": "https://2019.ffconf.org",
-    "year": 2019
+    "year": 2019,
+    "archive": false
   }
 ]

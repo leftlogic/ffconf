@@ -1228,5 +1228,25 @@
     "title": "Adventures in reinventing interfaces",
     "description": "Computers and other electronic devices existed for a long time before the web made its debut. Can modern web interfaces help invigorate the small computing space, while driving a new set of creative developers to invent better and more playful experiences?",
     "tags": ["javascript", "iot", "fun"]
+  },
+  {
+    "speakerId": "2019-unknown1",
+    "slug": "2019-unknown1",
+    "id": "2019-unknown1",
+    "duration": 40,
+    "eventId": "2019",
+    "title": "TBA - maybe you?",
+    "description": "This talk is yet to be finalised. We have an [open CFP](https://ffconf.org/articles/cfp/) which you can apply to, perhaps this is your time?",
+    "tags": []
+  },
+  {
+    "speakerId": "2019-unknown2",
+    "slug": "2019-unknown2",
+    "id": "2019-unknown2",
+    "duration": 40,
+    "eventId": "2019",
+    "title": "TBA - maybe you?",
+    "description": "This talk is yet to be finalised. We have an [open CFP](https://ffconf.org/articles/cfp/) which you can apply to, perhaps this is your time?",
+    "tags": []
   }
 ]

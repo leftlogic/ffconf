@@ -5,6 +5,9 @@ const format = require('date-fns/format');
 const parse = require('date-fns/parse');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const Talks = require('./src/_data/talks');
+const liveYears = require('./data/events.json')
+  .filter(_ => _.archive !== false)
+  .map(_ => _.year);
 let env = process.env.ELEVENTY_ENV;
 
 const options = {
@@ -60,9 +63,17 @@ module.exports = function(eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter('length', source => source.length);
+
   eleventyConfig.addFilter('jsonEscape', source =>
     source.replace(/"/g, '\\"').replace(/\n/g, '\\n')
   );
+
+  eleventyConfig.addFilter('liveTalks', talks => {
+    return talks.filter(talk =>
+      liveYears.includes(parseInt(talk.event.year, 10))
+    );
+  });
 
   eleventyConfig.addFilter('unique', (source, prop) => {
     const res = Array.from(
@@ -109,7 +120,9 @@ module.exports = function(eleventyConfig) {
   // eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
 
   eleventyConfig.addCollection('randomLatest', async function(collection) {
-    const talks = await Talks();
+    const talks = await Talks().then(talks =>
+      talks.filter(talk => liveYears.includes(parseInt(talk.event.year, 10)))
+    );
     const year = new Date().getFullYear();
     const first = shuffle(talks.filter(_ => _.event.year == year - 1))[0];
     const second = shuffle(talks.filter(_ => _.event.year == year - 2))[0];
