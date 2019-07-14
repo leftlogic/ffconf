@@ -22,6 +22,7 @@ const main = async () => {
 
   // add the api
   contents.push(
+    '/graphql https://ffconf-graphql.isthe.link/ 200',
     '/api /api/index.json 200',
     '/api/help /api/help/index.json 200',
     ...talks.map(_ => {
