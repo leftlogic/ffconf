@@ -13,7 +13,7 @@
     "server": "PORT=7000 node ./graphql",
     "dev": "eleventy --serve",
     "redirects": "node ./redirects.js",
-    "build": "eleventy && npm run redirects",
+    "build": "eleventy && npm run redirects && test -e dist/index.html",
     "now-start": "node ./graphql"
   },
   "author": "Remy Sharp",
