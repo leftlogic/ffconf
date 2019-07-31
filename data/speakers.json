@@ -394,7 +394,7 @@
   {
     "name": "Angus Croll",
     "photo": "/images/speakers/angusc.jpg",
-    "bio": "Angus is a displaced Brit who now works for Twitter’s web platform team in San Francisco, and is one of the principal authors and maintainers of Twitter's Flight web framework. He's obsessed with JavaScript and literature in equal measure, and is a passionate advocate for the greater involvement of artists and creative thinkers in software.",
+    "bio": "Angus is a displaced Brit who now works for Twitter's web platform team in San Francisco, and is one of the principal authors and maintainers of Twitter's Flight web framework. He's obsessed with JavaScript and literature in equal measure, and is a passionate advocate for the greater involvement of artists and creative thinkers in software.",
     "id": "cja08vv56ypnt0183koqgbgm4",
     "twitter": "angustweets"
   },
@@ -443,7 +443,7 @@
   {
     "name": "Jeremy Keith",
     "photo": "/images/speakers/jeremyk.jpg",
-    "bio": "Jeremy Keith lives in Brighton, England where he makes websites with the splendid design agency [Clearleft](http://clearleft.com). You may know him from such books as [DOM Scripting: JavaScript’s New Hope](http://domscripting.com/), [Bulletproof Ajax: The Browser Strikes Back](http://bulletproofajax.com/), and [HTML5 For Web Designers: Return Of The Standards](http://html5forwebdesigners.com/).\n\n\n\nHe’s the curator of the [dConstruct conference](http://dconstruct.org/) as well as [Brighton SF](http://brightonsf.adactio.com/), and he organised the world’s first [Science Hack Day](http://sciencehackday.com/). He also made the website [Huffduffer](http://huffduffer.com/) to allow people to make podcasts of found sounds—it’s like Instapaper for audio files.\n\n\n\nJeremy spends most of his time goofing off on the internet, documenting his time-wasting on [adactio.com](http://adactio.com), where he has been writing for over ten years.",
+    "bio": "Jeremy Keith lives in Brighton, England where he makes websites with the splendid design agency [Clearleft](http://clearleft.com). You may know him from such books as [DOM Scripting: JavaScript's New Hope](http://domscripting.com/), [Bulletproof Ajax: The Browser Strikes Back](http://bulletproofajax.com/), and [HTML5 For Web Designers: Return Of The Standards](http://html5forwebdesigners.com/).\n\n\n\nHe's the curator of the [dConstruct conference](http://dconstruct.org/) as well as [Brighton SF](http://brightonsf.adactio.com/), and he organised the world's first [Science Hack Day](http://sciencehackday.com/). He also made the website [Huffduffer](http://huffduffer.com/) to allow people to make podcasts of found sounds—it's like Instapaper for audio files.\n\n\n\nJeremy spends most of his time goofing off on the internet, documenting his time-wasting on [adactio.com](http://adactio.com), where he has been writing for over ten years.",
     "id": "cja08vv5lz6a40116rarmsnbo",
     "twitter": "adactio"
   },
@@ -492,7 +492,7 @@
   {
     "name": "Lisi Linhart",
     "photo": "/images/speakers/lisil.jpg",
-    "bio": "Studied city planning for some time, but since I’m quite an impatient person and it takes decades to build cities, I decided to build websites instead. Still loving having immediate results and instant feedback from people interacting with what I build.",
+    "bio": "Studied city planning for some time, but since I'm quite an impatient person and it takes decades to build cities, I decided to build websites instead. Still loving having immediate results and instant feedback from people interacting with what I build.",
     "id": "cjialrmraly2g0197f58ajmiw",
     "twitter": "lisi_linhart"
   },
@@ -564,7 +564,7 @@
   },
   {
     "id": "2019-ms-makes-money",
-    "bio": "",
+    "bio": "I'm a failed designer who learned it the hard way: I was much better at coding my portfolio site than I was at designing it. I decided to admit defeat and stick with keyboards and clearfixes.",
     "photo": "",
     "twitter": "",
     "name": ""
