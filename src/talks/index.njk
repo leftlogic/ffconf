@@ -30,7 +30,7 @@ css: talk.css
   <div class="talk-list">
     <ul>
     {%- for talk in talks | liveTalks %}
-      <li class="talk-card" style="background-image: url({{ talk.speaker.photo }})" data-year="{{ talk.event.year }}" data-tags=" {{ talk.tags | join(" ") }} ">
+      <li class="talk-card" style="background-image: url(/images/__holding.png)" data-image="{{ talk.speaker.photo }}" data-year="{{ talk.event.year }}" data-tags=" {{ talk.tags | join(" ") }} ">
         <a href="/talks/{{ talk.slug }}/">
           <header>
             <h2>
@@ -48,6 +48,32 @@ css: talk.css
 
 <script async defer>
 const talks = $$('.talk-card');
+
+function observerImages() {
+  if (typeof IntersectionObserver !== 'undefined') {
+    var observer = new IntersectionObserver(function(changes) {
+      if ('connection' in navigator && navigator.connection.saveData === true) {
+        return;
+      }
+      changes.forEach(function(change) {
+        if (change.isIntersecting) {
+          change.target.setAttribute(
+            'style',
+            `background-image: url(${change.target.getAttribute('data-image')})`
+          );
+          observer.unobserve(change.target);
+        }
+      });
+    });
+
+    document.querySelectorAll('li[data-image]').forEach(function(img) {
+      observer.observe(img);
+    });
+  }
+}
+
+observerImages();
+
 
 $('details').onchange = e => {
   let reset = true;
