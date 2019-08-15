@@ -14,6 +14,8 @@
     "dev": "eleventy --serve",
     "redirects": "node ./redirects.js",
     "build": "eleventy && npm run redirects && test -e dist/index.html",
+    "postbuild": "now --token=$NOW_TOKEN && now alias --token $NOW_TOKEN",
+    "now-build": "true",
     "now-start": "node ./graphql"
   },
   "author": "Remy Sharp",
@@ -49,6 +51,7 @@
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
-    "node-fetch": "^2.4.1"
+    "node-fetch": "^2.4.1",
+    "now": "^16.1.1"
   }
 }

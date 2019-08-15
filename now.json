@@ -1,4 +1,15 @@
 {
   "version": 1,
-  "alias": "ffconf-graphql.isthe.link"
+  "alias": "ffconf-graphql.isthe.link",
+  "scale": {
+    "bru1": {
+      "min": 0,
+      "max": 1
+    }
+  },
+  "files": [
+    "graphql",
+    "data",
+    "package.json"
+  ]
 }
