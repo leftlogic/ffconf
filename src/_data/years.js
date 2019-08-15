@@ -1,9 +1,11 @@
-const talks = require('./_talks.json').data.sessions;
+const talks = require('./talks');
 
-module.exports = () => {
+module.exports = async () => {
+  const sessions = await talks();
+
   const res = Array.from(
     new Set(
-      talks.reduce((acc, curr) => {
+      sessions.reduce((acc, curr) => {
         const res = curr.event.year;
 
         if (Array.isArray(res)) {

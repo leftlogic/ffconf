@@ -6,6 +6,7 @@
   },
   "globals": {},
   "rules": {
+    "no-console": 0,
     "camelcase": 2,
     "curly": 2,
     "eqeqeq": 2,

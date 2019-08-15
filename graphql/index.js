@@ -1,24 +1,27 @@
-const { GraphQLServer } = require('graphql-yoga');
+const express = require('express');
+const { ApolloServer, gql } = require('apollo-server-express');
+const { readFileSync } = require('fs');
 const resolvers = require('./resolvers');
 
-const server = new GraphQLServer({
-  typeDefs: 'graphql/schema.graphql',
-  resolvers,
-  playground: true,
-});
+const typeDefs = gql(readFileSync(__dirname + '/schema.graphql', 'utf8'));
 
-server.express.disable('x-powered-by');
+const server = new ApolloServer({ typeDefs, resolvers });
+
+const app = express();
+app.disable('x-powered-by');
+server.applyMiddleware({ app, path: '/' });
 
 module.exports = {
   resolvers,
-  GraphQLServer,
-  server,
+  server
 };
 
-const port = process.env.PORT;
+const port = process.env.PORT || 7000;
 
 if (!module.parent) {
-  server.start({ port }, url => {
-    console.log(`🚀📈 Server ready at http://localhost:${url.port}`);
+  app.listen({ port }, () => {
+    console.log(
+      `🚀📈 Server ready at http://localhost:${port}${server.graphqlPath}`
+    );
   });
 }
