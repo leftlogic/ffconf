@@ -1234,5 +1234,16 @@
     "title": "Adventures in reinventing interfaces",
     "description": "Computers and other electronic devices existed for a long time before the web made its debut. Can modern web interfaces help invigorate the small computing space, while driving a new set of creative developers to invent better and more playful experiences?",
     "tags": ["javascript", "iot", "fun"]
+  },
+  {
+    "speakerId": "2019-privacy",
+    "slug": "privacy",
+    "id": "privacy",
+    "duration": 40,
+    "order": 7,
+    "eventId": "2019",
+    "title": "8 Unbelievable Things You Never Knew About Tracking",
+    "description": "The web, and big tech at large, is tracking our every move, habit, and facial expression. As developers who are also users, we both contribute to the surveillance system and are exploited by it. But it doesn’t have to be this way.",
+    "tags": ["big web ideas"]
   }
 ]
