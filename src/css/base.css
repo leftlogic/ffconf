@@ -994,3 +994,17 @@ main.snap {
 .heading-link img {
   margin-right: 8px;
 }
+
+blockquote {
+  border-left: 4px solid var(--salmon);
+  margin-left: 0;
+  padding: 0 24px;
+  border-radius: 0;
+  margin: 28px 1em 28px 0;
+  max-width: 70ch;
+}
+
+blockquote p {
+  font-style: italic;
+  margin: 14px 0;
+}
