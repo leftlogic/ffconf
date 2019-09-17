@@ -9,7 +9,7 @@ Our scheme is now in its 5th year and ours is one of the few conferences who als
 
 We're also extremely proud to know that other events have used our scholarship scheme as a template for their own events - go team inclusion 💪
 
-We all have our part to play in in working towards inclusive and safe environments that can foster diversity. For us, Julie and Remy, our conference's scholarship is our platform for just that.
+We all have our part to play in working towards inclusive and safe environments that can foster diversity. For us, Julie and Remy, our conference's scholarship is our platform for just that.
 
 Our scholarship (and many others we've seen) are open to:
 
