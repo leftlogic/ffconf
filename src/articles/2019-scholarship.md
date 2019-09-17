@@ -28,13 +28,11 @@ This is what one scholarship recipient had to say about ffconf last year:
 >
 > It is run as a partnership with Julie and her husband Remy who work very hard to make the conference run smoothly, enjoyable and valuable.
 >
-> It has been built up over 10 years on lovely values which you can feel when you attend, observe in their tweets and how they administer the build up to the event.
->
 > The eclectic mix of talks which I have kept record of on my tweets to refer back to as there was so much knowledge, and experience gathered in one room.
 
 It's also with yours and your company's help that we're able to make this happen. More specifically, thank you to the 5 individuals who bought tickets and the 8 individuals who made a donation towards travel and accommodation.
 
-It is also with the help of our sponsors that we can budget for the needs of the programme.
+We couldn't do it without the help of our sponsors as their support means can budget for the needs of the programme.
 
 Those sponsors include:
 
@@ -59,7 +57,7 @@ Please also take a moment to read these messages from a few of those sponsors ab
 >
 > We're excited to be a part of this years event, we hope you enjoy it, and we look forward to seeing you in November!
 
-– Unmade, London - [developer.nexmo.com](https://developer.nexmo.com/)
+– Unmade, London - [unmade.com](https://www.unmade.com/)
 
 ---
 
