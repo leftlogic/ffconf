@@ -3,22 +3,13 @@ title: "We ❤️ scholarship"
 date: 2019-09-17
 ---
 
-Today our scholarship application closes and we've received over 100 applications.
+Our scholarship application is now closed, and we've received over 100 applications.
 
-Our scheme is now in its 5th year and ours is one of the few conferences who also offer ticket, travel _and_ accommodation costs to reduce the barriers of entry.
+The scheme is now in its 5th year and is one of the few conferences who also offer ticket, travel _and_ accommodation costs to reduce the barriers of entry.
 
 We're also extremely proud to know that other events have used our scholarship scheme as a template for their own events - go team inclusion 💪
 
 We all have our part to play in working towards inclusive and safe environments that can foster diversity. For us, Julie and Remy, our conference's scholarship is our platform for just that.
-
-Our scholarship (and many others we've seen) are open to:
-
-- People of colour
-- People with disabilities
-- People who identify as LGBTQIA+
-- Women
-- People who work for nonprofit/educational/government institutions with limited funds
-- People who are currently unemployed / underemployed
 
 It is **truly an honour** to be able to provide scholarships to individuals, and to have ffconf play part of their journey.
 
