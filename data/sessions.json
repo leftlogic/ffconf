@@ -1245,5 +1245,16 @@
     "title": "8 Unbelievable Things You Never Knew About Tracking",
     "description": "The web, and big tech at large, is tracking our every move, habit, and facial expression. As developers who are also users, we both contribute to the surveillance system and are exploited by it. But it doesn’t have to be this way.",
     "tags": ["big web ideas"]
+  },
+  {
+    "speakerId": "2019-what-does-it-take",
+    "slug": "what-does-it-take",
+    "id": "what-does-it-take",
+    "duration": 40,
+    "order": 8,
+    "eventId": "2019",
+    "title": "What does it take to become a developer in 2019?",
+    "description": "Amina shares her story about what it takes to become a developer after teaching herself how to code, juggling a full-time job and baby.",
+    "tags": ["betterment", "community"]
   }
 ]

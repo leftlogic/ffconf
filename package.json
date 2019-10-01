@@ -53,6 +53,7 @@
   },
   "devDependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "eslint": "^6.5.1",
     "node-fetch": "^2.6.0",
     "now": "^16.1.1"
   }

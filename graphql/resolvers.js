@@ -16,7 +16,7 @@ const Types = {
     websites: parent =>
       Object.entries(get(speakers, 'id', parent.id).websites || {}).map(
         ([title, url]) => ({ title, url })
-      ),
+      )
   },
   Session: {
     event: parent => {
@@ -24,11 +24,11 @@ const Types = {
     },
     speaker: parent => {
       return get(speakers, 'id', parent.speakerId);
-    },
+    }
   },
   Event: {
-    sessions: parent => getAll(sessions, 'eventId', parent.id),
-  },
+    sessions: parent => getAll(sessions, 'eventId', parent.id)
+  }
 };
 
 const Query = {
@@ -61,11 +61,19 @@ const Query = {
       return sessions;
     }
 
+    if (where.id) {
+      return sessions.filter(_ => _.id === where.id);
+    }
+
+    if (where.slug) {
+      return sessions.filter(_ => _.slug === where.slug);
+    }
+
     return sessions;
-  },
+  }
 };
 
 module.exports = {
   ...Types,
-  Query,
+  Query
 };
