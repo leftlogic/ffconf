@@ -1,6 +1,6 @@
-const events = require('../data/events.json');
-const sessions = require('../data/sessions.json');
-const speakers = require('../data/speakers.json');
+const events = require('./data/events.json');
+const sessions = require('./data/sessions.json');
+const speakers = require('./data/speakers.json');
 
 function get(source, key, match) {
   return source.find(_ => _[key] === match);

@@ -1,0 +1,14 @@
+{
+  "name": "ffconf-graphql",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Remy Sharp (https://remysharp.com)",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-micro": "^2.9.4",
+    "graphql": "^14.5.8"
+  }
+}

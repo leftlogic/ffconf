@@ -14,7 +14,7 @@
     "dev": "eleventy --serve",
     "redirects": "node ./redirects.js",
     "build": "eleventy && npm run redirects && test -e dist/index.html",
-    "postbuild": "now --token=$NOW_TOKEN && now alias --token $NOW_TOKEN",
+    "postbuild": "cd graphql/; now --token=$NOW_TOKEN && now alias --token $NOW_TOKEN",
     "now-build": "true",
     "now-start": "node ./graphql"
   },

@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "alias": "ffconf-graphql.isthe.link",
+  "builds": [{ "src": "*.js", "use": "@now/node" }]
+}

@@ -5,7 +5,7 @@ const format = require('date-fns/format');
 const parse = require('date-fns/parse');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const Talks = require('./src/_data/talks');
-const liveYears = require('./data/events.json')
+const liveYears = require('./graphql/data/events.json')
   .filter(_ => _.archive !== false)
   .map(_ => _.year);
 let env = process.env.ELEVENTY_ENV;
@@ -13,7 +13,7 @@ let env = process.env.ELEVENTY_ENV;
 const options = {
   html: true,
   breaks: true,
-  linkify: true,
+  linkify: true
 };
 
 const markdown = markdownIt(options).use(require('markdown-it-named-headings'));
@@ -139,7 +139,7 @@ module.exports = function(eleventyConfig) {
     const others = require('./src/articles/articles.json').posts.map(post => {
       return {
         data: { ...post, tags: ['write up'] },
-        url: post.url,
+        url: post.url
       };
     });
 
@@ -157,11 +157,11 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: 'src',
-      output: 'dist',
+      output: 'dist'
     },
     templateFormats: ['njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
-    passthroughFileCopy: true,
+    passthroughFileCopy: true
   };
 };
