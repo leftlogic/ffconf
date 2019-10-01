@@ -11,29 +11,6 @@ const server = new ApolloServer({
   introspection: true
 });
 
-if (module.parent) {
-  module.exports = {
-    resolvers,
-    server
-  };
-} else {
-  module.exports = server.createHandler({ path: '/' });
-}
-
-// if (!module.parent) {
-//   app.listen({ port }, () => {
-//     console.log(
-//       `🚀📈 Server ready at http://localhost:${port}${server.graphqlPath}`
-//     );
-//   });
-// }
-
-// const port = process.env.PORT || 7000;
-
-// if (!module.parent) {
-//   app.listen({ port }, () => {
-//     console.log(
-//       `🚀📈 Server ready at http://localhost:${port}${server.graphqlPath}`
-//     );
-//   });
-// }
+module.exports = server.createHandler({ path: '/' });
+module.exports.resolvers = resolvers;
+module.exports.server = server;
