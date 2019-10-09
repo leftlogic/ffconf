@@ -10,6 +10,15 @@ function getAll(source, key, match) {
   return source.filter(_ => _[key] === match);
 }
 
+function order(field, direction) {
+  direction = direction === 'ASC' ? -1 : 1;
+  return (a, b) => {
+    // console.log(a[field], field, direction);
+
+    return a[field] < b[field] ? direction : direction * -1;
+  };
+}
+
 const Types = {
   Speaker: {
     session: parent => get(sessions, 'speakerId', parent.id),
@@ -27,7 +36,28 @@ const Types = {
     }
   },
   Event: {
-    sessions: parent => getAll(sessions, 'eventId', parent.id)
+    sessions: (parent, { where, orderBy }) => {
+      let s = Array.from(sessions);
+      if (parent && parent.id) {
+        s = getAll(sessions, 'eventId', parent.id);
+      }
+
+      if (where) {
+        if (where.id) {
+          s = s.filter(_ => _.id === where.id);
+        }
+
+        if (where.slug) {
+          s = s.filter(_ => _.slug === where.slug);
+        }
+      }
+
+      if (orderBy) {
+        return s.sort(order(...orderBy.split('_')));
+      }
+
+      return s;
+    }
   }
 };
 
@@ -47,30 +77,15 @@ const Query = {
   event: (parent, { year }) => {
     return get(events, 'year', parseInt(year, 10));
   },
-  events: (parent, { where }) => {
-    if (!where) {
-      return events;
+  events: (parent, { where, orderBy }) => {
+    let e = events;
+    if (where) {
+      e = events.filter(_ => parseInt(_.year, 10) === parseInt(where.year, 10));
     }
 
-    return events.filter(
-      _ => parseInt(_.year, 10) === parseInt(where.year, 10)
-    );
+    return e.sort(order(...(orderBy || 'id_ASC').split('_')));
   },
-  sessions: (parent, { where }) => {
-    if (!where) {
-      return sessions;
-    }
-
-    if (where.id) {
-      return sessions.filter(_ => _.id === where.id);
-    }
-
-    if (where.slug) {
-      return sessions.filter(_ => _.slug === where.slug);
-    }
-
-    return sessions;
-  }
+  sessions: Types.Event.sessions
 };
 
 module.exports = {

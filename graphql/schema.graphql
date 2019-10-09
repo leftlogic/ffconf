@@ -1,7 +1,7 @@
 type Event {
   year: ID!
   url: String!
-  sessions: [Session!]!
+  sessions(where: SessionWhereInput, orderBy: SessionOrderByInput): [Session!]!
   speakers: [Speaker!]!
 }
 
@@ -57,6 +57,7 @@ enum SpeakerOrderByInput {
 }
 
 input SessionWhereInput {
+  year: ID
   id: ID
   slug: String
 }
@@ -75,4 +76,6 @@ input EventsWhereInput {
 enum EventsOrderByInput {
   id_ASC
   id_DESC
+  year_ASC
+  year_DESC
 }

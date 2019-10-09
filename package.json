@@ -9,8 +9,8 @@
   },
   "scripts": {
     "update": "node ./tweets.js",
-    "server:dev": "PORT=7000 nodemon ./graphql",
-    "server": "PORT=7000 node ./graphql",
+    "server:dev": "PORT=7000 nodemon ./graphql/server",
+    "server": "PORT=7000 node ./graphql/server",
     "dev": "eleventy --serve",
     "redirects": "node ./redirects.js",
     "build": "eleventy && npm run redirects && test -e dist/index.html",
