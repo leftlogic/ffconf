@@ -38,7 +38,9 @@
         {%- block credits %}
         {%- endblock %}
       </main>
+      {% if not hide_newsletter %}
       {% include "newsletter.njk" %}
+      {% endif %}
       <footer>
         <p class="previous-years">Previous years:
         {% for year in years | reverse %}

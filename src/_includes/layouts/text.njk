@@ -1,0 +1,15 @@
+---
+layout: layouts/base.njk
+css: details.css
+---
+
+<section class="article">
+  <header>
+    <span class="pill active">Updated {{ date | format("MMM D YYYY") }}</span>
+    <h1>{{ title }}</h1>
+  </header>
+
+  <div class="body details">
+    {{ content | safe}}
+  </div>
+</section>
