@@ -114,11 +114,3 @@ If you want to call my mobile number is: +44 (0)7590 497258 and Julie is on +44 
 Otherwise, we'll see you on Wednesday evening at your hotel if not before 💖❤️💓
 
 Remy & Julie
-
-
-
-<script>
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/details-sw.js');
-}
-</script>

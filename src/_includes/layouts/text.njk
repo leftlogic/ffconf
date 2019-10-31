@@ -13,3 +13,9 @@ css: details.css
     {{ content | safe}}
   </div>
 </section>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/details-sw.js');
+  }
+  </script>
