@@ -3,11 +3,13 @@ date: 2019-10-30
 title: Full event details
 ---
 
-Hi there,
+<!-- Hi there,
 
 Please find below important and useful information to make sure your visit to our #ffconf on Friday 8th November 2019 is a super dooper awesome time!
 
-Please note, a full copy of this [document is available here](https://ffconf.org/details/) and once loaded is available offline.
+Please note, a full copy of this [document is available here](https://ffconf.org/details/) and once loaded is available offline. -->
+
+<mark>This URL is available offline thanks to a service worker</mark>
 
 ## Directions
 
