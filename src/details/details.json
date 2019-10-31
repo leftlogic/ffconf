@@ -1,0 +1,4 @@
+{
+  "layout": "layouts/text.njk",
+  "hide_newsletter": true
+}

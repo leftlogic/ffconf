@@ -1,5 +1,6 @@
-/* global self, caches, fetch */
-const cacheName = 'v2019.1/ffconf/details';
+/* eslint-env service-worker */
+
+const cacheName = 'v2019.3/ffconf/details';
 
 self.addEventListener('activate', e => {
   e.waitUntil(
@@ -19,7 +20,25 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache
-        .addAll(['/speaking', '/details', '/workshop-details', '/details.css'])
+        .addAll([
+          '/details/',
+          '/details/speaking/',
+
+          // css
+          '/css/base.css',
+          '/css/article.css',
+          '/css/mq.css',
+          '/css/details.css',
+
+          // images
+          '/images/leftlogic.svg',
+          '/images/external.svg',
+          '/images/logo.svg',
+
+          // fonts
+          '/fonts/basiersquare-medium-webfont.woff2',
+          '/fonts/basiersquare-regular-webfont.woff2'
+        ])
         .then(() => self.skipWaiting());
     })
   );

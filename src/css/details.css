@@ -1,0 +1,77 @@
+@import "/css/article.css";
+
+h3 {
+  margin: 28px 0;
+  font-style: italic;
+}
+
+.article header {
+  margin-top: 40px;
+}
+
+mark {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+  border-radius: 2px;
+}
+.if-has-offline {
+  opacity: 0;
+  transition: opacity 100ms ease-out;
+}
+
+.has-offline .if-has-offline {
+  opacity: 1;
+}
+
+pre code,pre[class*="language-"] code {
+  color: #272727;
+  background: #f3f3f3;
+  padding: 0.5em;
+  -webkit-text-size-adjust: none
+}
+
+pre,pre[class*="language-"] {
+  padding: 0 0.2em;
+  margin: 10px 0;
+  line-height: 1.475;
+  color: #272727;
+  background: #f3f3f3;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 3px;
+  direction: ltr;
+  text-align: left;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  word-wrap: break-word;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
+  overflow-x: scroll;
+  display: block;
+  width: 100%;
+  overflow: auto;
+  max-width: 100%
+}
+
+pre code,pre[class*="language-"] code {
+  word-wrap: -moz-break-word;
+  word-wrap: break-word;
+  white-space: pre;
+  word-wrap: normal;
+  display: table-cell!important;
+  -webkit-text-size-adjust: none
+}
+
+code {
+  font-family: 'ubuntu mono',menlo,monaco,consolas,courier,'courier new','lucida console',monospace;
+}
+
+.article .body.details a {
+  color: var(--salmon);
+}
