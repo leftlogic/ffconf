@@ -62,23 +62,19 @@ We hope you will join us at OhSo Social again (and fingers crossed there won't b
 
 Oh So Social - 250a Kings Rd, Brighton BN1 1NB - on the beach, near the green doughnut
 
-Directions: [https://2019.ffconf.org/#locations](https://2019.ffconf.org/#locations)
+Directions: [https://ffconf.org/party](https://ffconf.org/party)
 
 ## Pre conference
-
-### A guide to Brighton's Best Wifi Cafes
-
-If you're spending some extra time in Brighton, it might be useful to drop by [a café with wifi](https://www.macman.co.uk/best-cafes-in-brighton/).
 
 ### Async - 7-Nov
 
 The night before ffconf, on 7th November, there will be a [special Show'n'Tell edition of Async](https://www.meetup.com/Async-Web-Tech-Meetup/events/265460562/), our local JavaScript meetup in Brighton. The event will be held at [The Skiff](https://goo.gl/maps/HVDuK8EeSo6cS3mRA); doors open at 7.15pm.
 
-Everybody is welcome and no need to sign up in advance, just come along. Furthermore, if you have some little project you've been working on or some new technology you're excited about, you can grab yourself a 5 minute speaker's slot.
+Everybody is welcome and no need to sign up in advance, just come along. Furthermore, if you have some little project you've been working on or some new technology you're excited about, you can grab yourself a 5 minute speaker's slot by [adding a comment to this gist](https://gist.github.com/orangespaceman/196f4e37b2dcd5bee37fe1367bbf2896).
 
-### Pre conference social
+### Pre conference social - 7-Nov
 
-Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 6:30pm to meet your fellow delegates, just an 8 minute walk from the station. We have the raised area on the left hand side reserved so anyone sat in that area is your new ff friend.
+Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 6:30pm on Thursday 7-Nov, to meet your fellow delegates, just an 8 minute walk from the station. We have the raised area on the left hand side reserved so anyone sat in that area is your new ff friend.
 
 ### Pre event networking: running or coffee - 8 Nov
 
@@ -106,7 +102,7 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 
 ## 2020!
 
-The 2020 edition of ffconf will take place on Friday 13th November! A limited number of early bird tickets will be released on Friday 8th November 2019 so get in early to guarantee your space (refunds will be issued until September 2020).
+A limited number of early bird tickets will be released on Friday 8th November 2019 so get in early to guarantee your space (refunds will be issued until September 2020) - details at the time!
 
 ## Contact
 
