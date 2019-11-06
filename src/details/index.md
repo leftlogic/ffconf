@@ -9,7 +9,7 @@ Please find below important and useful information to make sure your visit to ou
 
 Please note, a full copy of this [document is available here](https://ffconf.org/details/) and once loaded is available offline. -->
 
-<!-- <mark>This URL is available offline thanks to a service worker</mark> -->
+<mark>This URL is available offline thanks to a service worker</mark>
 
 ## Directions
 
@@ -35,7 +35,7 @@ If you are being harassed, notice that someone else is being harassed, or have a
 
 Tea, Coffee, Danishes and fruit will be available from 9am in the upstairs bar and the ground floor. Further refreshments will be available from the same locations at the mid morning and mid afternoon breaks. We serve cow, soya and oat milk for the tea and coffee.
 
-Please note lunch is not included but we have a few recommendations here: [https://ffconf.org/food](https://ffconf.org/food)
+Please note lunch is not included but we have a few recommendations here: [https://ffconf.org/food](https://ffconf.org/food) and a [collection of places](https://ffconf.org/brighton) that Remy & Julie particularly like (with lunch, coffee, sweet and dinner suggestions).
 
 ## Reduce, reuse, recycle
 
