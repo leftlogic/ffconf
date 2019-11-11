@@ -3,6 +3,18 @@
   "tags": ["insights"],
   "posts": [
     {
+      "title": "FF Conf 2019",
+      "by": "Jeremy Keith",
+      "date": "2019-11-11",
+      "url": "https://adactio.com/journal/16090"
+    },
+    {
+      "title": "What happened at my first tech conference (spoiler alert: nothing bad...)",
+      "url": "https://dev.to/calier/what-happened-at-my-first-tech-conference-spoiler-alert-nothing-bad-94f",
+      "by": "Calie Rushton",
+      "date": "2019-11-11"
+    },
+    {
       "title": "ffconf 2018",
       "date": "2018-11-19",
       "url": "https://carolgilabert.me/blog/ffconf-2018",

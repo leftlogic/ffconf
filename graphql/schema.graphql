@@ -60,6 +60,7 @@ input SessionWhereInput {
   year: ID
   id: ID
   slug: String
+  tag: String
 }
 
 enum SessionOrderByInput {

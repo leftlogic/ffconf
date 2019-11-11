@@ -43,12 +43,20 @@ const Types = {
       }
 
       if (where) {
+        if (where.tag) {
+          s = s.filter(_ => _.tags.includes(where.tag));
+        }
+
         if (where.id) {
           s = s.filter(_ => _.id === where.id);
         }
 
         if (where.slug) {
           s = s.filter(_ => _.slug === where.slug);
+        }
+
+        if (where.year) {
+          s = s.filter(_ => get(events, 'id', _.eventId).year == where.year);
         }
       }
 

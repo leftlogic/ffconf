@@ -20,7 +20,7 @@ const mock = {
   cache_age: '3153600000',
   provider_name: 'Twitter',
   provider_url: 'https://twitter.com',
-  version: '1.0',
+  version: '1.0'
 };
 
 console.clear();
@@ -33,9 +33,10 @@ async function getJSON(id) {
   // return mock;
 
   const url = `https://cdn.syndication.twimg.com/tweets.json?ids=${id}&lang=en&suppress_response_codes=true&theme=light&tz=GMT%2B0100`;
+  // const url = 'https://twitter.com/chetbox/status/' + id; // this doesn't work because it only supports 1 img
 
   const res = await fetch(url, {
-    headers: {},
+    headers: {}
   });
 
   const json = await res.json();
@@ -63,18 +64,21 @@ async function getJSON(id) {
     })
     .get();
 
+  $('.MediaCard-mediaContainer').remove();
+  $('.MediaCard-mediaAsset').remove();
+
   const avatar = $('img.Avatar').attr('data-src-2x');
   const username = $('.TweetAuthor-screenName').text();
   const tweetUrl = $('blockquote').attr('cite');
 
   return {
-    source: json[id],
+    // source: json[id],
     images,
     body: $('.e-entry-content').html(),
     date,
     url: tweetUrl,
     avatar,
-    username,
+    username
   };
 }
 
@@ -91,7 +95,7 @@ function getContent(json) {
     body,
     date: parse(date),
     name,
-    username,
+    username
   });
 }
 
@@ -106,4 +110,8 @@ async function main() {
   await writeFile('./src/_data/tweets.json', JSON.stringify(content));
 }
 
-main();
+async function debug() {
+  console.log(JSON.stringify(await getJSON(process.argv[2]), 0, 2));
+}
+
+process.env.DEBUG ? debug() : main();

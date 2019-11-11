@@ -8,16 +8,6 @@ css: articles.css
   <header class="with-filter">
     <h1><span id="count">Articles</span></h1>
     <a class="pill-button heading-link" href="/articles.xml"><img src="/images/rss.svg" width="24" height="24" alt="RSS Feed"> Feed</a>
-    <!-- <details>
-      <summary class="pill-button filter"><span class="label">Filter Talks</span></summary>
-      <div class="body">
-        <div class="pill-list">
-        {% for tag in articles | unique("data.tags") %}
-          <label tabindex="0" class="checkbox-pill"><input value="{{ tag }}" type="checkbox"><span class="pill">{{ tag }}</span></label>
-        {% endfor %}
-        </div>
-      </div>
-    </details> -->
   </header>
 
   <ul class="article-list">

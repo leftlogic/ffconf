@@ -642,7 +642,7 @@
     "video": "https://www.youtube.com/watch?v=o3HBe8WhzvE",
     "time": "11:40",
     "title": "Navigating Open Source",
-    "tags": ["community"]
+    "tags": ["betterment"]
   },
   {
     "speakerId": "cja08vv4tyw5n01317mkhojw3",
@@ -747,7 +747,7 @@
     "video": "https://www.youtube.com/watch?v=CZx7rYoq1Uw",
     "time": "17:00",
     "title": "A Talk about Everything",
-    "tags": ["community", "betterment"]
+    "tags": ["betterment"]
   },
   {
     "speakerId": "cja08vv48yw5b0131tim3djsj",
@@ -837,7 +837,7 @@
     "video": "https://www.youtube.com/watch?v=nYj4exblbgI",
     "time": "16:20",
     "title": "A brief history and mishistory of modularity",
-    "tags": ["community"]
+    "tags": ["betterment"]
   },
   {
     "speakerId": "cja08vv3cyw4t01313bxca2a1",
@@ -1032,7 +1032,7 @@
     "video": "https://www.youtube.com/watch?v=LK5e1kRpzrE&list=PLXmT1r4krsToZPHKnv-kod6B_4DLqMTR4&index=8",
     "time": "16:20",
     "title": "Abstract art in a time of minification",
-    "tags": ["community"]
+    "tags": ["betterment"]
   },
   {
     "speakerId": "cja08vv43ypn50183me8s6q7m",
@@ -1077,7 +1077,7 @@
     "video": "https://www.youtube.com/watch?v=D9d1WrARqvI&list=PLXmT1r4krsTq3yrg4t14hPUbO1OsrA1Hx&index=2",
     "time": " 09:50",
     "title": "Mentoring: Being the help you wish you'd had",
-    "tags": ["community", "betterment"]
+    "tags": ["betterment"]
   },
   {
     "speakerId": "cjiam2bwoloba0183mu2hxu1v",
@@ -1122,7 +1122,7 @@
     "video": "https://www.youtube.com/watch?v=2BWp3QX0sNE&list=PLXmT1r4krsTq3yrg4t14hPUbO1OsrA1Hx&index=5",
     "time": "12:20",
     "title": "Is it possible to build a truly diverse community?",
-    "tags": ["community"]
+    "tags": ["betterment"]
   },
   {
     "speakerId": "cjlxzmc8200l70147y9mtir5z",
@@ -1175,6 +1175,7 @@
     "id": "getting-more-from-git",
     "duration": 40,
     "order": 3,
+    "time": "11:40",
     "eventId": "2019",
     "title": "Getting more from Git",
     "description": "Git is like a Swiss Army Knife for telling the story of your project. Yet most of us are only using the big knife and maybe the scissors to fudge our code into version control. In this talk we're going to learn about some more advanced Git commands and some history too.",
@@ -1186,6 +1187,7 @@
     "id": "effortless-performance-debugging",
     "duration": 40,
     "order": 6,
+    "time": "15:10",
     "eventId": "2019",
     "title": "Effortless Performance Debugging",
     "description": "During the session we will talk about the causes of painful performance and look into simple and actionable steps how to make a website more performant with a little effort.",
@@ -1197,6 +1199,7 @@
     "id": "taking-the-web-off-the-screen",
     "order": 7,
     "duration": 40,
+    "time": "16:15",
     "eventId": "2019",
     "title": "Taking The Web Off The Screen",
     "description": "The rise of generative art has brought a whole new wave of creativity to the web; this talk is about the myriad of ways we can use all that coding knowledge to make cool art in the physical realm.",
@@ -1208,10 +1211,11 @@
     "id": "empathy",
     "order": 1,
     "duration": 40,
+    "time": "09:50",
     "eventId": "2019",
     "title": "Engaging Empathy",
     "description": "Empathy and vulnerability aren't necessarily two words associated with professional success, but they're invaluable to achieving long-term goals leaders set for their companies. Lets both define what those look like at work and how to engage them for optimized collaboration.",
-    "tags": ["betterment", "community"]
+    "tags": ["betterment"]
   },
   {
     "speakerId": "2019-ms-makes-money",
@@ -1219,15 +1223,17 @@
     "id": "from-milliseconds-to-millions",
     "order": 5,
     "duration": 40,
+    "time": "14:30",
     "eventId": "2019",
     "title": "From Milliseconds to Millions: A Look at the Numbers Powering Web Performance",
     "description": "We all know performance is big business, but how big? Let's take a look at some of the numbers powering the web performance industry, from both sides of the table. What do performance improvements mean for my clients, and how do we translate that into a working relationship",
-    "tags": ["betterment"]
+    "tags": ["performance"]
   },
   {
     "speakerId": "2019-nerdverse",
     "slug": "nerdverse",
     "id": "nerdverse",
+    "time": "16:55",
     "duration": 40,
     "order": 8,
     "eventId": "2019",
@@ -1239,6 +1245,7 @@
     "speakerId": "2019-privacy",
     "slug": "privacy",
     "id": "privacy",
+    "slides": "https://noti.st/laurakalbag/Y4Q95l/8-unbelievable-things-you-never-knew-about-tracking",
     "duration": 40,
     "order": 4,
     "eventId": "2019",
@@ -1251,10 +1258,11 @@
     "slug": "what-does-it-take",
     "id": "what-does-it-take",
     "duration": 40,
+    "time": "10:30",
     "order": 2,
     "eventId": "2019",
     "title": "What does it take to become a developer in 2020?",
     "description": "Amina shares her story about what it takes to become a developer after teaching herself how to code, juggling a full-time job and baby.",
-    "tags": ["betterment", "community"]
+    "tags": ["betterment"]
   }
 ]
