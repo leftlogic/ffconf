@@ -1229,7 +1229,7 @@
     "id": "from-milliseconds-to-millions",
     "order": 5,
     "duration": 40,
-    "slides": "https://www.dropbox.com/s/3ns1krhtmo7g2wj/from-milliseconds-to-millions.pdf?dl=0",
+    "slides": "https://speakerdeck.com/csswizardry/from-milliseconds-to-millions-a-look-at-the-numbers-powering-web-performance",
     "time": "14:30",
     "audio": "https://media.ffconf.org/2019/5.mp3",
     "eventId": "2019",
