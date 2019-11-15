@@ -56,7 +56,16 @@
   opacity: 1;
 }
 
+.heading-link {
+  margin-right: 16px;
+  margin-top: -8px;
+}
+
 @media only screen and (min-width: 700px) {
+  .heading-link {
+    margin: 0;
+  }
+
   .article-list li {
     align-items: center;
     flex-direction: row;

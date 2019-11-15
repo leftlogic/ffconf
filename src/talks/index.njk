@@ -75,7 +75,7 @@ function observerImages() {
 observerImages();
 
 
-$('details').onchange = e => {
+$('details').onchange = () => {
   let reset = true;
   const selection = $$('input:checked').map(_ => _.value).reduce((acc, curr) => {
     reset = false;
@@ -94,6 +94,7 @@ $('details').onchange = e => {
       talk.hidden = false;
       return true;
     });
+    history.replaceState(null, null, window.location.pathname);
   } else {
     count = talks.filter(talk => {
       let res = !selection.years.length;
@@ -108,9 +109,22 @@ $('details').onchange = e => {
       talk.hidden = !res;
       return res;
     }).length;
+    history.replaceState(null, null, '?filter=' + selection.tags.join(',') + '&years=' + selection.years.join(','));
   }
 
   $('#count').innerHTML = count === 1 ? '1 Talk' : `${count} Talks`;
+}
+
+try {
+  const qs = new URLSearchParams(window.location.search);
+  const options = (qs.get('filter') || '').split(',').concat((qs.get('years') || '').split(',')).filter(Boolean);
+
+  options.forEach(value => {
+    $('details .pill-list input[value="' + value + '"').checked = true;
+  });
+  if (options.length) $('details').onchange();
+} catch (e) {
+  console.log(e);
 }
 </script>
 

@@ -551,56 +551,56 @@
   {
     "id": "2019-empathy",
     "bio": "I always loved the tech industry but I couldn't code and never worked at a tech company. So I started speaking at conferences about what I knew: stuttering, marketing and vulnerability. One day, I got invited to speak at a tech conf (Hi @jremsikjr 👋🏾)",
-    "photo": "",
+    "photo": "/images/speakers/sharons.jpg",
     "twitter": "sharonsteed",
     "name": "Sharon Steed"
   },
   {
     "id": "2019-nerdverse",
     "bio": "My dad brought home our first family computer, a second-hand Commodore 64, when all of my friends were already using PCs with Windows 3.1. I fell in love with programming from that first day of typing commands in BASIC.",
-    "photo": "",
+    "photo": "/images/speakers/suzh.jpg",
     "twitter": "noopkat",
     "name": "Suz Hinton"
   },
   {
     "id": "2019-ms-makes-money",
     "bio": "I'm a failed designer who learned it the hard way: I was much better at coding my portfolio site than I was at designing it. I decided to admit defeat and stick with keyboards and clearfixes.",
-    "photo": "",
+    "photo": "/images/speakers/harryr.jpg",
     "twitter": "csswizardry",
     "name": "Harry Roberts"
   },
   {
     "id": "2019-git",
     "bio": "Needed a 5th option to study at AS level. Asked the person next to me. Started with the Computing A level now we here.",
-    "photo": "",
+    "photo": "/images/speakers/aliceb.jpg",
     "twitter": "alicebartlett",
     "name": "Alice Bartlett"
   },
   {
     "id": "2019-perf",
     "bio": "I wanted to study English, but my final test results weren't good enough. I was looking through all majors I could apply for at Uni and found out HCI-like degree course",
-    "photo": "",
+    "photo": "/images/speakers/annam.jpg",
     "twitter": "szynszyliszys",
     "name": "Anna Migas"
   },
   {
     "id": "2019-art",
     "bio": "Got carried away tweaking Tumblr themes, discovered it hurt my fingers less than my other teen hobby of weaving chainmaille, been tip tapping ever since.",
-    "photo": "",
+    "photo": "/images/speakers/charlotted.jpg",
     "twitter": "charlotte_dann",
     "name": "Charlotte Dann"
   },
   {
     "id": "2019-privacy",
     "bio": "In my teens I made fan sites for local bands and a showcase for my own creepy goth art. Slicing pictures of websites into table layouts even though they’d been uncool for a couple of years already, because I just did what the first search result told me.",
-    "photo": "",
+    "photo": "/images/speakers/laurak.jpg",
     "name": "Laura Kalbag",
     "twitter": "LauraKalbag"
   },
   {
     "id": "2019-what-does-it-take",
     "bio": "I taught myself how to code soon after becoming a mother. I realised that continuing my job travelling around the world was a slightly optimistic view of my mothering abilities! After googling \"work from home\" I discovered software engineering and decided to give it a go.",
-    "photo": "",
+    "photo": "/images/speakers/aminaa.jpg",
     "name": "Amina Adewusi",
     "twitter": "a_adewusi"
   }

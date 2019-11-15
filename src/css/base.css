@@ -445,10 +445,13 @@ h1 {
 .talk .urls a[href^="https://twitter.com"] {
   display: inline-block;
   background: url(/images/twitter.svg) no-repeat;
-  width: 24px;
+  /* width: 24px; */
   height: 20px;
-  overflow: hidden;
-  text-indent: -9999px;
+  padding-left: 30px;
+  line-height: 20px;
+  color: var(--primary);
+  /* overflow: hidden; */
+  /* text-indent: -9999px; */
 }
 
 .solid-box {
