@@ -3,6 +3,12 @@
   "tags": ["insights"],
   "posts": [
     {
+      "url":"https://qubyte.codes/blog/ffconf-2019",
+      "title": "ffconf 2019",
+      "date": "2019-11-15",
+      "by": "Mark Everitt"
+    },
+    {
       "url": "https://wearetilt.com/ffconf-2019-developers-conference/",
       "title": "Welcome to ffconf 2019",
       "date": "2019-11-12",
