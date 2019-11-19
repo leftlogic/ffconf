@@ -3,6 +3,18 @@
   "tags": ["insights"],
   "posts": [
     {
+      "url": "https://mattbee.co.uk/2019/11/ffconf/",
+      "by": "Matt Bee",
+      "title": "FFConf 2019",
+      "date": "2019-11-17"
+    },
+    {
+      "url": "https://medium.com/@davidbrewer_57577/ffconf-retrospect-2019-225351088878",
+      "title": "FFCONF Retrospect 2019",
+      "date": "2019-11-14",
+      "by": "David Brewer"
+    },
+    {
       "url": "https://blog.yannev.es/ffconf-2019-a-powerful-theme-of-ownership-abe9c5eb5aa2",
       "title": "ffconf 2019: A powerful theme of ownership",
       "date": "2019-11-15",
