@@ -33,6 +33,7 @@ module.exports = function(eleventyConfig) {
     return `http://flickr.com/photo.gne?id=${id}`;
   });
   eleventyConfig.addFilter('kebab', require('./src/_filters/kebab'));
+  eleventyConfig.addFilter('slugify', require('slugify'));
   eleventyConfig.addFilter('markdown', s => markdown.render(s));
   eleventyConfig.addFilter('format', (s, fmt) =>
     format(s, fmt || 'dddd D MMM YYYY')

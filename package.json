@@ -42,6 +42,7 @@
   "dependencies": {
     "apollo-server-micro": "^2.9.4",
     "graphql": "^14.4.2",
+    "slugify": "^1.3.6",
     "undefsafe": "^2.0.2"
   },
   "devDependencies": {

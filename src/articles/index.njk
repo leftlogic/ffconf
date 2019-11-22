@@ -12,10 +12,10 @@ css: articles.css
 
   <ul class="article-list">
   {% for article in articles %}
-  <li>
+  <li class="{% for tag in article.data.tags %}{{ tag | slugify }}{% endfor %}">
     <a {% if article.url.startsWith('http') %}target="_blank"{% endif %} href="{{ article.url }}">{{article.data.title}}{% if article.data.by %}<span class="byLine"> by {{ article.data.by }}{% endif %}</span></a>
     <span class="pills">
-        <span class="pill active">{{ article.data.date | format("MMM YYYY") }}</span>{% for tag in article.data.tags %}<span class="pill active">{{ tag }}</span>{% endfor %}
+        <span class="pill active">{{ article.data.date | format("MMM YYYY") }}</span>{% for tag in article.data.tags %}<span class="pill active tag">{{ tag }}</span>{% endfor %}
     </span>
   </li>
   {% endfor %}

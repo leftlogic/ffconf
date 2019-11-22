@@ -38,6 +38,11 @@
   color: var(--primary);
 }
 
+.article-list .insights .tag {
+  background: var(--salmon);
+  color: var(--white);
+}
+
 .article-list a span {
   opacity: 0.6;
 }
