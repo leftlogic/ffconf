@@ -3,6 +3,12 @@
   "tags": ["insights"],
   "posts": [
     {
+      "url": "https://stac.works/articles/ffconf-2019",
+      "title": "FFCONF 2019",
+      "by": "Josh Nesbitt",
+      "date": "2019-11-22"
+    },
+    {
       "url": "https://beebell.co.uk/ffconf-2019/",
       "date": "2019-11-22",
       "by": "Ellen Cubbin",
