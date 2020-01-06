@@ -53,7 +53,19 @@ h2 {
   }
 }
 
-
-.article a[href*="coupon="] {
+.article a[href*='coupon='] {
   color: var(--salmon);
+}
+
+.video {
+  position: relative;
+  padding-top: 62%;
+  height: 0;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
