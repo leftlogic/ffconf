@@ -1,6 +1,6 @@
 <nav>
   <ul>
-    <li><a class="ext" href="https://2019.ffconf.org">ffconf 2019</a></li>
+    <li><a class="ext" href="{{ next.url }}">ffconf {{ next.date | format("YYYY")}}</a></li>
     <li{% if page.url.startsWith('/talks/') %} class="selected"{% endif %}><a href="/talks">Talks</a></li>
     <li{% if page.url.startsWith('/articles/') %} class="selected"{% endif %}><a href="/articles">Articles</a></li>
     <li{% if page.url.startsWith('/photos/') %} class="selected"{% endif %}><a href="/photos">Photos</a></li>
