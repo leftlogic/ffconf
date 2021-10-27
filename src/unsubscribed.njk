@@ -1,0 +1,19 @@
+---
+id: home
+layout: layouts/base
+css: home.css
+hide_newsletter: true
+---
+
+<section>
+  <header>
+    <h2 class="summary">That's all you needed to do. No more emails from us, but you can always stay in the loop via <a href="https://twitter.com/ffconf">twitter</a> (our DMs are open too) or via our <a href="https://ffconf.org/articles.xml">RSS feed</a> for our latest news.</h2>
+  </header>
+
+  <div class="talk-text-cards">
+  {% set talk = talks[0] %}
+  {% include "talk-text-card.njk" %}
+  {% set talk = talks[1] %}
+  {% include "talk-text-card.njk" %}
+  </div>
+</section>

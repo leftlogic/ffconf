@@ -1,0 +1,19 @@
+---
+id: home
+layout: layouts/base
+css: home.css
+hide_newsletter: true
+---
+
+<section>
+  <header>
+    <h2 class="summary">You're all confirmed! We won't send out too many emails but when we do it'll come from events@leftlogic.com and will include some important or fun information about our conference and community.</h2>
+  </header>
+
+  <div class="talk-text-cards">
+  {% set talk = talks[0] %}
+  {% include "talk-text-card.njk" %}
+  {% set talk = talks[1] %}
+  {% include "talk-text-card.njk" %}
+  </div>
+</section>

@@ -6,40 +6,36 @@ const parse = require('date-fns/parse');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const Talks = require('./src/_data/talks');
 const liveYears = require('./graphql/data/events.json')
-  .filter(_ => _.archive !== false)
-  .map(_ => _.year);
+  .filter((_) => _.archive !== false)
+  .map((_) => _.year);
 let env = process.env.ELEVENTY_ENV;
 
 const options = {
   html: true,
   breaks: true,
-  linkify: true
+  linkify: true,
 };
 
 const markdown = markdownIt(options).use(require('markdown-it-named-headings'));
 
-const shuffle = a => a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1));
+const shuffle = (a) => a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1));
 
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', markdown);
   eleventyConfig.addPlugin(pluginRss);
 
-  eleventyConfig.addFilter('toFlickrLink', url => {
-    const id = url
-      .split('/')
-      .pop()
-      .split('_')
-      .shift();
+  eleventyConfig.addFilter('toFlickrLink', (url) => {
+    const id = url.split('/').pop().split('_').shift();
     return `http://flickr.com/photo.gne?id=${id}`;
   });
   eleventyConfig.addFilter('kebab', require('./src/_filters/kebab'));
   eleventyConfig.addFilter('slugify', require('slugify'));
-  eleventyConfig.addFilter('markdown', s => markdown.render(s));
+  eleventyConfig.addFilter('markdown', (s) => markdown.render(s));
   eleventyConfig.addFilter('format', (s, fmt) =>
     format(s, fmt || 'dddd D MMM YYYY')
   );
-  eleventyConfig.addFilter('pubDate', s => parse(s).toUTCString());
-  eleventyConfig.addFilter('filename', s => {
+  eleventyConfig.addFilter('pubDate', (s) => parse(s).toUTCString());
+  eleventyConfig.addFilter('filename', (s) => {
     if (s) return basename(s);
   });
   eleventyConfig.addFilter('stringify', require('./src/_filters/stringify'));
@@ -58,20 +54,20 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addFilter('filter', (source, prop, value) => {
-    return source.filter(source => {
+    return source.filter((source) => {
       const res = undefsafe(source, prop);
       return res === value;
     });
   });
 
-  eleventyConfig.addFilter('length', source => source.length);
+  eleventyConfig.addFilter('length', (source) => source.length);
 
-  eleventyConfig.addFilter('jsonEscape', source =>
+  eleventyConfig.addFilter('jsonEscape', (source) =>
     source.replace(/"/g, '\\"').replace(/\n/g, '\\n')
   );
 
-  eleventyConfig.addFilter('liveTalks', talks => {
-    return talks.filter(talk =>
+  eleventyConfig.addFilter('liveTalks', (talks) => {
+    return talks.filter((talk) =>
       liveYears.includes(parseInt(talk.event.year, 10))
     );
   });
@@ -95,21 +91,18 @@ module.exports = function(eleventyConfig) {
   });
 
   // Universal Shortcodes (Adds to Liquid, Nunjucks, Handlebars)
-  eleventyConfig.addShortcode('involved', function(
-    name,
-    url,
-    image,
-    sub,
-    what
-  ) {
-    return `
+  eleventyConfig.addShortcode(
+    'involved',
+    function (name, url, image, sub, what) {
+      return `
     <header>
       <img src="/images/involved/${image}" />
       <span>${url ? `<a href="${url}">${name}</a>` : name}<br />
         ${sub}</span>
     </header>
     <p>${what}</p>`;
-  });
+    }
+  );
 
   // static passthroughs
   eleventyConfig.addPassthroughCopy('src/fonts');
@@ -121,27 +114,31 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/details-sw.js');
   // eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
 
-  eleventyConfig.addCollection('randomLatest', async function(collection) {
-    const talks = await Talks().then(talks =>
-      talks.filter(talk => liveYears.includes(parseInt(talk.event.year, 10)))
+  eleventyConfig.addCollection('randomLatest', async function (collection) {
+    const talks = await Talks().then((talks) =>
+      talks.filter((talk) => liveYears.includes(parseInt(talk.event.year, 10)))
     );
-    const year = new Date().getFullYear();
-    const first = shuffle(talks.filter(_ => _.event.year == year - 1))[0];
-    const second = shuffle(talks.filter(_ => _.event.year == year - 2))[0];
+    const n = liveYears.length;
+    const first = shuffle(
+      talks.filter((_) => _.event.year == liveYears[n - 1])
+    )[0];
+    const second = shuffle(
+      talks.filter((_) => _.event.year == liveYears[n - 2])
+    )[0];
     return [first, second];
   });
 
-  eleventyConfig.addCollection('articles', function(collection) {
-    const res = collection.getAllSorted().filter(function(item) {
+  eleventyConfig.addCollection('articles', function (collection) {
+    const res = collection.getAllSorted().filter(function (item) {
       return (
         item.inputPath.includes('/articles/') && item.inputPath.endsWith('.md')
       );
     });
 
-    const others = require('./src/articles/articles.json').posts.map(post => {
+    const others = require('./src/articles/articles.json').posts.map((post) => {
       return {
         data: { ...post, tags: ['write up'] },
-        url: post.url
+        url: post.url,
       };
     });
 
@@ -159,11 +156,11 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: 'src',
-      output: 'dist'
+      output: 'dist',
     },
     templateFormats: ['njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
   };
 };
