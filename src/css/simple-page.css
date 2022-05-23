@@ -1,10 +1,10 @@
-a {
+main .pill-button {
   font-weight: 500;
-  color: var(--primary);
-  transition: color 150ms ease-out;
+  text-decoration: none;
+  transition: background-color 100ms ease-out;
 }
 
-a:hover {
+main .pill-button:hover {
   background: var(--salmon-dark);
   color: white;
   text-decoration: underline;
