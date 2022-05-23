@@ -1,0 +1,31 @@
+a {
+  font-weight: 500;
+  color: var(--primary);
+  transition: color 150ms ease-out;
+}
+
+a:hover {
+  background: var(--salmon-dark);
+  color: white;
+  text-decoration: underline;
+}
+
+#inclusion main {
+  background: url(/images/inclusion.png) no-repeat top right;
+  background-size: 45%;
+  padding-right: 50%;
+  background-position: 105% 25%;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+  main {
+    padding: 0 20px;
+  }
+
+  #inclusion main {
+    padding-right: 20px;
+    background: none;
+  }
+}

@@ -398,6 +398,10 @@ h1 {
   color: var(--primary);
 }
 
+h1 + h2 {
+  margin-top: 32px;
+}
+
 #menu a,
 #menu a * {
   font-size: 18px;

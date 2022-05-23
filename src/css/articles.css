@@ -29,6 +29,11 @@
   text-decoration: none;
 }
 
+.article-list li a:hover {
+  text-decoration: underline;
+
+}
+
 .article-list .pills {
   white-space: nowrap;
 }
