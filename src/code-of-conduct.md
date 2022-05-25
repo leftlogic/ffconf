@@ -1,8 +1,6 @@
 ---
 id: code-of-conduct
-layout: layouts/base
-css: home.css
-hide_newsletter: true
+layout: layouts/simple
 ---
 
 # Code of Conduct

@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "engines": {
-    "node": "10"
+    "node": "16"
   },
   "scripts": {
     "update": "node ./tweets.js",
@@ -46,7 +46,7 @@
     "undefsafe": "^2.0.2"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
+    "@11ty/eleventy": "^1.0.1",
     "@11ty/eleventy-plugin-rss": "^1.0.6",
     "apollo-server-testing": "^2.2.0",
     "cheerio": "^1.0.0-rc.3",

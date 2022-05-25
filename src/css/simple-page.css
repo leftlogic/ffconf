@@ -1,3 +1,12 @@
+.article {
+  max-width: 920px;
+  margin: 0 auto;
+}
+
+.article h1 {
+  margin: 24px 0 48px 0;
+}
+
 main .pill-button {
   font-weight: 500;
   text-decoration: none;
@@ -16,8 +25,6 @@ main .pill-button:hover {
   padding-right: 50%;
   background-position: 105% 25%;
 }
-
-
 
 @media only screen and (max-width: 700px) {
   main {

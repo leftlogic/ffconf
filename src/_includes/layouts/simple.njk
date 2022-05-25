@@ -1,0 +1,11 @@
+---
+layout: layouts/base.njk
+css: simple-page.css
+hide_newsletter: true
+---
+
+<section class="article">
+  <div class="body {% for tag in tags %}tag-{{tag}} {% endfor %}">
+    {{ content | safe}}
+  </div>
+</section>
