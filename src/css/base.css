@@ -30,7 +30,7 @@
   --white: #ffffff;
   --box: #f4f4f4;
   --salmon: #ff7063;
-  --salmon-dark: #C04001; /* #D95E39;*/
+  --salmon-dark: #c04001; /* #D95E39;*/
 }
 
 * {
@@ -446,7 +446,8 @@ h1 + h2 {
   margin: 0;
 }
 
-.talk .urls a[href^="https://twitter.com"] {
+.talk .urls a[href^="https://twitter.com"]
+{
   display: inline-block;
   background: url(/images/twitter.svg) no-repeat;
   height: 20px;
@@ -455,7 +456,8 @@ h1 + h2 {
   color: var(--primary);
 }
 
-.talk .urls a[href^="https://twitter.com"]:hover {
+.talk .urls a[href^="https://twitter.com"]:hover
+{
   color: var(--salmon);
 }
 
@@ -573,7 +575,6 @@ main a {
 main a:hover {
   color: var(--salmon);
 }
-
 
 main li {
   margin: 8px 0;
@@ -1030,6 +1031,7 @@ blockquote p {
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -1041,7 +1043,7 @@ blockquote p {
 }
 
 .footer-links li:after {
-  content: "|";
+  content: '|';
   margin-left: 12px;
 }
 

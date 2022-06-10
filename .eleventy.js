@@ -17,7 +17,8 @@ const options = {
 };
 
 const markdown = markdownIt(options).use(require('markdown-it-named-headings'));
-
+const now = Date.now();
+const livePosts = (p) => p.date <= now;
 const shuffle = (a) => a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1));
 
 module.exports = function (eleventyConfig) {
@@ -142,11 +143,13 @@ module.exports = function (eleventyConfig) {
       };
     });
 
-    return [...res, ...others].sort((a, b) => {
-      return new Date(a.data.date).getTime() < new Date(b.data.date).getTime()
-        ? 1
-        : -1;
-    });
+    return [...res, ...others]
+      .sort((a, b) => {
+        return new Date(a.data.date).getTime() < new Date(b.data.date).getTime()
+          ? 1
+          : -1;
+      })
+      .filter(livePosts);
   });
 
   // eleventyConfig.setBrowserSyncConfig({

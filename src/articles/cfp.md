@@ -1,5 +1,5 @@
 ---
-title: "ffconf's 'Call For Papers' process"
+title: "ffconf's Call For Papers"
 date: 2019-07-03
 ---
 
@@ -15,7 +15,8 @@ Here are the topics that I often think about around ffconf in no particular orde
 
 - Testing, in particular integration tests and selenium/full end to end cross browser testing
 - Accessibility first hand, what is the impact of our work? ([example](/talks/technologic-human-after-all-accessibility-remix/))
-- Forget ES2019: what about ES2049 aka ES Blade Runner?
+- Forget ESNext: what about ES2049 aka "ES Blade Runner"?
+- Forget ES Blade Runner: what about "CSS Ghost Machine" or "HTML is still kicking"!
 - Tick box guide to security and/or performance
 - How our development practices are changing
 - Data science with the web ([example](/talks/lessons-learned-sciencing-the-web/))
@@ -26,6 +27,7 @@ Here are the topics that I often think about around ffconf in no particular orde
 - The army of one: the developer that does it all (what motivates you day-to-day, what inspires you, any war stories from the web)
 - The (social) importance of progressive web apps ([example](/talks/if-youre-going-out-of-san-francisco-be-sure-to-wear-web-standards-in-your-hair/))
 - History of the tech we take for granted ([example](/talks/tales-of-suckage-and-awesomeness/))
+- Using a browser in ways that was never intended
 
 ## Bettering ourselves and others
 
@@ -65,7 +67,7 @@ All our speakers are treated the same. We will, as always:
 - We'll endeavour to feed and water you as much as we can (including a speaker meal and lunch and if you're partial to a tipple, we'll pay for all these too)
 - 40 minute talk, generally we don't do Q&A and it's best to err on the side of "there is no wifi"
 - A free pass to the next ffconf, and for evermore part of our growing and much loved speaker alumni. If you bought a ticket for ffconf, we'll refund the ticket (as we don't expect, or want, our speakers to pay)
-- Uphold our conference code of conduct (available on our yearly sites), both for you, and our attendees
+- Uphold our [conference code of conduct](/code-of-conduct) (available on our yearly sites), both for you, and our attendees
 
 So I hope to hear from you soon!
 
