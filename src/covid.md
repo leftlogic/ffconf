@@ -5,9 +5,15 @@ layout: layouts/simple
 
 # Our COVID policy
 
-This is a placeholder document as we're currently working on the contents of this policy for our upcoming ffconf 2022.
+This is a placeholder and work in progress document as we're currently working on the contents of this policy for our upcoming ffconf 2022.
 
-It will be in place before the event so that people can find out what the venue is like and what we have to support those who want to shield.
+In short, masks are encouraged and welcomed, we politely request that all attendees do a lateral flow test within 24 hours of the conference and of course if you are showing signs of Covid or illness, please stay home.
+
+Some of the items we intend to add:
+
+- Notes about ventilation in the venue
+- Masks being provided
+- Stickers used for social distancing
 
 ---
 
