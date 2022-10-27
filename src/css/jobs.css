@@ -1,0 +1,39 @@
+.jobs h1 {
+}
+
+.job-list {
+  list-style: none;
+  padding: 0;
+}
+
+.job-list > article {
+  border-bottom: 1px solid var(--salmon);
+}
+
+.job-list > article:last-child {
+  border-bottom: none;
+}
+
+.job-list > article > h1 {
+  font-size: 24px;
+}
+
+.job-list > article > h2 {
+  font-size: 20px;
+}
+
+.job-list > article > h3 {
+  font-size: 18px;
+}
+
+.job-list > article > h4 {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.job-list > article > h5,
+.job-list > article > h6 {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}

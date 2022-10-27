@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+css: jobs.css
+---
+
+<section class="jobs">
+  <header class="with-filter">
+    <h1><span id="count">Jobs</span></h1>
+  </header>
+
+  <div class="job-list">
+  {% for job in jobs %}
+  <article class="{% for tag in job.tags %}{{ tag | slugify }}{% endfor %}">
+    <p><a {% if job.url.startsWith('http') %}target="_blank"{% endif %} href="{{ job.url }}">{{job.title}}{% if job.company %}<span class="byLine"> by {{ job.company }}{% endif %}</span></a>
+    <span class="pills">
+        <span class="pill active">{{ job.from | format("DD MMM YYYY") }}</span>{% for tag in job.tags %}<span class="pill active tag">{{ tag }}</span>{% endfor %}
+    </span>
+    </p>
+
+      <dl>
+        <dt>Location</dt><dd>{{ job.city }}, {{ job.country }}</dd>
+        <dt>Work type</dt><dd>{{ job.type }}</dd>
+      </dl>
+      {{ job.description | markdown | safe }}
+
+  </article>
+  {% endfor %}
+  </ul>
+</section>
