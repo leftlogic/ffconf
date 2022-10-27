@@ -35,6 +35,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('format', (s, fmt) =>
     format(s, fmt || 'dddd D MMM YYYY')
   );
+  eleventyConfig.addFilter('cleanUsername', (s) => {
+    if (s[0] === '@') s = s.slice(1);
+    return s.toLowerCase();
+  });
   eleventyConfig.addFilter('pubDate', (s) => parse(s).toUTCString());
   eleventyConfig.addFilter('filename', (s) => {
     if (s) return basename(s);

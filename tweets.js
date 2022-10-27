@@ -12,15 +12,14 @@ const mock = {
   url: 'https://twitter.com/miss_jwo/status/1060964945716805633',
   author_name: 'Jenny Wong 🐝',
   author_url: 'https://twitter.com/miss_jwo',
-  html:
-    '<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/hashtag/FFConf?src=hash&amp;ref_src=twsrc%5Etfw">#FFConf</a>, slides are now online ➡️  <a href="https://t.co/k21cAmlBdg">https://t.co/k21cAmlBdg</a>  ( you can also see previous deck editions too )<br><br>I will be using the transcript to do some more in-depth explanations of the thought process behind some of the ideas and share more stuff with the community.</p>&mdash; Jenny Wong 🐝 (@miss_jwo) <a href="https://twitter.com/miss_jwo/status/1060964945716805633?ref_src=twsrc%5Etfw">November 9, 2018</a></blockquote>\n<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>\n',
+  html: '<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Hey <a href="https://twitter.com/hashtag/FFConf?src=hash&amp;ref_src=twsrc%5Etfw">#FFConf</a>, slides are now online ➡️  <a href="https://t.co/k21cAmlBdg">https://t.co/k21cAmlBdg</a>  ( you can also see previous deck editions too )<br><br>I will be using the transcript to do some more in-depth explanations of the thought process behind some of the ideas and share more stuff with the community.</p>&mdash; Jenny Wong 🐝 (@miss_jwo) <a href="https://twitter.com/miss_jwo/status/1060964945716805633?ref_src=twsrc%5Etfw">November 9, 2018</a></blockquote>\n<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>\n',
   width: 550,
   height: null,
   type: 'rich',
   cache_age: '3153600000',
   provider_name: 'Twitter',
   provider_url: 'https://twitter.com',
-  version: '1.0'
+  version: '1.0',
 };
 
 console.clear();
@@ -36,7 +35,7 @@ async function getJSON(id) {
   // const url = 'https://twitter.com/chetbox/status/' + id; // this doesn't work because it only supports 1 img
 
   const res = await fetch(url, {
-    headers: {}
+    headers: {},
   });
 
   const json = await res.json();
@@ -47,6 +46,11 @@ async function getJSON(id) {
   //   /<div class="TweetInfo">.*?<\/blockquote>/is,
   //   '</blockquote>'
   // );
+
+  if (typeof body === 'undefined') {
+    console.log(url);
+    return false;
+  }
 
   const $ = cheerio.load(body);
 
@@ -78,7 +82,7 @@ async function getJSON(id) {
     date,
     url: tweetUrl,
     avatar,
-    username
+    username,
   };
 }
 
@@ -95,16 +99,18 @@ function getContent(json) {
     body,
     date: parse(date),
     name,
-    username
+    username,
   });
 }
 
 async function main() {
   const content = await Promise.all(
-    urls.map(url => {
-      const id = getId(url);
-      return getJSON(id);
-    })
+    urls
+      .map((url) => {
+        const id = getId(url);
+        return getJSON(id);
+      })
+      .filter(Boolean)
   );
 
   await writeFile('./src/_data/tweets.json', JSON.stringify(content));

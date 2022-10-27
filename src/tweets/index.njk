@@ -13,7 +13,7 @@ css: tweets.css
     <div class="tweet-item">
 
       <header>
-        <img class="avatar" src="{{ tweet.avatar }}">
+        <img class="avatar" src="/images/tweets/avatars/{{ tweet.username | cleanUsername }}.jpg">
         <strong><a href="{{tweet.url}}" target="_blank">{{ tweet.username }}</a></strong>
         <span class="pill">{{ tweet.date | format("D MMM YYYY") }}</span>
       </header>
