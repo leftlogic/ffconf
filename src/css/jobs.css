@@ -6,12 +6,20 @@
   padding: 0;
 }
 
-.job-list > * {
-  border-bottom: 1px solid var(--salmon);
-}
-
 .job-list > *:last-child {
   border-bottom: none;
+}
+
+.job {
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 700px) {
+  .job {
+    grid-area: body;
+    border-left: 2px solid var(--salmon);
+    padding-left: 32px;
+  }
 }
 
 .job > h1 {
@@ -44,21 +52,26 @@
   padding: 0;
 }
 
-.articles header {
-  padding: 0 32px;
+.job-single > h1 {
+  padding: 32px 0;
 }
 
-.job-list li {
+.job-list > li {
   background-color: var(--box);
   padding: 22px 32px 32px 32px;
   font-size: 18px;
   font-weight: 500;
   line-height: 1.33;
-  display: flex;
-  justify-content: space-between;
-  margin: 8px 0;
-  flex-direction: column;
-  border-radius: 2px;
+  margin: 32px 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .job-list li {
+    border-radius: 2px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 8px;
+  }
 }
 
 .job-list li a {
@@ -84,4 +97,72 @@
 
 .job-list p {
   margin: 0;
+}
+
+.job-list .meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.job-single {
+  display: grid;
+  grid-template-areas: 'header' 'aside' 'body';
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 0 32px;
+}
+
+@media only screen and (min-width: 700px) {
+  .job-single {
+    grid-template-areas:
+      'header header'
+      'aside body';
+    gap: 0 32px;
+    grid-template-columns: 200px 1fr;
+  }
+}
+
+.job-single header {
+  grid-area: header;
+}
+
+.job-single aside {
+  grid-area: aside;
+  background: var(--box);
+  padding: 32px;
+  border-radius: 2px;
+  margin-bottom: 32px;
+}
+
+.job-single aside > * {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.job-single aside h2 a {
+  text-decoration: none;
+}
+
+.job-single a.button {
+  margin-top: 32px;
+  text-decoration: none;
+  display: block;
+}
+
+.job-single a.button:hover {
+  color: var(--primary);
+  text-decoration: underline;
+  background: var(--salmon-dark);
+}
+
+.list {
+  margin: 64px 32px;
+}
+
+@media only screen and (min-width: 700px) {
+  .list {
+    margin: 64px 0;
+  }
 }

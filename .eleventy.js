@@ -40,6 +40,7 @@ module.exports = function (eleventyConfig) {
     return s.split(',')[0];
   });
   eleventyConfig.addFilter('markdown', (s) => markdown.render(s));
+  eleventyConfig.addFilter('niceDomain', (s) => new URL(s).hostname);
   eleventyConfig.addFilter('format', (s, fmt) =>
     format(s, fmt || 'dddd D MMM YYYY')
   );

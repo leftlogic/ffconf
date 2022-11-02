@@ -527,6 +527,12 @@ h1 + h2 {
   color: var(--white);
   padding: 15px 28px;
   cursor: pointer;
+  transition: all 100ms ease-in;
+}
+
+a.pill-button:hover {
+  background: var(--salmon-dark);
+  color: var(--white);
 }
 
 .filter {
@@ -867,7 +873,7 @@ main.snap {
   position: absolute;
   top: 0px;
   margin-top: 0;
-  transform: translateY(-280px);
+  transform: translateY(-315px);
   transition: transform 200ms ease-out;
   border-top: 1px solid var(--light-grey);
   width: 100%;
@@ -881,6 +887,7 @@ main.snap {
 
 .menu-open #menu nav {
   transform: translateY(69px);
+  box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 11%);
 }
 
 .menu-open #menu ul {
@@ -933,7 +940,7 @@ main.snap {
   display: flex;
   align-self: flex-end;
   align-items: center;
-  padding: 0 20px 0 0;
+  padding: 0 20px 0 20px;
 }
 
 #menu h1 {
