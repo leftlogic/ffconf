@@ -14,6 +14,7 @@
     "dev": "eleventy --serve",
     "jobs": "node ./jobs.mjs",
     "redirects": "node ./redirects.js",
+    "prebuild": "npm run jobs",
     "build": "eleventy && npm run redirects && test -e dist/index.html",
     "postbuild": "cd graphql/; now --token=$NOW_TOKEN && now --target production --token $NOW_TOKEN",
     "now-build": "true",

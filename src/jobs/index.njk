@@ -8,22 +8,25 @@ css: jobs.css
     <h1><span id="count">Jobs</span></h1>
   </header>
 
-  <div class="job-list">
-  {% for job in jobs %}
-  <article class="{% for tag in job.tags %}{{ tag | slugify }}{% endfor %}">
-    <p><a {% if job.url.startsWith('http') %}target="_blank"{% endif %} href="{{ job.url }}">{{job.title}}{% if job.company %}<span class="byLine"> by {{ job.company }}{% endif %}</span></a>
-    <span class="pills">
-        <span class="pill active">{{ job.from | format("DD MMM YYYY") }}</span>{% for tag in job.tags %}<span class="pill active tag">{{ tag }}</span>{% endfor %}
-    </span>
-    </p>
+  <ul class="job-list">
+  {% for job in (jobs | repeat(10)) %}
+    <li>
+      <p><a href="/jobs/{{job.slug}}">{{job.title}}</a></p>
 
-      <dl>
-        <dt>Location</dt><dd>{{ job.city }}, {{ job.country }}</dd>
-        <dt>Work type</dt><dd>{{ job.type }}</dd>
-      </dl>
-      {{ job.description | markdown | safe }}
+      <p><span class="byLine">{{ job.company }}</span></p>
+      <p><small>{{ job.city }} {{ job.country }}</small></p>
+      <span>Listed {{ job.from | format("DD MMM YYYY") }}</span>
 
-  </article>
+      <p>
+        <span class="pills">
+          {% for type in job.type %}
+          <span class="pill active">{{ type }}</span>
+          {% endfor %}
+        </span>
+      </p>
+
+
+    </li>
   {% endfor %}
   </ul>
 </section>

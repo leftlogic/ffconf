@@ -6,34 +6,82 @@
   padding: 0;
 }
 
-.job-list > article {
+.job-list > * {
   border-bottom: 1px solid var(--salmon);
 }
 
-.job-list > article:last-child {
+.job-list > *:last-child {
   border-bottom: none;
 }
 
-.job-list > article > h1 {
+.job > h1 {
   font-size: 24px;
 }
 
-.job-list > article > h2 {
+.job > h2 {
   font-size: 20px;
 }
 
-.job-list > article > h3 {
+.job > h3 {
   font-size: 18px;
 }
 
-.job-list > article > h4 {
+.job > h4 {
   font-size: 18px;
   font-style: italic;
 }
 
-.job-list > article > h5,
-.job-list > article > h6 {
+.job > h5,
+.job > h6 {
   font-size: 18px;
   font-style: italic;
   font-weight: 400;
+}
+
+.job-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.articles header {
+  padding: 0 32px;
+}
+
+.job-list li {
+  background-color: var(--box);
+  padding: 22px 32px 32px 32px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  flex-direction: column;
+  border-radius: 2px;
+}
+
+.job-list li a {
+  padding: 10px 0 18px 0;
+  color: var(--primary);
+  font-weight: 500;
+  line-height: 1.33;
+  text-decoration: none;
+}
+
+.job-list li a:hover {
+  text-decoration: underline;
+}
+
+.job-list .pills {
+  white-space: nowrap;
+}
+
+.job-list .pill.active {
+  background: var(--white);
+  color: var(--primary);
+}
+
+.job-list p {
+  margin: 0;
 }

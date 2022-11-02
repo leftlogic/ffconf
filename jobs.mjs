@@ -29,8 +29,6 @@ async function main() {
     from: 2,
   });
 
-  console.log(records);
-
   writeFileSync(
     resolve('src', '_data', 'jobs.json'),
     JSON.stringify(
@@ -41,7 +39,15 @@ async function main() {
           } else {
             _.from = _.timestamp;
           }
-          _.slug = slugify(`${_.company} - ${_.title}`, { lower: true });
+
+          _.type = _.type.split(', ');
+
+          _.slug = slugify(
+            `${_.company} - ${_.title} ${new Date(_.from).getFullYear()}-${
+              new Date(_.from).getMonth() + 1
+            }`,
+            { lower: true }
+          );
           if (!_.approved || _.approved.toLowerCase() === 'n') {
             _.approved = false;
           } else {
@@ -55,6 +61,7 @@ async function main() {
             return false;
           }
 
+          console.log(_);
           return true;
 
           // also if expired

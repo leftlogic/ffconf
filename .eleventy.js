@@ -31,6 +31,14 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addFilter('kebab', require('./src/_filters/kebab'));
   eleventyConfig.addFilter('slugify', require('slugify'));
+  eleventyConfig.addFilter('firstOf', (s) => {
+    console.log({ s });
+    if (Array.isArray(s)) {
+      return s.slice(0, 1);
+    }
+
+    return s.split(',')[0];
+  });
   eleventyConfig.addFilter('markdown', (s) => markdown.render(s));
   eleventyConfig.addFilter('format', (s, fmt) =>
     format(s, fmt || 'dddd D MMM YYYY')
@@ -44,6 +52,12 @@ module.exports = function (eleventyConfig) {
     if (s) return basename(s);
   });
   eleventyConfig.addFilter('stringify', require('./src/_filters/stringify'));
+  eleventyConfig.addFilter('repeat', (s, n) => {
+    if (Array.isArray(s)) {
+      return Array.from({ length: n }, () => s).flat();
+    }
+    return s.repeat(n);
+  });
 
   eleventyConfig.addFilter('shuffle', shuffle);
 
