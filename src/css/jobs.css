@@ -17,8 +17,8 @@
 @media only screen and (min-width: 700px) {
   .job {
     grid-area: body;
-    border-left: 2px solid var(--salmon);
-    padding-left: 32px;
+    /* border-left: 2px solid var(--salmon); */
+    /* padding-left: 32px; */
   }
 }
 
@@ -120,7 +120,7 @@
       'header header'
       'aside body';
     gap: 0 32px;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 300px 1fr;
   }
 }
 
