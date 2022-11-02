@@ -24,6 +24,7 @@ async function main() {
       'from',
       'promote',
       'approved',
+      'salary',
     ],
     skip_empty_lines: true,
     from: 2,
