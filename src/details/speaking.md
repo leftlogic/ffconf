@@ -1,5 +1,5 @@
 ---
-date: 2019-10-30
+date: 2022-11-02
 title: Full speaker details
 ---
 
