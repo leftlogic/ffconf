@@ -11,14 +11,14 @@ Firstly - thank you so-so much everyone for joining my merry band of speakers th
 
 This document includes lots of details, but for those of you that are as allergic to email as I am, here are the cliff notes:
 
-- Thursday 6:45pm, meet us in the hotel foyer (Jurys Inn Brighton) to move on to the speaker's meal.
+- **Thursday 6:45pm**, meet us in the hotel foyer (Jurys Inn Brighton) to move on to the speaker's meal.
 - This document contains the schedule at the very least, please make sure you know when you're on!
-- Conference registration starts at 9:00am with the first talk at 9:50am - please find me (usually near the stage) during the breaks if you're on in that next section so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
-- Talks are 40mins @ 1920x1080 from you laptop, we don't do Q/A.
-- There is no internet or rather it's super, super flaky. I've got a mifi that you can use (let me know ahead of time), but err on the side of offline.
+- Conference registration starts at **9:00am** with the first talk at 9:50am - please find me (usually near the stage) during the breaks if you're on in that next section so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
+- Talks are **40mins @ 1920x1080** from you laptop, we don't do Q/A.
+- **There is no internet** or rather it's super, super flaky. I've got a mifi that you can use (let me know ahead of time), but err on the side of offline.
 - If you can (optional), please send me your slides the day before, I can pass this onto our stenographer to help with the live captions.
-- Friday evening - post event social until late (or as late as you like) - dinner and drinks are on us.
-- Code of Conduct - if see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
+- Friday evening - post event social until late (or as late as you like) - **dinner and drinks are on us**.
+- **Code of Conduct** - if see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
 
 Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: https://ffconf.org/chat (this is not required!)
 
@@ -35,17 +35,17 @@ ________________________________
 1. Doors open if you want to arrive early - 8:00
 2. Attendee start registration - 9:00
 3. Remy's welcome, conference starts- 9:40
-4. Florence Okoye - Designing as we want, to create the experiences that we need - 09:50 to 10:30
-5. Heydon Pickering - Capitalism, The Web, And You - 10:30 to 11:10
+4. **Florence Okoye** - Designing as we want, to create the experiences that we need - 09:50 to 10:30
+5. **Heydon Pickering** - Capitalism, The Web, And You - 10:30 to 11:10
 6. (break 30 mins)
-7. Lex Lofthouse - Design for Developers - 11:40 to 12:20
-8. Sophie Koonin - This Talk is Under Construction: a love letter to the personal website - 12:20 to 13:00
+7. **Lex Lofthouse** - Design for Developers - 11:40 to 12:20
+8. **Sophie Koonin** - This Talk is Under Construction: a love letter to the personal website - 12:20 to 13:00
 9. (lunch break 90 mins - join us for a fish n chip lunch!)
-10. Lily Madar - Programming with Yarn - 14:30 to 15:10
-11. Olu Niyi-Awosusi - CSS from the Future, Polyfills and You - 15:10 to 15:50
+10. **Lily Madar** - Programming with Yarn - 14:30 to 15:10
+11. **Olu Niyi-Awosusi** - CSS from the Future, Polyfills and You - 15:10 to 15:50
 12. (break 25 mins)
-13. Sareh Heidari - Digital exclusion in healthcare & how to change it - 16:15 to 16:55
-14. Ruth John - Day Disco - 16:55 to 17:35 (post event social 18:00 onwards)
+13. **Sareh Heidari** - Digital exclusion in healthcare & how to change it - 16:15 to 16:55
+14. **Ruth John** - Day Disco - 16:55 to 17:35 (post event social 18:00 onwards)
 
 ## Getting to Brighton
 
