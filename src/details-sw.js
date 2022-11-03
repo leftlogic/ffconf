@@ -1,6 +1,6 @@
 /* eslint-env service-worker */
 
-const cacheName = 'v2022.5/ffconf/details';
+const cacheName = 'v2022.7/ffconf/details';
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(
@@ -23,6 +23,7 @@ self.addEventListener('install', (e) => {
         .addAll([
           '/details/',
           '/details/speaking/',
+          '/covid/',
 
           // css
           '/css/base.css',

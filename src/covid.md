@@ -1,20 +1,23 @@
 ---
 id: covid
-layout: layouts/simple
+date: 2022-11-03
+layout: layouts/text
 ---
 
 # Our COVID policy
 
-This is a placeholder and work in progress document as we're currently working on the contents of this policy for our upcoming ffconf 2022.
+As much as we're told COVID is over, the reality is that it is not. People are still falling ill with COVID and we want to reduce the risk to both you and our speakers as much as we can, by behaving with common sense.
 
-In short, masks are encouraged and welcomed, we politely request that all attendees do a lateral flow test within 24 hours of the conference and of course if you are showing signs of Covid or illness, please stay home.
+This document is a work in progress, and we [welcome any feedback](mailto:events@leftlogic.com?subject=covid%20policy) or suggestions you might have to improve this policy.
 
-Some of the items we intend to add:
+1. We politely request that all attendees do a lateral flow test within 24 hours of the conference and ask anyone who is showing signs of COVID to please stay at home.
+2. Wearing a mask is not mandatory (at time of writing) but are encouraged and welcomed.
+3. Disposable high grade face masks will be available near the entrance of our event venue.
+4. Sanitiser gel dispensers will be made available.
+5. If you wish to practise social distancing during the event, badges will be provided on the day so others know to respect your space.
 
-- Notes about ventilation in the venue
-- Masks being provided
-- Stickers used for social distancing
+## Some comments about our venues
 
----
+The main event is run from Duke of York's Picturehouse, which has a small(ish) reception area, but a large main venue space (normally used for projecting movies) with high ceilings. The rear doors will be opened during the breaks (if the weather isn't very cold) to air the venue.
 
-**This document is a work in progress as of 20 October 2022**
+The social is held at Oh So Social on the sea front, this venue is much smaller with low ceilings and generally the doors and windows are closed. If it's not raining (and not too cold), there is a large outdoor area where drinks and food can be consumed.
