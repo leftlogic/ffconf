@@ -26,7 +26,7 @@ Please note, a full copy of this [document is available here](https://ffconf.org
   - [Pre conference social - 10-Nov](#pre-conference-social---10-nov)
   - [Pre event networking: running or coffee - 11 Nov](#pre-event-networking-running-or-coffee---11-nov)
 - [Health and Safety](#health-and-safety)
-- [Accessibility & Covid](#accessibility--covid)
+- [Accessibility and Covid](#accessibility-and-covid)
 - [Contact](#contact)
 
 ## Directions
@@ -109,7 +109,7 @@ Kindly hosted by Anwen Williams, one of the Brighton Codebar organisers.
 
 Please report any lost property to the registration desk. Left Logic and Duke of York's Picturehouse takes no responsibility for delegate's lost property so we ask you to be vigilant at all times.
 
-## Accessibility & Covid
+## Accessibility and Covid
 
 Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side.
 
