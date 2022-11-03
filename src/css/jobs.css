@@ -120,7 +120,7 @@
       'header header'
       'aside body';
     gap: 0 32px;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: minmax(30%, 300px) 1fr;
   }
 }
 
@@ -152,7 +152,7 @@
 }
 
 .job-single a.button:hover {
-  color: var(--primary);
+  color: var(--white);
   text-decoration: underline;
   background: var(--salmon-dark);
 }

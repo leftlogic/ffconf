@@ -16,6 +16,7 @@ permalink: '/jobs/{{ job.slug }}/index.html'
 
   <aside>
     <h2><strong><a target="_blank" href="{{ job.url }}">{{ job.company }}</a></strong></h2>
+    <p><strong>Salary: {{ job.salary }}</strong></p>
     <p><a target="_blank" href="{{ job.url }}">{{ job.url | niceDomain }}</a></p>
     <p>Location: {{ job.city }}, {{ job.country }}</p>
     <p>Position: {{ job.type | join(", ") | lower }}</p>

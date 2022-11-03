@@ -13,6 +13,7 @@ css: jobs.css
     <li>
       <a href="/jobs/{{job.slug}}">
         <p><strong>{{job.title}}</strong> <span>at</span> <span class="company">{{ job.company }}</span></p>
+        <p>{{ job.salary }}</p>
         <p><small>{{ job.city }} {{ job.country }}</small></p>
       </a>
       <div class="meta">
