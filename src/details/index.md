@@ -9,7 +9,7 @@ Please find below important and useful information to make sure your visit to ou
 
 Please note, a full copy of this [document is available here](https://ffconf.org/details/) and once loaded is available offline. -->
 
-<mark>This URL is available offline thanks to a service worker</mark>
+<mark>This URL is available offline thanks to a service worker - if the year listed above is old, please hit refresh (a few times)</mark>
 
 
 ## Contents <!-- omit in toc -->
