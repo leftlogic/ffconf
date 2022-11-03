@@ -5,6 +5,13 @@ hide_newsletter: true
 ---
 
 <section class="article">
+  {%if date %}
+  <header>
+    <span class="pill active">Updated {{ date | format("MMM D YYYY") }}</span>
+    <h1>{{ title }}</h1>
+  </header>
+  {% endif %}
+
   <div class="body {% for tag in tags %}tag-{{tag}} {% endfor %}">
     {{ content | safe}}
   </div>

@@ -24,4 +24,4 @@ More details can be found on the venue website https://www.picturehouses.com/cin
 - we provide coloured lanyards for anyone who does not wish to appear in any photos used on social media
 - on request we can organise a friendly buddy to welcome you in the morning
 
-You are also welcome to ask specific questions via direct email:
+You are also welcome to ask specific questions via direct email: events@leftlogic.com
