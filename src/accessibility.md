@@ -5,6 +5,8 @@ layout: layouts/simple
 
 # Venue Accessibility
 
+Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side.
+
 The ground floor is accessible to customers with limited mobility including wheelchair users. The Box Office, Kiosk, access toilet and screen are all located on the ground floor. From the foyer, there is a small ramp from which to access the Kiosk and Screen.
 
 We regret that at present there is no lift and consequently the Balcony and Bar can only be accessed by ascending a staircase of 25 steps.
