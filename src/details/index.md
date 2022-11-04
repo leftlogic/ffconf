@@ -280,6 +280,8 @@ Not a runner? Moes@thecircus is practically next to Duke of York's and open from
 
 Please report any lost property to the registration desk. Left Logic and Duke of York's Picturehouse takes no responsibility for delegate's lost property so we ask you to be vigilant at all times.
 
+Please note that there is no cloak room or storage for any items.
+
 ## Accessibility and COVID
 
 Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side.
