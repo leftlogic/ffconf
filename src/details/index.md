@@ -1,5 +1,5 @@
 ---
-date: 2022-11-03
+date: 2022-11-04
 title: Full event details
 ---
 
