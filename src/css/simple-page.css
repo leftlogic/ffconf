@@ -3,7 +3,11 @@
   margin: 0 auto;
 }
 
-.article h1 {
+section > header {
+  margin-top: 40px;
+}
+
+section h1 {
   margin: 24px 0 48px 0;
 }
 

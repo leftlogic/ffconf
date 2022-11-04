@@ -1,7 +1,6 @@
 ---
 id: covid
 date: 2022-11-03
-hide_newsletter: true
 layout: layouts/simple
 ---
 

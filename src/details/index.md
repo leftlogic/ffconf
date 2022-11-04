@@ -14,7 +14,7 @@ Please note, a full copy of this [document is available here](https://ffconf.org
 ## Contents <!-- omit in toc -->
 
 - [Directions](#directions)
-- [Registration - 9am 11-Nov](#registration---9am-11-nov)
+- [Registration - 9am 11-Nov](#registration-9am-11-nov)
 - [Refreshments and lunch](#refreshments-and-lunch)
 - [Lunch with future friends](#lunch-with-future-friends)
 - [Reduce, reuse, recycle](#reduce-reuse-recycle)
@@ -22,9 +22,9 @@ Please note, a full copy of this [document is available here](https://ffconf.org
 - [Technology](#technology)
 - [Post conference social](#post-conference-social)
 - [Pre conference](#pre-conference)
-  - [Show and Tell with Async - 10-Nov](#show-and-tell-with-async---10-nov)
-  - [Pre conference social - 10-Nov](#pre-conference-social---10-nov)
-  - [Pre event networking: running or coffee - 11 Nov](#pre-event-networking-running-or-coffee---11-nov)
+  - [Show and Tell with Async - 10-Nov](#show-and-tell-with-async-10-nov)
+  - [Pre conference social - 10-Nov](#pre-conference-social-10-nov)
+  - [Pre event networking: running or coffee - 11 Nov](#pre-event-networking-running-or-coffee-11-nov)
 - [Health and Safety](#health-and-safety)
 - [Accessibility and COVID](#accessibility-and-covid)
 - [Contact](#contact)
@@ -142,11 +142,11 @@ Please also take a few minutes to check out our sponsors and the links to their 
 
 * [Google](https://web.dev/)
 
-
 ### Our Day sponsor<!-- omit in toc -->
 
 * [Madgex](https://madgex.com/)
 * [JS Bin](https://jsbin.com/)
+* [Netlify](https://netlify.com/)
 
 ### Our Scholarship sponsors<!-- omit in toc -->
 

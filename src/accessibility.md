@@ -1,8 +1,6 @@
 ---
 id: accessibility
-layout: layouts/base
-css: simple-page.css
-hide_newsletter: true
+layout: layouts/simple
 ---
 
 # Venue Accessibility
