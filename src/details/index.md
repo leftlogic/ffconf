@@ -125,7 +125,7 @@ Gender neutral and accessible toilets are available on the ground floor near to 
 
 COVID safety. We politely request that all attendees do a lateral flow test within 24 hours of the conference and ask anyone who is showing signs of COVID to please stay at home. We encourage the use of masks indoors.
 
-Please also take a moment to review our [COVID policy](/covid/)
+Please also take a moment to review our [COVID policy](https://ffconf.org/covid/)
 
 Remy and Julie want to ensure that everyone is able to have access therefore should you have any special requests please contact us in advance so we can accommodate your needs.
 
@@ -142,7 +142,7 @@ Please also take a few minutes to check out our sponsors and the links to their 
 
 * [Google](https://web.dev/)
 
-### Our Day sponsor<!-- omit in toc -->
+### Our Day sponsors<!-- omit in toc -->
 
 * [Madgex](https://madgex.com/)
 * [JS Bin](https://jsbin.com/)
