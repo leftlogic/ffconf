@@ -5,11 +5,9 @@ title: Full speaker details
 
 <mark>This URL is available offline thanks to a service worker</mark>
 
-Hello all my dear speakers,
-
 Firstly - thank you so-so much everyone for joining my merry band of speakers this year!
 
-This document includes lots of details, but for those of you that are as allergic to email as I am, here are the cliff notes:
+This document includes lots of details, but for those of you that are as allergic to long form as I am, here are the cliff notes:
 
 - **Thursday 6:45pm**, meet us in the hotel foyer (Jurys Inn Brighton) to move on to the speaker's meal.
 - This document contains the schedule at the very least, please make sure you know when you're on!
@@ -29,6 +27,19 @@ We also have a [group whatsapp chat](https://chat.whatsapp.com/HNe5S7gg6RF3MGnNR
 The full detail follows.
 
 ________________________________
+
+## Contents  <!-- omit in toc -->
+- [Schedule](#schedule)
+- [Getting to Brighton](#getting-to-brighton)
+- [Accommodation](#accommodation)
+- [Thursday evening](#thursday-evening)
+- [Conference day](#conference-day)
+- [The internet](#the-internet)
+- [Friday lunch (90mins)](#friday-lunch-90mins)
+- [Friday dinner](#friday-dinner)
+- [Post event social](#post-event-social)
+- [Accessibility and COVID](#accessibility-and-covid)
+- [Code of Conduct](#code-of-conduct)
 
 ## Schedule
 
@@ -100,6 +111,27 @@ If you need/want to drop any bags off at the hotel beforehand, we'll have a memb
 ## Post event social
 
 After the conference (about 6pm) we'll go onto the social. Some of us will head back to the hotel to drop stuff off, others will go directly to the after party. It'll end around midnight (or earlier depending on demand … or [evacuations](https://mobile.twitter.com/rem/status/1189506219368685569) as we did in 2018!).
+
+
+## Accessibility and COVID
+
+Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side.
+
+The ground floor is accessible to customers with limited mobility including wheelchair users.
+
+The Box Office, Kiosk, access toilet and screen are all located on the ground floor. From the foyer there is a small ramp from which to access the Kiosk and Screen.
+
+Large print schedules are available on request at the registration desk.
+
+We regret that there is no lift and consequently the Balcony and Bar can only be accessed by ascending a staircase of 25 steps.
+
+Gender neutral and accessible toilets are available on the ground floor near to the exits.
+
+COVID safety. We politely request that all attendees do a lateral flow test within 24 hours of the conference and ask anyone who is showing signs of COVID to please stay at home. We encourage the use of masks indoors.
+
+Please also take a moment to review our [COVID policy](https://ffconf.org/covid/)
+
+Remy and Julie want to ensure that everyone is able to have access therefore should you have any special requests please contact us in advance so we can accommodate your needs.
 
 ## Code of Conduct
 
