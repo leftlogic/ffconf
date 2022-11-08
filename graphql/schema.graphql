@@ -38,9 +38,17 @@ type Session {
 
 type Query {
   event(year: ID!): Event
-  events(where: EventsWhereInput, orderBy: EventsOrderByInput): [Event!]!
+  events(
+    where: EventsWhereInput
+    orderBy: EventsOrderByInput
+    live: Boolean
+  ): [Event!]!
   session(id: ID, slug: String): Session
-  sessions(where: SessionWhereInput, orderBy: SessionOrderByInput): [Session!]!
+  sessions(
+    where: SessionWhereInput
+    orderBy: SessionOrderByInput
+    live: Boolean
+  ): [Session!]!
   speaker(id: ID, twitter: String): Speaker
   speakers(where: SpeakerWhereInput, orderBy: SpeakerOrderByInput): [Speaker!]!
   tags: [String]!

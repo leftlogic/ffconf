@@ -3,11 +3,11 @@ const sessions = require('./data/sessions.json');
 const speakers = require('./data/speakers.json');
 
 function get(source, key, match) {
-  return source.find(_ => _[key] === match);
+  return source.find((_) => _[key] === match);
 }
 
 function getAll(source, key, match) {
-  return source.filter(_ => _[key] === match);
+  return source.filter((_) => _[key] === match);
 }
 
 function order(field, direction) {
@@ -21,22 +21,22 @@ function order(field, direction) {
 
 const Types = {
   Speaker: {
-    session: parent => get(sessions, 'speakerId', parent.id),
-    websites: parent =>
+    session: (parent) => get(sessions, 'speakerId', parent.id),
+    websites: (parent) =>
       Object.entries(get(speakers, 'id', parent.id).websites || {}).map(
         ([title, url]) => ({ title, url })
-      )
+      ),
   },
   Session: {
-    event: parent => {
+    event: (parent, { live }) => {
       return get(events, 'id', parent.eventId);
     },
-    speaker: parent => {
+    speaker: (parent) => {
       return get(speakers, 'id', parent.speakerId);
-    }
+    },
   },
   Event: {
-    sessions: (parent, { where, orderBy }) => {
+    sessions: (parent, { where, orderBy, live }) => {
       let s = Array.from(sessions);
       if (parent && parent.id) {
         s = getAll(sessions, 'eventId', parent.id);
@@ -44,20 +44,24 @@ const Types = {
 
       if (where) {
         if (where.tag) {
-          s = s.filter(_ => _.tags.includes(where.tag));
+          s = s.filter((_) => _.tags.includes(where.tag));
         }
 
         if (where.id) {
-          s = s.filter(_ => _.id === where.id);
+          s = s.filter((_) => _.id === where.id);
         }
 
         if (where.slug) {
-          s = s.filter(_ => _.slug === where.slug);
+          s = s.filter((_) => _.slug === where.slug);
         }
 
         if (where.year) {
-          s = s.filter(_ => get(events, 'id', _.eventId).year == where.year);
+          s = s.filter((_) => get(events, 'id', _.eventId).year == where.year);
         }
+      }
+
+      if (live) {
+        s = s.filter((_) => get(events, 'id', _.eventId).live != false);
       }
 
       if (orderBy) {
@@ -65,8 +69,8 @@ const Types = {
       }
 
       return s;
-    }
-  }
+    },
+  },
 };
 
 const Query = {
@@ -85,18 +89,24 @@ const Query = {
   event: (parent, { year }) => {
     return get(events, 'year', parseInt(year, 10));
   },
-  events: (parent, { where, orderBy }) => {
+  events: (parent, { where, orderBy, live }) => {
     let e = events;
     if (where) {
-      e = events.filter(_ => parseInt(_.year, 10) === parseInt(where.year, 10));
+      e = events.filter(
+        (_) => parseInt(_.year, 10) === parseInt(where.year, 10)
+      );
+    }
+
+    if (live) {
+      e = e.filter((_) => _.live !== false);
     }
 
     return e.sort(order(...(orderBy || 'id_ASC').split('_')));
   },
-  sessions: Types.Event.sessions
+  sessions: Types.Event.sessions,
 };
 
 module.exports = {
   ...Types,
-  Query
+  Query,
 };

@@ -84,9 +84,9 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter('length', (source) => source.length);
 
-  eleventyConfig.addFilter('jsonEscape', (source) =>
-    source.replace(/"/g, '\\"').replace(/\n/g, '\\n')
-  );
+  eleventyConfig.addFilter('jsonEscape', (source) => {
+    return (source || '').replace(/"/g, '\\"').replace(/\n/g, '\\n');
+  });
 
   eleventyConfig.addFilter('liveTalks', (talks) => {
     return talks.filter((talk) =>

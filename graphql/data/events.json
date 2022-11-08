@@ -57,6 +57,7 @@
   {
     "id": "2022",
     "url": "https://2022.ffconf.org",
-    "year": 2022
+    "year": 2022,
+    "live": false
   }
 ]

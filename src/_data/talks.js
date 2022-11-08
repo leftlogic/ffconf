@@ -2,7 +2,7 @@ const { createTestClient } = require('apollo-server-testing');
 const { server } = require('../../graphql');
 
 const query = `query {
-  sessions(orderBy:order_ASC) {
+  sessions(orderBy:order_ASC, live:true) {
     title
     slug
     time
