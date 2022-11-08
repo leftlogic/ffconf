@@ -1285,5 +1285,84 @@
     "title": "What does it take to become a developer in 2020?",
     "description": "Amina shares her story about what it takes to become a developer after teaching herself how to code, juggling a full-time job and baby.",
     "tags": ["betterment"]
+  },
+  {
+    "title": "Designing as we want, to create the experiences that we need",
+    "tags": ["betterment"],
+    "order": 1,
+    "duration": 40,
+    "eventId": "2022",
+    "speakerId": "2022_finokoye",
+    "slug": "2022_finokoye_talk"
+  },
+
+  {
+    "title": "Capitalism, The Web, And You",
+    "tags": ["betterment"],
+    "order": 2,
+    "duration": 40,
+    "eventId": "2022",
+    "speakerId": "2022_heydonworks",
+    "slug": "2022_heydonworks_talk"
+  },
+
+  {
+    "title": "Design for Developers",
+    "tags": ["css", "creativity"],
+    "order": 3,
+    "duration": 40,
+    "eventId": "2022",
+    "speakerId": "2022_loftio",
+    "slug": "2022_loftio_talk"
+  },
+
+  {
+    "title": "This Talk is Under Construction: a love letter to the personal { website",
+    "tags": ["creativity", "standards"],
+    "order": 4,
+    "duration": 40,
+    "eventId": "2022",
+    "speakerId": "2022_type__error",
+    "slug": "2022_type__error_talk"
+  },
+
+  {
+    "title": "Programming with Yarn",
+    "tags": ["creativity", "javascript"],
+    "order": 5,
+    "duration": 40,
+    "eventId": "2022",
+    "speakerId": "2022_lily_2point0",
+    "slug": "2022_lily_2point0_talk"
+  },
+
+  {
+    "title": "Working towards a greener world from behind the keyboard",
+    "tags": ["big web ideas"],
+    "order": 6,
+    "duration": 40,
+    "eventId": "2022",
+    "speakerId": "2022_lil_natw",
+    "slug": "2022_lil_natw_talk"
+  },
+
+  {
+    "title": "Digital exclusion in healthcare & how to change it",
+    "tags": ["accessibility", "big web ideas"],
+    "order": 7,
+    "duration": 40,
+    "eventId": "2022",
+    "speakerId": "2022_sareh88",
+    "slug": "2022_sareh88_talk"
+  },
+
+  {
+    "title": "Day Disco",
+    "tags": ["fun", "javascript"],
+    "order": 8,
+    "duration": 40,
+    "eventId": "2022",
+    "speakerId": "2022_rumyra",
+    "slug": "2022_rumyra_talk"
   }
 ]

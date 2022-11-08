@@ -603,5 +603,76 @@
     "photo": "/images/speakers/aminaa.jpg",
     "name": "Amina Adewusi",
     "twitter": "a_adewusi"
+  },
+  {
+    "name": "Florence Okoye",
+    "pronouns": "she/her",
+    "twitter": "finokoye",
+    "photo": "/images/speakers/finokoye.jpg",
+    "id": "2022_finokoye",
+    "bio": "always wanted to do interesting things and making them at least vaguely useful!"
+  },
+
+  {
+    "name": "Heydon Pickering",
+    "pronouns": "he/they",
+    "twitter": "heydonworks",
+    "photo": "/images/speakers/heydonworks.jpg",
+    "id": "2022_heydonworks",
+    "bio": "started making websites to share the music I was making, using images of text (because web fonts didn't exist), layout tables, and multiple embedded Flash animations... so it's just as well I never managed to work out how to publish any of them"
+  },
+
+  {
+    "name": "Lex Lofthouse",
+    "pronouns": "she/her",
+    "twitter": "loftio",
+    "photo": "/images/speakers/loftio.jpg",
+    "id": "2022_loftio",
+    "bio": "Ever since my Dad taught me Photoshop when I was 13, I was doomed to become a designer. Almost 20 years later and I think I can say I'm somewhat ok at it, thanks Dad."
+  },
+
+  {
+    "name": "Sophie Koonin",
+    "pronouns": "she/her",
+    "twitter": "type__error",
+    "photo": "/images/speakers/type__error.jpg",
+    "id": "2022_type__error",
+    "bio": "Something like… \"GeoCities, <marquee> and NeoPets shopfronts\"!"
+  },
+
+  {
+    "name": "Lily Madar",
+    "pronouns": "she/her",
+    "twitter": "lily_2point0",
+    "photo": "/images/speakers/lily_2point0.jpg",
+    "id": "2022_lily_2point0",
+    "bio": "When first introduced to HTML, I spent hours trying to replicate a Mondrian painting out of <table>s. Then I moved to Flash for more interesting AR experiments and interactions. Before being forced into JavaScript. I never looked back."
+  },
+
+  {
+    "name": "Natalia Waniczek",
+    "pronouns": "she/her",
+    "twitter": "lil_natw",
+    "photo": "/images/speakers/lil_natw.jpg",
+    "id": "2022_lil_natw",
+    "bio": ""
+  },
+
+  {
+    "name": "Sareh Heidari",
+    "pronouns": "she/her",
+    "twitter": "sareh88",
+    "photo": "/images/speakers/sareh88.jpg",
+    "id": "2022_sareh88",
+    "bio": "Enjoying solving puzzles led to studying maths; then detoured into nanotechnology in academia. I missed the human element, so trained as a web developer, to use tech for good. #WebAccessibility all the way!"
+  },
+
+  {
+    "name": "Ruth John",
+    "pronouns": "she/her",
+    "twitter": "rumyra",
+    "photo": "/images/speakers/rumyra.jpg",
+    "id": "2022_rumyra",
+    "bio": "Twenty years ago I finished my degree and promised myself I wouldn't pursue a job in programming after a disastrous unit in Java... Then someone offered me a PHP job and I was also pretty bad at that, but quite ok at HTML, CSS & JS it turned out. Never say never, but ask me again in twenty years."
   }
 ]
