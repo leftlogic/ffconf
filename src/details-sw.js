@@ -1,6 +1,6 @@
 /* eslint-env service-worker */
 
-const cacheName = 'v2022.14/ffconf/details';
+const cacheName = 'v2022.15/ffconf/details';
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(
@@ -51,9 +51,14 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     // ensure we check the *right* cache to match against
     caches.open(cacheName).then((cache) => {
-      return cache.match(event.request).then((res) => {
-        return res || fetch(event.request);
-      });
+      return cache
+        .match(event.request)
+        .then((res) => {
+          return res || fetch(event.request);
+        })
+        .catch((e) => {
+          console.log('failed to fetch', event.request.url);
+        });
     })
   );
 });
