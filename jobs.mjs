@@ -49,10 +49,15 @@ async function main() {
             }`,
             { lower: true }
           );
+
           if (!_.approved || _.approved.toLowerCase() === 'n') {
             _.approved = false;
           } else {
             _.approved = true;
+          }
+
+          if (!_.url.startsWith('http')) {
+            _.url = 'https://' + _.url;
           }
 
           return _;
