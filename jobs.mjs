@@ -67,7 +67,6 @@ async function main() {
             return false;
           }
 
-          console.log(_);
           return true;
 
           // also if expired
