@@ -47,6 +47,7 @@ module.exports = function (eleventyConfig) {
     format(s, fmt || 'dddd D MMM YYYY')
   );
   eleventyConfig.addFilter('cleanUsername', (s) => {
+    if (!s) return 'UNKNOWN';
     if (s[0] === '@') s = s.slice(1);
     return s.toLowerCase();
   });

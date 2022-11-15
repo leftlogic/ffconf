@@ -28,7 +28,7 @@ function getId(url) {
   return url.split('/').pop();
 }
 
-async function getJSON(id) {
+async function getJSON(id, twitterUrl) {
   // return mock;
 
   const url = `https://cdn.syndication.twimg.com/tweets.json?ids=${id}&lang=en&suppress_response_codes=true&theme=light&tz=GMT%2B0100`;
@@ -48,7 +48,7 @@ async function getJSON(id) {
   // );
 
   if (typeof body === 'undefined') {
-    console.log(url);
+    console.log({ url, twitterUrl });
     return false;
   }
 
@@ -108,7 +108,7 @@ async function main() {
     urls
       .map((url) => {
         const id = getId(url);
-        return getJSON(id);
+        return getJSON(id, url);
       })
       .filter(Boolean)
   );

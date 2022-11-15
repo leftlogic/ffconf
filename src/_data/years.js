@@ -1,20 +1,21 @@
-const talks = require('./talks');
+const { createTestClient } = require('apollo-server-testing');
+const { server } = require('../../graphql');
 
-module.exports = async () => {
-  const sessions = await talks();
+const query = `query {
+  events(orderBy:year_ASC) {
+    year
+  }
+}`;
 
-  const res = Array.from(
-    new Set(
-      sessions.reduce((acc, curr) => {
-        const res = curr.event.year;
+const client = createTestClient(server);
 
-        if (Array.isArray(res)) {
-          return [...res, ...acc];
-        }
-
-        return [res, ...acc];
-      }, [])
-    )
-  ).sort();
-  return res;
+module.exports = () => {
+  return new Promise((resolve, reject) => {
+    client
+      .query({ query })
+      .then(({ data }) => {
+        resolve(data.events.map((_) => parseInt(_.year, 10)));
+      })
+      .catch(reject);
+  });
 };
