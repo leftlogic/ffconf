@@ -3,7 +3,8 @@ layout: layouts/base.njk
 css: articles.css
 ---
 
-{% set articles = collections.articles %}
+{% set articles = collections.articleList %}
+
 <section class="articles">
   <header class="with-filter">
     <h1><span id="count">Articles</span></h1>

@@ -4,19 +4,50 @@
       <h2>Get the latest insights & news for ffconf</h2>
       <p>Announcements for conference details, workshops, products and more – including early bird access and video releases from previous years.</p>
     </div>
-    <form action="https://mail.leftlogic.com/subscribe/6784a6a3-4975-409d-975b-64df4672ca9c" method="post">
+    <form id="newsletter" class="form" action="/thanks" method="get">
       <div style="position: absolute !important;left: -999em !important;">
         <label>We use the following field to detect spam bots. If you fill this in, you will be marked as a spammer.</label>
-        <input type="text" name="last_name">
+        <input type="text" name="name">
       </div>
-
 
       <div>
-        <label><span>Name</span><input name="name"></label>
+        <label><span>Name</span><input name="first_name"></label>
         <label><span>Email</span><input type="email" name="email"></label>
         <button class="pill-button" type="submit">Subscribe</button>
-        <input type="hidden" name="tags" value="ffconfnews;ffconf" />
+        <input hidden name="last_name" value="">
+
       </div>
     </form>
+    <script>
+      (() => {
+        const target = 'https://mail.leftlogic.com/subscribe/6784a6a3-4975-409d-975b-64df4672ca9c';
+        const form = document.querySelector('#newsletter');
+
+        form.addEventListener('submit', (event) => {
+          if (form.method === 'post') {
+            return;
+          }
+
+          const spamCheck = form.querySelector('[name="name"]');
+          const firstName = form.querySelector('[name="first_name"]');
+          const lastName = form.querySelector('[name="last_name"]');
+
+          if (spamCheck.value || lastName.value) {
+            // falls into the thanks page ignoring the submit
+            return;
+          }
+
+          event.preventDefault();
+
+          let [first, ...last] = firstName.value.split(' ');
+          lastName.value = last.join(' ');
+          firstName.value = first;
+
+          form.method = 'post';
+          form.action = target;
+          form.submit();
+        });
+      })();
+    </script>
   </div>
 </section>

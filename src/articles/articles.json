@@ -3,6 +3,18 @@
   "tags": ["insights"],
   "posts": [
     {
+      "url": "https://remysharp.com/2022/11/17/ffconf-2022-the-return",
+      "title": "ffconf 2022 - the return",
+      "by": "Remy Sharp",
+      "date": "2022-11-17"
+    },
+    {
+      "url": "https://amyhupe.co.uk/articles/making-space-for-multiple-truths/",
+      "title": "Making space for multiple truths: Reflections from FF Conf 2022",
+      "by": "Amy Hupe",
+      "date": "2022-11-16"
+    },
+    {
       "url": "https://stac.works/articles/ffconf-2019",
       "title": "FFCONF 2019",
       "by": "Josh Nesbitt",

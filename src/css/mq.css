@@ -36,7 +36,6 @@
     justify-content: space-between;
   }
 
-
   .body > main {
     padding: 40px;
   }
@@ -73,11 +72,10 @@
     margin-bottom: 20px;
   }
 
-  .body > footer> div {
+  .body > footer > div {
     flex-direction: row;
     align-items: center;
   }
-
 
   #menu li.selected::after {
     content: '';
@@ -100,7 +98,7 @@
     flex-direction: row;
   }
 
-  .newsletter form > div {
+  .newsletter .form > div {
     max-width: 380px;
   }
 
@@ -117,7 +115,7 @@
 
   .talk-card {
     width: 45%;
-    margin: 20px;  /* and that, will result in a 10px gap */
+    margin: 20px; /* and that, will result in a 10px gap */
     border-radius: 2px;
   }
 }

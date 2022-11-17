@@ -822,11 +822,12 @@ img.soft {
   top: -20px;
 }
 
-.newsletter form {
+.newsletter .form {
   margin-top: 32px;
 }
 
-.newsletter form label {
+.newsletter .form label {
+  overflow: hidden;
   display: block;
   border-radius: 9999px;
   background-color: var(--box);
@@ -838,7 +839,7 @@ img.soft {
   align-items: center;
 }
 
-.newsletter form label input {
+.newsletter .form label input {
   flex-grow: 1;
   background: none;
   font-size: 18px;
@@ -849,7 +850,7 @@ img.soft {
   border-bottom: 2px solid transparent;
 }
 
-.newsletter form label input:focus {
+.newsletter .form label input:focus {
   outline: none;
   border-bottom: 2px solid var(--salmon);
 }

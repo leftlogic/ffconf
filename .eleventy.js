@@ -34,7 +34,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('kebab', require('./src/_filters/kebab'));
   eleventyConfig.addFilter('slugify', require('slugify'));
   eleventyConfig.addFilter('firstOf', (s) => {
-    console.log({ s });
     if (Array.isArray(s)) {
       return s.slice(0, 1);
     }
@@ -152,6 +151,7 @@ module.exports = function (eleventyConfig) {
     return [first, second];
   });
 
+  let allArticles = null;
   eleventyConfig.addCollection('articles', function (collection) {
     const res = collection.getAllSorted().filter(function (item) {
       return (
@@ -161,18 +161,36 @@ module.exports = function (eleventyConfig) {
 
     const others = require('./src/articles/articles.json').posts.map((post) => {
       return {
-        data: { ...post, tags: ['write up'] },
+        data: { ...post, tags: ['write up'], date: new Date(post.date) },
+        date: new Date(post.date),
         url: post.url,
       };
     });
 
-    return [...res, ...others]
+    allArticles = [...res, ...others]
       .sort((a, b) => {
         return new Date(a.data.date).getTime() < new Date(b.data.date).getTime()
           ? 1
           : -1;
       })
       .filter(livePosts);
+
+    return allArticles;
+  });
+
+  eleventyConfig.addCollection('articleList', function (collection) {
+    const res = allArticles.map(({ url, data }) => {
+      const { title, date, tags } = data;
+      return {
+        url,
+        data: {
+          title,
+          date,
+          tags,
+        },
+      };
+    });
+    return res;
   });
 
   // eleventyConfig.setBrowserSyncConfig({
