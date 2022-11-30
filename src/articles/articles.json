@@ -3,6 +3,12 @@
   "tags": ["insights"],
   "posts": [
     {
+      "url": "https://blog.barnettjones.com/2022/11/13/ffconf-22/",
+      "by": "Matt Barnett-Jones",
+      "date": "2022-11-29",
+      "title": "ffconf2022 - Frontend friends, frontend forever or friendly frontenders?"
+    },
+    {
       "url": "https://heypresents.com/podcast/22",
       "title": "ffconf 2022 round-up (podcast)",
       "by": "Off Script - James Hall and Josh Nesbitt",
