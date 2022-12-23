@@ -1296,7 +1296,7 @@
     "slug": "2022_finokoye_talk",
     "audio": "https://media.ffconf.org/2022/1.mp3",
     "video": "https://www.youtube.com/watch?v=8jVRdtz-k-E&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=1",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2022/1.pdf",
     "time": "09:50",
     "description": "Delight. Inclusion. Awareness. Justice. Reparation. That's a lot to embed into every workflow. Are there ways that we can combine data and research to empower the people who use our products? Is there anything from critical design that can help us work differently? Let's do some design discourse and design better for the web and beyond."
   },
@@ -1311,7 +1311,7 @@
     "slug": "2022_heydonworks_talk",
     "audio": "https://media.ffconf.org/2022/2.mp3",
     "video": "https://www.youtube.com/watch?v=GZsIhiXJjpY&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=2",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2022/2.pdf",
     "time": "10:30",
     "description": "In 2020, the UK government ordered schools in England not to use material from anti-capitalist writers, likening it to promoting crime or terrorism. This talk is about capitalism, the web, and what people who can create things for the web might do to help separate the two."
   },
@@ -1326,7 +1326,7 @@
     "slug": "2022_loftio_talk",
     "audio": "https://media.ffconf.org/2022/3.mp3",
     "video": "https://www.youtube.com/watch?v=_1udcJCTU20&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=3",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2022/3.pdf",
     "time": "11:40",
     "description": "If you've ever wanted to learn more about the magical secrets of UI design (trust me, they're no secret at all!), get ready for a tour of fundamental design principles, the building blocks of a successful design and how we put that all together to create something beautiful!"
   },
@@ -1341,7 +1341,7 @@
     "slug": "2022_type__error_talk",
     "audio": "https://media.ffconf.org/2022/4.mp3",
     "video": "https://www.youtube.com/watch?v=vGYm9VdfJ8s&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=4",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2022/4.pdf",
     "time": "12:20",
     "description": "This is a nostalgic look back at the evolution of personal websites, and a look forward to how we can recreate this magic today. It's a manifesto for building something just for the fun of it, and a call to tell your story on your own platform."
   },
@@ -1356,7 +1356,7 @@
     "slug": "2022_lily_2point0_talk",
     "audio": "https://media.ffconf.org/2022/5.mp3",
     "video": "https://www.youtube.com/watch?v=mcbg_mCQOHs&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=5",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2022/5.pdf",
     "time": "14:30",
     "description": "Crochet and other yarn crafts can be viewed as a form of programming. Without realising it, crocheters interpret their own patterns, thus becoming \"computers\". This talk explores the analogies between a craft and what we know of programming."
   },
@@ -1371,7 +1371,7 @@
     "slug": "2022_lil_natw_talk",
     "audio": "https://media.ffconf.org/2022/6.mp3",
     "video": "https://www.youtube.com/watch?v=CS-3bFo1XHA&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=6",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2022/6.pdf",
     "time": "15:10",
     "description": "In what ways tech is affecting the environment & climate change? We'll discuss processes which devs can use in their work to create a greener web and implementable systematic changes within an organisation that'd make a positive impact on the world."
   },
@@ -1386,7 +1386,7 @@
     "slug": "2022_sareh88_talk",
     "audio": "https://media.ffconf.org/2022/7.mp3",
     "video": "https://www.youtube.com/watch?v=Zi1NXGgsM3s&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=7",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2022/7.pdf",
     "time": "16:15",
     "description": "So you don't need to take a whole morning off for a doctor's appointment - great! Using tech for healthcare can speed up so many interactions & some changes are here to stay. But who is excluded when options are digital-first? What can we do to ensure the health of the most vulnerable in society is improved and not hindered by our rush to web-first tech?"
   },
