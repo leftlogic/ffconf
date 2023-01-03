@@ -637,7 +637,7 @@
     "twitter": "type__error",
     "photo": "/images/speakers/type__error.jpg",
     "id": "2022_type__error",
-    "bio": "Something like… \"GeoCities, <marquee> and NeoPets shopfronts\"!"
+    "bio": "Something like… \"GeoCities, `<marquee>` and NeoPets shopfronts\"!"
   },
 
   {
@@ -646,7 +646,7 @@
     "twitter": "lily_2point0",
     "photo": "/images/speakers/lily_2point0.jpg",
     "id": "2022_lily_2point0",
-    "bio": "When first introduced to HTML, I spent hours trying to replicate a Mondrian painting out of <table>s. Then I moved to Flash for more interesting AR experiments and interactions. Before being forced into JavaScript. I never looked back."
+    "bio": "When first introduced to HTML, I spent hours trying to replicate a Mondrian painting out of `<table>`s. Then I moved to Flash for more interesting AR experiments and interactions. Before being forced into JavaScript. I never looked back."
   },
 
   {
