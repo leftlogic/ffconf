@@ -112,7 +112,12 @@ $('details').onchange = () => {
     history.replaceState(null, null, '?filter=' + selection.tags.join(',') + '&years=' + selection.years.join(','));
   }
 
-  $('#count').innerHTML = count === 1 ? '1 Talk' : `${count} Talks`;
+  let title = (count === 1 ? '1 Talk' : `${count} Talks`);
+  if (!reset) {
+    title += " (filtered)";
+  }
+
+  $('#count').innerHTML = title;
 }
 
 try {
