@@ -78,7 +78,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('filter', (source, prop, value) => {
     return source.filter((source) => {
       const res = undefsafe(source, prop);
-      return res === value;
+      return res == value;
     });
   });
 
