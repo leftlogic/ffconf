@@ -1,6 +1,6 @@
 ---
-title: "full session line up live"
-date: 2023-09-25
+title: "Full 2023 session line up live"
+date: 2023-08-25
 ---
 We are pleased to announce the full line up of talks are now live on the [ffconf 2023 website!](https://2023.ffconf.org/)
 
