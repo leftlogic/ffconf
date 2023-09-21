@@ -36,6 +36,6 @@ We also have our inclusion sponsorship slot, allowing your company to support ou
 
 ---
 
-We're half way, look out for the next two speakers in the coming days, and do let us know via our socials ([Mastondon](https://social.ffconf.org/@ffconf) or [Twitter](https://twitter.com/ffconf)) whether you'd already guessed any of our lovely speakers.
+We're half way, look out for the next two speakers in the coming days, and do let us know via our socials ([Mastodon](https://social.ffconf.org/@ffconf) or [Twitter](https://twitter.com/ffconf)) whether you'd already guessed any of our lovely speakers.
 
 – Remy & Julie 👋
