@@ -27,7 +27,7 @@ We ask a few questions, but don't have to explain your personal situation to us 
 
 Please note that your application will be treated with the utmost privacy and we will not publicly announce who the inclusion scholarships go to (though you're welcome to say so yourself).
 
-**Deadline for applications: 15th September.**
+**Deadline for applications: 13th October.**
 
 <center>
 <a class="pill-button" href="https://ffconf.org/scholarship-apply" target="_blank" rel="noopener">Apply now</a>
