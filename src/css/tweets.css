@@ -25,6 +25,8 @@
 }
 
 .tweet-list .tweet-item {
+  break-inside: avoid-column;
+  margin-bottom: 24px;
   padding: 32px;
   background: var(--box);
   /* margin: 0; */
@@ -105,33 +107,8 @@
   grid-row: span 1;
 }
 
-
-@media only screen and (min-width: 700px) {
-  /* .tweet-list {
-    height: 2000px;
-  } */
-
-  /* .tweet-list {
-    display: flex;
-    flex-flow: column wrap;
-    align-content: space-between;
+@media only screen and (min-width: 800px) {
+  .tweet-list {
+    columns: 2;
   }
-
-  .tweet-list li:nth-child(2n + 1) {
-    order: 1;
-  }
-  .tweet-list li:nth-child(2n + 2) {
-    order: 2;
-  }
-
-  .tweet-list::before {
-    content: '';
-    flex-basis: 100%;
-    width: 0;
-    order: 2;
-  }
-
-  .tweet-list li {
-    width: 49%;
-  } */
 }
