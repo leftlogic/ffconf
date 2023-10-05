@@ -6,7 +6,7 @@ const parse = require('date-fns/parse');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const Talks = require('./src/_data/talks');
 const liveYears = require('./graphql/data/events.json')
-  .filter((_) => _.archive !== false)
+  .filter((_) => _.live !== false)
   .map((_) => _.year);
 let env = process.env.ELEVENTY_ENV;
 
