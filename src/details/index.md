@@ -1,6 +1,6 @@
 ---
 date: 2022-11-09
-title: Full event details
+title: 2022 ffconf details
 ---
 
 <!-- Hi there,
