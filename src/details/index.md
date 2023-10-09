@@ -1,6 +1,7 @@
 ---
 date: 2022-11-09
 title: 2022 ffconf details
+author: Julie
 ---
 
 <!-- Hi there,
