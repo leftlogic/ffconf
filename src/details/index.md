@@ -36,9 +36,9 @@ How to get to our venue from the station: [ffconf.org/directions](https://ffconf
 
 The conference is being held at the Duke of York's Picturehouse in Brighton, less than 15 minutes walk from Brighton train station. We recommend using [traintimes.org.uk](https://traintimes.org.uk) for up to date train timetables.
 
-Unfortunately, there are planned engineering works on Saturday 12th November and there will be a rail replacement bus between Brighton and Three Bridges.
+We are keeping a close eye if any planned engineering works are announced and will update this page.
 
-[Hotel recommendations](https://2022.ffconf.org/#locations) can also be found on our website.
+[Hotel recommendations](https://2023.ffconf.org/#locations) can also be found on our website.
 
 ## Registration - 9am
 
@@ -92,15 +92,15 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ## Pre conference
 
-### Show and Tell with Async - 10-Nov
+### Show and Tell with Async - 9-Nov
 
-Our friends at Async are running a very special International Show & Tell at 7:15pm at Spaces. If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/events/) (to attend or speak). To find out more, see their Twitter [@asyncjs](https://twitter.com/asyncjs)
+Our friends at Async are running a very special International Show & Tell at 7:15pm at Eagle Labs (opposite the conference venue). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/events/) (to attend or speak). To find out more, see their Twitter [@asyncjs](https://twitter.com/asyncjs)
 
-### Pre conference social - 10-Nov
+### Pre conference social - 9-Nov
 
-Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 8pm on Thursday 10-Nov, to meet your fellow delegates, just an 8 minute walk from the station. We have the raised area on the left hand side reserved so anyone sat in that area is your new ff friend.
+Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 8pm on Thursday 9-Nov, to meet your fellow delegates, just an 8 minute walk from the station. We have the raised area on the left hand side reserved so anyone sat in that area is your new ff friend.
 
-### Pre event networking: running or coffee - 11 Nov
+### Pre event networking: running or coffee - 10 Nov
 
 We are hosting another pre-ffconf run! Meet outside Duke of Yorks at 7:30am led by two friendly ffconf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, a short 30 minute run leaving plenty of time to get showered before registration opens!
 
@@ -110,7 +110,7 @@ Not a runner? Moes@thecircus is practically next to Duke of York's and open from
 
 Please report any lost property to the registration desk. Left Logic and Duke of York's Picturehouse takes no responsibility for delegate's lost property so we ask you to be vigilant at all times.
 
-Please note that there is no cloak room or storage for any items.
+Please note that there is no cloakroom or storage for any items.
 
 ## Accessibility and COVID
 
@@ -147,14 +147,14 @@ Please also take a few minutes to check out our sponsors and the links to their 
 
 ### Our Day sponsors<!-- omit in toc -->
 
-* [Madgex](https://madgex.com/)
+* [Interledger Foundation](https://webmonetization.org/docs/)
 * [JS Bin](https://jsbin.com/)
-* [Netlify](https://www.netlify.com/)
+
 
 ### Our Scholarship sponsors<!-- omit in toc -->
 
 * [Legal & General](https://www.legalandgeneral.com/careers)
-* [Samsung](https://developer.samsung.com/internet)
+
 
 <!--
 * * *
