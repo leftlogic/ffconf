@@ -1,12 +1,12 @@
 ---
-date: 2022-11-09
-title: 2022 ffconf details
+date: 2023-10-19
+title: 2023 ffconf details
 author: Julie
 ---
 
 <!-- Hi there,
 
-Please find below important and useful information to make sure your visit to our #ffconf on Friday 11th November 2022 is a super dooper awesome time!
+Please find below important and useful information to make sure your visit to our #ffconf on Friday 10th November 2023 is a super dooper awesome time!
 
 Please note, a full copy of this [document is available here](https://ffconf.org/details/) and once loaded is available offline. -->
 
