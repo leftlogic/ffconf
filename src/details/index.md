@@ -104,7 +104,7 @@ Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 8pm on Thur
 
 We are hosting another pre-ffconf run! Meet outside Duke of Yorks at 7:30am led by two friendly ffconf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, a short 30 minute run leaving plenty of time to get showered before registration opens!
 
-Not a runner? Moes@thecircus is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Julia and Scout, both Brighton Codebar organisers.
+Not a runner? Moes@thecircus is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Julia and Scout, both [Brighton Codebar organisers](https://codebar.io/brighton)
 
 ## Health and Safety
 
