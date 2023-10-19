@@ -19,13 +19,13 @@ Please note, a full copy of this [document is available here](https://ffconf.org
 - [Refreshments and lunch](#refreshments-and-lunch)
 - [Lunch with future friends](#lunch-with-future-friends)
 - [Reduce, reuse, recycle](#reduce-reuse-recycle)
-- [Tweets, blog posts, etc](#tweets-blog-posts-etc)
+- [Tweets, toots, chat and blog posts](#tweets-toots-chat-and-blog-posts)
 - [Technology](#technology)
 - [Post conference social](#post-conference-social)
 - [Pre conference](#pre-conference)
-  - [Show and Tell with Async - 10-Nov](#show-and-tell-with-async-10-nov)
-  - [Pre conference social - 10-Nov](#pre-conference-social-10-nov)
-  - [Pre event networking: running or coffee - 11 Nov](#pre-event-networking-running-or-coffee-11-nov)
+  - [Show and Tell with Async - 9-Nov](#show-and-tell-with-async-9-nov)
+  - [Pre conference social - 9-Nov](#pre-conference-social-9-nov)
+  - [Pre event networking: running or coffee - 10 Nov](#pre-event-networking-running-or-coffee-10-nov)
 - [Health and Safety](#health-and-safety)
 - [Accessibility and COVID](#accessibility-and-covid)
 - [Contact](#contact)
@@ -64,7 +64,7 @@ If you are coming to ffconf for the first time, travelling alone or just want to
 
 The coffee cups we use are compostable but please do bring your own travel mug and water bottle too.
 
-## Tweets, blog posts, etc
+## Tweets, toots, chat and blog posts
 
 Yes to all. Hashtag all the things with [#ffconf](https://twitter.com/search?q=%23ffconf&src=typed_query&f=live).
 
@@ -78,7 +78,7 @@ Post event, if you blog about your experiences (and post us a tweet with the has
 
 If you plan to bring a laptop/device, make sure it's fully charged for the day, as we only have a handful of charging stations in the venue.
 
-There is no wifi. I mean, it's a cinema, why would it have the internets! Network coverage however is very good, so you can tether your mobile phone or bring your own mifi or dongle, etc.
+Do not rely on there being wifi. I mean, it's a cinema, why would it have the internets! Network coverage however is very good, so you can tether your mobile phone or bring your own mifi or dongle, etc.
 
 Err on the side of low tech and an open mind and you'll get the most from the event!
 
@@ -86,7 +86,7 @@ Err on the side of low tech and an open mind and you'll get the most from the ev
 
 We hope you will join us at OhSo Social again. There will be food available to order until 9pm and you can collect your drinks voucher on the door so please bring your name badge/lanyard with you. We will also have a range of board games so try an old favourite or learn a new game and make new friends.
 
-Oh So Social - [250a Kings Rd, Brighton BN1 1NB](https://goo.gl/maps/ZHdtZQLsg5LuDfQK8) - on the beach, near the green doughnut
+Oh So Social - [250a Kings Rd, Brighton BN1 1NB](https://goo.gl/maps/ZHdtZQLsg5LuDfQK8) - on the beach, near the green doughnut on the left of the Brighton Pier.
 
 Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
@@ -94,7 +94,7 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ### Show and Tell with Async - 9-Nov
 
-Our friends at Async are running a very special International Show & Tell at 7:15pm at Eagle Labs (opposite the conference venue). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/events/) (to attend or speak). To find out more, see their Twitter [@asyncjs](https://twitter.com/asyncjs)
+Our friends at Async are running a very special International Show & Tell at 7:15pm at Eagle Labs (opposite the conference venue). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/international-show-n-tell-2023/) (to attend or speak). To find out more, see their Twitter [@asyncjs](https://twitter.com/asyncjs)
 
 ### Pre conference social - 9-Nov
 
@@ -126,7 +126,7 @@ We regret that there is no lift and consequently the Balcony and Bar can only be
 
 Gender neutral and accessible toilets are available on the ground floor near to the exits.
 
-COVID safety. We politely ask for all attendees to do a lateral flow test within 24 hours of the conference (if possible) and ask anyone who is showing signs of COVID to please stay at home. We encourage the use of masks indoors.
+COVID safety. We politely ask for all attendees who have access to do a lateral flow, please do test within 24 hours of the conference (if possible). We also ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
 Please also take a moment to review our [COVID policy](https://ffconf.org/covid/)
 
@@ -136,12 +136,13 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 
 * Email: [events@leftlogic.com](mailto:events@leftlogic.com), or directly: [remy@leftlogic.com](mailto:remy@leftlogic.com) & [julie@leftlogic.com](mailto:julie@leftlogic.com)
 * Twitter & DM (we have open DMs): [@ffconf](https://twitter.com/ffconf)
+* Mastodon: [ffconf@social.ffconf.org](https://social.ffconf.org/@ffconf)
 
 ## Sponsors <!-- omit in toc -->
 
 Please also take a few minutes to check out our sponsors and the links to their sites, without whom we couldn't run this event. Click on their links and check them all out. Seriously. We can't do this entire event without them.
 
-### Our Platinum sponsor<!-- omit in toc -->
+### Our Headline sponsor<!-- omit in toc -->
 
 * [Google](https://web.dev/)
 

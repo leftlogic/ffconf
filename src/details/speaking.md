@@ -9,7 +9,7 @@ Firstly - thank you so-so much everyone for joining my merry band of speakers th
 
 This document includes lots of details, but for those of you that are as allergic to long form as I am, here are the cliff notes:
 
-- **Thursday 6:45pm**, meet us in the hotel foyer (Jurys Inn Brighton) to move on to the speaker's meal.
+- **Thursday 6:45pm**, meet us in your hotel foyer (Leonardo Hotels - formally Jurys Inn, Brighton) to move on to the speaker's meal.
 - This document contains the schedule at the very least, please make sure you know when you're on!
 - Conference registration starts at **9:00am** with the first talk at 9:50am - please find me (usually near the stage) during the breaks if you're on in that next section so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
 - Talks are **40mins @ 1920x1080** from you laptop, we don't do Q/A.
