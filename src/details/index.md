@@ -1,11 +1,12 @@
 ---
-date: 2022-11-09
-title: 2022 ffconf details
+date: 2023-10-19
+title: 2023 ffconf details
+author: Julie
 ---
 
 <!-- Hi there,
 
-Please find below important and useful information to make sure your visit to our #ffconf on Friday 11th November 2022 is a super dooper awesome time!
+Please find below important and useful information to make sure your visit to our #ffconf on Friday 10th November 2023 is a super dooper awesome time!
 
 Please note, a full copy of this [document is available here](https://ffconf.org/details/) and once loaded is available offline. -->
 
@@ -35,9 +36,9 @@ How to get to our venue from the station: [ffconf.org/directions](https://ffconf
 
 The conference is being held at the Duke of York's Picturehouse in Brighton, less than 15 minutes walk from Brighton train station. We recommend using [traintimes.org.uk](https://traintimes.org.uk) for up to date train timetables.
 
-Unfortunately, there are planned engineering works on Saturday 12th November and there will be a rail replacement bus between Brighton and Three Bridges.
+We are keeping a close eye if any planned engineering works are announced and will update this page.
 
-[Hotel recommendations](https://2022.ffconf.org/#locations) can also be found on our website.
+[Hotel recommendations](https://2023.ffconf.org/#locations) can also be found on our website.
 
 ## Registration - 9am
 
@@ -67,7 +68,7 @@ The coffee cups we use are compostable but please do bring your own travel mug a
 
 Yes to all. Hashtag all the things with [#ffconf](https://twitter.com/search?q=%23ffconf&src=typed_query&f=live).
 
-Feel free to follow the Twitter account [@ffconf](https://twitter.com/ffconf) for the latest info on the event.
+Feel free to follow the [@ffconf Twitter account](https://twitter.com/ffconf) and/or [on Mastodon](https://social.ffconf.org/@ffconf) for the latest info on the event.
 
 Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's still new and quiet, so bring your voice ❤️).
 
@@ -91,25 +92,25 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ## Pre conference
 
-### Show and Tell with Async - 10-Nov
+### Show and Tell with Async - 9-Nov
 
-Our friends at Async are running a very special International Show & Tell at 7:15pm at Spaces. If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/events/) (to attend or speak). To find out more, see their Twitter [@asyncjs](https://twitter.com/asyncjs)
+Our friends at Async are running a very special International Show & Tell at 7:15pm at Eagle Labs (opposite the conference venue). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/events/) (to attend or speak). To find out more, see their Twitter [@asyncjs](https://twitter.com/asyncjs)
 
-### Pre conference social - 10-Nov
+### Pre conference social - 9-Nov
 
-Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 8pm on Thursday 10-Nov, to meet your fellow delegates, just an 8 minute walk from the station. We have the raised area on the left hand side reserved so anyone sat in that area is your new ff friend.
+Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 8pm on Thursday 9-Nov, to meet your fellow delegates, just an 8 minute walk from the station. We have the raised area on the left hand side reserved so anyone sat in that area is your new ff friend.
 
-### Pre event networking: running or coffee - 11 Nov
+### Pre event networking: running or coffee - 10 Nov
 
 We are hosting another pre-ffconf run! Meet outside Duke of Yorks at 7:30am led by two friendly ffconf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, a short 30 minute run leaving plenty of time to get showered before registration opens!
 
-Not a runner? Moes@thecircus is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by [Anwen Williams](https://twitter.com/hello_anwen), one of the Brighton Codebar organisers.
+Not a runner? Moes@thecircus is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Julia and Scout, both [Brighton Codebar organisers](https://codebar.io/brighton)
 
 ## Health and Safety
 
 Please report any lost property to the registration desk. Left Logic and Duke of York's Picturehouse takes no responsibility for delegate's lost property so we ask you to be vigilant at all times.
 
-Please note that there is no cloak room or storage for any items.
+Please note that there is no cloakroom or storage for any items.
 
 ## Accessibility and COVID
 
@@ -125,7 +126,7 @@ We regret that there is no lift and consequently the Balcony and Bar can only be
 
 Gender neutral and accessible toilets are available on the ground floor near to the exits.
 
-COVID safety. We politely request that all attendees do a lateral flow test within 24 hours of the conference and ask anyone who is showing signs of COVID to please stay at home. We encourage the use of masks indoors.
+COVID safety. We politely ask for all attendees to do a lateral flow test within 24 hours of the conference (if possible) and ask anyone who is showing signs of COVID to please stay at home. We encourage the use of masks indoors.
 
 Please also take a moment to review our [COVID policy](https://ffconf.org/covid/)
 
@@ -146,14 +147,14 @@ Please also take a few minutes to check out our sponsors and the links to their 
 
 ### Our Day sponsors<!-- omit in toc -->
 
-* [Madgex](https://madgex.com/)
+* [Interledger Foundation](https://webmonetization.org/docs/)
 * [JS Bin](https://jsbin.com/)
-* [Netlify](https://www.netlify.com/)
+
 
 ### Our Scholarship sponsors<!-- omit in toc -->
 
 * [Legal & General](https://www.legalandgeneral.com/careers)
-* [Samsung](https://developer.samsung.com/internet)
+
 
 <!--
 * * *
