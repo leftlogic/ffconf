@@ -12,11 +12,11 @@ This document includes lots of details, but for those of you that are as allergi
 - **Thursday 6:45pm**, meet us in your hotel foyer (Leonardo Hotels - formerly Jurys Inn, Brighton) to move on to the speaker's meal.
 - This document contains the schedule at the very least, please make sure you know when you're on!
 - Conference registration starts at **9:00am** with the first talk at 9:50am - please find me (usually near the stage) during the breaks if you're on in that next section so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
-- Talks are **40mins @ 1920x1080** from you laptop, we don't do Q/A.
+- Talks are **35-40mins @ 1920x1080** from your laptop, we don't do Q/A.
 - **There is no internet** or rather it's flaky. I've got a mifi that you can use (let me know ahead of time), but err on the side of offline, give me heads up if you need it.
 - If you can (optional), please send me your slides the day before, I can pass this onto our stenographer to help with the live captions.
 - Friday evening - post event social until late (or as late as you like) - **dinner and drinks are on us**.
-- **Code of Conduct** - if see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
+- **Code of Conduct** - if you see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
 - If you're feeling ill (or COVID rears it's head) please let me know, I have contingencies in place.
 
 Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: https://ffconf.org/chat (this is not required!)
@@ -85,13 +85,13 @@ The conference registration opens at 9:00am. The schedule is in this email and i
 
 I'll introduce each of you, please make sure **you find me at the start of the break if you're on in the next** segment so that I can make sure you're mic'ed up with your lapel mic.
 
-**Presentations are 40 minutes.** The podium will have the next two speaker's laptops ready and connected.
+**Presentations are 35-40 minutes.** The podium will have the next two speaker's laptops ready and connected.
 
 I'm assuming you have your own laptop, if not that's cool just make sure you've emailed me your presentation (either as a PDF or Keynote or something mac friendly) by the Tuesday before the event.
 
 We're projecting on a cinema screen - your slides can and should be: 1920x1080. Yep, it's a cinema, it's cool.
 
-If you want to do any extended technical set up, ideally arrive at 8:00am whilst we're doing the tech setup. Otherwise, it's a pretty straightforward to connect up your power, video and audio (if it applies) and we can do a test in the break before your talk.
+If you want to do any extended technical set up, ideally arrive at 8:00am whilst we're doing the tech setup. Otherwise, it's pretty straightforward to connect up your power, video and audio (if it applies) and we can do a test in the break before your talk.
 
 ## The internet
 
