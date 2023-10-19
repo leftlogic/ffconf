@@ -9,14 +9,15 @@ Firstly - thank you so-so much everyone for joining my merry band of speakers th
 
 This document includes lots of details, but for those of you that are as allergic to long form as I am, here are the cliff notes:
 
-- **Thursday 6:45pm**, meet us in your hotel foyer (Leonardo Hotels - formally Jurys Inn, Brighton) to move on to the speaker's meal.
+- **Thursday 6:45pm**, meet us in your hotel foyer (Leonardo Hotels - formerly Jurys Inn, Brighton) to move on to the speaker's meal.
 - This document contains the schedule at the very least, please make sure you know when you're on!
 - Conference registration starts at **9:00am** with the first talk at 9:50am - please find me (usually near the stage) during the breaks if you're on in that next section so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
 - Talks are **40mins @ 1920x1080** from you laptop, we don't do Q/A.
-- **There is no internet** or rather it's super, super flaky. I've got a mifi that you can use (let me know ahead of time), but err on the side of offline.
+- **There is no internet** or rather it's flaky. I've got a mifi that you can use (let me know ahead of time), but err on the side of offline, give me heads up if you need it.
 - If you can (optional), please send me your slides the day before, I can pass this onto our stenographer to help with the live captions.
 - Friday evening - post event social until late (or as late as you like) - **dinner and drinks are on us**.
 - **Code of Conduct** - if see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
+- If you're feeling ill (or COVID rears it's head) please let me know, I have contingencies in place.
 
 Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: https://ffconf.org/chat (this is not required!)
 
