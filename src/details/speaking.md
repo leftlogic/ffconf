@@ -9,7 +9,7 @@ Firstly - thank you so-so much everyone for joining my merry band of speakers th
 
 This document includes lots of details, but for those of you that are as allergic to long form as I am, here are the cliff notes:
 
-- **Thursday 6:45pm**, meet us in your hotel foyer (Leonardo Hotels - formerly Jurys Inn, Brighton) to move on to the speaker's meal.
+- **Thursday 7:00pm**, meet us in your hotel foyer (Leonardo Hotels - formerly Jury's Inn, Brighton) to move on to the speaker's meal.
 - This document contains the schedule at the very least, please make sure you know when you're on!
 - Conference registration starts at **9:00am** with the first talk at 9:50am - please find me (usually near the stage) during the breaks if you're on in that next section so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
 - Talks are **35-40mins @ 1920x1080** from your laptop, we don't do Q/A.
@@ -37,8 +37,7 @@ ________________________________
 - [Conference day](#conference-day)
 - [The internet](#the-internet)
 - [Friday lunch (90mins)](#friday-lunch-90mins)
-- [Friday dinner](#friday-dinner)
-- [Post event social](#post-event-social)
+- [Post event social / Friday dinner](#post-event-social-friday-dinner)
 - [Accessibility and COVID](#accessibility-and-covid)
 - [Code of Conduct](#code-of-conduct)
 
@@ -65,9 +64,9 @@ Julie has got in touch with you individually to help arrange getting you into ou
 
 ## Accommodation
 
-You're all staying in the Jury's Inn Brighton (which is right by the train station). For those of you coming by train, it's a few minutes walk: https://ffconf.org/station-to-hotel - exit the rear of Brighton Train Station (if you come through the gates, you'll turn immediately left and start heading for the car park as if you're walking back in the direction the train came from). Once at the rear, continue walking that direction for, say about 2 minutes, depending on your leg length and you'll be at the hotel. Simple, but if you get stuck or lost, don't hesitate to get in touch (phone numbers at the end of this email).
+You're all staying in the Leonardo Hotels Brighton (which is right by the train station). For those of you coming by train, it's a few minutes walk: https://ffconf.org/station-to-hotel - exit the rear of Brighton Train Station (if you come through the gates, you'll turn immediately left and start heading for the car park as if you're walking back in the direction the train came from). Once at the rear, continue walking that direction for, say about 2 minutes, depending on your leg length and you'll be at the hotel. Simple, but if you get stuck or lost, don't hesitate to get in touch (phone numbers at the end of this email).
 
-Check in for the hotel is 3pm and checkout is 12pm.
+Check in for the hotel is 3pm and checkout is 11am.
 
 If you arrive earlier, and the hotel doesn't have the room ready, we've been told that the hotel will store your travel bags until then.
 
@@ -75,7 +74,7 @@ If you arrive earlier, and the hotel doesn't have the room ready, we've been tol
 
 We're taking you out for some dinner at [Bills Brighton](https://bills-website.co.uk/restaurants/brighton/).
 
-We'll come and pick you up at the hotel foyer at 6:45pm where, depending on weather, we'll walk through town to the restaurant. If it's raining (something that's ever so uncommon in the UK…), we'll sort out a cab and head down together.
+We'll come and pick you up at the hotel foyer at 7pm where, depending on weather, we'll walk through town to the restaurant. If it's raining (something that's ever so uncommon in the UK…), we'll sort out a cab and head down together.
 
 If you have any specific dietary requirements (that you've not told us about already), please let us know ASAP so that we can make sure the restaurant accommodates you.
 
@@ -103,16 +102,11 @@ We've pre-booked a table at a local fish and chip restaurant for Friday. No visi
 
 We've got the menu with veggie options which I'll share with you all on the day so that you have an idea of what you might like, so we can send someone ahead of time to place an order for us so there's not too much of a wait for food.
 
-## Friday dinner
+## Post event social / Friday dinner
 
 The private venue we've hired for our social serves food until 9pm. All food and drink, of course, will be on us.
 
-If you need/want to drop any bags off at the hotel beforehand, we'll have a member of our team who can guide you to the venue from the hotel (it's about a 15-20 minutes walk).
-
-## Post event social
-
-After the conference (about 6pm) we'll go onto the social. Some of us will head back to the hotel to drop stuff off, others will go directly to the after party. It'll end around midnight (or earlier depending on demand … or [evacuations](https://mobile.twitter.com/rem/status/1189506219368685569) as we did in 2018!).
-
+Some of us will head back to the hotel to drop stuff off, others will go directly to the after party. It'll end around midnight (or earlier depending on demand … or [evacuations](https://mobile.twitter.com/rem/status/1189506219368685569) as we did in 2018!).
 
 ## Accessibility and COVID
 
