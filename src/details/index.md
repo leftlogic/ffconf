@@ -68,7 +68,7 @@ The coffee cups we use are compostable but please do bring your own travel mug a
 
 Yes to all. Hashtag all the things with [#ffconf](https://twitter.com/search?q=%23ffconf&src=typed_query&f=live).
 
-Feel free to follow the Twitter account [@ffconf](https://twitter.com/ffconf) for the latest info on the event.
+Feel free to follow the [@ffconf Twitter account](https://twitter.com/ffconf) and/or [on Mastodon](https://social.ffconf.org/@ffconf) for the latest info on the event.
 
 Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's still new and quiet, so bring your voice ❤️).
 
@@ -104,7 +104,7 @@ Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 8pm on Thur
 
 We are hosting another pre-ffconf run! Meet outside Duke of Yorks at 7:30am led by two friendly ffconf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, a short 30 minute run leaving plenty of time to get showered before registration opens!
 
-Not a runner? Moes@thecircus is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by [Anwen Williams](https://twitter.com/hello_anwen), one of the Brighton Codebar organisers.
+Not a runner? Moes@thecircus is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Julia and Scout, both Brighton Codebar organisers.
 
 ## Health and Safety
 
@@ -126,7 +126,7 @@ We regret that there is no lift and consequently the Balcony and Bar can only be
 
 Gender neutral and accessible toilets are available on the ground floor near to the exits.
 
-COVID safety. We politely request that all attendees do a lateral flow test within 24 hours of the conference and ask anyone who is showing signs of COVID to please stay at home. We encourage the use of masks indoors.
+COVID safety. We politely ask for all attendees to do a lateral flow test within 24 hours of the conference (if possible) and ask anyone who is showing signs of COVID to please stay at home. We encourage the use of masks indoors.
 
 Please also take a moment to review our [COVID policy](https://ffconf.org/covid/)
 
