@@ -1,5 +1,5 @@
 ---
-date: 2022-11-07
+date: 2023-10-19
 title: Full speaker details
 ---
 
@@ -20,7 +20,7 @@ This document includes lots of details, but for those of you that are as allergi
 
 Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: https://ffconf.org/chat (this is not required!)
 
-We also have a [group whatsapp chat](https://chat.whatsapp.com/HNe5S7gg6RF3MGnNRIbb3Z) if you want to join (this is only myself, Julie and open to you) and either ask questions or post pictures of cats (this is actually quite useful for the day to shoot quick questions like *"I need coffee - halp!"*)
+We also have a [group whatsapp chat](https://chat.whatsapp.com/FhZ4blq2ocd0FEEG4IQrnX) if you want to join (this is only myself, Julie and open to you) and either ask questions or post pictures of cats (this is actually quite useful for the day to shoot quick questions like *"I need coffee - halp!"*)
 
 **A short acknowledgement of this email will set my nerves at ease too ❤️**
 
@@ -46,17 +46,17 @@ ________________________________
 1. Doors open if you want to arrive early - 8:00
 2. Attendee start registration - 9:00
 3. Remy's welcome, conference starts- 9:40
-4. **Florence Okoye** - Designing as we want, to create the experiences that we need - 09:50 to 10:30
-5. **Heydon Pickering** - Capitalism, The Web, And You - 10:30 to 11:10
+4. **Amber Shand** - Imposter syndrome, overworking, and working environments - 09:50 to 10:30
+5. **Maggie Appleton** The Expanding Dark Forest and Generative AI - 10:30 to 11:10
 6. (break 30 mins)
-7. **Lex Lofthouse** - Design for Developers - 11:40 to 12:20
-8. **Sophie Koonin** - This Talk is Under Construction: a love letter to the personal website - 12:20 to 13:00
+7. **Angela Ricci** - We need to talk about the front web - 11:40 to 12:20
+8. **Aderinokun** Future proof CSS - 12:20 to 13:00
 9. (lunch break 90 mins - join us for a fish n chip lunch!)
-10. **Lily Madar** - Programming with Yarn - 14:30 to 15:10
-11. **Olu Niyi-Awosusi** - CSS from the Future, Polyfills and You - 15:10 to 15:50
+10. **Steven Goodwin** Ada Lovelace and The Very First Computer Program - 14:30 to 15:10
+11. **Jonathan Fielding** Embracing Neurodiversity in Tech: Building Empathy, Unveiling Strengths - 15:10 to 15:50
 12. (break 25 mins)
-13. **Sareh Heidari** - Digital exclusion in healthcare & how to change it - 16:15 to 16:55
-14. **Ruth John** - Day Disco - 16:55 to 17:35 (post event social 18:00 onwards)
+13. **Ana Rodrigues** Exploring the Potential of the Web Speech API in Karaoke - 16:15 to 16:55
+14. **Salma Alam-Naylor** Entertainment as Code - 16:55 to 17:35 (post event social 18:00 onwards)
 
 ## Getting to Brighton
 
@@ -80,7 +80,7 @@ If you have any specific dietary requirements (that you've not told us about alr
 
 ## Conference day
 
-The conference registration opens at 9:00am. The schedule is in this email and is at https://2022.ffconf.org.
+The conference registration opens at 9:00am. The schedule is in this email and is at https://2023.ffconf.org.
 
 I'll introduce each of you, please make sure **you find me at the start of the break if you're on in the next** segment so that I can make sure you're mic'ed up with your lapel mic.
 
@@ -100,7 +100,7 @@ If you want to do any extended technical set up, ideally arrive at 8:00am whilst
 
 We've pre-booked a table at a local fish and chip restaurant for Friday. No visit to the bestest seafront city would be complete without a jolly good fish and chip meal!
 
-We've got the menu (there are veggie options too) which I'll share with you all on the day so that you have an idea of what you might like, so we can send someone ahead of time to place an order for us so there's not too much of a wait for food.
+We've got the menu with veggie options which I'll share with you all on the day so that you have an idea of what you might like, so we can send someone ahead of time to place an order for us so there's not too much of a wait for food.
 
 ## Friday dinner
 
@@ -115,7 +115,7 @@ After the conference (about 6pm) we'll go onto the social. Some of us will head 
 
 ## Accessibility and COVID
 
-Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side.
+Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side (facing the stage).
 
 The ground floor is accessible to customers with limited mobility including wheelchair users.
 
@@ -127,7 +127,7 @@ We regret that there is no lift and consequently the Balcony and Bar can only be
 
 Gender neutral and accessible toilets are available on the ground floor near to the exits.
 
-COVID safety. We politely request that all attendees do a lateral flow test within 24 hours of the conference and ask anyone who is showing signs of COVID to please stay at home. We encourage the use of masks indoors.
+COVID safety. We politely request that all attendees who have access to a lateral flow, do a test within 24 hours of the conference and ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
 Please also take a moment to review our [COVID policy](https://ffconf.org/covid/)
 
@@ -147,7 +147,7 @@ ________________________________
 
 Once again, any questions, feel free to get in touch with me or Julie - we're watching our email fairly closely in the run up to the conference, so you should get a prompt-ish reply.
 
-If you want to call my (Remy) mobile number is: +44 (0)7590 497258 and Julie is on +44 (0)7888 763822 - and we have a [WhatsApp group](https://chat.whatsapp.com/HNe5S7gg6RF3MGnNRIbb3Z) (just myself, Julie and yourselves) that you can join if you like.
+If you want to call my (Remy) mobile number is: +44 (0)7590 497258 and Julie is on +44 (0)7888 763822 - and we have a [WhatsApp group](https://chat.whatsapp.com/FhZ4blq2ocd0FEEG4IQrnX) (just myself, Julie and yourselves) that you can join if you like.
 
 Otherwise, we'll see you on Thursday evening at your hotel if not before ❤️❤️❤️
 
