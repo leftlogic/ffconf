@@ -12,7 +12,7 @@ css: photos.css
   {% for photo in photos | shuffle %}
   <div class="grid-item">
     <a target="_blank" href="{{ photo | toFlickrLink }}">
-      <img loading="lazy" src="{{ photo }}">
+      <img loading="lazy" src="/images/photos/{{ photo }}">
     </a>
   </div>
   {% endfor %}
