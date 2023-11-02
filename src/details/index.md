@@ -6,9 +6,9 @@ author: Julie
 
 <!-- Hi there,
 
-Please find below important and useful information to make sure your visit to our #ffconf on Friday 10th November 2023 is a super dooper awesome time!
+Please find below important and useful information to make sure your visit to ffconf on Friday 10th November 2023 is a super dooper awesome time!
 
-Please note, a full copy of this [document is available here](https://ffconf.org/details/) and once loaded is available offline. -->
+Please note, a full copy of these [details](https://ffconf.org/details/) are online and once loaded are available offline. -->
 
 <mark>This URL is available offline thanks to a service worker</mark>
 
@@ -36,7 +36,7 @@ How to get to our venue from the station: [ffconf.org/directions](https://ffconf
 
 The conference is being held at the Duke of York's Picturehouse in Brighton, less than 15 minutes walk from Brighton train station. We recommend using [traintimes.org.uk](https://traintimes.org.uk) for up to date train timetables.
 
-We are keeping a close eye if any planned engineering works are announced and will update this page.
+At the moment there are no planned engineering works, but you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/).
 
 [Hotel recommendations](https://2023.ffconf.org/#locations) can also be found on our website.
 
