@@ -72,7 +72,7 @@ Feel free to follow the [@ffconf Twitter account](https://twitter.com/ffconf) an
 
 Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's still new and quiet, so bring your voice ❤️).
 
-Post event, if you blog about your experiences (and post us a tweet with the hashtag #ffconf), then we will choose two people at random **to win tickets to ffconf 2023**!
+Post event, if you blog about your experiences (and post us a tweet with the hashtag #ffconf), then we will choose two people at random **to win tickets to ffconf 2024**!
 
 ## Technology
 
