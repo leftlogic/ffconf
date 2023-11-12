@@ -94,6 +94,10 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter('deTwitterify', (src) => {
+    return `/images/tweets/photos/${src.split('/').pop()}`;
+  });
+
   eleventyConfig.addFilter('unique', (source, prop) => {
     const res = Array.from(
       new Set(
