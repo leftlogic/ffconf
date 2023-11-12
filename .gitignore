@@ -3,3 +3,4 @@ dist
 tmp
 .vscode
 src/_data/jobs.json
+unused_static/

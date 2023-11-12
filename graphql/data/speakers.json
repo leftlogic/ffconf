@@ -674,5 +674,77 @@
     "photo": "/images/speakers/rumyra.jpg",
     "id": "2022_rumyra",
     "bio": "Twenty years ago I finished my degree and promised myself I wouldn't pursue a job in programming after a disastrous unit in Java... Then someone offered me a PHP job and I was also pretty bad at that, but quite ok at HTML, CSS & JS it turned out. Never say never, but ask me again in twenty years."
+  },
+
+  {
+    "name": "Amber Shand",
+    "pronouns": "she/her",
+    "twitter": "amberleetech",
+    "photo": "/images/speakers/amber.jpg",
+    "id": "2023_amber",
+    "bio": "I was told that because I didn't have a Computer Science degree, I wouldn't be able to learn how to code, I didn't listen and I'm now a multi award software engineer, keynote speaker and consultant"
+  },
+
+  {
+    "name": "Maggie Appleton",
+    "pronouns": "she/her",
+    "twitter": "Mappletons",
+    "photo": "/images/speakers/maggie.jpg",
+    "id": "2023_maggie",
+    "bio": "Built an elaborate Neopets page using only the HTML `<table>` element for positioning and layout. Graduated to maximalist design aesthetics and animated cursors with CSS on MySpace."
+  },
+
+  {
+    "name": "Angela Ricci",
+    "pronouns": "she/her",
+    "twitter": "gericci@indieweb.social",
+    "photo": "/images/speakers/angela.jpg",
+    "id": "2023_anglea",
+    "bio": "I fell into a cauldron of a magic potion called the web, when it was still cooking. Since then, web technologies became my super power for designing new interfaces."
+  },
+
+  {
+    "name": "Ire Aderinokun",
+    "pronouns": "she/her",
+    "twitter": "ire@front-end.social",
+    "photo": "/images/speakers/ire.jpg",
+    "id": "2023_ire",
+    "bio": "I was a little too obsessed with Neopets as a teenager and had to build the best profile page. Once I started down that rabbit hole I was hooked!"
+  },
+
+  {
+    "name": "Steven Goodwin",
+    "pronouns": "he/him",
+    "twitter": "MarquisdeGeek",
+    "photo": "/images/speakers/steven.jpg",
+    "id": "2023_steven",
+    "bio": "I have been involved in computing, science, and technology since the family computer, a Sinclair ZX81, moved in with me to become my first piece of domesticated hardware."
+  },
+
+  {
+    "name": "Jonathan Fielding",
+    "pronouns": "he/him",
+    "twitter": "jonthanfielding",
+    "photo": "/images/speakers/jonathan.jpg",
+    "id": "2023_jonathan",
+    "bio": "Escaping from an after school club I found my way back to my classroom where a student teacher showed me BASIC on a Acorn."
+  },
+
+  {
+    "name": "Ana Rodrigues",
+    "pronouns": "she/her",
+    "twitter": "ohhelloana@mastodon.social",
+    "photo": "/images/speakers/ana.jpg",
+    "id": "2023_ana",
+    "bio": "In the early 2000s, I needed more than my favourite band's official website. So I learned how to code in order to build a proper fan site."
+  },
+
+  {
+    "name": " Salma Alam-Naylor",
+    "pronouns": "she/her",
+    "_twitter": "",
+    "photo": "/images/speakers/salma.jpg",
+    "id": "2023_salma",
+    "bio": "This is what happens when you combine a high school music teacher, a comedian, a front end developer, and the strange novelty of live streaming on the internet."
   }
 ]

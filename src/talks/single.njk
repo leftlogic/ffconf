@@ -24,11 +24,12 @@ css: talk.css
       <img src="{{talk.speaker.photo}}">
     </div>
     <div class="links">
-      <div class="audio box">
+      {% if talk.video %} <div class="audio box">
         <h2>Audio</h2>
         <a download="{{ talk.slug }}.mp3" href="{{ talk.audio }}">Download</a>
         <audio controls src="{{ talk.audio }}">
       </div>
+      {% endif %}
       {% if talk.video %} <div class="video solid-box">
         <h2>Video</h2>
         <a target="_blank" class="ext" href="{{ talk.video }}">Watch<span> on YouTube</span></a>
@@ -48,7 +49,9 @@ css: talk.css
     <h2>About {{ talk.speaker.name }}</h2>
     <div>{{ talk.speaker.bio | markdown | safe }}</div>
     <ul class="urls">
+      {% if talk.speaker.twitter %}
       <li><a target="_blank" title="@{{talk.speaker.twitter }}" href="https://twitter.com/{{ talk.speaker.twitter }}">@{{ talk.speaker.twitter }}</a></li>
+      {% endif %}
     </ul>
   </section>
 </section>
