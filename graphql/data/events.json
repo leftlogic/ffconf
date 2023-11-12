@@ -65,5 +65,11 @@
     "url": "https://2023.ffconf.org",
     "year": 2023,
     "live": false
+  },
+  {
+    "id": "2024",
+    "url": "https://2024.ffconf.org",
+    "year": 2024,
+    "live": false
   }
 ]
