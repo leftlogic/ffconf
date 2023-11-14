@@ -33,13 +33,13 @@
       {% include "newsletter.njk" %}
       {% endif %}
       <footer>
-        <p class="previous-years">Previous years:
-        {% for year in years | reverse %}
+        <p class="previous-years">Over the years:
+        {% for year in years | reverse %}{% if year | inThePast %}
           <a
             href="https://{{ year }}.ffconf.org"
             target="_blank"
             >{{ year }}</a
-          >
+          >{% endif %}
         {% endfor %}
         </p>
         <ul class="footer-links">
