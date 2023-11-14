@@ -32,7 +32,7 @@ css: history.css
         design. They're all still hosted and each year can be visited below.
       </p>
       <ul class="pill-list">
-        {% for year in years %}
+        {% for year in years %}{% if year | inThePast %}
         <li>
           <a
             class="pill"
@@ -40,20 +40,20 @@ css: history.css
             target="_blank"
             >{{ year }}</a
           >
-        </li>
+        </li>{% endif %}
         {% endfor %}
       </ul>
 
       <h2 style="margin-top: 40px;">Our logos, so far…</h2>
       <ul class="logo-list">
-        {% for year in years %}
+        {% for year in years %}{% if ("images/logos/" +  year + ".png") | pathExists %}
         <li>
           <a
             href="https://{{ year }}.ffconf.org"
             target="_blank"
             ><img width="100" height="100" class="soft" src="/images/logos/{{ year }}.png"><span>{{ year }}</span>
           </a>
-        </li>
+        </li>{% endif %}
         {% endfor %}
       </ul>
     </div>

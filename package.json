@@ -11,7 +11,7 @@
     "update": "node ./tweets.js",
     "server:dev": "PORT=7000 nodemon ./graphql/server",
     "server": "PORT=7000 node ./graphql/server",
-    "dev": "eleventy --serve",
+    "dev": "eleventy --serve --quiet",
     "jobs": "node ./jobs.mjs",
     "redirects": "node ./redirects.js",
     "prebuild": "npm run jobs",

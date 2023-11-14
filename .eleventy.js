@@ -5,10 +5,10 @@ const format = require('date-fns/format');
 const parse = require('date-fns/parse');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const Talks = require('./src/_data/talks');
+const fs = require('fs');
 const liveYears = require('./graphql/data/events.json')
   .filter((_) => _.live !== false)
   .map((_) => _.year);
-let env = process.env.ELEVENTY_ENV;
 
 const options = {
   html: true,
@@ -26,6 +26,14 @@ const shuffle = (a) => a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1));
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', markdown);
   eleventyConfig.addPlugin(pluginRss);
+
+  eleventyConfig.addFilter('pathExists', (path) => {
+    return fs.existsSync(`./src/${path}`);
+  });
+
+  eleventyConfig.addFilter('inThePast', (year) => {
+    return year <= new Date().getFullYear();
+  });
 
   eleventyConfig.addFilter('toFlickrLink', (url) => {
     const id = url.split('/').pop().split('_').shift();
