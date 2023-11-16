@@ -164,6 +164,7 @@ module.exports = function (eleventyConfig) {
   });
 
   let allArticles = null;
+
   eleventyConfig.addCollection('articles', function (collection) {
     const res = collection.getAllSorted().filter(function (item) {
       return (
@@ -192,10 +193,11 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection('articleList', function (collection) {
     const res = allArticles.map(({ url, data }) => {
-      const { title, date, tags } = data;
+      const { title, date, tags, by } = data;
       return {
         url,
         data: {
+          by,
           title,
           date,
           tags,
