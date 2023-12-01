@@ -3,6 +3,24 @@
   "tags": ["insights"],
   "posts": [
     {
+      "url": "https://dev.to/terezak/ffconf-2023-3jh0",
+      "by": "Tereza K.",
+      "date": "2023-11-24",
+      "title": "ffConf 2023"
+    },
+    {
+      "title": "Notes from ffconf 2023",
+      "url": "https://fhoehl.com/ffconf23",
+      "by": "François Hoehl",
+      "date": "2023-11-18"
+    },
+    {
+      "by": "Ana Rodrigues",
+      "url": "https://ohhelloana.blog/ffconf-2023/",
+      "date": "2023-11-24",
+      "title": "I gave a talk at FFConf!"
+    },
+    {
       "title": "My experience of ffconf 2023",
       "url": "https://remysharp.com/2023/11/15/my-experience-of-ffconf-2023",
       "date": "2023-11-15",
