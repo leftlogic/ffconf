@@ -99,6 +99,11 @@
   grid-row: span 3;
 }
 
+.tweet-list .images-2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .images-4 img:first-child {
   grid-column: span 2;
   grid-row: span 1;

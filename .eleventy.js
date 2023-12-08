@@ -56,7 +56,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('cleanUsername', (s) => {
     if (!s) return 'UNKNOWN';
     if (s[0] === '@') s = s.slice(1);
-    return s.toLowerCase();
+    return s.toLowerCase().replace(/@.*$/, '');
   });
   eleventyConfig.addFilter('pubDate', (s) => parse(s).toUTCString());
   eleventyConfig.addFilter('filename', (s) => {
