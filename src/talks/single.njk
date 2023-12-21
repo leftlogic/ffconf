@@ -24,7 +24,7 @@ css: talk.css
       <img src="{{talk.speaker.photo}}">
     </div>
     <div class="links">
-      {% if talk.video %} <div class="audio box">
+      {% if talk.audio %} <div class="audio box">
         <h2>Audio</h2>
         <a download="{{ talk.slug }}.mp3" href="{{ talk.audio }}">Download</a>
         <audio controls src="{{ talk.audio }}">
@@ -50,8 +50,9 @@ css: talk.css
     <div>{{ talk.speaker.bio | markdown | safe }}</div>
     <ul class="urls">
       {% if talk.speaker.twitter %}
-      <li><a target="_blank" title="@{{talk.speaker.twitter }}" href="https://twitter.com/{{ talk.speaker.twitter }}">@{{ talk.speaker.twitter }}</a></li>
+      {% social talk.speaker.twitter %}
       {% endif %}
+
     </ul>
   </section>
 </section>

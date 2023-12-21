@@ -461,6 +461,19 @@ h1 + h2 {
   color: var(--salmon);
 }
 
+.talk .urls a.masto {
+  display: inline-block;
+  background: url(/images/mastodon.svg) no-repeat;
+  height: 20px;
+  padding-left: 30px;
+  line-height: 20px;
+  color: var(--primary);
+}
+
+.talk .urls a.masto:hover {
+  color: var(--salmon);
+}
+
 .solid-box {
   background-color: var(--box);
 }

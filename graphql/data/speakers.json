@@ -508,7 +508,7 @@
     "photo": "/images/speakers/remys.jpg",
     "bio": "My dad gave me a ZX BASIC listing for Star Wars, in '88 (I think?). I spent the day coding. My codes did not work. So began my devlife.",
     "id": "cjiam2bwoloba0183mu2hxu1v",
-    "twitter": "rem",
+    "twitter": "rem@front-end.social",
     "websites": {
       "Blog": "https://remysharp.com"
     }
@@ -699,7 +699,7 @@
     "pronouns": "she/her",
     "twitter": "gericci@indieweb.social",
     "photo": "/images/speakers/angela.jpg",
-    "id": "2023_anglea",
+    "id": "2023_angela",
     "bio": "I fell into a cauldron of a magic potion called the web, when it was still cooking. Since then, web technologies became my super power for designing new interfaces."
   },
 
@@ -740,9 +740,9 @@
   },
 
   {
-    "name": " Salma Alam-Naylor",
+    "name": "Salma Alam-Naylor",
     "pronouns": "she/her",
-    "_twitter": "",
+    "twitter": "whitep4nth3r",
     "photo": "/images/speakers/salma.jpg",
     "id": "2023_salma",
     "bio": "This is what happens when you combine a high school music teacher, a comedian, a front end developer, and the strange novelty of live streaming on the internet."

@@ -48,7 +48,7 @@ module.exports = function (eleventyConfig) {
 
     return s.split(',')[0];
   });
-  eleventyConfig.addFilter('markdown', (s) => markdown.render(s));
+  eleventyConfig.addFilter('markdown', (s = '') => markdown.render(s));
   eleventyConfig.addFilter('niceDomain', (s) => new URL(s).hostname);
   eleventyConfig.addFilter('format', (s, fmt) =>
     format(s, fmt || 'dddd D MMM YYYY')
@@ -137,6 +137,17 @@ module.exports = function (eleventyConfig) {
     <p>${what}</p>`;
     }
   );
+
+  eleventyConfig.addShortcode('social', function (handle) {
+    if (handle.includes('@')) {
+      // masto
+      const [name, host] = handle.split('@');
+      // ire@front-end.social
+      return `<li><a class="masto" target="_blank" title="${handle}" href="https://${host}/@${name}">${handle}</a></li>`;
+    } else {
+      return `<li><a target="_blank" title="@${handle}" href="https://twitter.com/${handle}">@${handle}</a></li>`;
+    }
+  });
 
   // static passthroughs
   eleventyConfig.addPassthroughCopy('src/fonts');

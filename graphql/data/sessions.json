@@ -1414,10 +1414,10 @@
     "eventId": "2023",
     "speakerId": "2023_amber",
     "slug": "2023_amber",
-    "_audio": "https://media.ffconf.org/2022/8.mp3",
-    "_video": "https://www.youtube.com/watch?v=1SLwgKAz_P0&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=8",
+    "audio": "https://media.ffconf.org/2023/8.mp3",
+    "video": "https://www.youtube.com/watch?v=8wZ9Y2OGNgk&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=1&t=1305s&pp=iAQB",
     "slides": null,
-    "_time": "16:55",
+    "time": "26:45",
     "description": "Dealing with imposter syndrome, perfectionism and building a growth mindset - this talk is essentially a survival guide on how to cope when we feel inferior in the tech space where we're surrounded by people doing incredible things both in and outside of work time."
   },
 
@@ -1429,10 +1429,10 @@
     "eventId": "2023",
     "speakerId": "2023_maggie",
     "slug": "2023_maggie",
-    "_audio": "https://media.ffconf.org/2022/8.mp3",
-    "_video": "https://www.youtube.com/watch?v=1SLwgKAz_P0&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=8",
+    "audio": "https://media.ffconf.org/2023/8.mp3",
+    "video": "https://www.youtube.com/watch?v=QPoM-h1fK8M&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=2&pp=iAQB",
     "slides": null,
-    "_time": "16:55",
+    "time": "44:54",
     "description": "The web is already an eerily lifeless place filled with automated predators like bots, advertisers, clickbait attention-grabbers, SEO-optimisers, and angry twitter mobs - and they now have a generative AI hammer to swing. When language models can churn out millions of human-like words, images, and videos in seconds, what happens to human creation and connection on the web?"
   },
 
@@ -1444,10 +1444,10 @@
     "eventId": "2023",
     "speakerId": "2023_angela",
     "slug": "2023_angela",
-    "_audio": "https://media.ffconf.org/2022/8.mp3",
-    "_video": "https://www.youtube.com/watch?v=1SLwgKAz_P0&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=8",
-    "slides": null,
-    "_time": "16:55",
+    "audio": "https://media.ffconf.org/2023/8.mp3",
+    "video": "https://www.youtube.com/watch?v=r3DEHo6YZeY&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=3&t=432s&pp=iAQB",
+    "slides": "https://media.ffconf.org/2023/3.pdf",
+    "time": "34:20",
     "description": "Why the front web became this monster, and how to fix it..."
   },
 
@@ -1459,10 +1459,10 @@
     "eventId": "2023",
     "speakerId": "2023_ire",
     "slug": "2023_ire",
-    "_audio": "https://media.ffconf.org/2022/8.mp3",
-    "_video": "https://www.youtube.com/watch?v=1SLwgKAz_P0&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=8",
-    "slides": null,
-    "_time": "16:55",
+    "audio": "https://media.ffconf.org/2023/8.mp3",
+    "video": "https://www.youtube.com/watch?v=AuFvdBE9f7E&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=4&t=542s&pp=iAQB",
+    "slides": "https://media.ffconf.org/2023/4.pdf",
+    "time": "37:33",
     "description": "Plain Old Semantic HTML allows accessible web pages, but CSS and JavaScript can hinder accessibility by altering element meaning, behavior, or blocking content. Learn how to use them appropriately to enhance accessibility and adapt experiences for all users"
   },
 
@@ -1474,10 +1474,10 @@
     "eventId": "2023",
     "speakerId": "2023_steven",
     "slug": "2023_steven",
-    "_audio": "https://media.ffconf.org/2022/8.mp3",
-    "_video": "https://www.youtube.com/watch?v=1SLwgKAz_P0&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=8",
-    "slides": null,
-    "_time": "16:55",
+    "audio": "https://media.ffconf.org/2023/8.mp3",
+    "video": "https://www.youtube.com/watch?v=Y7yIeYXrIoY&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=5&pp=iAQB",
+    "slides": "https://media.ffconf.org/2023/5.pdf",
+    "time": "35:37",
     "description": "We all know that Ada Lovelace is credited as the first computer programmer. But what did she write? What did it do? And how does it work?"
   },
 
@@ -1489,10 +1489,10 @@
     "eventId": "2023",
     "speakerId": "2023_jonathan",
     "slug": "2023_jonathan",
-    "_audio": "https://media.ffconf.org/2022/8.mp3",
-    "_video": "https://www.youtube.com/watch?v=1SLwgKAz_P0&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=8",
-    "slides": null,
-    "_time": "16:55",
+    "audio": "https://media.ffconf.org/2023/8.mp3",
+    "video": "https://www.youtube.com/watch?v=1iQM0Uw4rms&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=6&pp=iAQB",
+    "slides": "https://media.ffconf.org/2023/6.pdf",
+    "time": "41:19",
     "description": "Unveil the power of neurodiversity. Through personal experiences and practical strategies, foster empathy, challenge stereotypes, and create an inclusive environment for hidden disabilities. Celebrate unique strengths together."
   },
 
@@ -1504,10 +1504,10 @@
     "eventId": "2023",
     "speakerId": "2023_ana",
     "slug": "2023_ana",
-    "_audio": "https://media.ffconf.org/2022/8.mp3",
-    "_video": "https://www.youtube.com/watch?v=1SLwgKAz_P0&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=8",
+    "audio": "https://media.ffconf.org/2023/8.mp3",
+    "video": "https://www.youtube.com/watch?v=rYqjS2V_VuA&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=7&t=675s&pp=iAQB",
     "slides": null,
-    "_time": "16:55",
+    "time": "23:26",
     "description": "Isn't it frustrating when the song you want isn't available at karaoke? Let's see if we can solve this. We will look at the current state of the Web Speech API and what's coming next, and have some fun!"
   },
 
@@ -1517,12 +1517,12 @@
     "order": 8,
     "duration": 40,
     "eventId": "2023",
-    "speakerId": "2023_salm",
-    "slug": "2023_salm",
-    "_audio": "https://media.ffconf.org/2022/8.mp3",
-    "_video": "https://www.youtube.com/watch?v=1SLwgKAz_P0&list=PLZy5V2JKDfX9afwuEl1NolNpvd0yNWc8E&index=8",
-    "slides": null,
-    "_time": "16:55",
+    "speakerId": "2023_salma",
+    "slug": "2023_salma",
+    "audio": "https://media.ffconf.org/2023/8.mp3",
+    "video": "https://www.youtube.com/watch?v=_PTW_gTkZUE&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=8&pp=iAQB",
+    "slides": "https://media.ffconf.org/2023/8.pdf",
+    "time": "46:32",
     "description": "This talk is about live streaming and learning in public, and about how writing silly code and building silly websites in front of a live audience is a powerful (and hilarious) way to build a community."
   }
 ]
