@@ -1416,7 +1416,7 @@
     "slug": "2023_amber",
     "audio": "https://media.ffconf.org/2023/8.mp3",
     "video": "https://www.youtube.com/watch?v=8wZ9Y2OGNgk&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=1&t=1305s&pp=iAQB",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2023/1.pdf",
     "time": "26:45",
     "description": "Dealing with imposter syndrome, perfectionism and building a growth mindset - this talk is essentially a survival guide on how to cope when we feel inferior in the tech space where we're surrounded by people doing incredible things both in and outside of work time."
   },
@@ -1506,7 +1506,7 @@
     "slug": "2023_ana",
     "audio": "https://media.ffconf.org/2023/8.mp3",
     "video": "https://www.youtube.com/watch?v=rYqjS2V_VuA&list=PLZy5V2JKDfX9zq8QeayxXU_Kv__UIV-EP&index=7&t=675s&pp=iAQB",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2023/7.pdf",
     "time": "23:26",
     "description": "Isn't it frustrating when the song you want isn't available at karaoke? Let's see if we can solve this. We will look at the current state of the Web Speech API and what's coming next, and have some fun!"
   },
