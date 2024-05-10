@@ -1071,3 +1071,12 @@ blockquote p {
 .footer-links li:last-child::after {
   content: none;
 }
+
+abbr {
+  font-weight: inherit;
+  text-decoration: inherit;
+}
+
+#menu h1 abbr {
+  color: inherit;
+}

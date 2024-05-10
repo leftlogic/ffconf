@@ -138,6 +138,11 @@ module.exports = function (eleventyConfig) {
     }
   );
 
+  eleventyConfig.addShortcode(
+    'ffconf',
+    () => `<abbr title="FF Conf">ffconf</abbr>`
+  );
+
   eleventyConfig.addShortcode('social', function (handle) {
     if (handle.includes('@')) {
       // masto
