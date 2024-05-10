@@ -48,7 +48,7 @@ The day will finish by 6pm. The schedule will be in your programme and online, a
 
 Note that by attending our events, you are agreeing to our [code of conduct](https://ffconf.org/code-of-conduct/).
 
-If see or hear our code of conduct being breached, or have any other concerns or questions, please contact a member of staff (wearing ffconf t-shirts), our [@ffconf](https://twitter.com/ffconf) DMs are open.
+If see or hear our code of conduct being breached, or have any other concerns or questions, please contact a member of staff (wearing {% ffconf %} t-shirts), our [@ffconf](https://twitter.com/ffconf) DMs are open.
 
 ## Refreshments and lunch
 
@@ -58,7 +58,7 @@ Tea, coffee, danishes and fruit will be available from 9am in the upstairs bar a
 
 ## Lunch with future friends
 
-If you are coming to ffconf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) or vegan food at [Worlds End](https://g.page/worldsend_btn?share) for our Lunch with Future Friends.
+If you are coming to {% ffconf %} for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) or vegan food at [Worlds End](https://g.page/worldsend_btn?share) for our Lunch with Future Friends.
 
 ## Reduce, reuse, recycle
 
@@ -66,13 +66,13 @@ The coffee cups we use are compostable but please do bring your own travel mug a
 
 ## Tweets, toots, chat and blog posts
 
-Yes to all. Hashtag all the things with [#ffconf](https://twitter.com/search?q=%23ffconf&src=typed_query&f=live).
+Yes to all. Hashtag all the things with [#{% ffconf %}](https://twitter.com/search?q=%23ffconf&src=typed_query&f=live).
 
-Feel free to follow the [@ffconf Twitter account](https://twitter.com/ffconf) and/or [on Mastodon](https://social.ffconf.org/@ffconf) for the latest info on the event.
+Feel free to follow the [@{% ffconf %} Twitter account](https://twitter.com/ffconf) and/or [on Mastodon](https://social.ffconf.org/@ffconf) for the latest info on the event.
 
 Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's still new and quiet, so bring your voice ❤️).
 
-Post event, if you blog about your experiences (and post us a tweet with the hashtag #ffconf), then we will choose two people at random **to win tickets to ffconf 2024**!
+Post event, if you blog about your experiences (and post us a tweet with the hashtag #{% ffconf %}), then we will choose two people at random **to win tickets to {% ffconf %} 2024**!
 
 ## Technology
 
@@ -102,7 +102,7 @@ Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 8pm on Thur
 
 ### Pre event networking: running or coffee - 10 Nov
 
-We are hosting another pre-ffconf run! Meet outside Duke of Yorks at 7:30am led by two friendly ffconf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, a short 30 minute run leaving plenty of time to get showered before registration opens!
+We are hosting another pre-{% ffconf %} run! Meet outside Duke of Yorks at 7:30am led by two friendly {% ffconf %} regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, a short 30 minute run leaving plenty of time to get showered before registration opens!
 
 Not a runner? Moes@thecircus is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Julia and Scout, both [Brighton Codebar organisers](https://codebar.io/brighton)
 
@@ -135,7 +135,7 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 ## Contact
 
 * Email: [events@leftlogic.com](mailto:events@leftlogic.com), or directly: [remy@leftlogic.com](mailto:remy@leftlogic.com) & [julie@leftlogic.com](mailto:julie@leftlogic.com)
-* Twitter & DM (we have open DMs): [@ffconf](https://twitter.com/ffconf)
+* Twitter & DM (we have open DMs): [@{% ffconf %}](https://twitter.com/ffconf)
 * Mastodon: [ffconf@social.ffconf.org](https://social.ffconf.org/@ffconf)
 
 ## Sponsors <!-- omit in toc -->

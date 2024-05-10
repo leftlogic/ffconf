@@ -5,7 +5,7 @@ date: 2022-10-03
 
 Hello and welcome to October.
 
-There's just over a month to go for ffconf 2022, and the first order of this newsletter is to tell you a handful of tickets have been released!
+There's just over a month to go for {% ffconf %} 2022, and the first order of this newsletter is to tell you a handful of tickets have been released!
 
 That's right, if you missed out now's your chance, but be quick, our venue has limited capacity so tickets are very restricted.
 

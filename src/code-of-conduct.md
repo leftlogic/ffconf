@@ -9,15 +9,15 @@ All attendees, speakers, sponsors and volunteers at our conference are required 
 
 ## Introduction
 
-We want ffconf to be the Future Friends Conference. Please treat each other with respect. Make new friends. Learn new things. Be kind to each other.
+We want {% ffconf %} to be the Future Friends Conference. Please treat each other with respect. Make new friends. Learn new things. Be kind to each other.
 
 If you are being harassed, notice anyone else being harassed, or have any other concerns, please contact us.
 
 ## Need Help?
 
-You can email [Remy](mailto:remy@leftlogic.com) or [Julie](mailto:julie@leftlogic.com) or [both](mailto:events@leftlogic.com) ahead of the event. We also have open DMs on our [@ffconf](https://twitter.com/ffconf) twitter account.
+You can email [Remy](mailto:remy@leftlogic.com) or [Julie](mailto:julie@leftlogic.com) or [both](mailto:events@leftlogic.com) ahead of the event. We also have open DMs on our [@{% ffconf %}](https://twitter.com/ffconf) twitter account.
 
-For the day event, you will also have access to a mobile number that you can send SMS messages if you need to notify us of any issues, along with our staff being in ffconf branded t-shirts. (Please note: this page will be updated closer to the time with additional details).
+For the day event, you will also have access to a mobile number that you can send SMS messages if you need to notify us of any issues, along with our staff being in {% ffconf %} branded t-shirts. (Please note: this page will be updated closer to the time with additional details).
 
 ## Our code of conduct
 

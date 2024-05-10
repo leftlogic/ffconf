@@ -3,7 +3,7 @@ title: 2020 ticket winners
 date: 2020-01-06
 ---
 
-As part of the 2019 edition of ffconf we announced that anyone who blogged about their experience of the event would be entered into a draw for a free ticket to ffconf 2020.
+As part of the 2019 edition of {% ffconf %} we announced that anyone who blogged about their experience of the event would be entered into a draw for a free ticket to {% ffconf %} 2020.
 
 Firstly we'd like to thank all those bloggers who participated and we can tell you that we (Julie and myself, Remy) read every post - so thank you so much.
 

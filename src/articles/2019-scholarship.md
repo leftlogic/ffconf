@@ -11,9 +11,9 @@ We're also extremely proud to know that other events have used our scholarship s
 
 We all have our part to play in working towards inclusive and safe environments that can foster diversity. For us, Julie and Remy, our conference's scholarship is our platform for just that.
 
-It is **truly an honour** to be able to provide scholarships to individuals, and to have ffconf play part of their journey.
+It is **truly an honour** to be able to provide scholarships to individuals, and to have {% ffconf %} play part of their journey.
 
-This is what one scholarship recipient had to say about ffconf last year:
+This is what one scholarship recipient had to say about {% ffconf %} last year:
 
 > This conference is different. First it is very family oriented which brings together innovative coding and great speakers to inspire, motivate and share with its community.
 >
@@ -32,17 +32,17 @@ Those sponsors include:
 - [Samsung](https://samsunginter.net/)
 - [Unmade](https://www.unmade.com/)
 
-Please also take a moment to read these messages from a few of those sponsors about _why_ they wanted to sponsor ffconf and support the scholarship programme:
+Please also take a moment to read these messages from a few of those sponsors about _why_ they wanted to sponsor {% ffconf %} and support the scholarship programme:
 
 > ProdPad is passionate in supporting underrepresented communities within the tech industry. It's important that our sector remains forward-thinking, evolves with the times, and supports those that need it.
 >
-> The ffconf represents that, and has created wonderful opportunities for all types of tech-loving people.
+> The {% ffconf %} represents that, and has created wonderful opportunities for all types of tech-loving people.
 
 – ProdPad, Brighton - [their jobs page](https://www.prodpad.com/about-us/jobs/)
 
 <br>
 
-> Unmade is a growing company, and as part of our efforts to be more engaged in the tech community, conference sponsorship was something we knew we wanted to do. When we came across the opportunity to offer scholarships for ffconf, it was a no brainer (some of us have attended in the past and would highly recommend).
+> Unmade is a growing company, and as part of our efforts to be more engaged in the tech community, conference sponsorship was something we knew we wanted to do. When we came across the opportunity to offer scholarships for {% ffconf %}, it was a no brainer (some of us have attended in the past and would highly recommend).
 >
 > Inclusively, diversity, and sustainability are fundamental principles we're trying to abide by as a team, and as we grow, and we can't think of many better ways to do that than helping create opportunities for others.
 >

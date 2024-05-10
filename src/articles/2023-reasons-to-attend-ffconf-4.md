@@ -26,13 +26,13 @@ Ana also has an [excellent blog](https://ohhelloana.blog/) - which smacks a lot 
 
 ---
 
-***💞 Support and sponsor ffconf***
+***💞 Support and sponsor {% ffconf %}***
 
 ✉️ [Get in touch to join our event today](mailto:events@leftlogic.com?subject=Request%20for%20sponsor%20pack%20%5B2023%5D)
 
 We have some fantastic sponsorship opportunities available with significant visibility during the event. Example options are our ice-cream sponsorship, which includes featuring your branding on our ice-cream cartons and exposure through photos and direct engagement with attendees.
 
-Read Remy's blog post on [the real impact of sponsorship](https://remysharp.com/2023/09/14/why-sponsor-ffconf) on small events like ffconf.
+Read Remy's blog post on [the real impact of sponsorship](https://remysharp.com/2023/09/14/why-sponsor-ffconf) on small events like {% ffconf %}.
 
 ---
 

@@ -31,4 +31,4 @@ Every attendee, sponsor and speaker, by virtue of purchasing a ticket or attendi
 
 ## Contact
 
-Left Logic (company number 05926047) can be contacted via email: <a href="mailto:events@leftlogic.com">events@leftlogic.com</a> or by post, at: Left Logic, 44 Burstead Close, Brighton, BN1 7HT, United Kingdom.
+Left Logic (company number 05926047) can be contacted via email: <a href="mailto:events@leftlogic.com">events@leftlogic.com</a> or by post, at: Left Logic, The Old Casino 28 Fourth Avenue Hove East Sussex BN3 2PJ
