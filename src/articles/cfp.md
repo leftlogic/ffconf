@@ -13,13 +13,12 @@ Here are the topics that I often think about around ffconf in no particular orde
 
 ## Code, development
 
-- Testing, in particular integration tests and selenium/full end to end cross browser testing
+- How our development practices are changing / Support from AI / "How I've changed my development process over X years"
+- An introduction to the Indie Web: blogs, web mentions, web rings and the like
 - Accessibility first hand, what is the impact of our work? ([example](/talks/technologic-human-after-all-accessibility-remix/))
 - Unhooking from libraries: A World of Web Components
 - Forget ESNext: what about ES2049 aka "ES Blade Runner"?
 - Tick box guide to security and/or performance
-- An introduction to the Indie Web: blogs, web mentions, web rings and the like
-- How our development practices are changing / Support from AI / "How I've changed my development process over X years"
 - Talking hardware
 - Data science with the web ([example](/talks/lessons-learned-sciencing-the-web/))
 - Fun, eccentric, making music and art ([example](/talks/weird-web/))
