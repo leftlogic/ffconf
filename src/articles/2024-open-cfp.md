@@ -9,7 +9,7 @@ Over the years we've had some amazing CFPs, and if there's a topic you feel pass
 
 As a speaker, new or thoroughly seasoned, we treat you with the same respect, and you can read [our promise to you here](https://ffconf.org/articles/cfp/#our-promise-to-you).
 
-If you've already got a ticket and your CFP is selected, of course we'll refund you (if you don't have a ticket, [what are you waiting for](https://2024.ffconf.org/)?)
+If you've already got a ticket and your CFP is selected, of course we'll refund you (if you don't have a ticket, [what are you waiting for](https://2024.ffconf.org/) - tickets are LIVE!).
 
 Here's some ideas that Remy would love to see, just to get you started:
 

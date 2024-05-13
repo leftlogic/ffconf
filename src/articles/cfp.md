@@ -68,7 +68,7 @@ All our speakers are treated the same. We will, as always:
 - £500 honorarium - we know it's not much for the work you've put in, but it's a _thank you_
 - We can, if you need or want it, provide you with a mifi preloaded with data
 - We'll endeavour to feed and water you as much as we can (including a speaker meal and lunch and if you're partial to a tipple, we'll pay for all these too)
-- 40 minute talk, generally we don't do Q&A and it's best to err on the side of "there is no wifi"
+- ~35 minute talk, generally we don't do Q&A and it's best to err on the side of "there is no wifi"
 - A free pass to the next {% ffconf %}, and for evermore part of our growing and much loved speaker alumni. If you bought a ticket for {% ffconf %}, we'll refund the ticket (as we don't expect, or want, our speakers to pay)
 - Uphold our [conference code of conduct](/code-of-conduct) (available on our yearly sites), both for you, and our attendees
 
