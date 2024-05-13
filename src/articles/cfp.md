@@ -1,6 +1,7 @@
 ---
 title: "ffconf's Call For Papers"
 date: 2019-07-03
+updated: 2024-05-13
 ---
 
 Though this post is timestamped, it applies to nearly every year of {% ffconf %} <abbr title="Call for Papers">CFP</abbr> it includes both what I want to hear about (to give you an idea whether something you're passionate about aligns with the topics), and also mine and Julie's [promise to our speakers](#our-promise-to-you).
