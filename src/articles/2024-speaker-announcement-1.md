@@ -17,7 +17,7 @@ We are so incredibly excited to introduce the first of our 8 speakers:
 
 <div>
 
-Who: **Kimerley Cook**
+Who: **Kimberley Cook**
 
 What: ***0 - 25,000 people! Growing a global community over 10 years***
 
