@@ -46,6 +46,7 @@
     "apollo-server-micro": "^2.9.4",
     "csv-parse": "^5.3.1",
     "graphql": "^14.4.2",
+    "markdown-it-attrs": "^4.1.6",
     "slugify": "^1.6.5",
     "undefsafe": "^2.0.2",
     "unidecode": "^0.1.8"

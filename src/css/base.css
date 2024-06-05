@@ -574,6 +574,7 @@ body {
 }
 
 main p,
+main td,
 main li {
   font-size: 18px;
   margin: 28px 0;
