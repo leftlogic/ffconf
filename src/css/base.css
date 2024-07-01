@@ -1073,11 +1073,40 @@ blockquote p {
   content: none;
 }
 
-abbr {
+abbr,
+.ffconf-title {
   font-weight: inherit;
   text-decoration: inherit;
 }
 
 #menu h1 abbr {
   color: inherit;
+}
+
+.visuallyhidden {
+  position: absolute;
+  /* width: 0px; */
+  visibility: hidden;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip:focus,
+.skip:focus-visible,
+.skip:active {
+  /* position: static; */
+  left: initial;
+  width: auto;
+  height: auto;
+  background: var(--primary);
+  color: var(--white);
+  padding: 12px;
+  z-index: 10000;
 }

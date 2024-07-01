@@ -20,9 +20,10 @@
     </script>
   </head>
   <body id="{{ id }}">
+    <a href="#main-content" class="skip">Skip to main content</a>
     <div class="body">
       {% include "header.njk" %}
-      <main class="snap">
+      <main id="main-content" class="snap">
         {%- block content %}
         {{ content | safe }}
         {%- endblock %}
