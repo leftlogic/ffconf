@@ -1,13 +1,13 @@
 ---
 title: "Our next speaker: Improving how you provide and receive feedback"
-date: 2024-06-19
+date: "2024-07-03T12:00:00"
 ---
 
 We're proud to announce our next speaker joining us for FFConf 2024.
 
 We all know a good CV is (supposed) to include "good communicator", but in reality how often do we review that. Are we any good at giving feedback, or more importantly, _receiving it_?
 
-We'd pleased to have Andy Bell (_not the lead singer of Erasure!_) join our family of speakers to help address this and how we can become better working colleagues.
+We're pleased to have Andy Bell (_not the lead singer of Erasure!_) join our family of speakers to help address this problem and how we can become better working colleagues.
 
 <div class="image-and-text">
 
