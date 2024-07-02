@@ -1,24 +1,16 @@
-/* Color palette */
+/* custom font with ligature for FFC => ffc */
 @font-face {
   font-family: 'BasierSquare';
-  src: url('/fonts/basiersquare-medium-webfont.eot');
-  src: url('/fonts/basiersquare-medium-webfont.eot?#iefix')
-      format('embedded-opentype'),
-    url('/fonts/basiersquare-medium-webfont.woff2') format('woff2'),
-    url('/fonts/basiersquare-medium-webfont.woff') format('woff'),
-    url('/fonts/basiersquare-medium-webfont.ttf') format('truetype');
+  src: url('/fonts/BasierSquare-Medium-custom.woff2') format('woff2'),
+    url('/fonts/BasierSquare-Medium-custom.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'BasierSquare';
-  src: url('/fonts/basiersquare-regular-webfont.eot');
-  src: url('/fonts/basiersquare-regular-webfont.eot?#iefix')
-      format('embedded-opentype'),
-    url('/fonts/basiersquare-regular-webfont.woff2') format('woff2'),
-    url('/fonts/basiersquare-regular-webfont.woff') format('woff'),
-    url('/fonts/basiersquare-regular-webfont.ttf') format('truetype');
+  src: url('/fonts/BasierSquare-Regular-custom.woff2') format('woff2'),
+    url('/fonts/BasierSquare-Regular-custom.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -37,7 +29,7 @@
   box-sizing: border-box;
   font-weight: normal;
   font-stretch: normal;
-  line-height: normal;
+  line-height: 1.3;
   letter-spacing: normal;
 }
 
@@ -53,301 +45,6 @@ strong * {
 }
 
 /* Text styles */
-
-.Heading-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 56px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--primary);
-}
-
-.Heading-Large-Dark-Center {
-  font-family: BasierSquare;
-  font-size: 32px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--primary);
-}
-
-.Heading-Large-Light-Left {
-  font-family: BasierSquare;
-  font-size: 32px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  color: var(--white);
-}
-
-.Button-Light-Center {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--white);
-}
-
-.Heading-Medium-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 22px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-  color: var(--primary);
-}
-
-.Paragraph-Light-Left {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: var(--white);
-}
-
-.Menu-Dark-Right {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: right;
-  color: var(--primary);
-}
-
-.Placeholder-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--dark-grey);
-}
-
-.Heading-Medium-Light-Left {
-  font-family: BasierSquare;
-  font-size: 22px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-  color: var(--white);
-}
-
-.Paragraph-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: var(--primary);
-}
-
-.Button-Light-Left {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--white);
-}
-
-.Heading-Small-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: var(--primary);
-}
-
-.Link-Grey-Right {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: right;
-  color: var(--dark-grey);
-}
-
-.Link-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--primary);
-}
-
-.Link-Dark-Center {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--primary);
-}
-
-.Menu-Dark-Center {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.67;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--primary);
-}
-
-.Heading-Small-Light-Left {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--white);
-}
-
-.Heading-Medium-Grey-Center {
-  font-family: BasierSquare;
-  font-size: 22px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--dark-grey);
-}
-
-.Heading-Large-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 32px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: normal;
-  color: var(--primary);
-}
-
-.Pill-Dark-Center {
-  font-family: BasierSquare;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--primary);
-}
-
-.Paragraph-Small-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  color: var(--primary);
-}
-
-.Heading-Small-Grey-Left {
-  font-family: BasierSquare;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: var(--dark-grey);
-}
-
-.Heading-Extra-Small-Grey-Left {
-  font-family: BasierSquare;
-  font-size: 14px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--dark-grey);
-}
-
-.Small-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: var(--dark-grey);
-}
-
-.Pill-Light-Center {
-  font-family: BasierSquare;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--white);
-}
-
-.Placeholder-Small-Dark-Left {
-  font-family: BasierSquare;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: var(--dark-grey);
-}
 
 html {
   font-family: 'BasierSquare';
@@ -393,7 +90,8 @@ h1 {
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: normal;
+  line-height: 1.2;
+
   letter-spacing: normal;
   color: var(--primary);
 }
@@ -1073,10 +771,16 @@ blockquote p {
   content: none;
 }
 
-abbr,
 .ffconf-title {
   font-weight: inherit;
   text-decoration: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.single-space {
+  display: inline-block;
+  width: 0;
 }
 
 #menu h1 abbr {

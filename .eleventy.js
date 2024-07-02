@@ -138,10 +138,7 @@ module.exports = function (eleventyConfig) {
     }
   );
 
-  eleventyConfig.addShortcode(
-    'ffconf',
-    () => `<span class="ffconf-title" aria-label="FF Conf">ffconf</span>`
-  );
+  eleventyConfig.addShortcode('ffconf', () => `FFConf`);
 
   eleventyConfig.addShortcode('social', function (handle) {
     if (handle.includes('@')) {

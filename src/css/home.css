@@ -20,6 +20,9 @@
 
 #home main h2 {
   font-size: 22px;
+  font-feature-settings: 'liga' 1, 'calt' 1; /* Enable common ligatures and contextual alternates */
+  font-variant-ligatures: no-common-ligatures;
+
   font-weight: 500;
   line-height: 1.27;
   border-bottom: 1px solid var(--white);
