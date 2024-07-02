@@ -13,7 +13,7 @@ You can view and submit jobs at **[ffconf.org/jobs](https://ffconf.org/jobs/)**.
 
 ## Blogs
 
-For those who came to the event last week, don't forget to **blog about your experience at ffconf for your chance for a free ticket to 2023**. You can either send these to events@leftlogic.com or post a tweet or a toot with #{% ffconf %} and we'll pick it up.
+For those who came to the event last week, don't forget to **blog about your experience at ffconf for your chance for a free ticket to 2023**. You can either send these to events@leftlogic.com or post a tweet or a toot with #FFConf and we'll pick it up.
 
 If you didn't come to the event and/or don't have a blog, Sophie Koonin gave a great talk on why you should have a personal web site - so catch our video of her talk when it comes out.
 
@@ -35,4 +35,4 @@ You might have caught wind of it on Twitter, but as a gift, I decided to refurbi
 
 _(If you on desktop, keys are: Z, X, enter and cursor keys)_
 
-![Gameboy with {% ffconf %} game](https://ffconf.org/images/articles/2022-game.jpg)
+![Gameboy with FFConf game](https://ffconf.org/images/articles/2022-game.jpg)

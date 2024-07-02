@@ -7,7 +7,7 @@ As promised we'll start pulling up the curtain on our speakers now that all the 
 
 Maybe you wonder why we've obscured our speakers at launch like this for so many years?
 
-{% ffconf %} sets the focus on the content of the conference, over the individual speakers… the [greater good](https://youtu.be/5u8vd_YNbTw?si=rNtToYSptZ720-aU&t=4) and all that. It shows the strength of {% ffconf %} as a content driven event 💪
+FFConf sets the focus on the content of the conference, over the individual speakers… the [greater good](https://youtu.be/5u8vd_YNbTw?si=rNtToYSptZ720-aU&t=4) and all that. It shows the strength of FFConf as a content driven event 💪
 
 🎟️ 👉 You can still **[buy a ticket today](https://ffconf.org/tickets)** too.
 
@@ -31,7 +31,7 @@ Check out [Maggie's web site](https://maggieappleton.com/), Remy found the patte
 
 ---
 
-***💞 Support and sponsor {% ffconf %}***
+***💞 Support and sponsor FFConf***
 
 ✉️ [Get in touch to join our event today](mailto:events@leftlogic.com?subject=Request%20for%20sponsor%20pack%20%5B2023%5D)
 

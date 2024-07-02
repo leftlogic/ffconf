@@ -3,7 +3,7 @@ title: "2019 site live, scholarships live, tickets in 24 hours"
 date: 2019-07-15
 ---
 
-That's right, tickets for our eleventh {% ffconf %} go live - Tuesday 10 am UK time. {% ffconf %} 2019 is a single day on Friday 8 November held in the historic Duke of Yorks in Brighton - but you knew that 😉
+That's right, tickets for our eleventh FFConf go live - Tuesday 10 am UK time. FFConf 2019 is a single day on Friday 8 November held in the historic Duke of Yorks in Brighton - but you knew that 😉
 
 We've already sold some of the tickets in our super-dooper-early bird back in November last year and being a single day it means tickets are (very) limited. So if you want to attend, be online tomorrow to guarantee your space.
 
@@ -23,6 +23,6 @@ You can see a little preview of the site below, or [check out the real thing](ht
 
 [![](/images/articles/2019-ffconf-live.png)](https://2019.ffconf.org)
 
-When you're on the site you'll notice the heavily affected speaker photos. That's entirely on purpose as from our second year {% ffconf %} has been content-first. The speaker's images get de-fudged as we're closer to the event (or we sell out tickets) - and you'll see the halftone effects that I spent about 3 hours doing _just_ to do 6 photos!
+When you're on the site you'll notice the heavily affected speaker photos. That's entirely on purpose as from our second year FFConf has been content-first. The speaker's images get de-fudged as we're closer to the event (or we sell out tickets) - and you'll see the halftone effects that I spent about 3 hours doing _just_ to do 6 photos!
 
 We hope you enjoy the new site and we hope to find you on the site tomorrow grabbing one of those tickets 💪

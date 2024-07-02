@@ -4,13 +4,13 @@ date: 2019-07-03
 updated: 2024-05-13
 ---
 
-Though this post is timestamped, it applies to nearly every year of {% ffconf %} <abbr title="Call for Papers">CFP</abbr> it includes both what I want to hear about (to give you an idea whether something you're passionate about aligns with the topics), and also mine and Julie's [promise to our speakers](#our-promise-to-you).
+Though this post is timestamped, it applies to nearly every year of FFConf <abbr title="Call for Papers">CFP</abbr> it includes both what I want to hear about (to give you an idea whether something you're passionate about aligns with the topics), and also mine and Julie's [promise to our speakers](#our-promise-to-you).
 
-You can also follow the [@{% ffconf %}](https://twitter.com/ffconf) twitter account for the latest announcements to find out how to join in on this fun!
+You can also follow the [@FFConf](https://twitter.com/ffconf) twitter account for the latest announcements to find out how to join in on this fun!
 
 ## Topics I'm interested in hearing about
 
-Here are the topics that I often think about around {% ffconf %} in no particular order.
+Here are the topics that I often think about around FFConf in no particular order.
 
 ## Code, development
 
@@ -49,7 +49,7 @@ Topics that don't work, unless they're genuinely going to change the World, then
 
 - What's great about some new fancy pants library or plugin
 - Your company's new shiny product
-- Talks that are extremely similar to recent years of {% ffconf %} talks (do check previous years)
+- Talks that are extremely similar to recent years of FFConf talks (do check previous years)
 
 Send us the title of your talk, an outline of the talk and any extra information you want us to know about the idea:
 
@@ -57,7 +57,7 @@ Send us the title of your talk, an outline of the talk and any extra information
 
 ## When will you hear back?
 
-It takes me a long time to process and decide on CFPs, so whilst there's not 8 sessions up on the site, it means your talk is still up for consideration. I will respond to everyone with a yay or nay eventually. If you want to come to {% ffconf %}, regardless of whether your CFP is selected, please buy a ticket and if your talk is selected, the ticket will be refunded and returns to the public pool of tickets.
+It takes me a long time to process and decide on CFPs, so whilst there's not 8 sessions up on the site, it means your talk is still up for consideration. I will respond to everyone with a yay or nay eventually. If you want to come to FFConf, regardless of whether your CFP is selected, please buy a ticket and if your talk is selected, the ticket will be refunded and returns to the public pool of tickets.
 
 ## Our promise to you
 
@@ -70,7 +70,7 @@ All our speakers are treated the same. We will, as always:
 - We can, if you need or want it, provide you with a mifi preloaded with data
 - We'll endeavour to feed and water you as much as we can (including a speaker meal and lunch and if you're partial to a tipple, we'll pay for all these too)
 - ~35 minute talk, generally we don't do Q&A and it's best to err on the side of "there is no wifi"
-- A free pass to the next {% ffconf %}, and for evermore part of our growing and much loved speaker alumni. If you bought a ticket for {% ffconf %}, we'll refund the ticket (as we don't expect, or want, our speakers to pay)
+- A free pass to the next FFConf, and for evermore part of our growing and much loved speaker alumni. If you bought a ticket for FFConf, we'll refund the ticket (as we don't expect, or want, our speakers to pay)
 - Uphold our [conference code of conduct](/code-of-conduct) (available on our yearly sites), both for you, and our attendees
 
 So I hope to hear from you soon!

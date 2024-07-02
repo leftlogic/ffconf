@@ -22,17 +22,17 @@ Remy invited Ire to talk because under this CSS-centric title, there's some real
 
 Jonathan's origin story: _Escaping from an after school club I found my way back to my classroom where a student teacher showed me BASIC on a Acorn._
 
-Jonathan has been a long time regular of {% ffconf %} - so much so, he's even managed to bag himself a coveted [{% ffconf %} t-shirt](https://twitter.com/jonthanfielding). Take a moment to check out [his website too](https://www.jonathanfielding.com/).
+Jonathan has been a long time regular of FFConf - so much so, he's even managed to bag himself a coveted [FFConf t-shirt](https://twitter.com/jonthanfielding). Take a moment to check out [his website too](https://www.jonathanfielding.com/).
 
 ---
 
-***💞 Support and sponsor {% ffconf %}***
+***💞 Support and sponsor FFConf***
 
 ✉️ [Get in touch to join our event today](mailto:events@leftlogic.com?subject=Request%20for%20sponsor%20pack%20%5B2023%5D)
 
 We have some fantastic sponsorship opportunities available with significant visibility during the event. Example options are our ice-cream sponsorship, which includes featuring your branding on our ice-cream cartons and exposure through photos and direct engagement with attendees.
 
-Read Remy's blog post on [the real impact of sponsorship](https://remysharp.com/2023/09/14/why-sponsor-ffconf) on small events like {% ffconf %}.
+Read Remy's blog post on [the real impact of sponsorship](https://remysharp.com/2023/09/14/why-sponsor-ffconf) on small events like FFConf.
 
 ---
 

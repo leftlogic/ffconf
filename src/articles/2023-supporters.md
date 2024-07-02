@@ -3,9 +3,9 @@ title: "Supporters of 2023"
 date: 2023-10-18
 ---
 
-{% ffconf %} has been running since 2009, quite an achievement bearing in mind changes in the industry, the conference scene and (dare we say it) lockdown.
+FFConf has been running since 2009, quite an achievement bearing in mind changes in the industry, the conference scene and (dare we say it) lockdown.
 
-We are proud of what we have built within the community and look forward every time to seeing old faces returning year on year and also welcome new faces to the {% ffconf %} family 🥰
+We are proud of what we have built within the community and look forward every time to seeing old faces returning year on year and also welcome new faces to the FFConf family 🥰
 
 However, the conference simply cannot happen without the support of companies sponsoring the day. We know that times are tough right now and we were loathe to increase the ticket price so we want to say a special thank you to our three sponsors: **Google Chrome**, **Interledger Foundation** and **Legal & General**.
 
@@ -25,9 +25,9 @@ In addition, if Web Monetization interests you, [PPK](https://quirksmode.org/) w
 
 ## Legal & General
 
-We're delighted to announce that Legal & General will once again be sponsoring this year's {% ffconf %}. We'll be offering scholarships so we can ensure that the brightest young minds from a variety of backgrounds are able to contribute to crucial conversations about the future of the web.
+We're delighted to announce that Legal & General will once again be sponsoring this year's FFConf. We'll be offering scholarships so we can ensure that the brightest young minds from a variety of backgrounds are able to contribute to crucial conversations about the future of the web.
 
-We have first-hand experience of this event and, as a result, we're delighted to partner with {% ffconf %}. We're proud to work alongside the organisers to make sure this year's conference is the most successful so far!
+We have first-hand experience of this event and, as a result, we're delighted to partner with FFConf. We're proud to work alongside the organisers to make sure this year's conference is the most successful so far!
 
 You can find out more about [Legal & General here](https://www.legalandgeneral.com/careers/legal-and-general-life/).
 

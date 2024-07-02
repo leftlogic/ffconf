@@ -11,7 +11,7 @@ This post outlines our inclusion scholarships programme. It's entirely possible 
 
 Scholarships are available for anyone in an under-represented group in tech. This includes (but is not limited to): people of colour, LGBTQIA+ people, people who identify as women and people with disabilities.
 
-We have a limited number of scholarships available which includes a ticket to the day {% ffconf %} event, travel to Brighton (from your city) and hotel as required.
+We have a limited number of scholarships available which includes a ticket to the day FFConf event, travel to Brighton (from your city) and hotel as required.
 
 Please note that we prioritise people who have not received a scholarship from us in previous years.
 

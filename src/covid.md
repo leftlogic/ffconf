@@ -26,4 +26,4 @@ The social is held at Oh So Social on the sea front, this venue is much smaller 
 
 Please also see our [Venue Accessibility](/accessibility/) pages for extra information about our venue.
 
-If you wish to get in touch during the event with issues relating to your safety or comfort, please find a team member wearing an {% ffconf %} t-shirt and we'll be happy to help.
+If you wish to get in touch during the event with issues relating to your safety or comfort, please find a team member wearing an FFConf t-shirt and we'll be happy to help.

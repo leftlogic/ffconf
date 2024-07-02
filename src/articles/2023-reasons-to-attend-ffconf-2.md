@@ -26,7 +26,7 @@ Remy had the pleasure of working with [Angela in 2013](https://web.archive.org/w
 
 ---
 
-***💞 Support and sponsor {% ffconf %}***
+***💞 Support and sponsor FFConf***
 
 ✉️ [Get in touch to join our event today](mailto:events@leftlogic.com?subject=Request%20for%20sponsor%20pack%20%5B2023%5D)
 

@@ -132,7 +132,7 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 
 We use the https://ffconf.org/code-of-conduct/ as our code of conduct, and we ask that you familiarise yourself with it and if you're unsure if your slides or content could be a problem, please get in touch with me any time to talk about them. I'll help as much as I can.
 
-We've included this on everyone's lanyard, and equally goes for all of you: If you see or hear the code of conduct being breached, please speak to me (Remy), Julie or one of our volunteers wearing {% ffconf %} t-shirts. You can also phone or text us (numbers at the end of this email) or send a DM to [@{% ffconf %}](https://twitter.com/ffconf).
+We've included this on everyone's lanyard, and equally goes for all of you: If you see or hear the code of conduct being breached, please speak to me (Remy), Julie or one of our volunteers wearing FFConf t-shirts. You can also phone or text us (numbers at the end of this email) or send a DM to [@FFConf](https://twitter.com/ffconf).
 
 If there's anything you're unsure about in your slides, please feel free to reach out to me to check. Equally, if you want any extra eyes on your slides, please feel free to ask.
 

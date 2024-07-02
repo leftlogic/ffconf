@@ -3,7 +3,7 @@ title: Beautiful on the inside
 date: 2019-10-22
 ---
 
-The 11th edition of {% ffconf %} is fast approaching with just 18 days to go ::squee:: before we open doors to welcome another year of attendees, we, Julie and I, wanted to share the progress of the organisation to offer a few insights into what goes on in the lead up to _doors open_.
+The 11th edition of FFConf is fast approaching with just 18 days to go ::squee:: before we open doors to welcome another year of attendees, we, Julie and I, wanted to share the progress of the organisation to offer a few insights into what goes on in the lead up to _doors open_.
 
 ## The things you can't control
 
@@ -15,7 +15,7 @@ Julie took this photo just last week and it's fair to say the grand Duke of York
 
 In the restoration work they've discovered that under the plaster there's some original artwork (including pineapples…obviously) dating back to the early 20th century.
 
-From the outside it's a bit of an eyesore but there's a good possibility that the scaffolding will be gone for {% ffconf %} next month. Certainly we have arranged for _no building work_ to be going on during our event ::phew::
+From the outside it's a bit of an eyesore but there's a good possibility that the scaffolding will be gone for FFConf next month. Certainly we have arranged for _no building work_ to be going on during our event ::phew::
 
 ## All the deliveries
 
