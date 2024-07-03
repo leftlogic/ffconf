@@ -7,7 +7,7 @@ We're proud to announce our next speaker joining us for FFConf 2024.
 
 We all know a good CV is (supposed) to include "good communicator", but in reality how often do we review that. Are we any good at giving feedback, or more importantly, _receiving it_?
 
-We're pleased to have Andy Bell (_not the lead singer of Erasure!_) join our family of speakers to help address this problem and how we can become better working colleagues.
+We're pleased to have Andy Bell (_not the lead singer of Erasure!_) join our family of speakers to help address this problem and how we can become better work colleagues.
 
 <div class="image-and-text">
 
@@ -21,7 +21,7 @@ What: ***Get the core right and the resilient code will follow***
 
 Web developers often focus only on technical skills. Andy is going to show a better approach by improving planning, core skills, and feedback exchange to produce simpler, more resilient codebases.
 
-Check out Andy's [Piccalilli](https://piccalil.li/) web site, an excellent resource for his own newsletter, but constant collection of links, and his blog posts.
+Check out Andy's [Piccalilli](https://piccalil.li/) web site, an excellent resource for his own newsletter, constant collection of links, and his blog posts.
 
 </div></div>
 
