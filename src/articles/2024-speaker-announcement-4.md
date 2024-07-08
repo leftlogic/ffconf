@@ -1,27 +1,23 @@
 ---
-title: "Our next speaker: Improving how you provide and receive feedback"
-date: "2024-07-03T12:00:00"
+title: "Our next speaker: On burnout, purpose and making meaning"
+date: "2024-07-10T12:00:00"
 ---
 
 We're proud to announce our next speaker joining us for FFConf 2024.
 
-We all know a good CV is (supposed) to include "good communicator", but in reality how often do we review that. Are we any good at giving feedback, or more importantly, _receiving it_?
-
-We're pleased to have Andy Bell (_not the lead singer of Erasure!_) join our family of speakers to help address this problem and how we can become better work colleagues.
-
 <div class="image-and-text">
 
-![Andy, wearing glasses, smiling softly, looking towards the camera](/images/articles/2024-andy.jpg)
+![Amy, sitting and enjoying a warm cup of tea](/images/articles/2024-amy.jpg)
 
 <div>
 
-Who: **Andy Bell**
+Who: **Amy Hupe**
 
-What: ***Get the core right and the resilient code will follow***
+What: ***It all means nothing in the end***
 
-Web developers often focus only on technical skills. Andy is going to show a better approach by improving planning, core skills, and feedback exchange to produce simpler, more resilient codebases.
+What do you do when you've attached your sense of self to work, and work suddenly feels meaningless? In this talk, Amy explores burnout, purpose and making meaning in an increasingly confusing and calamitous world.
 
-Check out Andy's [Piccalilli](https://piccalil.li/) web site, an excellent resource for his own newsletter, constant collection of links, and his blog posts.
+Aside from being a design systems pro (working for GDS and being content lead for their [design system](https://design-system.service.gov.uk/)), Amy also hosted an excellent podcast last year called [Systems of Harm](https://systems-of-harm.fireside.fm/), with 6 episodes asking how we can work to design more inclusive experiences. Definitely check those out.
 
 </div></div>
 
@@ -29,7 +25,7 @@ Find out more about the event 👉 **[2024.ffconf.org](https://2024.ffconf.org/)
 
 ## 🤔 What's next?
 
-Announcing next: _A talk about burnout, purpose and making meaning._
+Announcing next: _A talk about critical thinking._
 
 ## 💞 Support and sponsor ffconf
 
