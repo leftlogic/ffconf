@@ -76,17 +76,27 @@ img {
 
 .image-and-text {
   background: #f9f9f9;
-  padding: 24px 96px;
-  display: grid;
-  gap: 0 48px;
-  grid-template-columns: auto 1fr;
-  grid-template-areas:
-    'img text'
-    'img text';
-  align-items: center;
+  /* align-items: center; */
+  padding: 24px;
 }
 
 .image-and-text p:has(img) {
   margin: 0;
   grid-area: img;
+}
+
+@media only screen and (min-width: 700px) {
+  .image-and-text p:has(img) {
+    margin-top: 28px;
+    align-self: flex-start;
+  }
+
+  .image-and-text {
+    padding: 24px 36px;
+    display: grid;
+    gap: 0 48px;
+    grid-template-areas:
+      'img text'
+      'img text';
+  }
 }
