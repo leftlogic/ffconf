@@ -17,25 +17,24 @@ css: tickets.css
     padding: 0 32px;
   }
 
-  .tickets .grid {
-    position: relative;
-    display: flex;
-    /* display: grid;
-    grid-template-columns: 1fr 340px;
-    grid-template-rows: 1fr 340px;
-    gap: 32px; */
-  }
+  @media only screen and (min-width: 700px) {
+    .tickets .grid {
+      position: relative;
+      display: flex;
+    }
 
-  .tickets .grid main {
-    order: -1;
-    flex: 1;
-  }
 
-  .tickets aside {
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    width: 340px;
+    .tickets .grid main {
+      order: -1;
+      flex: 1;
+    }
+
+    .tickets aside {
+      height: 100vh;
+      position: sticky;
+      top: 0;
+      width: 340px;
+    }
   }
 
   .tickets .ticket-buy {
