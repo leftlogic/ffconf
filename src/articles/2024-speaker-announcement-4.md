@@ -3,7 +3,9 @@ title: "Our next speaker: On burnout, purpose and making meaning"
 date: "2024-07-10T12:00:00"
 ---
 
-We're proud to announce our next speaker joining us for FFConf 2024.
+We're proud to have Amy Hupe joining our ever growing family of FFConf speakers.
+
+This marks the halfway mark of speaker and session announcements. Do you have your [ticket yet](https://ffconf.org/tickets)?
 
 <div class="image-and-text">
 
