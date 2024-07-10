@@ -1,7 +1,7 @@
 const { basename } = require('path');
 const markdownIt = require('markdown-it');
 const undefsafe = require('undefsafe');
-const format = require('date-fns/format');
+const { format } = require('date-fns');
 const parse = require('date-fns/parse');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const Talks = require('./src/_data/talks');
@@ -9,6 +9,9 @@ const fs = require('fs');
 const liveYears = require('./graphql/data/events.json')
   .filter((_) => _.live !== false)
   .map((_) => _.year);
+const currentYear = require('./graphql/data/events.json')
+  .filter((_) => _.live === false)
+  .pop();
 
 const options = {
   html: true,
@@ -139,6 +142,7 @@ module.exports = function (eleventyConfig) {
   );
 
   eleventyConfig.addShortcode('ffconf', () => `FFConf`);
+  eleventyConfig.addShortcode('year', () => new Date().getFullYear());
 
   eleventyConfig.addShortcode('social', function (handle) {
     if (handle.includes('@')) {
@@ -203,6 +207,8 @@ module.exports = function (eleventyConfig) {
 
     return allArticles;
   });
+
+  eleventyConfig.addCollection('currentYear', () => currentYear);
 
   eleventyConfig.addCollection('articleList', function (collection) {
     const res = allArticles.map(({ url, data }) => {

@@ -1,0 +1,173 @@
+---
+layout: layouts/base.njk
+css: tickets.css
+---
+
+<style>
+  h2 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: normal;
+    color: var(--primary);
+    margin-top: 28px;
+  }
+
+  .tickets {
+    padding: 0 32px;
+  }
+
+  .tickets .grid {
+    position: relative;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 340px;
+    grid-template-rows: 1fr 340px;
+    gap: 32px; */
+  }
+
+  .tickets .grid main {
+    order: -1;
+    flex: 1;
+  }
+
+  .tickets aside {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    width: 340px;
+  }
+
+  .tickets .ticket-buy {
+    a {
+      background: black;
+      padding: 20px 40px;
+      color: white;
+      font-size: 110%;
+      border-radius: 100px;
+      text-decoration: none;
+      flex: 1;
+      text-align: center;
+
+      &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        background: white;
+        color: black;
+        outline: 4px solid black;
+      }
+    }
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .tickets blockquote strong {
+    font-weight: 500;
+  }
+
+  .tickets blockquote+blockquote {
+    margin-top: 4em;
+  }
+
+  .tickets ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 48px;
+    padding: 0;
+
+    li {
+      margin: 16px 0;
+    }
+  }
+
+  .tickets .summary {
+    font-weight: 500;
+  }
+</style>
+
+<section class="tickets">
+  <header>
+    <h1>FFConf {% year %} tickets</h1>
+  </header>
+
+  <div class="grid">
+    <aside>
+      <p class="ticket-buy"><a href="{{ tickets.url }}">Buy tickets now</a></p>
+
+      <p>{{ tickets.date | format }} - 9am-6pm</p>
+      <p class="summary">Eight sessions on {{ tickets.summary }}</p>
+
+      <ul>
+        <li>🗓️ {{tickets.date | format }} in Brighton</li>
+        <li>⏰ 9-6pm all day conference</li>
+        <li>🌟 8 amazing and inspiring talks</li>
+        <li>😌 Incredibly comfortable seats</li>
+        <li>🏰 Held at <a href="https://www.picturehouses.com/cinema/duke-of-york-s-picturehouse/information">Duke of
+            Yorks</a> cinema, Brighton</li>
+        <li>🤗 After party to socialise, network or play board games</li>
+        <li>🦾 Inclusion scholarship programme</li>
+        <li>🌈 Sunshine 100% (not) guaranteed</li>
+        <li>🎟️ <a target="_blank" href="https://{{ collections.currentYear.year }}.ffconf.org">Learn more about the
+            sessions</a></li>
+      </ul>
+
+    </aside>
+    <main>
+      <h2>Testimonials</h2>
+
+      <blockquote>
+        <p>Heading home after a wonderful #ffconf. It was great to meet so many web friends in real life, and see some
+          inspiring talks. Buzzing with ideas now!</p>- <a
+          href="https://front-end.social/@michelle/111391282589365382">Michelle via Mastodon</a>
+      </blockquote>
+
+      <blockquote>
+        <p>Attending the ffconf was such an inspiring experience for me. Back then I had zero knowledge on coding apart
+          from interest in programming in general, and now I'm studying at a full time bootcamp working on making a web
+          app purely in Javascript.</p>-<strong> Séjin via email</strong>
+      </blockquote>
+
+      <blockquote>
+        <p>The conference was amazing and one of the best events I have attended in regards to interesting and inspiring
+          content. People also seemed to be very friendly towards each other and I loved seeing so many women attending
+          as
+          well!</p> - <strong>Natalia via email</strong>
+      </blockquote>
+
+      <blockquote>
+        <p>It's a wonderful conference with a clear emphasis on community, diversity and inclusivity. The result is an
+          eclectic line up and an array of talks that validate, inspire and energise.</p>
+        <p>
+
+          If you've never been, I can't recommend it enough</p>
+        - <a href="https://amyhupe.co.uk/articles/ffconf-2023/">Amy via their blog</a>
+      </blockquote>
+
+      <blockquote>
+        <p>As a web developer I couldn't have asked for anything more. #ffconf you not just talk about diversity and
+          inclusivity you also put them in action. Every topic and speaker were unique and diverse. Thanks for making me
+          a
+          better developer. Hopefully I will make it to next one.</p> - <a
+          href="https://x.com/narenz/status/1061291823749124098">Naren via Twitter</a>
+      </blockquote>
+
+      <blockquote>
+        <p>Years ago, Paul Cuthbertson introduced me to a life-changing conference. Not only did I find my current job
+          through chatting with people there, but the talks I saw and the people I met throughout the years were the
+          inspiration and acceptance I desperately needed to find.</p>- <a
+          href="https://mastodon.social/@ohhelloana/111171359089249081">Ana via Mastodon</a>
+      </blockquote>
+
+      <blockquote>
+        <p>I feel like the day had a great balance of talks, covering many aspects that are important as a software
+          developer and not just the traditional 'technical content' avenue. I believe that this emphasis on skills and
+          ideas that are not just technical knowledge but also how to be a developer in the context of a team and
+          community is a great asset and one I'd like to see more of. Indeed, this year was my first ffconf, but
+          hopefully not my last!</p> - <a href="https://www.sitepen.com/blog/reflecting-on-ffconf-2018">James via
+          sitepen.com</a>
+      </blockquote>
+    </main>
+
+  </div>
+</section>
