@@ -20,6 +20,17 @@ const main = async () => {
   const talks = await Talks();
   const years = new Set();
 
+  const staticRedirects = `
+/wp-content/* /404.html 410
+/wp-includes/* /404.html 410
+/wp/* /404.html 410
+/test/* /404.html 410
+/cms/* /404.html 410
+/wp-* /404.html 410
+/.env* /404.html 410
+/xmlrpc* /404.html 410
+  `;
+
   // add the api
   contents.push(
     '/graphql https://ffconf-graphql.isthe.link/ 200',
@@ -33,6 +44,7 @@ const main = async () => {
       (year) => `/api/event/${year} /api/event/${year}/index.json 200`
     ),
     '/api/* /api/404.json 404',
+    staticRedirects.trim(),
     '/* /404 404'
   );
 
