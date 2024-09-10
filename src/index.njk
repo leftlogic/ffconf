@@ -7,10 +7,14 @@ css: home.css
 <section>
   <header class="vevent">
     <h2 class="summary">FFConf is a full day of eight carefully curated sessions for an audience that cares about the future of the web, and who want their ideas challenged.</h2>
-    <div class="next">
-      <p class="next-icon">Latest edition</p>
-      <h3 class=""><a target="_blank" class="url" href="{{ next.url }}"><abbr class="dtstart" title="{{ next.date }}">{{ next.date | format }}</abbr></a></h3>
-    </div>
+    <a href="{{ next.url }}" class="block" target="_blank">
+      <p class="next-icon">Latest event</p>
+      <h3><abbr class="url dtstart" title="{{ next.date }}">{{ next.date | format }}</abbr></h3>
+    </a>
+    <a href="{{ collections.posts.url }}" class="next">
+      <p class="post-icon">Latest blog post</p>
+      <h3 class="url">{{ collections.posts.data.title }}</h3>
+    </a>
   </header>
 
   <div class="talk-text-cards">

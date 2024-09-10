@@ -1,5 +1,5 @@
 ---
-title: "🗣 Add your voice to FF Conf - CFP now open"
+title: "🗣 Add your voice to FFConf - CFP now open"
 date: 2024-05-13
 ---
 

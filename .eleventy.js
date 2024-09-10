@@ -1,3 +1,4 @@
+const util = require('util');
 const { basename } = require('path');
 const markdownIt = require('markdown-it');
 const undefsafe = require('undefsafe');
@@ -109,6 +110,10 @@ module.exports = function (eleventyConfig) {
     return `/images/tweets/photos/${src.split('/').pop()}`;
   });
 
+  // dump filter
+  eleventyConfig.addFilter('dump', (src) => util.inspect(src));
+  eleventyConfig.addFilter('keys', (src) => Object.keys(src));
+
   eleventyConfig.addFilter('unique', (source, prop) => {
     const res = Array.from(
       new Set(
@@ -179,6 +184,18 @@ module.exports = function (eleventyConfig) {
       talks.filter((_) => _.event.year == liveYears[n - 2])
     )[0];
     return [first, second];
+  });
+
+  eleventyConfig.addCollection('posts', function (collection) {
+    return collection
+      .getAllSorted()
+      .filter(function (item) {
+        return (
+          item.inputPath.includes('/articles/') &&
+          item.inputPath.endsWith('.md')
+        );
+      })
+      .pop();
   });
 
   let allArticles = null;
