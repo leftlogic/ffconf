@@ -1,12 +1,12 @@
 ---
-date: 2023-11-08
-title: 2023 ffconf details
+date: 2024-10-25
+title: 2024 ffconf details
 author: Julie
 ---
 
 <!-- Hi there,
 
-Please find below important and useful information to make sure your visit to ffconf on Friday 10th November 2023 is a super dooper awesome time!
+Please find below important and useful information to make sure your visit to ffconf on Friday 8th November 2024 is a super dooper awesome time!
 
 Please note, a full copy of these [details](https://ffconf.org/details/) are online and once loaded are available offline. -->
 
@@ -19,13 +19,12 @@ Please note, a full copy of these [details](https://ffconf.org/details/) are onl
 - [Refreshments and lunch](#refreshments-and-lunch)
 - [Lunch with future friends](#lunch-with-future-friends)
 - [Reduce, reuse, recycle](#reduce-reuse-recycle)
-- [Tweets, toots, chat and blog posts](#tweets-toots-chat-and-blog-posts)
+- [Toots, tweets, chat and blog posts](#toots-tweets-chat-and-blog-posts)
 - [Technology](#technology)
 - [Post conference social](#post-conference-social)
 - [Pre conference](#pre-conference)
-  - [Show and Tell with Async - 9-Nov](#show-and-tell-with-async-9-nov)
-  - [Pre conference social - 9-Nov](#pre-conference-social-9-nov)
-  - [Pre event networking: running or coffee - 10 Nov](#pre-event-networking-running-or-coffee-10-nov)
+  - [Show and Tell with Async - 7-Nov](#show-and-tell-with-async-7-nov)
+  - [Pre event networking: running or coffee - 8 Nov](#pre-event-networking-running-or-coffee-8-nov)
 - [Health and Safety](#health-and-safety)
 - [Accessibility and COVID](#accessibility-and-covid)
 - [Contact](#contact)
@@ -36,13 +35,13 @@ How to get to our venue from the station: [ffconf.org/directions](https://ffconf
 
 The conference is being held at the Duke of York's Picturehouse in Brighton, less than 15 minutes walk from Brighton train station. We recommend using [traintimes.org.uk](https://traintimes.org.uk) for up to date train timetables.
 
-At the moment there are no planned engineering works, but you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/).
+At the moment there are no planned engineering works on the trains, and you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/). There is a planned strike on the London Underground but no details are currently available on what impact that will have. We will update the website once we know more.
 
-[Hotel recommendations](https://2023.ffconf.org/#locations) can also be found on our website.
+<!-- [Hotel recommendations](https://2024.ffconf.org/#locations) can also be found on our website. -->
 
 ## Registration - 9am
 
-Doors open at 9am for registration and the conference starts at 9:40am sharp! There are no tickets for the conference, but you must bring a form of identification (bank card, driving licence etc) to pick up your delegate programme which also acts as your pass. Please keep your lanyard with you at all times as you will need it to get back into the venue.
+Doors open at 9am for registration and the conference starts at 9:40am sharp! There are no tickets for the conference, but please bring a form of identification (bank card, driving licence etc) to pick up your delegate programme which also acts as your pass. Please keep your lanyard with you at all times as you will need it to get back into the venue.
 
 The day will finish by 6pm. The schedule will be in your programme and online, and if your device supports Service Workers, the site will also work offline.
 
@@ -64,21 +63,21 @@ If you are coming to FFConf for the first time, travelling alone or just want to
 
 The coffee cups we use are compostable but please do bring your own travel mug and water bottle too.
 
-## Tweets, toots, chat and blog posts
+## Toots, tweets, chat and blog posts
 
 Yes to all. Hashtag all the things with [#FFConf](https://twitter.com/search?q=%23ffconf&src=typed_query&f=live).
 
-Feel free to follow the [@FFConf Twitter account](https://twitter.com/ffconf) and/or [on Mastodon](https://social.ffconf.org/@ffconf) for the latest info on the event.
+Feel free to follow the [on Mastodon](https://social.ffconf.org/@ffconf) or [@FFConf Twitter account](https://twitter.com/ffconf) for the latest info on the event. The event will have live commentary uploaded on our Mastodon account.
 
-Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's still new and quiet, so bring your voice ❤️).
+Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's quiet and friendly, so bring your voice&nbsp;❤️).
 
-Post event, if you blog about your experiences (and post us a tweet with the hashtag #FFConf), then we will choose two people at random **to win tickets to FFConf 2024**!
+Post event, please blog about your experiences or post on LinkedIn using #FFConf
 
 ## Technology
 
 If you plan to bring a laptop/device, make sure it's fully charged for the day, as we only have a handful of charging stations in the venue.
 
-Do not rely on there being wifi. I mean, it's a cinema, why would it have the internets! Network coverage however is very good, so you can tether your mobile phone or bring your own mifi or dongle, etc.
+Do not rely on the wifi. I mean, it's a cinema, why would it have the internets! Network coverage however is very good, so you can tether your mobile phone or bring your own mifi or dongle, etc.
 
 Err on the side of low tech and an open mind and you'll get the most from the event!
 
@@ -92,19 +91,15 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ## Pre conference
 
-### Show and Tell with Async - 9-Nov
+### Show and Tell with Async - 7-Nov
 
-Our friends at Async are running a very special International Show & Tell at 7:15pm at Eagle Labs (opposite the conference venue). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/international-show-n-tell-2023/) (to attend or speak). To find out more, see their Twitter [@asyncjs](https://twitter.com/asyncjs)
+Our friends at Async are running a very special International Show & Tell at 7pm at (venue to be confirmed). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/international-show-n-tell-2024/) (to attend or speak). To find out more, join their Slack community [Slack](https://asyncjs.slack.com/join/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ#/shared-invite/email). Afterwards, everyone will head to a local pub.
 
-### Pre conference social - 9-Nov
+### Pre event networking: running or coffee - 8 Nov
 
-Join us at [Al Campo Lounge](https://thelounges.co.uk/alcampo/) from 8pm on Thursday 9-Nov, to meet your fellow delegates, just an 8 minute walk from the station. We have the raised area on the left hand side reserved so anyone sat in that area is your new ff friend.
+We are hosting another pre-FFConf run! Meet outside Duke of Yorks at 7:30am led by two friendly FFConf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, explore beautiful Brighton in a short 30 minute run leaving plenty of time to get showered before registration opens!
 
-### Pre event networking: running or coffee - 10 Nov
-
-We are hosting another pre-FFConf run! Meet outside Duke of Yorks at 7:30am led by two friendly FFConf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, a short 30 minute run leaving plenty of time to get showered before registration opens!
-
-Not a runner? Moes@thecircus is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Julia and Scout, both [Brighton Codebar organisers](https://codebar.io/brighton)
+Not a runner? Curio Cafe is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Scout and Nigel, both [Brighton Codebar organisers](https://codebar.io/brighton)
 
 ## Health and Safety
 
@@ -126,7 +121,7 @@ We regret that there is no lift and consequently the Balcony and Bar can only be
 
 Gender neutral and accessible toilets are available on the ground floor near to the exits.
 
-COVID safety. We politely ask for all attendees who have access to do a lateral flow, please do test within 24 hours of the conference (if possible). We also ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
+COVID safety. We ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
 Please also take a moment to review our [COVID policy](https://ffconf.org/covid/)
 
@@ -135,8 +130,8 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 ## Contact
 
 * Email: [events@leftlogic.com](mailto:events@leftlogic.com), or directly: [remy@leftlogic.com](mailto:remy@leftlogic.com) & [julie@leftlogic.com](mailto:julie@leftlogic.com)
-* Twitter & DM (we have open DMs): [@FFConf](https://twitter.com/ffconf)
 * Mastodon: [ffconf@social.ffconf.org](https://social.ffconf.org/@ffconf)
+* Twitter & DM (we have open DMs): [@FFConf](https://twitter.com/ffconf)
 
 ## Sponsors <!-- omit in toc -->
 
@@ -149,13 +144,12 @@ Please also take a few minutes to check out our sponsors and the links to their 
 ### Our Day sponsors<!-- omit in toc -->
 
 * [Interledger Foundation](https://webmonetization.org/docs/)
+* [Tertralogical](https://tetralogical.com//)
+
+
+### Our Scholarship sponsor<!-- omit in toc -->
+
 * [JS Bin](https://jsbin.com/)
-
-
-### Our Scholarship sponsors<!-- omit in toc -->
-
-* [Legal & General](https://www.legalandgeneral.com/careers)
-
 
 <!--
 * * *

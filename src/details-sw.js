@@ -1,6 +1,6 @@
 /* eslint-env service-worker */
 
-const cacheName = 'v2023.5/ffconf/details';
+const cacheName = 'v2024.1/ffconf/details';
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(
@@ -36,10 +36,13 @@ self.addEventListener('install', (e) => {
           '/images/leftlogic.svg',
           '/images/external.svg',
           '/images/logo.svg',
+          '/images/favicons/favicon-16.png',
 
           // fonts
-          '/fonts/basiersquare-medium-webfont.woff2',
-          '/fonts/basiersquare-regular-webfont.woff2',
+          '/fonts/BasierSquare-Medium-custom.woff2',
+          '/fonts/BasierSquare-Medium-custom.woff',
+          '/fonts/BasierSquare-Regular-custom.woff2',
+          '/fonts/BasierSquare-Regular-custom.woff',
         ])
         .then(() => self.skipWaiting());
     })
