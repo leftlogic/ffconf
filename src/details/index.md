@@ -28,7 +28,7 @@ Please note, a full copy of these [details](https://ffconf.org/details/) are onl
   - [Show and Tell with Async - 7-Nov](#show-and-tell-with-async-7-nov)
   - [Pre event networking: running or coffee - 8 Nov](#pre-event-networking-running-or-coffee-8-nov)
 - [Health and Safety](#health-and-safety)
-- [Accessibility and COVID](#accessibility-and-covid)
+- [Accessibility](#accessibility)
 - [Contact](#contact)
 
 ## Directions
@@ -69,7 +69,7 @@ The coffee cups we use are compostable but please do bring your own travel mug a
 
 Yes to all. Hashtag all the things with [#FFConf](https://twitter.com/search?q=%23ffconf&src=typed_query&f=live).
 
-Feel free to follow the [on Mastodon](https://social.ffconf.org/@ffconf) or [@FFConf Twitter account](https://twitter.com/ffconf) for the latest info on the event. The event will have live commentary uploaded on our Mastodon account.
+Feel free to follow us [on Mastodon](https://social.ffconf.org/@ffconf) or [@FFConf Twitter account](https://twitter.com/ffconf) for the latest info on the event. The event will have live commentary uploaded on our Mastodon account.
 
 Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's quiet and friendly, so bring your voice&nbsp;❤️).
 
@@ -109,7 +109,7 @@ Please report any lost property to the registration desk. Left Logic and Duke of
 
 Please note that there is no cloakroom or storage for any items.
 
-## Accessibility and COVID
+## Accessibility
 
 Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side.
 
@@ -146,18 +146,14 @@ Please also take a few minutes to check out our sponsors and the links to their 
 ### Our Day sponsors<!-- omit in toc -->
 
 * [Interledger Foundation](https://webmonetization.org/docs/)
-* [Tertralogical](https://tetralogical.com//)
-
-
-### Our Scholarship sponsor<!-- omit in toc -->
-
+* [TetraLogical](https://tetralogical.com//)
 * [JS Bin](https://jsbin.com/)
 
-<!--
+
 * * *
 
 Warm wishes, and we'll see you soon!
 
 Remy & Julie
 
-Left Logic -->
+Left Logic
