@@ -59,7 +59,7 @@ Tea, coffee, danishes and fruit will be available from 9am in the upstairs bar a
 
 ## Lunch with future friends
 
-If you are coming to FFConf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) or vegan food at [Worlds End](https://g.page/worldsend_btn?share) for our Lunch with Future Friends.
+If you are coming to FFConf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) or mexican food at [New Unity](https://www.newunity.pub/) for our Lunch with Future Friends.
 
 ## Reduce, reuse, recycle
 
