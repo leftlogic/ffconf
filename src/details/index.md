@@ -1,5 +1,5 @@
 ---
-date: 2024-10-25
+date: 2024-11-06
 title: 2024 ffconf details
 author: Julie
 ---
