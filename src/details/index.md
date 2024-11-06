@@ -95,7 +95,7 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ### Show and Tell with Async - 7-Nov
 
-Our friends at Async are running a very special International Show & Tell at 7pm at (venue to be confirmed). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/international-show-n-tell-2024/) (to attend or speak). To find out more, join their Slack community [Slack](https://asyncjs.slack.com/join/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ#/shared-invite/email). Afterwards, everyone will head to a local pub.
+Our friends at Async are running a very special International Show & Tell at 7pm at the [Ironworks Studios](https://www.ironworks-studios.co.uk/). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/international-show-n-tell-2024/) (to attend or speak). To find out more, join their Slack community [Slack](https://asyncjs.slack.com/join/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ#/shared-invite/email). Afterwards, everyone will head to a local pub.
 
 ### Pre event networking: running or coffee - 8 Nov
 
