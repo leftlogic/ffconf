@@ -37,7 +37,7 @@ How to get to our venue from the station: [ffconf.org/directions](https://ffconf
 
 The conference is being held at the Duke of York's Picturehouse in Brighton, less than 15 minutes walk from Brighton train station. We recommend using [traintimes.org.uk](https://traintimes.org.uk) for up to date train timetables.
 
-At the moment there are no planned engineering works on the trains, and you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/). ~~There is a planned strike on the London Underground but no details are currently available on what impact that will have.~~ The planned strike on the London Underground have now been cancelled, updates here: https://tfl.gov.uk/campaign/strikes
+At the moment there are no planned engineering works on the trains, and you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/). ~~There is a planned strike on the London Underground but no details are currently available on what impact that will have.~~ The planned strikes on the London Underground have now been cancelled, updates here: https://tfl.gov.uk/campaign/strikes
 
 <!-- [Hotel recommendations](https://2024.ffconf.org/#locations) can also be found on our website. -->
 
@@ -73,7 +73,7 @@ Feel free to follow us [on Mastodon](https://social.ffconf.org/@ffconf) or [@FFC
 
 Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's quiet and friendly, so bring your voice&nbsp;❤️).
 
-Post event, please blog about your experiences or post on LinkedIn using #FFConf
+Post-event, please blog about your experiences or post on LinkedIn using #FFConf
 
 ## Technology
 
@@ -87,7 +87,7 @@ Err on the side of low tech and an open mind and you'll get the most from the ev
 
 We hope you will join us at OhSo Social again. There will be food available to order until 9pm and you can collect your drinks voucher on the door so please bring your name badge/lanyard with you. We will also have a range of board games so try an old favourite or learn a new game and make new friends.
 
-Oh So Social - [250a Kings Rd, Brighton BN1 1NB](https://goo.gl/maps/ZHdtZQLsg5LuDfQK8) - on the beach, near the green doughnut on the left of the Brighton Pier.
+Oh So Social - [250a Kings Rd, Brighton BN1 1NB](https://goo.gl/maps/ZHdtZQLsg5LuDfQK8) - on the beach, near the green doughnut on the west of the Brighton Palace Pier.
 
 Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
@@ -101,7 +101,7 @@ Our friends at Async are running a very special International Show & Tell at 7pm
 
 We are hosting another pre-FFConf run! Meet outside Duke of Yorks at 7:30am led by two friendly FFConf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, explore beautiful Brighton in a short 30 minute run leaving plenty of time to get showered before registration opens!
 
-Not a runner? Curio Cafe is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Scout and Nigel, both [Brighton Codebar organisers](https://codebar.io/brighton)
+Not a runner? Curio Cafe is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Scout and Nigel, both [Brighton Codebar organisers](https://codebar.io/brighton).
 
 ## Health and Safety
 
