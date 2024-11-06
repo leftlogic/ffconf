@@ -1,5 +1,5 @@
 ---
-date: 2024-11-06
+date: 2024-11-06T13:10:00
 title: 2024 ffconf details
 author: Julie
 ---
@@ -37,7 +37,7 @@ How to get to our venue from the station: [ffconf.org/directions](https://ffconf
 
 The conference is being held at the Duke of York's Picturehouse in Brighton, less than 15 minutes walk from Brighton train station. We recommend using [traintimes.org.uk](https://traintimes.org.uk) for up to date train timetables.
 
-At the moment there are no planned engineering works on the trains, and you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/). There is a planned strike on the London Underground but no details are currently available on what impact that will have. We will update the website once we know more.
+At the moment there are no planned engineering works on the trains, and you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/). ~~There is a planned strike on the London Underground but no details are currently available on what impact that will have.~~ The planned strike on the London Underground have now been cancelled, updates here: https://tfl.gov.uk/campaign/strikes
 
 <!-- [Hotel recommendations](https://2024.ffconf.org/#locations) can also be found on our website. -->
 
