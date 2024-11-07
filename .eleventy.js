@@ -170,6 +170,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/details-sw.js');
   eleventyConfig.addPassthroughCopy('src/robots.txt');
   eleventyConfig.addPassthroughCopy('src/game');
+  eleventyConfig.addPassthroughCopy('src/*.html');
   // eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
 
   eleventyConfig.addCollection('randomLatest', async function (collection) {
