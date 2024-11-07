@@ -1,5 +1,5 @@
 ---
-date: 2024-11-06T13:10:00
+date: 2024-11-07T15:00:00
 title: 2024 ffconf details
 author: Julie
 ---
@@ -87,7 +87,7 @@ Err on the side of low tech and an open mind and you'll get the most from the ev
 
 We hope you will join us at OhSo Social again. There will be food available to order until 9pm and you can collect your drinks voucher on the door so please bring your name badge/lanyard with you. We will also have a range of board games so try an old favourite or learn a new game and make new friends.
 
-Oh So Social - [250a Kings Rd, Brighton BN1 1NB](https://goo.gl/maps/ZHdtZQLsg5LuDfQK8) - on the beach, near the green doughnut on the west of the Brighton Palace Pier.
+Oh So Social - [250a Kings Rd, Brighton BN1 1NB](https://goo.gl/maps/ZHdtZQLsg5LuDfQK8) - on the beach, near the green doughnut on the west of the Brighton Palace Pier (to the right of the pier if you're facing the sea).
 
 Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
