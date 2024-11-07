@@ -7,7 +7,7 @@ date: 2023-10-05
 
 FFConf has been running a full [scholarship programme](https://ffconf.org/scholarship/) since 2015 and this year we continue to do so.
 
-Scholarships are available for anyone in an under-represented group in tech. This includes (but is not limited to): people of colour, LGBTQIA+ people, people who identify as women and people with disabilities.
+Scholarships are available for anyone in an under-represented group in tech. This includes (but is not limited to): people of colour, LGBTQIA+ people, people who identify as women and disabled people.
 
 We've seen so many individuals come through our programme and many of them share how it helped them:
 
