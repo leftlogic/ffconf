@@ -11,7 +11,7 @@ There's also a free ticket for FFConf 2025 (yes, we're running again, 14 Novembe
 
 We'll announce the winner on December 2nd (and email directly).
 
-Finally, [photos by Trys Mudford](https://www.flickr.com/photos/remysharp/albums/72177720321895884) are online and videos will be uploaded (to YouTube with captions) as their edited in the coming weeks, so we'll let you know when those are live too.
+Finally, [photos by Trys Mudford](https://www.flickr.com/photos/remysharp/albums/72177720321895884) are online and videos will be uploaded (to YouTube with captions) as they're edited in the coming weeks, so we'll let you know when those are live too.
 
 Thanks again,
 
