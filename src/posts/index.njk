@@ -1,0 +1,36 @@
+---
+layout: layouts/base.njk
+css: posts.css
+---
+
+<section class="posts">
+  <header class="with-filter">
+    <h1><span id="count">Micro-posts we like</span></h1>
+  </header>
+
+  <div class="post-list" id="grid">
+  {% for post in posts | sortBy("-date") %}
+    <div class="post-item">
+
+      <header>
+        <img class="avatar" src="/images/posts/avatars/{{ post.username | cleanUsername }}.jpg">
+        <strong><a href="{{post.url}}" target="_blank">{{ post.username }}</a></strong>
+        <span class="pill">{{ post.date | format("D MMM YYYY") }}</span>
+      </header>
+      <div class="post">
+        {{ post.body | safe }}
+        {% if post.images.length > 0 %}
+        <div class="images images-{{ post.images.length }}">
+          {% for img in post.images %}
+          <img src="{{ img | deTwitterify }}">
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
+    </div>
+  {% endfor %}
+  </div>
+</section>
+
+

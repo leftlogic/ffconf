@@ -8,7 +8,7 @@
     "node": "16"
   },
   "scripts": {
-    "update": "node ./tweets.js",
+    "update": "node ./posts.js",
     "server:dev": "PORT=7000 nodemon ./graphql/server",
     "server": "PORT=7000 node ./graphql/server",
     "dev": "eleventy --serve --quiet",
@@ -16,7 +16,7 @@
     "redirects": "node ./redirects.js",
     "prebuild": "npm run jobs",
     "build": "eleventy && npm run redirects && test -e dist/index.html",
-    "postbuild": "cd graphql/; now --token=$NOW_TOKEN && now --target production --token $NOW_TOKEN",
+    "DISABLED_postbuild": "cd graphql/; now --token=$NOW_TOKEN && now --target production --token $NOW_TOKEN",
     "now-build": "true",
     "now-start": "node ./graphql"
   },

@@ -113,7 +113,7 @@ async function main() {
       .filter(Boolean)
   );
 
-  await writeFile('./src/_data/tweets.json', JSON.stringify(content));
+  await writeFile('./src/_data/posts.json', JSON.stringify(content));
 }
 
 async function debug() {
