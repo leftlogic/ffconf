@@ -30,49 +30,71 @@ async function main() {
     from: 2,
   });
 
-  writeFileSync(
-    resolve('src', '_data', 'jobs.json'),
-    JSON.stringify(
-      records
-        .map((_) => {
-          if (_.from) {
-            // _.from = new Date(_.from);
-          } else {
-            _.from = _.timestamp;
-          }
+  const jobs = records
+    .map((_) => {
+      if (!_.from) {
+        _.from = _.timestamp;
+      }
 
-          _.type = _.type.split(', ');
+      _.promote = _.promote === 'Yes';
 
-          _.slug = slugify(
-            `${_.company} - ${_.title} ${new Date(_.from).getFullYear()}-${
-              new Date(_.from).getMonth() + 1
-            }`,
-            { lower: true }
-          );
+      if (_.from.includes('/')) {
+        // fix the date to be in the format of yyyy-mm-dd
+        const [date, time = '00:00:00'] = _.from.split(' ');
 
-          if (!_.approved || _.approved.toLowerCase() === 'n') {
-            _.approved = false;
-          } else {
-            _.approved = true;
-          }
+        const [day, month, year] = date.split('/');
+        _.from = `${year}-${month}-${day} ${time}`;
+      }
 
-          if (!_.url.startsWith('http')) {
-            _.url = 'https://' + _.url;
-          }
+      _.type = _.type.split(', ');
 
-          return _;
-        })
-        .filter((_) => {
-          if (!_.approved) {
-            return false;
-          }
+      _.slug = slugify(
+        `${_.company} - ${_.title} ${new Date(_.from).getFullYear()}-${
+          new Date(_.from).getMonth() + 1
+        }`,
+        { lower: true }
+      );
 
-          return true;
+      if (!_.approved || _.approved.toLowerCase() === 'n') {
+        _.approved = false;
+      } else {
+        _.approved = true;
+      }
 
-          // also if expired
-        })
-    )
-  );
+      if (!_.url.startsWith('http')) {
+        _.url = 'https://' + _.url;
+      }
+
+      return _;
+    })
+    .filter((_) => {
+      if (!_.approved) {
+        return false;
+      }
+
+      // if listing is older than 2 years
+      if (
+        new Date(_.from) < new Date(Date.now() - 1000 * 60 * 60 * 24 * 365 * 2)
+      ) {
+        return false;
+      }
+
+      return true;
+
+      // also if expired
+    })
+    .sort((a, b) => {
+      // two part sort, first by promoted and date, then if it's not promoted, just by date
+      if (a.promote && !b.promote) {
+        return -1;
+      } else if (!a.promote && b.promote) {
+        return 1;
+      } else {
+        return new Date(b.from) - new Date(a.from);
+      }
+    });
+
+  writeFileSync(resolve('src', '_data', 'jobs.json'), JSON.stringify(jobs));
 }
 
 main().catch((E) => console.log(E));
