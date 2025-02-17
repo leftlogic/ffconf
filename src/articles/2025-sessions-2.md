@@ -11,4 +11,4 @@ Andy Bell spoke around the topic of communication. It's far from rocket science 
 
 Then to close the first half of our day last year, Kimberley Cook, director and trustee of Codebar, talked about the experience of building a community and the mistakes and learnings she experienced along to way to Codebar becoming 27,000 strong community. [watch Kimberley's talk](https://youtu.be/iyG2kVZi3t4)
 
-That's it for this week. Next Monday (or… Tuesday): Amy Hupe on meaning and Mike Street on critical thinking.
+That's it for this week. Next Monday (or… Tuesday): Amy Hupe on meaning and Mike Hall on critical thinking.
