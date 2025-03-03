@@ -9,8 +9,8 @@
   },
   "scripts": {
     "update": "node ./posts.js",
-    "server:dev": "PORT=7000 nodemon ./graphql/server",
-    "server": "PORT=7000 node ./graphql/server",
+    "server:dev": "PORT=3333 nodemon ./graphql/server",
+    "server": "PORT=3333 node ./graphql/server",
     "dev": "eleventy --serve --quiet",
     "jobs": "node ./jobs.mjs",
     "redirects": "node ./redirects.js",

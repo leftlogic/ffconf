@@ -70,6 +70,12 @@
     "id": "2024",
     "url": "https://2024.ffconf.org",
     "year": 2024,
+    "live": true
+  },
+  {
+    "id": "2025",
+    "url": "https://2025.ffconf.org",
+    "year": 2025,
     "live": false
   }
 ]

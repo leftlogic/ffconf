@@ -1,4 +1,4 @@
 const server = require('./index');
 require('http')
   .createServer(server)
-  .listen(process.env.PORT || 7000);
+  .listen(process.env.PORT || 3333);

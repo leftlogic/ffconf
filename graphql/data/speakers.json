@@ -746,5 +746,62 @@
     "photo": "/images/speakers/salma.jpg",
     "id": "2023_salma",
     "bio": "This is what happens when you combine a high school music teacher, a comedian, a front end developer, and the strange novelty of live streaming on the internet."
+  },
+
+  {
+    "name": "Olu Niyi-Awosusi",
+    "id": "2024_olu",
+    "url": "https://olu.online/",
+    "bio": "I completed the installation of the NTL dial-up on our family computer the first time we had access\nto the internet. It was only putting a CD into the computer and following a wizard but I remember how\nincredibly novel it felt! The internet timed out every 20 minutes and I mostly played games at that\npoint, but I have been extremely online ever since.",
+    "photo": "/images/speakers/olu.jpg"
+  },
+  {
+    "name": "Léonie Watson",
+    "id": "2024_léonie",
+    "url": "https://tink.uk/",
+    "bio": "Copied code from Apple magazine onto my Dad's Apple IIE in about 1982. Syntax error on line 1.\nStudied Performing Arts in the early 90s. Didn't get famous. Bought a modem. Joined Compuserv. Not\nentirely sure what happened to the next 30 years, but apparently here I am.",
+    "photo": "/images/speakers/leonie2.jpg"
+  },
+  {
+    "name": "Andy Bell",
+    "id": "2024_andy",
+    "url": "https://piccalil.li/",
+    "bio": "I got fed up of developers messing up my design work, so I learned HTML and CSS out of spite.",
+    "photo": "/images/speakers/andy.jpg"
+  },
+  {
+    "name": "Kimberley Cook",
+    "id": "2024_kimberley",
+    "url": "https://builtby.kim/",
+    "bio": "I built my first website as part of my media course at college. I loved knowing I could build\nanything, so changed path from originally wanting to study Law at university to Media Production. The\ncourse was perfect for people who didn't know what they wanted to do but liked building things for the\ninternet. So I basically spent 3 years building websites, apps and 3D games. The rest as they say is\nhistory!\n",
+    "photo": "/images/speakers/kimberley.jpg"
+  },
+  {
+    "name": "Amy Hupe",
+    "id": "2024_amy",
+    "url": "https://www.amyhupe.co.uk/",
+    "bio": "When I was little my mum used to tell her friends \"Amy started talking at 18 months old and she\nhasn't stopped since\". And here I am. Doing it again.\n",
+    "photo": "/images/speakers/amy.jpg"
+  },
+  {
+    "name": "Mike Hall",
+    "id": "2024_mike",
+    "url": "https://www.skeptic.org.uk/author/mike-hall/",
+    "bio": "I dabbled with BASIC on the BBC Micro and Amstrad 464, and got a loose handle on ADA95 and 68000\nassembler at university. But my real start in software was building a PHP3-powered chatroom for sci-fi\nfans in 1999.",
+    "photo": "/images/speakers/mike.jpg"
+  },
+  {
+    "name": "Michael Kibedi",
+    "id": "2024_michael",
+    "url": "https://www.uxmichael.co/",
+    "bio": "Many sunny afternoons trying (unsuccessfully) to get an Amstrad 464 to run a BASIC game. Years\nlater, little did I know that I would prefer to use the power of words to write instead of a code!",
+    "photo": "/images/speakers/michael.jpg"
+  },
+  {
+    "name": "Imran Afzal",
+    "id": "2024_imran",
+    "url": "https://www.imranafzal.com/",
+    "bio": "As a kid, I was often told by teachers and friends that I could start a cult. I'm an adult now, and\npeople are still telling me the same. Maybe I will start that cult.",
+    "photo": "/images/speakers/imran.jpg"
   }
 ]
