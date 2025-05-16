@@ -12,6 +12,16 @@ You can also follow the [@FFConf](https://twitter.com/ffconf) twitter account fo
 
 Here are the topics that I often think about around FFConf in no particular order.
 
+## Most recent ideas
+
+- Using accessibility tools for the average dev, devtools, screen readers, braille readers and more
+- How can we use tech to make an impact for good
+- Disconnecting from Big Web and the alternatives
+- Switching thinking from React components to Web Components
+- AI Act and surrounding legislations, what it means, how to protect people and how do we push back
+
+These are the topics that are interesting me lately, and below are further topics I'm (usually) always interested in.
+
 ## Code, development
 
 - How our development practices are changing / Support from AI / "How I've changed my development process over X years"
