@@ -20,7 +20,7 @@ Here are the topics that I often think about around FFConf in no particular orde
 - Switching thinking from React components to Web Components
 - AI Act and surrounding legislations, what it means, how to protect people and how do we push back
 
-These are the topics that are interesting me lately, and below are further topics I'm (usually) always interested in.
+These are the topics that are piquing my interest lately, and below are further topics I'm (usually) always interested in.
 
 ## Code, development
 
