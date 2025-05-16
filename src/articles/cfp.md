@@ -65,9 +65,9 @@ Send us the title of your talk, an outline of the talk and any extra information
 
 <a class="pill pill-cta" href="https://ffconf.org/cfp-apply">Apply now</a>
 
-## When will you hear back?
+## Deadline for submissions and when will you hear back?
 
-It takes me a long time to process and decide on CFPs, so whilst there's not 8 sessions up on the site, it means your talk is still up for consideration. I will respond to everyone with a yay or nay eventually. If you want to come to FFConf, regardless of whether your CFP is selected, please buy a ticket and if your talk is selected, the ticket will be refunded and returns to the public pool of tickets.
+In short, **there is no deadline for submission**. It takes me a long time to process and decide on CFPs, so whilst there's not 8 sessions up on the site, it means your talk is still up for consideration. I will respond to everyone with a yay or nay eventually. If you want to come to FFConf, regardless of whether your CFP is selected, please buy a ticket and if your talk is selected, the ticket will be refunded and returns to the public pool of tickets.
 
 ## Our promise to you
 
