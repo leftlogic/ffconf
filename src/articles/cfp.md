@@ -6,7 +6,7 @@ updated: 2025-05-16
 
 Though this post is timestamped, it applies to nearly every year of FFConf <abbr title="Call for Papers">CFP</abbr> it includes both what I want to hear about (to give you an idea whether something you're passionate about aligns with the topics), and also mine and Julie's [promise to our speakers](#our-promise-to-you).
 
-You can also follow the [@FFConf](https://twitter.com/ffconf) twitter account for the latest announcements to find out how to join in on this fun!
+You can also follow the [@FFConf.orf](https://bsky.app/profile/ffconf.org) BlueSky account for the latest announcements to find out how to join in on this fun!
 
 ## Topics I'm interested in hearing about
 
