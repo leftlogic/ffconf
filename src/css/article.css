@@ -1,5 +1,5 @@
 .article {
-  max-width: 920px;
+  max-width: 800px;
   margin: 0 32px;
 }
 
@@ -39,7 +39,7 @@
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 32px;
   font-weight: 500;
   line-height: 1.27;
   letter-spacing: normal;
@@ -99,4 +99,12 @@ img {
       'img text'
       'img text';
   }
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.85rem;
+  margin: 12px;
+  font-style: italic;
+  color: var(--dark-grey);
 }

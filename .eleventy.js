@@ -22,7 +22,11 @@ const options = {
 
 const markdown = markdownIt(options)
   .use(require('./lib/markdown-it-named-headings'))
-  .use(require('markdown-it-attrs'));
+  .use(require('markdown-it-attrs'))
+  .use(require('markdown-it-implicit-figures'), {
+    figcaption: true,
+    lazyLoading: true,
+  });
 const now = Date.now();
 const livePosts = (p) => p.date <= now;
 const shuffle = (a) => a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1));
