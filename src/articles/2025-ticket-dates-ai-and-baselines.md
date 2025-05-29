@@ -30,4 +30,4 @@ This recent [Google IO talk](https://www.youtube.com/watch?v=beYbnNT_02U) from R
 
 For instance, although our FFConf website(s) use CSS nesting, from the baseline _widely available_ figures and our actual visitors, I can see that most users won’t support this so it’s a good plan to process the CSS through postcss.
 
-_Please note that although web.dev have sponsored us in the past, this is not a sponsored link - Remy just thought it would be useful to fellow developers_
+_Please note that although web.dev have sponsored us in the past, this is not a sponsored link - Remy just thought it would be useful to fellow developers._
