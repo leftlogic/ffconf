@@ -15,11 +15,15 @@ const query = `query {
     event {
       year
     }
-    speaker{
+    speaker {
       name
       photo
       twitter
       bio
+      websites {
+        title
+        url
+      }
     }
   }
 }`;

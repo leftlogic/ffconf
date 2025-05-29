@@ -226,9 +226,11 @@
   {
     "name": "Rachel Andrew",
     "photo": "/images/speakers/rachela.jpg",
-    "bio": "",
     "id": "cja08vv3nybfu0146wfapxv6a",
-    "twitter": "rachelandrew"
+    "websites": {
+      "Blog": "https://rachelandrew.co.uk",
+      "BlueSky": "https://bsky.app/profile/rachelandrew.bsky.social"
+    }
   },
   {
     "name": "Jenn Schiffer",

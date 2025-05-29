@@ -8,10 +8,6 @@ layout: layouts/base.njk
 css: talk.css
 ---
 
-<style>
-
-</style>
-
 <section class="talk">
   <header>
     <a class="back Link-Dark-Left" href="/talks">Back to all Talks</a>
@@ -46,13 +42,16 @@ css: talk.css
     <h2>Talk description</h2>
     <div>{{ talk.description | markdown | safe }}</div>
 
+
     <h2>About {{ talk.speaker.name }}</h2>
-    <div>{{ talk.speaker.bio | markdown | safe }}</div>
+    {% if talk.speaker.bio %}<div>{{ talk.speaker.bio | markdown | safe }}</div>{% endif %}
     <ul class="urls">
       {% if talk.speaker.twitter %}
       {% social talk.speaker.twitter %}
       {% endif %}
-
+      {% for item in talk.speaker.websites %}
+        <li>- <a target="_blank" class="ext" href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endfor %}
     </ul>
   </section>
 </section>

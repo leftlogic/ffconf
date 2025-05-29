@@ -7,16 +7,16 @@ type Event {
 
 type Speaker {
   id: ID!
-  bio: String!
+  bio: String
   name: String!
   photo: String!
   twitter: String
   session: Session!
-  websites: [Websites!]!
+  websites: [Websites!]
 }
 
 type Websites {
-  url: ID!
+  url: String!
   title: String!
 }
 
