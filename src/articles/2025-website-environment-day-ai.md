@@ -9,7 +9,7 @@ Remy is building the new ffconf website, as you know, we like to have a brand ne
 
 Here is a sneak peak:
 
-
+![A bright yellow web site with an FF logo type in a circle with a blinds effect, like a retro sunset](/images/2025-design.png)
 
 Quick reminders that we are [looking for speakers](https://ffconf.org/articles/cfp/) and the first batch of tickets will be launched on 26th June, save the date!
 
