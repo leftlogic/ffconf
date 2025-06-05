@@ -42,6 +42,18 @@ css: talk.css
     <h2>Talk description</h2>
     <div>{{ talk.description | markdown | safe }}</div>
 
+  {% set summaryPath = "src/_data/session_summary/" + talk.slug + ".md" %}
+  {% if summaryPath | fileExists %}
+    <section class="session-summary">
+      <h2>Session Summary</h2>
+      {% set summary = summaryPath | readFile | formatSessionSummary %}
+      <div class="summary">{{ summary.summary | markdown | safe }}</div>
+      <details>
+        <summary>View detailed generated session topics, quotes and video timestamps</summary>
+        <div class="content">{{ summary.content | markdown | safe }}</div>
+      </details>
+    </section>
+  {% endif %}
 
     <h2>About {{ talk.speaker.name }}</h2>
     {% if talk.speaker.bio %}<div>{{ talk.speaker.bio | markdown | safe }}</div>
@@ -55,4 +67,5 @@ css: talk.css
       {% endfor %}
     </ul>
   </section>
+
 </section>

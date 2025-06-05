@@ -39,6 +39,28 @@ module.exports = function (eleventyConfig) {
     return fs.existsSync(`./src/${path}`);
   });
 
+  eleventyConfig.addFilter('fileExists', (path) => {
+    return fs.existsSync(path);
+  });
+
+  eleventyConfig.addFilter('readFile', (path) => {
+    return fs.readFileSync(path, 'utf8');
+  });
+
+  eleventyConfig.addFilter('formatSessionSummary', (content) => {
+    const parts = content.split('---');
+    if (parts.length !== 2) return { summary: '', content: content };
+
+    // The summary is the last part, and the main content is everything before it
+    const summary = parts[1].trim();
+    const mainContent = parts[0].trim();
+
+    return {
+      summary,
+      content: mainContent,
+    };
+  });
+
   eleventyConfig.addFilter('inThePast', (year) => {
     return year <= new Date().getFullYear();
   });

@@ -898,3 +898,8 @@ blockquote p {
   top: 0;
   border-radius: 100px;
 }
+
+details summary {
+  cursor: pointer;
+  font-weight: bold;
+}

@@ -124,6 +124,23 @@
   width: 100%;
 }
 
+.talk .session-summary details .content {
+  padding: 20px;
+  margin: 40px 0;
+  border: 1px solid var(--light-grey);
+  border-radius: 4px;
+}
+
+.talk .session-summary h2:first-child {
+  /* font-size: 1.5rem; */
+  /* text-align: right; */
+}
+
+.talk .session-summary details h1 {
+  font-size: 2rem;
+  text-wrap: balance;
+}
+
 @media only screen and (min-width: 700px) {
   .talk > header,
   .talk .descriptions {
