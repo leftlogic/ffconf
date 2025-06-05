@@ -12,6 +12,7 @@ type Speaker {
   photo: String!
   twitter: String
   session: Session!
+  pronouns: String
   websites: [Websites!]
 }
 
