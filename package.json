@@ -5,7 +5,7 @@
   "main": "index.js",
   "private": true,
   "engines": {
-    "node": "16"
+    "node": "22"
   },
   "scripts": {
     "update": "node ./posts.js",
@@ -46,6 +46,7 @@
     "apollo-server-micro": "^2.9.4",
     "csv-parse": "^5.3.1",
     "graphql": "^14.4.2",
+    "markdown-it": "^14.0.0",
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-implicit-figures": "^0.12.0",
     "slugify": "^1.6.5",
