@@ -57,7 +57,7 @@ css: talk.css
 
     <h2>About {{ talk.speaker.name }}</h2>
     {% if talk.speaker.bio %}<div>{{ talk.speaker.bio | markdown | safe }}</div>
-    {% else %}<div><em>{{ talk.speaker.name }} spoke back when we didn't ask for bios, but do checkout their links.</em></div>{% endif %}
+    {% else %}<div><p><em>{{ talk.speaker.name }} spoke back when we didn't ask for bios, but do checkout their links.</em></p></div>{% endif %}
     <ul class="urls">
       {% if talk.speaker.twitter %}
       {% social talk.speaker.twitter %}
