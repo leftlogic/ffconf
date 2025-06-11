@@ -1,9 +1,9 @@
 # Everything Matters: Beyond the Code
 
 ## Introduction and Trigger Warning ([0m21s](https://www.youtube.com/watch?v=CZx7rYoq1Uw&t=21s))
-The speaker opens with acknowledgements and provides a content warning for topics including racism, sexism, abuse, harassment, rape and death threats.
+The speaker opens with acknowledgements and provides a content warning for topics covered:
 
-> "I want to give a trigger warning for this talk um this talk covers racism sexism abuse harassment and rape and death threats"
+> "I want to give a trigger warning for this talk covers racism sexism abuse harassment and rape and death threats"
 
 ## The Tree Metaphor: Technology's Root Problems ([1m36s](https://www.youtube.com/watch?v=CZx7rYoq1Uw&t=96s))
 An extended metaphor comparing the technology industry to a tree with root rot is introduced, establishing the framework for discussing systemic problems in tech.
@@ -22,23 +22,23 @@ Statistics demonstrate how deeply technology shapes modern life, from screen tim
 ## Conway's Law and System Design ([4m22s](https://www.youtube.com/watch?v=CZx7rYoq1Uw&t=262s))
 The speaker explains how systems reflect the biases and limitations of their creators, establishing the foundation for understanding representation in software development.
 
-> "organizations which Design Systems are constrained to produce designs which are copies of their own communication structures"
+> "organisations which Design Systems are constrained to produce designs which are copies of their own communication structures"
 
 > "all systems that we design become a copy of the thoughts biases stereotypes and other traits of the people who are designing and working on them"
 
 ## The Demographics Crisis in Tech ([8m0s](https://www.youtube.com/watch?v=CZx7rYoq1Uw&t=480s))
 Stark statistics reveal the severe lack of diversity in the technology industry across multiple dimensions.
 
-> "there are only one to three% black or African-American people working at Major tech companies"
+> "there are only 1-3% black or African-American people working at Major tech companies"
 
-> "90 to 99% of contributors to free and open source software projects are white cis men"
+> "90-99% of contributors to free and open source software projects are white cis men"
 
 > "41% of women leave careers in technology after 10 years more than twice the number of men"
 
 ## Harassment and Exclusion ([13m13s](https://www.youtube.com/watch?v=CZx7rYoq1Uw&t=793s))
 The talk addresses the daily harassment and microaggressions faced by underrepresented people in tech.
 
-> "many women of color people of color lesbian gay B sexual intersectional trans queer people and women in the tech industry have been experiencing harassment threats abuse and constant microaggressions on a daily basis for years"
+> "many women of color people of color, lesbian, gay, bi-sexual, intersectional, trans, queer people and women in the tech industry have been experiencing harassment threats abuse and constant microaggressions on a daily basis for years"
 
 ## Privilege and Its Consequences ([15m25s](https://www.youtube.com/watch?v=CZx7rYoq1Uw&t=925s))
 An examination of how privilege shields some from problems while limiting their ability to create inclusive solutions.
@@ -69,5 +69,4 @@ A powerful conclusion emphasising the political nature of technology and the urg
 > "it's time that each and every one of us with every design with every line of code with every action takes a stand because everything matters"
 
 ---
-
 In this closing keynote, Lena Reinhard deftly navigates the uncomfortable realities lurking beneath tech culture, blending candid personal anecdotes with incisive commentary on racism, sexism, harassment and the often-overlooked violence women endure - from online threats to abortion debates. Her talk challenges us to confront discomfort head-on, emphasising the power of empathy and collective responsibility to build safer, more inclusive communities.
