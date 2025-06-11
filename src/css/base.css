@@ -142,6 +142,8 @@ h1 + h2 {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 24px;
 }
 
 .talk .urls a[href^="https://twitter.com"]

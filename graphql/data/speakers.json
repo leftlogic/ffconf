@@ -265,7 +265,11 @@
     "photo": "/images/speakers/lenar.jpg",
     "bio": "",
     "id": "cja08vv40ydyd0175nrzrxpec",
-    "twitter": "lrnrd"
+    "twitter": "",
+    "websites": {
+      "Blog": "https://www.lenareinhard.com/",
+      "LinkedIn": "https://www.linkedin.com/in/lenareinhard/"
+    }
   },
   {
     "name": "Scott Jenson",
