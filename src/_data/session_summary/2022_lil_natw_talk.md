@@ -2,9 +2,9 @@
 
 ## Introduction and Personal Journey ([0m00s](https://www.youtube.com/watch?v=CS-3bFo1XHA&t=0s))
 
-Natalia opens her talk by explaining her journey from being an enthusiastic junior developer in 2015 to becoming an environmentalist focused on the intersection of technology and climate change. She credits Lana's 2015 FFConf talk about responsibility in tech as the catalyst that shaped her career path towards working with nonprofits.
+Natalia opens her talk by explaining her journey from being an enthusiastic junior developer in 2015 to becoming an environmentalist focused on the intersection of technology and climate change. She credits [Lena's 2015 FFConf talk](https://ffconf.org/talks/a-talk-about-everything/) about responsibility in tech as the catalyst that shaped her career path towards working with nonprofits.
 
-> "It was about responsibility that we have a stack keys and about basically the privileged position that we are in."
+> "It was about responsibility that we have a (full)stack'ies and about basically the privileged position that we are in."
 
 > "And that talk is the reason why I've become the developer I am and why I've chose to work with nonprofit sector."
 
