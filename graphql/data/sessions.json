@@ -737,7 +737,6 @@
   {
     "speakerId": "cja08vv40ydyd0175nrzrxpec",
     "duration": 40,
-    "slides": null,
     "eventId": "2015",
     "description": "Software influences the lives of billions of humans every day. As people working on it, we face a broad variety of challenges – and we have a responsibility towards each of these humans. Let's take a look at the status of software development today, and see what each of us can do to act according to this responsibility.",
     "audio": "https://media.ffconf.org/2015/8.mp3",
@@ -747,6 +746,7 @@
     "video": "https://www.youtube.com/watch?v=CZx7rYoq1Uw",
     "time": "17:00",
     "title": "A Talk about Everything",
+    "slides": "https://speakerdeck.com/lenar/a-talk-about-everything",
     "tags": ["betterment"]
   },
   {
