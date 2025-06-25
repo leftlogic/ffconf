@@ -1,6 +1,6 @@
 ---
-date: 2024-11-07T15:00:00
-title: 2024 ffconf details
+date: 2025-06-25T15:00:00
+title: 2025 ffconf details
 author: Julie
 ---
 
@@ -10,7 +10,9 @@ Please find below important and useful information to make sure your visit to ff
 
 Please note, a full copy of these [details](https://ffconf.org/details/) are online and once loaded are available offline. -->
 
-<mark>This URL is available offline thanks to a service worker</mark>
+<!-- <mark>This URL is available offline thanks to a service worker</mark> -->
+
+<mark><strong>This page will updated as we get closer to {{ tickets.date | format }}</strong></mark>
 
 <em>If you're a repeat attendee, you might still have the previous year cached, so please hit refresh if you're seeing "last year"!</em>
 
@@ -25,8 +27,8 @@ Please note, a full copy of these [details](https://ffconf.org/details/) are onl
 - [Technology](#technology)
 - [Post conference social](#post-conference-social)
 - [Pre conference](#pre-conference)
-  - [Show and Tell with Async - 7-Nov](#show-and-tell-with-async-7-nov)
-  - [Pre event networking: running or coffee - 8 Nov](#pre-event-networking-running-or-coffee-8-nov)
+  - [Show and Tell with Async - 13 Nov](#show-and-tell-with-async-13-nov)
+  - [Pre event networking: running or coffee - 14 Nov](#pre-event-networking-running-or-coffee-14-nov)
 - [Health and Safety](#health-and-safety)
 - [Accessibility](#accessibility)
 - [Contact](#contact)
@@ -37,7 +39,7 @@ How to get to our venue from the station: [ffconf.org/directions](https://ffconf
 
 The conference is being held at the Duke of York's Picturehouse in Brighton, less than 15 minutes walk from Brighton train station. We recommend using [traintimes.org.uk](https://traintimes.org.uk) for up to date train timetables.
 
-At the moment there are no planned engineering works on the trains, and you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/). ~~There is a planned strike on the London Underground but no details are currently available on what impact that will have.~~ The planned strikes on the London Underground have now been cancelled, updates here: https://tfl.gov.uk/campaign/strikes
+At the moment there are no planned engineering works on the trains, and you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/).
 
 <!-- [Hotel recommendations](https://2024.ffconf.org/#locations) can also be found on our website. -->
 
@@ -49,7 +51,7 @@ The day will finish by 6pm. The schedule will be in your programme and online, a
 
 Note that by attending our events, you are agreeing to our [code of conduct](https://ffconf.org/code-of-conduct/).
 
-If see or hear our code of conduct being breached, or have any other concerns or questions, please contact a member of staff (wearing FFConf t-shirts), our [@ffconf](https://twitter.com/ffconf) DMs are open.
+If see or hear our code of conduct being breached, or have any other concerns or questions, please contact a member of staff (wearing FFConf t-shirts), our BlueSky [@ffconf](https://bsky.app/profile/ffconf.org) DMs are open.
 
 ## Refreshments and lunch
 
@@ -67,9 +69,11 @@ The coffee cups we use are compostable but please do bring your own travel mug a
 
 ## Toots, tweets, chat and blog posts
 
-Yes to all. Hashtag all the things with [#FFConf](https://twitter.com/search?q=%23ffconf&src=typed_query&f=live).
+Yes to all. Hashtag all the things with [#FFConf](https://bsky.app/search?q=%23ffconf).
 
-Feel free to follow us [on Mastodon](https://social.ffconf.org/@ffconf) or [@FFConf Twitter account](https://twitter.com/ffconf) for the latest info on the event. The event will have live commentary uploaded on our Mastodon account.
+Feel free to follow us [on BlueSky at @FFConf](https://bsky.app/profile/ffconf.org) for the latest info on the event.
+
+<!-- The event will have live commentary uploaded on our Mastodon account. -->
 
 Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's quiet and friendly, so bring your voice&nbsp;❤️).
 
@@ -93,15 +97,17 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ## Pre conference
 
-### Show and Tell with Async - 7-Nov
+### Show and Tell with Async - 13 Nov
 
-Our friends at Async are running a very special International Show & Tell at 7pm at the [Ironworks Studios](https://www.ironworks-studios.co.uk/). If you're interested in giving a five minute talk, they'd also love to hear from you. [Please sign up in advance](https://asyncjs.com/international-show-n-tell-2024/) (to attend or speak). To find out more, join their Slack community [Slack](https://asyncjs.slack.com/join/shared_invite/zt-1aguxx86q-XjF_yWcFoJ8fyYYzoqgDaQ#/shared-invite/email). Afterwards, everyone will head to a local pub.
+Our friends at Async usually run a very special International Show & Tell.
 
-### Pre event networking: running or coffee - 8 Nov
+More details to follow.
 
-We are hosting another pre-FFConf run! Meet outside Duke of Yorks at 7:30am led by two friendly FFConf regulars, [Chetan](https://twitter.com/chetbox) and [Matt](https://twitter.com/mattbee). Open to all abilities, explore beautiful Brighton in a short 30 minute run leaving plenty of time to get showered before registration opens!
+### Pre event networking: running or coffee - 14 Nov
 
-Not a runner? Curio Cafe is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network). Kindly hosted by Scout and Nigel, both [Brighton Codebar organisers](https://codebar.io/brighton).
+We are hosting another pre-FFConf run! Meet outside Duke of Yorks at 7:30am led by two friendly FFConf regulars. Open to all abilities, explore beautiful Brighton in a short 30 minute run leaving plenty of time to get showered before registration opens!
+
+Not a runner? Curio Cafe is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network).
 
 ## Health and Safety
 
@@ -132,22 +138,13 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 ## Contact
 
 * Email: [events@leftlogic.com](mailto:events@leftlogic.com), or directly: [remy@leftlogic.com](mailto:remy@leftlogic.com) & [julie@leftlogic.com](mailto:julie@leftlogic.com)
-* Mastodon: [ffconf@social.ffconf.org](https://social.ffconf.org/@ffconf)
-* Twitter & DM (we have open DMs): [@FFConf](https://twitter.com/ffconf)
+* BlueSky & DM (we have open DMs): [@FFConf](https://bsky.app/profile/ffconf.org)
 
-## Sponsors <!-- omit in toc -->
+<!-- ## Sponsors -->
+<!-- omit in toc -->
 
-Please also take a few minutes to check out our sponsors and the links to their sites, without whom we couldn't run this event. Click on their links and check them all out. Seriously. We can't do this entire event without them.
+<!-- Please also take a few minutes to check out our sponsors and the links to their sites, without whom we couldn't run this event. Click on their links and check them all out. Seriously. We can't do this entire event without them. -->
 
-### Our Headline sponsor<!-- omit in toc -->
-
-* [Google](https://web.dev/)
-
-### Our Day sponsors<!-- omit in toc -->
-
-* [Interledger Foundation](https://webmonetization.org/docs/)
-* [TetraLogical](https://tetralogical.com//)
-* [JS Bin](https://jsbin.com/)
 
 
 * * *

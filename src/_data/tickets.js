@@ -16,9 +16,9 @@ module.exports = {
   date: secondFriday,
   open,
   // needs to be manually updated
-  url: 'https://www.tickettailor.com/checkout/view-event/id/3260377/chk/8d7c/?modal_widget=true&widget=true',
+  url: 'https://app.tickettailor.com/checkout/view-event/id/6028948/chk/fe2b/',
   summary:
-    'accessibility, AI, burnout, community, critical thinking for devs, web components, and more!',
+    'accessibility, AI, web components, tools, community, workplace, and more!',
 };
 
 function getSecondFridayOfNovember(year) {

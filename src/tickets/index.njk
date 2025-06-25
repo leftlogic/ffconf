@@ -101,12 +101,19 @@ css: tickets.css
 
   <div class="grid">
     <aside>
-      <p><rem-days-to date="2024-11-08"><slot>Not many</slot> working days left to get your&nbsp;ticket!</rem-days-to></p>
-      <p class="ticket-buy"><a href="{{ tickets.url }}">Buy tickets now</a></p>
+      <p><rem-days-to date="{{ tickets.date  | format("YYYY-MM-DD") }}"><slot>Not many</slot> working days left to get your&nbsp;ticket!</rem-days-to></p>
+      <when-do datetime="2025-06-25T14:00:00" do="show">
+        <p class="ticket-buy"><a href="{{ tickets.url }}">Buy tickets now</a></p>
+      </when-do>
+      <when-do datetime="2025-06-25T14:00:00" do="hide">
+        <p class="ticket-buy"><a href="#">Tickets on sale soon</a></p>
+      </when-do>
+
 
       <p>{{ tickets.date | format }} - 9am-6pm</p>
       <p class="summary">Eight sessions on {{ tickets.summary }}</p>
       <script src="/assets/rem-days-to.wc.mjs"></script>
+      <script src="/assets/when-do.wc.mjs"></script>
 
       <ul>
         <li>🗓️ {{tickets.date | format }} in Brighton</li>
