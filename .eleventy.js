@@ -164,7 +164,7 @@ module.exports = function (eleventyConfig) {
     function (name, url, image, sub, what) {
       return `
     <header>
-      <img src="/images/involved/${image}" />
+      <img width="36" height="36" src="/images/involved/${image}" />
       <span>${url ? `<a href="${url}">${name}</a>` : name}<br />
         ${sub}</span>
     </header>
