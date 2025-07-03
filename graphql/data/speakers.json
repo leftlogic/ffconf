@@ -622,10 +622,14 @@
   {
     "name": "Heydon Pickering",
     "pronouns": "he/they",
-    "twitter": "heydonworks",
     "photo": "/images/speakers/heydonworks.jpg",
     "id": "2022_heydonworks",
-    "bio": "started making websites to share the music I was making, using images of text (because web fonts didn't exist), layout tables, and multiple embedded Flash animations... so it's just as well I never managed to work out how to publish any of them"
+    "bio": "started making websites to share the music I was making, using images of text (because web fonts didn't exist), layout tables, and multiple embedded Flash animations... so it's just as well I never managed to work out how to publish any of them",
+    "websites": {
+      "@heydonworks.com": "https://bsky.app/profile/heydonworks.com",
+      "Blog": "https://heydonworks.com/",
+      "Webbed Briefs": "https://briefs.video/"
+    }
   },
 
   {
