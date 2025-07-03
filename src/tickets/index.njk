@@ -102,10 +102,10 @@ css: tickets.css
   <div class="grid">
     <aside>
       <p><rem-days-to date="{{ tickets.date  | format("YYYY-MM-DD") }}"><slot>Not many</slot> working days left to get your&nbsp;ticket!</rem-days-to></p>
-      <when-do datetime="2025-06-26T10:00:00Z" do="show">
+      <when-do datetime="2025-06-26T10:00:00" do="show">
         <p class="ticket-buy"><a href="{{ tickets.url }}">Buy tickets now</a></p>
       </when-do>
-      <when-do datetime="2025-06-26T10:00:00Z" do="hide">
+      <when-do datetime="2025-06-26T10:00:00" do="hide">
         <p class="ticket-buy"><a href="#">Tickets on sale soon</a></p>
       </when-do>
 

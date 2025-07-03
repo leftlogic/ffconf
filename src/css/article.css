@@ -30,6 +30,7 @@
   cursor: pointer;
   text-decoration: none;
   max-width: 300px;
+  max-width: fit-content;
   margin: 0 auto;
 }
 
