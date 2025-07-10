@@ -21,7 +21,7 @@
     "semi": ["error", "always"],
     "no-unreachable": "error",
     "no-caller": 2,
-    "quotes": [2, "single"],
+    "quotes": [1, "single"],
     "no-undef": 2,
     "strict": 0,
     "no-unused-vars": 2,

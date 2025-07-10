@@ -1,0 +1,178 @@
+#!/bin/bash
+
+# Colors for output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[0;33m'
+BLUE='\033[0;34m'
+NC='\033[0m' # No Color
+
+# Domains to ignore
+IGNORED_DOMAINS=(
+    "twimg.com"
+    "twitter.com"
+    "instagram.com"
+    "x.com"
+    "ffconf.org"
+    "media.ffconf.org"
+    "www.youtube.com"
+    "www.tickettailor.com"
+    "esm.sh"
+    "youtu.be"
+    "remysharp.com"
+    "google.com"
+    "github.com"
+    "flickr.com"
+    "web.archive.org"
+    "goo.gl"
+)
+
+# Image extensions to ignore
+IMAGE_EXTENSIONS=(
+    "jpeg" "jpg" "png" "gif" "webp" "svg" "ico" "bmp" "tiff" "tif"
+)
+
+# Check if URL should be ignored
+should_ignore_url() {
+    local url="$1"
+
+    # Check if domain is in ignore list
+    for domain in "${IGNORED_DOMAINS[@]}"; do
+        if [[ "$url" == *"$domain"* ]]; then
+            return 0  # true - ignore this URL
+        fi
+    done
+
+    # Check if URL points to an image
+    local lowercase_url=$(echo "$url" | tr '[:upper:]' '[:lower:]')
+    for ext in "${IMAGE_EXTENSIONS[@]}"; do
+        if [[ "$lowercase_url" == *".$ext" ]]; then
+            return 0  # true - ignore this URL
+        fi
+    done
+
+    return 1  # false - don't ignore this URL
+}
+
+# Function to check a single URL
+check_url() {
+    local url="$1"
+    local status
+
+    # Use curl to check the URL with HEAD request
+    status=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 -L "$url" 2>/dev/null)
+
+    if [[ "$status" == "200" ]]; then
+        return 0
+    else
+        echo -e "${RED}✗${NC} $status - $url"
+        return 1
+    fi
+}
+
+# Function to find all URLs in the codebase
+find_all_urls() {
+    local temp_file=$(mktemp)
+
+    # Find URLs using rg, excluding common directories and package files
+    rg -o 'https?://[^\s<>"''{)\\\]]+' \
+        --glob '!node_modules/**' \
+        --glob '!dist/**' \
+        --glob '!tmp/**' \
+        --glob '!.vscode/**' \
+        --glob '!unused_static/**' \
+        --glob '!package.json' \
+        --glob '!package-lock.json' \
+        --glob '!**/package.json' \
+        --glob '!**/package-lock.json' \
+        --glob '!src/_data/jobs.json' \
+        . 2>/dev/null | while IFS= read -r line; do
+        # Extract URL part (after the colon)
+        if [[ "$line" == *":http"* ]]; then
+            url="${line#*:http}"
+            url="http$url"
+        else
+            url="$line"
+        fi
+
+        # Clean up URLs that might have trailing characters
+        url=$(echo "$url" | sed 's/[)\]}>,"]*$//')
+
+        # Only process HTTP/HTTPS URLs
+        if [[ "$url" == "http"* ]]; then
+            echo "$url"
+        fi
+    done | sort -u > "$temp_file"
+
+    # Filter out ignored URLs
+    local filtered_file=$(mktemp)
+    while IFS= read -r url; do
+        if ! should_ignore_url "$url"; then
+            echo "$url"
+        fi
+    done < "$temp_file" > "$filtered_file"
+
+    # Return the filtered URLs
+    cat "$filtered_file"
+
+    # Clean up temp files
+    rm -f "$temp_file" "$filtered_file"
+}
+
+# Main function
+main() {
+    echo -e "${BLUE}🔍 Finding all URLs in the codebase...${NC}"
+
+    # Find all URLs
+    local urls_file=$(mktemp)
+    find_all_urls > "$urls_file"
+
+    local url_count=$(wc -l < "$urls_file")
+
+    if [[ "$url_count" -eq 0 ]]; then
+        echo -e "${YELLOW}No URLs found in the codebase.${NC}"
+        rm -f "$urls_file"
+        return 0
+    fi
+
+    echo -e "${BLUE}Found $url_count unique URLs. Checking status...${NC}"
+    echo
+
+    local failed_count=0
+    local checked_count=0
+
+    # Check each URL
+    while IFS= read -r url; do
+        if ! check_url "$url"; then
+            ((failed_count++))
+        fi
+        ((checked_count++))
+
+        # Show progress ticker (update in place)
+        printf "\r${BLUE}Checking URLs... $checked_count/$url_count${NC}"
+    done < "$urls_file"
+
+    # Clear the progress line and move to next line
+    printf "\r\033[K"
+    echo -e "${BLUE}Completed checking $checked_count URLs${NC}"
+
+    # Summary
+    echo
+    echo "$(printf '=%.0s' {1..80})"
+    echo -e "${BLUE}SUMMARY${NC}"
+    echo "$(printf '=%.0s' {1..80})"
+    echo "Total URLs: $url_count"
+    echo -e "${GREEN}Working: $((url_count - failed_count))${NC}"
+    echo -e "${RED}Failed: $failed_count${NC}"
+
+    # Clean up
+    rm -f "$urls_file"
+
+    # Exit with error code if any links failed
+    if [[ "$failed_count" -gt 0 ]]; then
+        exit 1
+    fi
+}
+
+# Run the script
+main "$@"

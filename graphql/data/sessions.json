@@ -2,7 +2,7 @@
   {
     "speakerId": "cja08vl66ydqz0175zyd5mdf7",
     "duration": 40,
-    "slides": "http://www.wait-till-i.com/2009/11/21/frontloaded-and-zipped-up-the-full-frontal-2009-keynote/",
+    "slides": "https://christianheilmann.com/2009/11/21/frontloaded-and-zipped-up-the-full-frontal-2009-keynote/",
     "eventId": "2009",
     "description": "JavaScript had a bumpy ride up to now, from its origins as a CGI-replacement, initiator of countless popups and annoying effects over the renaissance as Ajax enabler up to becoming wrapped up in libraries to work around the hell that is browser differences.\n\n\n\nWith the ubiquity of JavaScript comes a new challenge. How do we keep JavaScript safe when browsers don't really distinguish between different sources and give them all the same rights? Why do we still judge the usefulness of JavaScript by how badly browsers speak it?\n\n\n\nLearn about some environments you can use JavaScript in securely and marvel at the magic and annoyances that are technologies that try to put a lock on the issue of JavaScript security.",
     "audio": "https://media.ffconf.org/2009/1-christian.mp3",
@@ -857,7 +857,7 @@
   {
     "speakerId": "cja08vv3gypmz0183kufh870j",
     "duration": 40,
-    "slides": "http://ljwatson.github.io/decks/2016/ffconf/index.html",
+    "slides": "https://decks.tink.uk/2016/ffconf/",
     "eventId": "2016",
     "description": "With a little help from Daft Punk, we will explain accessibility mechanics in the browser, why CSS isn't just about looking good, and what tools you can use to get ahead of the game.",
     "audio": "https://media.ffconf.org/2016/3.mp3",
