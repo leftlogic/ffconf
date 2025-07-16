@@ -109,3 +109,13 @@ figcaption {
   font-style: italic;
   color: var(--dark-grey);
 }
+
+.mini-pic {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+figure:has(.mini-pic) {
+  float: right;
+}
