@@ -166,8 +166,17 @@ h1 + h2 {
   color: var(--primary);
 }
 
-.talk .urls a[href^="https://twitter.com"]:hover,
-.talk .urls a[href^="https://bsky.app/profile/"]:hover
+.talk .urls a[href^='https://www.linkedin.com/in/']
+{
+  display: inline-block;
+  background: url(/images/linkedin.svg) no-repeat;
+  height: 20px;
+  padding-left: 30px;
+  line-height: 20px;
+  color: var(--primary);
+}
+
+.talk .urls a[href^="https://"]:hover
 {
   color: var(--salmon);
 }

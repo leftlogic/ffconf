@@ -558,8 +558,12 @@
     "id": "2019-empathy",
     "bio": "I always loved the tech industry but I couldn't code and never worked at a tech company. So I started speaking at conferences about what I knew: stuttering, marketing and vulnerability. One day, I got invited to speak at a tech conf (Hi @jremsikjr 👋🏾)",
     "photo": "/images/speakers/sharons.jpg",
-    "twitter": "sharonsteed",
-    "name": "Sharon Steed"
+    "name": "Sharon Steed",
+    "websites": {
+      "@sharonsteed.co": "https://bsky.app/profile/sharonsteed.co",
+      "LinkedIn": "https://www.linkedin.com/in/sharon-steed/",
+      "Website": "https://www.communilogue.co/"
+    }
   },
   {
     "id": "2019-nerdverse",
