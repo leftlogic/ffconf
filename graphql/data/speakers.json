@@ -207,7 +207,11 @@
     "photo": "/images/speakers/marikok.jpg",
     "bio": "",
     "id": "cja08vv3cyw4t01313bxca2a1",
-    "twitter": "kosamari"
+    "websites": {
+      "@kosamari.bsky.social": "https://bsky.app/profile/kosamari.bsky.social",
+      "LinkedIn": "https://www.linkedin.com/in/kosamari/",
+      "Website": "https://kosamari.com/"
+    }
   },
   {
     "name": "Seb Lee-Delisle",
