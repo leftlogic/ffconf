@@ -5,3 +5,4 @@ tmp
 src/_data/jobs.json
 unused_static/
 .DS_Store
+talk_summary/
