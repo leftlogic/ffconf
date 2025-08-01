@@ -138,3 +138,27 @@ a.block {
   padding: 0;
   background: none;
 }
+
+@keyframes textExplosion {
+  0% {
+    text-shadow: 0 0 0 white;
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+  30% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+      0 0 20px rgba(255, 255, 255, 0.5);
+    transform: scale3d(1.005, 1.005, 1);
+  }
+  100% {
+    text-shadow: 0 0 0 white;
+    transform: scale3d(1, 1, 1);
+    opacity: 1;
+  }
+}
+
+.attention {
+  animation: textExplosion 1.2s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
+  color: white;
+  will-change: transform, text-shadow;
+}
