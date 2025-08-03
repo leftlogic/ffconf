@@ -1,0 +1,1017 @@
+{
+  "/": {
+    "title": "FF Conf 🌟 UK web conference since 2009",
+    "description": "FF Conf is a one-day web development conference in Brighton, UK, featuring eight curated sessions on the future of the web.",
+    "image": "/images/cards/base.jpg"
+  },
+  "/talks": {
+    "title": "All the FF Conf Talks since 2009",
+    "description": "Watch recordings of past FF Conf talks on web development, JavaScript, accessibility, and more.",
+    "image": null
+  },
+  "/articles": {
+    "title": "FF Conf Articles: Web Dev Insights",
+    "description": "Read articles from the FF Conf web development conference in Brighton, UK, covering topics from AI and accessibility to community events and more.",
+    "image": null
+  },
+  "/jobs": {
+    "title": "FF Conf Job Board",
+    "description": "Find web development jobs at FF Conf, including Software Engineer and Senior Software Engineer roles.",
+    "image": null
+  },
+  "/photos": {
+    "title": "FF Conf photos over the years",
+    "description": "View photos from previous FF Conf web development & JavaScript conferences in Brighton, UK.",
+    "image": "https://ffconf.org/images/photos/49054724366_3b006e03ff_c_d.jpg"
+  },
+  "/posts": {
+    "title": "FF Conf social posts and positive feedback",
+    "description": "Our attendees love FF Conf, a Brighton web development and JavaScript conference known for its inspiring talks and community.",
+    "image": "https://ffconf.org/images/posts/photos/F-lWfzOW0AAYo-h.jpg"
+  },
+  "/history": {
+    "title": "FF Conf History: Meet the Team",
+    "description": "Learn about the founders, Remy & Julie Sharp, and the volunteers who've made FF Conf a success since 2009.",
+    "image": "https://ffconf.org/images/team.jpg"
+  },
+  "/articles/2025-early-bird-closes": {
+    "title": "FF Conf Early Bird Tickets Close Soon",
+    "description": "FF Conf's early bird tickets end July 31st; ticket sales close until September 4th. The newsletter also takes a break during this period.",
+    "image": "https://ffconf.org/images/articles/2025-early-bird-ends.png"
+  },
+  "/talks/2023_angela": {
+    "title": "Angela Ricci: Fixing the Front Web",
+    "description": "Angela Ricci discusses why the front web became complex and how to improve it at FF Conf 2023.",
+    "image": "https://ffconf.org/images/speakers/angela.jpg"
+  },
+  "/scholarship": {
+    "title": "FF Conf Inclusion Scholarships",
+    "description": "FF Conf offers scholarships to under-represented groups in tech for its Brighton conference. Applications close October 13th.",
+    "image": null
+  },
+  "/inclusion": {
+    "title": "FF Conf: Diversity & Inclusion Statement",
+    "description": "FF Conf prioritizes diversity and inclusion, aiming for a representative speaker lineup and transparent commitment to marginalized groups.",
+    "image": null
+  },
+  "/articles/cfp": {
+    "title": "FF Conf Call for Papers",
+    "description": "FF Conf is accepting talk proposals. Submissions are reviewed continuously; speakers receive travel & accommodation.",
+    "image": null
+  },
+  "/code-of-conduct": {
+    "title": "FF Conf Code of Conduct",
+    "description": "FF Conf's code of conduct ensures a safe, respectful environment for all attendees, speakers, sponsors, and volunteers.",
+    "image": null
+  },
+  "/covid": {
+    "title": "FF Conf COVID-19 Policy",
+    "description": "FF Conf's COVID-19 policy prioritizes attendee & speaker safety. Attendees are encouraged to test before attending and masks are welcomed.",
+    "image": null
+  },
+  "/contact": {
+    "title": "Contact FF Conf",
+    "description": "Contact FF Conf via email at events@leftlogic.com for inquiries; talk proposals should be submitted through their CFP process.",
+    "image": null
+  },
+  "/talks/2024_olu": {
+    "title": "Olu Niyi-Awosusi: Build Better Webs",
+    "description": "Olu Niyi-Awosusi discusses building diverse, interconnected, and sustainable 'webs' instead of a monolithic internet.",
+    "image": "https://ffconf.org/images/speakers/olu.jpg"
+  },
+  "/talks/2024_léonie": {
+    "title": "AI & Accessibility: The Good, the Bad...",
+    "description": "Léonie Watson explores the realities of AI and accessibility, separating fact from hype at FF Conf.",
+    "image": "https://ffconf.org/images/speakers/leonie2.jpg"
+  },
+  "/talks/2024_andy": {
+    "title": "Resilient Code: Planning & Feedback",
+    "description": "Learn to build simpler, more resilient codebases by improving planning and feedback with designer colleagues.",
+    "image": "https://ffconf.org/images/speakers/andy.jpg"
+  },
+  "/talks/2024_kimberley": {
+    "title": "Kimberley Cook: Growing a Global Community",
+    "description": "Kimberley Cook shares her 10-year journey building a global community of 25,000, from London workshops to a worldwide network.",
+    "image": "https://ffconf.org/images/speakers/kimberley.jpg"
+  },
+  "/talks/2024_amy": {
+    "title": "Amy Hupe: Meaning in a Meaningless World",
+    "description": "Amy Hupe explores burnout, purpose, and finding meaning in work and life at FF Conf 2024.",
+    "image": "https://ffconf.org/images/speakers/amy.jpg"
+  },
+  "/talks/2024_mike": {
+    "title": "Debugging the Mind: Critical Thinking for Programmers",
+    "description": "Mike Hall discusses critical thinking for programmers, showing how a skeptical approach improves problem-solving and decision-making.",
+    "image": "https://ffconf.org/images/speakers/mike.jpg"
+  },
+  "/talks/2024_michael": {
+    "title": "Death & Tech: A FF Conf Talk",
+    "description": "Michael Kibedi discusses how tech companies' mortality impacts our digital data, raising questions about data longevity.",
+    "image": "https://ffconf.org/images/speakers/michael.jpg"
+  },
+  "/talks/2024_imran": {
+    "title": "Imran Afzal: The Art of Reflection",
+    "description": "Imran Afzal's FF Conf talk explores how reflection fosters self-growth and improves future outcomes.",
+    "image": "https://ffconf.org/images/speakers/imran.jpg"
+  },
+  "/talks/2023_amber": {
+    "title": "Overworking & Imposter Syndrome",
+    "description": "Amber's FF Conf talk addresses imposter syndrome, overworking, and creating inclusive work environments, offering practical solutions and more.",
+    "image": "https://ffconf.org/images/speakers/amber.jpg"
+  },
+  "/talks/2023_maggie": {
+    "title": "Maggie Appleton: The Expanding Dark Forest",
+    "description": "Maggie Appleton discusses the impact of generative AI on the web's future, exploring the challenges to human creation and connection.",
+    "image": "https://ffconf.org/images/speakers/maggie.jpg"
+  },
+  "/talks/2023_ire": {
+    "title": "Web Accessibility: Beyond Semantic HTML",
+    "description": "Learn how CSS and JavaScript impact web accessibility and how to use them responsibly to create inclusive experiences for all users.",
+    "image": "https://ffconf.org/images/speakers/ire.jpg"
+  },
+  "/talks/2023_steven": {
+    "title": "Ada Lovelace & The First Computer Program",
+    "description": "Steven Goodwin's FF Conf talk explores Ada Lovelace's pioneering computer program, its function, and its historical context.",
+    "image": "https://ffconf.org/images/speakers/steven.jpg"
+  },
+  "/talks/2023_jonathan": {
+    "title": "Neurodiversity in Tech: FF Conf 2023",
+    "description": "Jonathan Fielding's FF Conf 2023 talk explores neurodiversity in tech, offering practical strategies for building empathy and inclusion.",
+    "image": "https://ffconf.org/images/speakers/jonathan.jpg"
+  },
+  "/talks/2023_ana": {
+    "title": "Web Speech API & Karaoke",
+    "description": "Ana Rodrigues explores the Web Speech API, demonstrating its potential to solve karaoke song limitations.",
+    "image": "https://ffconf.org/images/speakers/ana.jpg"
+  },
+  "/talks/2023_salma": {
+    "title": "Salma Alam-Naylor: Entertainment as Code",
+    "description": "Learn how live streaming and building silly websites creates community, from Salma Alam-Naylor's FF Conf talk.",
+    "image": "https://ffconf.org/images/speakers/salma.jpg"
+  },
+  "/talks/2022_finokoye_talk": {
+    "title": "Designing for Inclusion: A FF Conf Talk",
+    "description": "Florence Okoye discusses designing inclusive web experiences using data, research, and critical design principles.",
+    "image": "https://ffconf.org/images/speakers/finokoye.jpg"
+  },
+  "/talks/2022_heydonworks_talk": {
+    "title": "Capitalism, the Web, and You",
+    "description": "This talk critiques capitalism's exploitation of web development, labour, and resources, linking economic theory to developer burnout and more",
+    "image": "https://ffconf.org/images/speakers/heydonworks.jpg"
+  },
+  "/talks/2022_loftio_talk": {
+    "title": "Design for Developers: FF Conf 2022",
+    "description": "Lex Lofthouse's FF Conf 2022 talk explores fundamental UI design principles and how to create beautiful designs.",
+    "image": "https://ffconf.org/images/speakers/loftio.jpg"
+  },
+  "/talks/2022_type__error_talk": {
+    "title": "FF Conf 2022: A Love Letter to Personal Websites",
+    "description": "A nostalgic look at personal website evolution and a call to build your own fun, story-telling platform.",
+    "image": "https://ffconf.org/images/speakers/type__error.jpg"
+  },
+  "/talks/2022_lily_2point0_talk": {
+    "title": "Crochet & Programming: A Yarn Tale",
+    "description": "Explore the surprising parallels between crochet and programming, revealing how crafting patterns mirrors coding logic.",
+    "image": "https://ffconf.org/images/speakers/lily_2point0.jpg"
+  },
+  "/talks/2022_lil_natw_talk": {
+    "title": "Building a Greener Web: A Developer's Guide",
+    "description": "This talk explores the environmental impact of web development and offers practical solutions for developers to build more sustainable web.",
+    "image": "https://ffconf.org/images/speakers/lil_natw.jpg"
+  },
+  "/talks/2022_sareh88_talk": {
+    "title": "Digital Exclusion in Healthcare",
+    "description": "Sareh Heidari discusses digital exclusion in healthcare, exploring how web tech can improve or hinder vulnerable people's access to care.",
+    "image": "https://ffconf.org/images/speakers/sareh88.jpg"
+  },
+  "/talks/2022_rumyra_talk": {
+    "title": "FF Conf 2022: Browser Disco - Media APIs",
+    "description": "Ruth John's FF Conf 2022 talk explores current and future media APIs, perfect for web developers.",
+    "image": "https://ffconf.org/images/speakers/rumyra.jpg"
+  },
+  "/talks/empathy": {
+    "title": "Speaking With Empathy: A Stuttering Journey",
+    "description": "This talk recounts a speaker's journey with stuttering, revealing how embracing vulnerability led to professional growth and powerful communication.",
+    "image": "https://ffconf.org/images/speakers/sharons.jpg"
+  },
+  "/talks/what-does-it-take": {
+    "title": "Becoming a Developer in 2020",
+    "description": "Amina Adewusi shares her journey of becoming a developer while juggling a full-time job and motherhood.",
+    "image": "https://ffconf.org/images/speakers/aminaa.jpg"
+  },
+  "/talks/getting-more-from-git": {
+    "title": "Getting More From Git",
+    "description": "Learn advanced Git commands and history to better manage your project's code version control.",
+    "image": "https://ffconf.org/images/speakers/aliceb.jpg"
+  },
+  "/talks/privacy": {
+    "title": "8 Unbelievable Things About Web Tracking",
+    "description": "Laura Kalbag's FF Conf talk reveals how the web tracks users and explores ways developers can mitigate this.",
+    "image": "https://ffconf.org/images/speakers/laurak.jpg"
+  },
+  "/talks/from-milliseconds-to-millions": {
+    "title": "From Milliseconds to Millions: Web Performance",
+    "description": "Explore the numbers driving web performance, examining client benefits and industry impact.",
+    "image": "https://ffconf.org/images/speakers/harryr.jpg"
+  },
+  "/talks/effortless-performance-debugging": {
+    "title": "Effortless Performance Debugging",
+    "description": "Learn simple, actionable steps to improve website performance by addressing common causes of slowdowns.",
+    "image": "https://ffconf.org/images/speakers/annam.jpg"
+  },
+  "/talks/taking-the-web-off-the-screen": {
+    "title": "Taking the Web Off the Screen",
+    "description": "Explore how web development skills can create generative art in the physical world.",
+    "image": "https://ffconf.org/images/speakers/charlotted.jpg"
+  },
+  "/talks/nerdverse": {
+    "title": "Reinventing Interfaces: A Nerdverse Talk",
+    "description": "Suz Hinton explores how modern web interfaces can invigorate small computing spaces and inspire playful experiences.",
+    "image": "https://ffconf.org/images/speakers/suzh.jpg"
+  },
+  "/talks/mentoring": {
+    "title": "Mentoring in Tech: A FF Conf Talk",
+    "description": "Jo Franchetti discusses mentoring in tech, addressing issues like bad role models and promoting positive change within the industry.",
+    "image": "https://ffconf.org/images/speakers/jof.jpg"
+  },
+  "/talks/the-future-of-javascript-machine-learning": {
+    "title": "The Future of JS & Machine Learning",
+    "description": "Explore the exciting intersection of JavaScript and machine learning, covering deep learning and more.",
+    "image": "https://ffconf.org/images/speakers/eleanorh.jpg"
+  },
+  "/talks/web-animation": {
+    "title": "Practical Web Animation",
+    "description": "Learn practical web animation techniques, focusing on performance and user experience.",
+    "image": "https://ffconf.org/images/speakers/lisil.jpg"
+  },
+  "/talks/is-it-possible-to-build-a-truly-diverse-community": {
+    "title": "Building a Truly Diverse Tech Community",
+    "description": "Jenny Wong discusses creating inclusive tech environments that welcome diverse individuals, challenging the traditional approach.",
+    "image": "https://ffconf.org/images/speakers/jennyw.jpg"
+  },
+  "/talks/back-to-the-future": {
+    "title": "Back to the Future of JS",
+    "description": "Discover exciting new JavaScript features and proposals that may change how you write code.",
+    "image": "https://ffconf.org/images/speakers/willianm.jpg"
+  },
+  "/talks/dear-developer": {
+    "title": "Dear Developer: Web Development for Users",
+    "description": "This talk discusses the importance of designing websites for all users, not just developers, emphasizing user needs over technical solutions.",
+    "image": "https://ffconf.org/images/speakers/charlieo.jpg"
+  },
+  "/talks/slow-and-loud": {
+    "title": "Slow & Loud: 80s Web Loading Screens",
+    "description": "Remy Sharp recreates horribly slow and loud 1980s web loading screens, contrasting them with today's high-performance websites.",
+    "image": "https://ffconf.org/images/speakers/remys.jpg"
+  },
+  "/talks/weird-web": {
+    "title": "Weird Web & Curious Creation",
+    "description": "Tim Holman's talk on playful coding and creating weird web projects. Get inspired to explore your creative side!",
+    "image": "https://ffconf.org/images/speakers/timh.jpg"
+  },
+  "/talks/rethinking-the-web-platform": {
+    "title": "Rethinking the Web Platform",
+    "description": "James Kyle discusses evolving the web for improved education, accessibility, performance, productivity, and design.",
+    "image": "https://ffconf.org/images/speakers/jamesk.jpg"
+  },
+  "/talks/if-youre-going-out-of-san-francisco-be-sure-to-wear-web-standards-in-your-hair": {
+    "title": "Web Standards: Reaching 4 Billion",
+    "description": "Bruce Lawson discusses bridging the digital divide and the importance of web standards for global access.",
+    "image": "https://ffconf.org/images/speakers/brucel.jpg"
+  },
+  "/talks/how-the-web-sausage-gets-made": {
+    "title": "How the Web Sausage Gets Made",
+    "description": "Monica Dinculescu explains web browser function, web components, and their practical uses.",
+    "image": "https://ffconf.org/images/speakers/monicad.jpg"
+  },
+  "/talks/lessons-learned-sciencing-the-web": {
+    "title": "Sciencing the Web: Lessons Learned",
+    "description": "Discover what slows down modern mobile apps and how to fix performance issues. Learn from Addy Osmani's FF Conf talk.",
+    "image": "https://ffconf.org/images/speakers/addyo.jpg"
+  },
+  "/talks/my-password-doesnt-work": {
+    "title": "My Password Doesn't Work! - FF Conf",
+    "description": "Blaine Cook's FF Conf talk dispels password myths, promoting simpler, more secure online practices.",
+    "image": "https://ffconf.org/images/speakers/blainec.jpg"
+  },
+  "/talks/memory-dont-forget-to-take-out-the-garbage": {
+    "title": "Memory Management in JavaScript",
+    "description": "Katie Fenn's FF Conf talk explains JavaScript's hidden memory management, revealing what happens behind the scenes.",
+    "image": "https://ffconf.org/images/speakers/katief.jpg"
+  },
+  "/talks/abstract-art-in-a-time-of-minification": {
+    "title": "Abstract Art & Minification",
+    "description": "Jenn Schiffer discusses the impact of minification on web design aesthetics and accessibility at FF Conf.",
+    "image": "https://ffconf.org/images/speakers/jenns.jpg"
+  },
+  "/talks/alpha-beta-gamer-dev-mode": {
+    "title": "Alpha, Beta, Gamer: Dev Mode - FF Conf",
+    "description": "A comedian and coder performs video games and stand-up, even creating a game with the audience in 10 minutes.",
+    "image": "https://ffconf.org/images/speakers/joeh.jpg"
+  },
+  "/talks/next-level-css": {
+    "title": "Next Level CSS at FF Conf",
+    "description": "Discover advanced CSS features now implemented in browsers, eliminating the need for JavaScript or pre-processors in many cases.",
+    "image": "https://ffconf.org/images/speakers/rachela.jpg"
+  },
+  "/talks/progressive-web": {
+    "title": "Progressive Web Apps: Inclusivity in Design",
+    "description": "Ada Rose Edwards discusses the importance of accessibility in Progressive Web App (PWA) development, ensuring PWAs work for everyone.",
+    "image": "https://ffconf.org/images/speakers/adar.jpg"
+  },
+  "/talks/technologic-human-after-all-accessibility-remix": {
+    "title": "Accessibility Remix: A Daft Punk-inspired talk",
+    "description": "Learn accessibility mechanics in the browser, CSS's role beyond aesthetics, and helpful tools, explained with a Daft Punk twist.",
+    "image": "https://ffconf.org/images/speakers/leoniew.jpg"
+  },
+  "/talks/all-things-continuous": {
+    "title": "Continuous Deployment for Everyone",
+    "description": "Andrew Martin's FF Conf talk on Continuous Deployment, covering strategies for individuals and teams.",
+    "image": "https://ffconf.org/images/speakers/andrewm.jpg"
+  },
+  "/talks/power-of-emoji": {
+    "title": "The Power of Emoji: A FF Conf Talk",
+    "description": "Mariko Kosaka's FF Conf talk explores emoji's history, from its Japanese origins to Unicode standardization and modern web usage.",
+    "image": "https://ffconf.org/images/speakers/marikok.jpg"
+  },
+  "/talks/optimise-your-web-development-workflow": {
+    "title": "Optimize Your Web Dev Workflow",
+    "description": "Learn about new DevTools features to enhance your web development workflow, including native Node.js debugging.",
+    "image": "https://ffconf.org/images/speakers/umarh.jpg"
+  },
+  "/talks/a-brief-history-and-mishistory-of-modularity": {
+    "title": "A Brief History of Modularity",
+    "description": "Explore the technical etymology of modularity in software development, examining its past, present, and future.",
+    "image": "https://ffconf.org/images/speakers/ashleyw.jpg"
+  },
+  "/talks/artjs": {
+    "title": "Art.js: Creative Coding & Live Session",
+    "description": "Explore creative coding, real-time animations, and data visualization techniques with a live coding session.",
+    "image": "https://ffconf.org/images/speakers/mathieuh.jpg"
+  },
+  "/talks/javascript-that-doesnt-hurt-your-feelings": {
+    "title": "JavaScript That Doesn't Hurt",
+    "description": "Learn modern JavaScript features, how to use them effectively, and what's coming next.",
+    "image": "https://ffconf.org/images/speakers/robinm.jpg"
+  },
+  "/talks/svg-in-motion": {
+    "title": "Animating SVGs: A Practical Guide",
+    "description": "Learn SVG animation techniques, optimization, embedding, and common pitfalls in this comprehensive guide.",
+    "image": "https://ffconf.org/images/speakers/saras.jpg"
+  },
+  "/talks/operations-a-developers-guide": {
+    "title": "Operations: A Developer's Guide",
+    "description": "Learn essential web operations skills to improve your development workflow, covering virtualization, containerization, and server management.",
+    "image": "https://ffconf.org/images/speakers/annas.jpg"
+  },
+  "/talks/the-web-audio-phenomenon-that-shall-not-be-named": {
+    "title": "The Web Audio Phenomenon",
+    "description": "Explore the odd psychological phenomenon impacting getUserMedia and parallels between learning human and programming languages.",
+    "image": "https://ffconf.org/images/speakers/johnp.jpg"
+  },
+  "/talks/how-to-win-at-mobile-accessibility": {
+    "title": "Winning at Mobile Accessibility",
+    "description": "Learn how to create accessible and reliable mobile experiences for users with disabilities.",
+    "image": "https://ffconf.org/images/speakers/marcys.jpg"
+  },
+  "/talks/you-should-use-lessinsert-libraryframeworkgreater-its-the-bestestest": {
+    "title": "Use Less: Choosing the Right Library",
+    "description": "This talk examines how to assess if a library fits your project, separating hype from reality in web development.",
+    "image": "https://ffconf.org/images/speakers/paull.jpg"
+  },
+  "/talks/code-calligrams": {
+    "title": "Code Calligrams: Programming as Art",
+    "description": "Learn creative coding techniques to generate beautiful visuals using web languages.",
+    "image": "https://ffconf.org/images/speakers/martink.jpg"
+  },
+  "/talks/a-talk-about-everything": {
+    "title": "Everything Matters: Tech's Systemic Issues",
+    "description": "This talk examines systemic issues in tech, including bias, harassment, and lack of diversity, offering actionable steps for change.",
+    "image": "https://ffconf.org/images/speakers/lenar.jpg"
+  },
+  "/talks/building-the-physical-web-together": {
+    "title": "Building the Physical Web Together",
+    "description": "Scott Jenson's FF Conf talk explores collaborative development of the Physical Web.",
+    "image": "https://ffconf.org/images/speakers/scottj.jpg"
+  },
+  "/talks/moving-seamlessly-through-offline-and-online": {
+    "title": "Offline & Online Seamless Apps",
+    "description": "Learn how to build apps that seamlessly transition between online and offline states using Hood.ie and offline-first principles.",
+    "image": "https://ffconf.org/images/speakers/caolanm.jpg"
+  },
+  "/talks/navigating-open-source": {
+    "title": "Navigating Open Source at FF Conf",
+    "description": "Hannah Wolfe discusses Ghost's approach to distributed, non-profit, sustainable, and open-source development.",
+    "image": "https://ffconf.org/images/speakers/hannahw.jpg"
+  },
+  "/talks/self-hosted-js": {
+    "title": "Self-Hosted JS at FF Conf",
+    "description": "Andy Wingo's FF Conf talk explores the JavaScript parts of V8 and SpiderMonkey, implementing an ES.next feature live.",
+    "image": "https://ffconf.org/images/speakers/andyw.jpg"
+  },
+  "/talks/lean-mean-css-machine": {
+    "title": "Lean Mean CSS Machine: GitHub's Optimization",
+    "description": "Learn GitHub's CSS optimization techniques for faster rendering and minimal code.",
+    "image": "https://ffconf.org/images/speakers/tobiasa.jpg"
+  },
+  "/talks/a-single-page-story": {
+    "title": "A Single Page Story: FF Conf Talk",
+    "description": "Henrik Joreteg discusses single-page apps, their strengths and weaknesses, and the design choices behind Ampersand.js.",
+    "image": "https://ffconf.org/images/speakers/henrikj.jpg"
+  },
+  "/talks/tools-for-the-21st-century-musician": {
+    "title": "21st Century Music with Web Audio",
+    "description": "Learn Web Audio to create real-time instruments and interactive music experiences; discover debugging skills using Firefox developer tools.",
+    "image": "https://ffconf.org/images/speakers/soledadp.jpg"
+  },
+  "/talks/getting-close-with-the-web": {
+    "title": "Getting Close with the Web",
+    "description": "Ben Foxall explores using the web platform for close-range interactions, beyond global communication.",
+    "image": "https://ffconf.org/images/speakers/benf.jpg"
+  },
+  "/talks/es6-uncensored": {
+    "title": "ES6 Uncensored: Go Wild with JavaScript",
+    "description": "Learn to use ES6 JavaScript features creatively, exploring novel combinations and avoiding restrictive best practices.",
+    "image": "https://ffconf.org/images/speakers/angusc.jpg"
+  },
+  "/talks/javascript-in-the-real-world": {
+    "title": "JavaScript in the Real World",
+    "description": "Learn how to use JavaScript for Arduino, Raspberry Pi, and robotics; control hardware and build your own JavaScript-powered robots.",
+    "image": "https://ffconf.org/images/speakers/andrewn.jpg"
+  },
+  "/talks/mobile-is-not-a-thing-it-is-everything": {
+    "title": "Mobile: Not A Thing, It's Everything",
+    "description": "Unlock mobile's potential for web and new communication channels; a talk on content strategy, design, and forecasting methods.",
+    "image": "https://ffconf.org/images/speakers/joem.jpg"
+  },
+  "/talks/pushing-the-limits-of-mobile-performance": {
+    "title": "Pushing Mobile Performance Limits",
+    "description": "Learn how Mobile Gmail & Docs teams prioritized performance, using known and novel techniques, to achieve success.",
+    "image": "https://ffconf.org/images/speakers/andrewg.jpg"
+  },
+  "/talks/our-web-development-workflow-is-completely-broken": {
+    "title": "Broken Web Dev Workflow",
+    "description": "This talk examines the evolution of web tooling, revealing flaws in current workflows and advocating for a rethink.",
+    "image": "https://ffconf.org/images/speakers/kennetha.jpg"
+  },
+  "/talks/stunning-visuals-with-maths-andno-javascript": {
+    "title": "Stunning Visuals with Maths & CSS",
+    "description": "Create stunning mathematical visualizations using only HTML and CSS; this talk deconstructs examples and explains the math involved.",
+    "image": "https://ffconf.org/images/speakers/anat.jpg"
+  },
+  "/talks/building-with-web-components-using-x-tags": {
+    "title": "Building with Web Components using X-Tags",
+    "description": "Learn how Web Components (Shadow DOM, HTML Templates, etc.) can build web applications, focusing on mobile development.",
+    "image": "https://ffconf.org/images/speakers/angelinaf.jpg"
+  },
+  "/talks/time": {
+    "title": "Jeremy Keith: Time at FF Conf",
+    "description": "Jeremy Keith's FF Conf talk explores the relentless passage of time in web development.",
+    "image": "https://ffconf.org/images/speakers/jeremyk.jpg"
+  },
+  "/talks/building-web-apps-of-the-future-tomorrow-today-and-yesterday": {
+    "title": "Building Web Apps of the Future",
+    "description": "Paul Kinlan discusses building amazing web apps using current browser technologies, moving beyond outdated methods.",
+    "image": "https://ffconf.org/images/speakers/paulk.jpg"
+  },
+  "/talks/writing-testable-javascript": {
+    "title": "Writing Testable JavaScript",
+    "description": "Learn to write testable JavaScript code, covering techniques for proving code works and remains functional during refactoring.",
+    "image": "https://ffconf.org/images/speakers/rebeccam.jpg"
+  },
+  "/talks/tales-of-suckage-and-awesomeness": {
+    "title": "Browser Wars: A Web History Lesson",
+    "description": "Chris Wilson recounts the history of web browsers, from early development to the rise of Ajax and mobile.",
+    "image": "https://ffconf.org/images/speakers/chrisw.jpg"
+  },
+  "/talks/making-things-with-maths": {
+    "title": "Making Things with Maths @FF Conf",
+    "description": "Steven Wittens demonstrates clever mathematical machines built in a browser, showcasing the power of WebGL, Canvas, and Web Audio.",
+    "image": "https://ffconf.org/images/speakers/stevenw.jpg"
+  },
+  "/talks/is-html-relevent-in-the-era-of-web-apps": {
+    "title": "Is HTML Relevant in the Era of Web Apps?",
+    "description": "John Allsopp explores the continued relevance of HTML in web application development, despite the rise of frameworks bypassing it.",
+    "image": "https://ffconf.org/images/speakers/johna.jpg"
+  },
+  "/talks/offline-rules-using-new-browser-technologies-to-make-sites-work-offline-and-be-more-awesome-online": {
+    "title": "Offline Web Apps: Best Practices",
+    "description": "Learn how new browser technologies enable offline web apps, improving online UX. Real-world examples from FT & Economist apps.",
+    "image": "https://ffconf.org/images/speakers/andrewb.jpg"
+  },
+  "/talks/how-i-stopped-worrying-and-learned-to-love-the-lessbodygreater": {
+    "title": "How I Stopped Worrying & Loved <body/>",
+    "description": "James Pearce discusses the web's future, addressing its shortcomings in a post-PC world.",
+    "image": "https://ffconf.org/images/speakers/jamesp.jpg"
+  },
+  "/talks/exploring-the-game-console-browser-landscape": {
+    "title": "Console Browser Landscape Exploration",
+    "description": "Anna Debenham explores the evolving landscape of game console browsers, focusing on new challenges like voice and gesture controls.",
+    "image": "https://ffconf.org/images/speakers/annad.jpg"
+  },
+  "/talks/coffeescript-design-decisions": {
+    "title": "CoffeeScript Design Decisions",
+    "description": "Jeremy Ashkenas discusses CoffeeScript's design choices, exploring the trade-offs and rationale behind its syntax.",
+    "image": "https://ffconf.org/images/speakers/jeremya.jpg"
+  },
+  "/talks/excessive-enhancement-are-we-taking-proper-care-of-the-web": {
+    "title": "Excessive Enhancement: Web's Well-being",
+    "description": "This talk explores the impact of rich interfaces on the web, examining the balance between innovation and responsible development.",
+    "image": "https://ffconf.org/images/speakers/philh.jpg"
+  },
+  "/talks/respectable-code-editing-in-the-browser": {
+    "title": "Respectable Code Editing in the Browser",
+    "description": "This talk explores JavaScript-based code editors like CodeMirror and ACE, detailing their implementation and benefits over traditional editors.",
+    "image": "https://ffconf.org/images/speakers/marijnh.jpg"
+  },
+  "/talks/how-we-architected-cloud9-ide-for-scale-on-nodejs": {
+    "title": "Cloud9 IDE Architecture on NodeJS",
+    "description": "Rik Arends discusses the architecture and design decisions behind building and scaling Cloud9 IDE on Node.JS.",
+    "image": "https://ffconf.org/images/speakers/rika.jpg"
+  },
+  "/talks/scalable-javascript-application-architecture": {
+    "title": "Scalable JavaScript Application Architecture",
+    "description": "Learn techniques for building large, scalable web apps with JavaScript, focusing on loosely-coupled design and efficient workflows.",
+    "image": "https://ffconf.org/images/speakers/nicholasz.jpg"
+  },
+  "/talks/beyond-the-page": {
+    "title": "Beyond the Page: Web App Integration",
+    "description": "This talk explores using browser APIs like Drag and Drop and Web Intents to create web pages that better integrate with other applications.",
+    "image": "https://ffconf.org/images/speakers/glennj.jpg"
+  },
+  "/talks/beyond-the-planet-of-the-geeks": {
+    "title": "Beyond the Planet of the Geeks",
+    "description": "Brendan Dawes discusses bridging the gap between cutting-edge tech demos and real-world impact at FF Conf.",
+    "image": "https://ffconf.org/images/speakers/brendand.jpg"
+  },
+  "/talks/you-gotta-do-what-you-gotta-do": {
+    "title": "You Gotta Do What You Gotta Do - FF Conf",
+    "description": "Marcin Wichary discusses creating interactive Google Doodles, sharing lessons learned from projects seen by millions.",
+    "image": "https://ffconf.org/images/speakers/marcinw.jpg"
+  },
+  "/talks/less-and-more-how-html5-will-change-the-framework-landscape": {
+    "title": "HTML5 & The Future of Web Frameworks",
+    "description": "Alex Russell discusses how HTML5, CSS3, and related technologies will change web development, focusing on reduced JavaScript reliance.",
+    "image": "https://ffconf.org/images/speakers/alexr.jpg"
+  },
+  "/talks/about-the-peer-to-peer-web-and-why-you-should-care": {
+    "title": "Peer-to-Peer Web: A Gentle Introduction",
+    "description": "This talk introduces the peer-to-peer web, exploring its potential and challenges, and highlighting Apache CouchDB's role.",
+    "image": "https://ffconf.org/images/speakers/janl.jpg"
+  },
+  "/talks/batshit-crazy-stuff-youll-be-able-to-do-in-browsers": {
+    "title": "Crazy Browser Capabilities",
+    "description": "Explore the amazing possibilities of SVG, CSS3, HTML5, and more in modern browsers; a talk by Paul Rouget.",
+    "image": "https://ffconf.org/images/speakers/paulr.jpg"
+  },
+  "/talks/bringing-the-same-origin-policy-to-its-knees": {
+    "title": "Bypassing Same-Origin Policy",
+    "description": "Learn how to responsibly embed web application functionality on third-party sites, overcoming same-origin policy limitations.",
+    "image": "https://ffconf.org/images/speakers/danw.jpg"
+  },
+  "/talks/high-performance-browser-games": {
+    "title": "High-Performance Browser Games",
+    "description": "Learn how to create fast, graphically intensive browser games using JavaScript, bypassing Canvas limitations and leveraging hardware acceleration.",
+    "image": "https://ffconf.org/images/speakers/paulb.jpg"
+  },
+  "/talks/phonegap-the-future-of-mobile-now": {
+    "title": "PhoneGap: Future of Mobile Now",
+    "description": "Learn to build next-gen mobile apps using widgets & device APIs with PhoneGap. Brian LeRoux shows how to create a W3C widget and deploy it.",
+    "image": "https://ffconf.org/images/speakers/brianl.jpg"
+  },
+  "/talks/pixel-pushing": {
+    "title": "Pixel Pushing: Dynamic Canvas Effects in JS",
+    "description": "Seb Lee-Delisle demonstrates creating dynamic canvas effects in JavaScript, including JavaScript within Unity3D for browser games.",
+    "image": "https://ffconf.org/images/speakers/sebl.jpg"
+  },
+  "/talks/frontloaded-and-zipped-up-do-loose-types-sink-ships": {
+    "title": "Loose Types & JavaScript Security",
+    "description": "Christian Heilmann discusses JavaScript security challenges and solutions in various environments and addressing browser inconsistencies.",
+    "image": "https://ffconf.org/images/speakers/christianh.jpg"
+  },
+  "/talks/javascript-from-birth-to-closure": {
+    "title": "JavaScript: From Birth to Closure",
+    "description": "This talk provides a JavaScript overview, covering its origins, common pitfalls, best practices, and advanced topics like closures and more",
+    "image": "https://ffconf.org/images/speakers/robertn.jpg"
+  },
+  "/talks/w3c-widgets": {
+    "title": "W3C Widgets & the Mobile Web (FF Conf)",
+    "description": "This FF Conf talk explores W3C Widgets, their potential for the mobile web, and the unique challenges of mobile web development.",
+    "image": "https://ffconf.org/images/speakers/ppk.jpg"
+  },
+  "/talks/new-things-that-html5-provides-to-javascript-hackers": {
+    "title": "HTML5 for JavaScript Hackers",
+    "description": "Discover exciting new JavaScript capabilities unlocked by HTML5 advancements, explored by web hacker Stuart Langridge.",
+    "image": "https://ffconf.org/images/speakers/stuartl.jpg"
+  },
+  "/talks/more-accessible-user-interfaces-with-aria": {
+    "title": "Accessible UIs with ARIA",
+    "description": "Learn practical tips and design patterns for creating accessible user interfaces using ARIA, improving accessibility for all users.",
+    "image": "https://ffconf.org/images/speakers/toddk.jpg"
+  },
+  "/talks/optimising-where-it-hurts": {
+    "title": "Optimising JavaScript Performance",
+    "description": "Learn practical JavaScript optimization techniques to improve web page performance and overcome common challenges.",
+    "image": "https://ffconf.org/images/speakers/jakea.jpg"
+  },
+  "/talks/node": {
+    "title": "Node.js Talk at FF Conf 2009",
+    "description": "Simon Willison's FF Conf 2009 talk on cross-domain JavaScript techniques and HTML5's role in data mashups.",
+    "image": "https://ffconf.org/images/speakers/simonw.jpg"
+  },
+  "/articles/2025-meet-our-speakers-part-2-empathy-and-sketches,-and-vibing": {
+    "title": "FF Conf 2025 Speakers: Empathy & Coding",
+    "description": "Learn about FF Conf 2025 speakers, their insights on empathy in coding, and the evolving role of AI in software development.",
+    "image": "https://ffconf.org/images/sketch/2019_sharon.jpg"
+  },
+  "/articles/2025-meet-our-2025-speakers-serges-on-code-cults": {
+    "title": "FF Conf 2025: Sergès on Code Cults",
+    "description": "Sergès discusses the tribalism in programming languages, exploring why developers fiercely debate preferred tools and technologies.",
+    "image": "https://ffconf.org/images/articles/meet-speakers/2025-serges.jpg"
+  },
+  "/articles/2025-meet-our-speakers-part-1-emoji-day-and-128-kilobytes-later": {
+    "title": "FF Conf Speakers: Hellen Ward & More",
+    "description": "Meet Hellen Ward, discussing bias in tech, and revisit talks on emoji and 128KB web development at FF Conf.",
+    "image": null
+  },
+  "/articles/2025-meet-the-speaker-hellen": {
+    "title": "FF Conf 2025: Hellen on Bias in Tech",
+    "description": "Hellen Ward discusses bias in tech products and the importance of diverse teams at FF Conf 2025. Learn about her background and insights.",
+    "image": "https://ffconf.org/images/articles/meet-speakers/2025-hellen.jpg"
+  },
+  "/articles/2025-scholarship-programme-is-open-our-origin-story-and-the-empire-of-ai": {
+    "title": "FF Conf Scholarships & AI: Origin Story",
+    "description": "FF Conf's inclusion scholarship is open! Learn about its origins and an insightful interview on AI's impact.",
+    "image": "https://ffconf.org/images/articles/ffconf-2009-plan.jpg"
+  },
+  "/articles/2025-the-origin-story-of-FF Conf-by-julie": {
+    "title": "FF Conf's Origin Story",
+    "description": "Discover the story behind FF Conf, from its humble beginnings in a pub to its current success, as told by co-organizer Julie Sharp.",
+    "image": "https://ffconf.org/images/articles/ffconf-2009-plan.jpg"
+  },
+  "/articles/2025-ticket-still-at-early-bird-capitalism-community": {
+    "title": "FF Conf 2025 Tickets: Early Bird Pricing",
+    "description": "FF Conf 2025 tickets are on sale with limited early bird pricing of £219+VAT before increasing to £249+VAT.",
+    "image": "https://ffconf.org/images/articles/2025-capitalism.jpg"
+  },
+  "/articles/2025-early-bird-ticket-release": {
+    "title": "FF Conf 2025 Early Bird Tickets!",
+    "description": "Grab your early bird ticket to FF Conf 2025 for £219+VAT before they're gone! Join us in November.",
+    "image": "https://ffconf.org/images/articles/2025-younguns.jpg"
+  },
+  "/articles/2025-website-live-tickets-next-week-web-we-want": {
+    "title": "FF Conf 2025: Website Live, Tickets On Sale Soon",
+    "description": "FF Conf 2025 website is live! Tickets go on sale June 26th. Learn about the event and its commitment to an open web.",
+    "image": null
+  },
+  "/articles/2025-sponsor-a-talk-about-everything-accessibility": {
+    "title": "Sponsor FF Conf 2025: Accessibility Talk",
+    "description": "FF Conf 2025 seeks sponsors to support its community event and promote web accessibility. Various sponsorship packages are available.",
+    "image": "https://ffconf.org/images/articles/2025-natalia_lena.jpg"
+  },
+  "/articles/2025-website-environment-day-ai": {
+    "title": "FF Conf 2025: Website, AI & Environment",
+    "description": "FF Conf discusses the impact of AI on web development and the environment, highlighting ethical concerns and sustainable practices.",
+    "image": "https://ffconf.org/images/articles/2025-design.png"
+  },
+  "/articles/2025-ticket-dates-ai-and-baselines": {
+    "title": "FF Conf 2025 Tickets On Sale June 26th",
+    "description": "FF Conf 2025 tickets go on sale June 26th at 11am BST. Learn about AI's impact and baseline support for developers.",
+    "image": null
+  },
+  "/articles/2025-speak-throwback-politics": {
+    "title": "FF Conf 2025: Politics & Throwback",
+    "description": "FF Conf's newsletter covers 2025 event news, archive dives, and community links, reflecting on political themes in web events.",
+    "image": "https://ffconf.org/images/articles/2025-05-22-simon.jpg"
+  },
+  "/articles/2025-dates-cfp-open": {
+    "title": "FF Conf 2025: Dates & CFP Open",
+    "description": "FF Conf 2025 is set for November 14th! The Call for Papers is open; sponsor and early bird ticket info coming soon.",
+    "image": null
+  },
+  "/articles/2025-sessions-4": {
+    "title": "FF Conf '24: Sessions 7 & 8",
+    "description": "Watch the final two talks from FF Conf 2024: Michael Kibedi on death & technology, and Imran Afzal on the art of reflection.",
+    "image": "https://ffconf.org/images/articles/2024-videos-4.jpg"
+  },
+  "/articles/2025-sessions-3": {
+    "title": "FF Conf '24 Sessions 5 & 6",
+    "description": "Watch Amy's talk on finding meaning and Mike's on debugging biases from FF Conf 2024.",
+    "image": "https://ffconf.org/images/articles/2024-videos-3.jpg"
+  },
+  "/articles/2025-sessions-2": {
+    "title": "FF Conf '24 Sessions 3 & 4",
+    "description": "Watch Andy Bell on communication and Kimberley Blessing on community building from FF Conf '24.",
+    "image": "https://ffconf.org/images/articles/2024-videos-2.jpg"
+  },
+  "/articles/2025-sessions-1": {
+    "title": "FF Conf '24 Sessions 1 & 2",
+    "description": "Watch Olu & Léonie's talks from FF Conf '24: Olu on web development, and Léonie on AI & accessibility.",
+    "image": "https://ffconf.org/images/articles/2024-videos-1.jpg"
+  },
+  "/articles/2025-videos-going-live": {
+    "title": "FF Conf 2024 Videos Now Available!",
+    "description": "Watch the FF Conf 2024 videos, released in pairs starting next Monday. Includes Olu's 'Build Better Webs' and Léonie's accessibility talk.",
+    "image": "https://ffconf.org/images/articles/2024-video-thumbnails.jpg"
+  },
+  "/articles/2024-is-over-what-next": {
+    "title": "FF Conf 2024: What's Next?",
+    "description": "FF Conf 2024 concluded; a recap of the event, a free ticket giveaway for FF Conf 2025, and details on upcoming video releases.",
+    "image": null
+  },
+  "/articles/2024-strangers-today-future-friends": {
+    "title": "FF Conf 2024: Making Friends",
+    "description": "FF Conf 2024 offers various social events to help attendees connect, including a pre-conference show & tell, morning run, coffee morning, lunch, and after-party.",
+    "image": null
+  },
+  "/articles/2024-speaker-announcement-5": {
+    "title": "FF Conf 2024: Mike Hall on Critical Thinking",
+    "description": "Mike Hall will speak at FF Conf 2024 on critical thinking for developers, covering evidence-based reasoning and bias recognition.",
+    "image": "https://ffconf.org/images/articles/2024-mike.jpg"
+  },
+  "/articles/2024-speaker-announcement-4": {
+    "title": "Amy Hupe at FF Conf 2024: Burnout & Meaning",
+    "description": "Amy Hupe discusses burnout, purpose, and finding meaning in work at FF Conf 2024. Her talk explores navigating a challenging world.",
+    "image": "https://ffconf.org/images/articles/2024-amy.jpg"
+  },
+  "/articles/2024-speaker-announcement-3": {
+    "title": "FF Conf 2024: Andy Bell on Feedback",
+    "description": "Andy Bell joins FF Conf 2024 to discuss improving feedback methods for better, more resilient codebases.",
+    "image": "https://ffconf.org/images/articles/2024-andy.jpg"
+  },
+  "/articles/2024-speaker-announcement-2": {
+    "title": "FF Conf 2024: Léonie Watson on AI & Accessibility",
+    "description": "Léonie Watson will speak at FF Conf 2024 about the impact of AI on web accessibility, exploring its benefits and drawbacks.",
+    "image": "https://ffconf.org/images/articles/2024-leonie.jpg"
+  },
+  "/articles/2024-speaker-announcement-1": {
+    "title": "FF Conf 2024: First Speaker Announced!",
+    "description": "Kimberley Cook, Director of codebar, is the first speaker announced for FF Conf 2024. Tickets and sponsorship opportunities are available.",
+    "image": "https://ffconf.org/images/articles/2024-kimberley.jpg"
+  },
+  "/articles/2024-open-cfp": {
+    "title": "FF Conf 2024 CFP Open!",
+    "description": "Submit your talk for FF Conf 2024! The call for papers is now open; submit your ideas on topics ranging from critical thinking to Indie Web.",
+    "image": null
+  },
+  "/articles/2024-key-FF Conf-dates": {
+    "title": "FF Conf 2024: Dates & Call for Papers",
+    "description": "FF Conf 2024 will be held on Friday, November 8th. Tickets are £249+VAT. The Call for Papers is opening soon.",
+    "image": null
+  },
+  "/articles/2023-talks-4": {
+    "title": "FF Conf 2023 Talks: Now Available!",
+    "description": "Watch all FF Conf 2023 talks for free on YouTube, including sessions on the Web Speech API and entertainment as code.",
+    "image": "https://ffconf.org/images/articles/2023-talks-4.jpg"
+  },
+  "/articles/2023-talks-3": {
+    "title": "FF Conf 2023 Talks: Ada Lovelace & Neurodiversity",
+    "description": "Watch talks on Ada Lovelace's first computer program and embracing neurodiversity in tech at FF Conf 2023.",
+    "image": "https://ffconf.org/images/articles/2023-talks-3.jpg"
+  },
+  "/articles/2023-talks-2": {
+    "title": "FF Conf 2023 Talks: Accessibility & Front Web",
+    "description": "Watch Angela Ricci and Ire Aderinokun's talks on the front web's challenges and web accessibility best practices from FF Conf 2023.",
+    "image": "https://ffconf.org/images/articles/2023-talks-2.jpg"
+  },
+  "/articles/2023-talks-1": {
+    "title": "FF Conf 2023 Talks: Imposter Syndrome & AI",
+    "description": "Watch Amber Shand & Maggie Appleton's talks from FF Conf 2023 on imposter syndrome and the impact of generative AI.",
+    "image": "https://ffconf.org/images/articles/2023-talks-1.jpg"
+  },
+  "/articles/2023-supporters": {
+    "title": "FF Conf 2023 Sponsors",
+    "description": "FF Conf 2023 thanks Google Chrome, Interledger Foundation, and Legal & General for their sponsorship, enabling a diverse web community.",
+    "image": null
+  },
+  "/articles/2023-scholarship": {
+    "title": "FF Conf 2023 Scholarships Open",
+    "description": "FF Conf offers scholarships to underrepresented groups in tech. Applications close October 13th; travel & hotel expenses covered.",
+    "image": null
+  },
+  "/articles/2023-reasons-to-attend-FF Conf-4": {
+    "title": "FF Conf 2023 Speakers Revealed!",
+    "description": "Meet the final two speakers at FF Conf 2023: Salma Alam-Naylor and Ana Rodrigues! Learn about their backgrounds and exciting talks.",
+    "image": "https://ffconf.org/images/articles/2023-speakers-4.jpg"
+  },
+  "/articles/2023-reasons-to-attend-FF Conf-3": {
+    "title": "FF Conf 2023: Speakers Announced (3/4)",
+    "description": "FF Conf reveals two more speakers: Ire Aderinokun on CSS and Jonathan Fielding on neurodiversity in tech. Get tickets now!",
+    "image": "https://ffconf.org/images/articles/2023-speakers-3.jpg"
+  },
+  "/articles/2023-reasons-to-attend-FF Conf-2": {
+    "title": "FF Conf 2023: Meet Speakers 2 & 3!",
+    "description": "FF Conf announces Steven Goodwin & Angela Ricci as speakers. Learn about their backgrounds and the exciting event sponsorships.",
+    "image": "https://ffconf.org/images/articles/2023-speakers-2.jpg"
+  },
+  "/articles/2023-reasons-to-attend-FF Conf-1": {
+    "title": "FF Conf 2023 Speakers Announced (1/4)",
+    "description": "FF Conf reveals the first of its 2023 speakers: Amber Shand and Maggie Appleton. Learn about their backgrounds and the conference's content.",
+    "image": "https://ffconf.org/images/articles/2023-speakers-1.jpg"
+  },
+  "/articles/2023-full-session-line-up-live": {
+    "title": "FF Conf 2023: Full Session Lineup",
+    "description": "The complete schedule for FF Conf 2023 is now available online. Tickets are still on sale!",
+    "image": "https://2023.FF Conf.org/images/masked-8.jpg"
+  },
+  "/articles/2023-back-at-it": {
+    "title": "FF Conf 2023: November 10th",
+    "description": "FF Conf 2023 is scheduled for November 10th. Catch up on 2022 talks and sponsor info.",
+    "image": null
+  },
+  "/articles/2022-talks-4": {
+    "title": "FF Conf 2022 Talks: Healthcare & Disco",
+    "description": "Watch the final FF Conf 2022 talks on digital healthcare exclusion and media APIs.",
+    "image": "https://ffconf.org/images/articles/2022-talks-4.jpg"
+  },
+  "/articles/2022-talks-3": {
+    "title": "FF Conf 2022 Talks: Yarn & Greener Web",
+    "description": "Watch videos from FF Conf 2022, featuring talks on yarn as programming and creating a greener web.",
+    "image": "https://ffconf.org/images/articles/2022-talks-3.jpg"
+  },
+  "/articles/2022-talks-2": {
+    "title": "FF Conf 2022 Talks: Design & Personal Sites",
+    "description": "Watch Lex Lofthouse on UI design and Sophie Koonin on personal website evolution at FF Conf 2022.",
+    "image": "https://ffconf.org/images/articles/2022-talks-2.jpg"
+  },
+  "/articles/2022-talks-1": {
+    "title": "FF Conf 2022 Talks: Design & Capitalism",
+    "description": "Watch recordings of Florence Okoye and Heydon Pickering's insightful talks on design ethics and the impact of capitalism on the web.",
+    "image": "https://ffconf.org/images/articles/2022-talks-1.jpg"
+  },
+  "/articles/2022-jobs-blogs-videos-chat-and-the-game": {
+    "title": "FF Conf 2022: Jobs, Blogs, Videos & Game",
+    "description": "Recap of FF Conf 2022, including job postings, speaker blogs, upcoming videos, Discord chat, and a custom Gameboy game.",
+    "image": "https://ffconf.org/images/articles/2022-game.jpg"
+  },
+  "/articles/2022-more-tickets-more-speakers": {
+    "title": "FF Conf 2022: More Tickets & Speakers!",
+    "description": "More FF Conf 2022 tickets are available! Seven talks are confirmed, with the final speaker announced soon. Videos will be released post-event.",
+    "image": null
+  },
+  "/articles/2022-tickets-launching": {
+    "title": "FF Conf 2022 Tickets On Sale July 18th",
+    "description": "Tickets for FF Conf 2022 go on sale July 18th at 10am UK time. Secure your spot for a day of web inspiration!",
+    "image": null
+  },
+  "/articles/2022-peekaboo-tickets-next-week": {
+    "title": "FF Conf Pre-launch Tickets On Sale",
+    "description": "Limited pre-launch FF Conf tickets go on sale June 27th at 10 AM UK time for £200+VAT. Purchase before topics are announced!",
+    "image": null
+  },
+  "/articles/2022-event-launch": {
+    "title": "FF Conf 2022: November 11th in Brighton",
+    "description": "FF Conf returns to Brighton on November 11th, 2022! Call for papers is open, and scholarship details are available.",
+    "image": null
+  },
+  "/articles/2021-no-event": {
+    "title": "No FF Conf in 2021, but 2022 is planned!",
+    "description": "FF Conf organizers announce no event in 2021 due to restrictions, but confirm a 2022 event on November 11th.",
+    "image": "https://ffconf.org/images/articles/2021-family-shot.jpg"
+  },
+  "/articles/2020-missing-you": {
+    "title": "FF Conf 2020 Cancelled: A Message from the Team",
+    "description": "FF Conf 2020 is cancelled due to the pandemic. The organizers explain their decision and announce plans for 2021.",
+    "image": null
+  },
+  "/articles/2020-ticket-winners": {
+    "title": "FF Conf 2020 Ticket Winners Announced",
+    "description": "FF Conf announces the winners of their 2020 ticket raffle, thanking all participants for their blog posts.",
+    "image": null
+  },
+  "/articles/2019-talks-3": {
+    "title": "FF Conf 2019 Talks: Web Performance & Art",
+    "description": "Watch three inspiring FF Conf 2019 talks on web performance, generative art, and innovative interfaces.",
+    "image": "https://ffconf.org/images/articles/2019-talks-3.jpg"
+  },
+  "/articles/2019-talks-2": {
+    "title": "FF Conf 2019 Talks: Git & Privacy",
+    "description": "Watch recordings of Alice Bartlett on advanced Git and Laura Kalbag on web tracking from FF Conf 2019.",
+    "image": "https://ffconf.org/images/articles/2019-talks-2.jpg"
+  },
+  "/articles/2019-talks-1": {
+    "title": "FF Conf 2019 Talks: Empathy & Development",
+    "description": "Watch talks from FF Conf 2019 on empathy in development and a developer's journey. Great weekend viewing!",
+    "image": "https://ffconf.org/images/articles/2019-talks-1.jpg"
+  },
+  "/articles/2019-videos-tomorrow": {
+    "title": "FF Conf 2019 Videos & Black Friday Deals",
+    "description": "FF Conf 2019 videos are releasing soon, starting with talks on empathy & web development. Plus, get 80% off Remy's online training courses!",
+    "image": "https://ffconf.org/images/articles/videos-2019.png"
+  },
+  "/articles/2019-not-over-yet": {
+    "title": "FF Conf 2019: Videos & Photos Online",
+    "description": "FF Conf 2019 videos arrive early December; photos and audio are available now. Blog about your experience to win a free 2020 ticket!",
+    "image": null
+  },
+  "/articles/2019-beautiful-on-the-inside": {
+    "title": "FF Conf 2019: Behind the Scenes",
+    "description": "A peek behind the scenes of FF Conf 2019, showing the organization and preparation leading up to the event.",
+    "image": "https://ffconf.org/images/articles/2019-doy-restore.jpg"
+  },
+  "/articles/2019-scholarship": {
+    "title": "FF Conf 2019 Scholarship Report",
+    "description": "FF Conf's 2019 scholarship program closed with over 100 applications, supported by sponsors including Nexmo, Prodpad, Samsung, and Unmade.",
+    "image": null
+  },
+  "/articles/2019-tickets": {
+    "title": "FF Conf 2019 Tickets On Sale!",
+    "description": "FF Conf 2019 tickets go on sale July 16th, 10 AM UK time. Scholarships are also available; apply by September 16th.",
+    "image": "https://ffconf.org/images/articles/2019-ffconf-live.png"
+  },
+  "/articles/13": {
+    "title": "FF Conf 2019: Tickets, Design & Archive",
+    "description": "FF Conf 2019 tickets release on July 16th at 10am BST. See design previews & explore a 10-year content archive.",
+    "image": "https://ffconf.org/images/articles/2019-designs.jpg"
+  },
+  "/articles/12": {
+    "title": "FF Conf 2019: Tickets & Updates",
+    "description": "FF Conf 2019 tickets aren't sold out yet; another release is coming soon. The conference will be November 8th in Brighton.",
+    "image": "https://ffconf.org/images/articles/content_preview-wires.png"
+  },
+  "/articles/11": {
+    "title": "FF Conf 2018: Post-Event Playlist & Photos",
+    "description": "Recap of FF Conf 2018, including the Spotify playlist, photos, and announcement of the 2019 event.",
+    "image": "https://ffconf.org/images/articles/ffconf-2018.gif"
+  },
+  "/articles/10": {
+    "title": "FF Conf 2018 Speakers Revealed!",
+    "description": "Announcing the final two speakers for FF Conf 2018: Charlie Owen and Tim Holman. Get your tickets now!",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1637699/content_speakers-4.jpg"
+  },
+  "/articles/9": {
+    "title": "FF Conf Speakers: Jenny Wong & Eleanor Haproff",
+    "description": "Meet Jenny Wong & Eleanor Haproff, two of FF Conf's speakers discussing diversity and AI in the browser. Get your Thursday ticket now!",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1623406/content_speakers-3.jpg"
+  },
+  "/articles/8": {
+    "title": "FF Conf Speakers Announced (2/4)",
+    "description": "Meet Jo Franchetti & Michaela Lehr, the next two speakers at FF Conf, discussing mentorship and WebXR respectively.",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1604600/content_speakers-2.jpg"
+  },
+  "/articles/7": {
+    "title": "FF Conf Speakers Announced (1/4)",
+    "description": "FF Conf announces Lisi Linhart (Web Animation) and Willian Martins (Next JavaScript) as speakers. More to come!",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1593297/content_anim.png"
+  },
+  "/articles/6": {
+    "title": "FF Conf v10 Speaker Lineup",
+    "description": "FF Conf v10's speaker lineup and sessions are complete, featuring talks on JavaScript, web animation, diversity, and WebXR.",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1576751/content_25343956179_6eacc99091_z.jpg"
+  },
+  "/articles/5": {
+    "title": "FF Conf Location: Brighton & Duke of York's",
+    "description": "FF Conf, a JavaScript event, is held in Brighton, UK, at the historic Duke of York's Picturehouse.",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1407685/content_dukes.jpg"
+  },
+  "/articles/4": {
+    "title": "FF Conf Launch Day: Behind the Scenes",
+    "description": "FF Conf founders share the excitement and challenges of their ticket launch day, highlighting their 10th anniversary.",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1386494/content_Screen_Shot_2018-07-10_at_09.04.13.png"
+  },
+  "/articles/3": {
+    "title": "Curating FF Conf: Content & Speakers",
+    "description": "FF Conf's curator explains their process for selecting content and speakers, emphasizing a focus on new faces and relevant web topics.",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1338827/content_38332103261_3917ecd6be_z.jpg"
+  },
+  "/articles/2": {
+    "title": "FF Conf 2018 Graphic Design",
+    "description": "FF Conf's yearly website redesign process, driven by a desire for continuous creation and evolution, is detailed.",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1275865/content_ffconf-logos.png"
+  },
+  "/articles/1": {
+    "title": "FF Conf v10: Behind the Scenes",
+    "description": "A look at the planning for FF Conf v10, including challenges, speaker selection, and the ticket release date.",
+    "image": "https://convertkit.s3.amazonaws.com/assets/pictures/40116/1248450/content_38331932851_01373802ff_z.jpg"
+  },
+  "/jobs/clockwork-dog-software-engineer-2025-1": {
+    "title": "Software Engineer at Clockwork Dog",
+    "description": "Clockwork Dog seeks a Software Engineer to build and enhance their COGS platform for immersive experiences.",
+    "image": null
+  },
+  "/jobs/clockwork-dog-senior-software-engineer-2025-1": {
+    "title": "Senior Software Engineer at Clockwork Dog",
+    "description": "Clockwork Dog seeks a Senior Software Engineer to build and enhance their COGS platform for immersive experiences.",
+    "image": null
+  },
+  "/submit-job": {
+    "title": "Post a Job on ffconf.org",
+    "description": "Submit your job listing to FF Conf.org/jobs; include title, salary, description, and skills. Promoted listings are available.",
+    "image": null
+  },
+  "/scholarship-apply": {
+    "title": "FF Conf Inclusion Scholarship",
+    "description": "Apply for an FF Conf scholarship if you're from an under-represented group in tech. Applications close in September.",
+    "image": null
+  },
+  "/cfp-apply": {
+    "title": "FF Conf Call for Papers: Submit Your Talk",
+    "description": "Submit your talk proposal for FF Conf. We outline what we want to hear, and our promise to you.",
+    "image": null
+  },
+  "/accessibility": {
+    "title": "FF Conf Accessibility Information",
+    "description": "FF Conf provides accessibility details for attendees, including wheelchair access, captioning, and support options.",
+    "image": null
+  }
+}

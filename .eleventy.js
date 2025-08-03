@@ -47,6 +47,12 @@ module.exports = function (eleventyConfig) {
     return fs.readFileSync(path, 'utf8');
   });
 
+  eleventyConfig.addFilter('log', (...args) => {
+    // eslint-disable-next-line no-console
+    console.log('log', ...args);
+    return '';
+  });
+
   eleventyConfig.addFilter('formatSessionSummary', (content) => {
     const parts = content.split('---');
     if (parts.length !== 2) return { summary: '', content: content };

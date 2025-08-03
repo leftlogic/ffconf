@@ -1,0 +1,39 @@
+{%- set url = (page.url | replace(r/\/$/, '') or '/') -%}
+
+{# set title, description and image #}
+{%- set title = metadata[url].title -%}
+{%- set description = metadata[url].description -%}
+{%- set image = metadata[url].image -%}
+
+{%- if not metadata[url] -%}
+{# log an error #}
+{{ ("no metadata " + url) | log }}
+{%- endif -%}
+
+
+{%- if not title -%}
+  {%- set title = "FF Conf - Web development & JavaScript conference in Brighton, UK" -%}
+{%- endif -%}
+
+{%- if not description -%}
+  {%- set description = "FF Conf - the UK's best web conference in Brighton." -%}
+{%- endif -%}
+
+{%- if not image -%}
+  {%- if card -%}
+    {%- set image = "https://ffconf.org/images/cards/" + card + ".jpg" -%}
+  {%- else -%}
+    {%- set image = "https://ffconf.org/images/cards/base.jpg" -%}
+  {%- endif -%}
+{%- endif -%}
+
+    <title>{%- if title -%}{{ title }} - ffconf.org{%- else -%}ffconf - Web development & JavaScript conference in Brighton, UK{%- endif -%}</title>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ffconf" />
+    <meta name="twitter:creator" content="@ffconf" />
+    <meta property="twitter:image:src" content='{{ image }}' />
+    <meta property="og:url" content="https://ffconf.org{{ url }}" />
+    <meta property="og:title" content="{{ metadata[page.url].title }}" />
+    <meta property="og:description" content="{%- if description -%}{{ description }}{%- else -%}FF Conf - the UK's best JavaScript and Web conference in Brighton.{%- endif -%}" />
+    <meta property="og:image" content='{{ image }}' />
+    <meta name="description" content="{%- if description -%}{{ description }}{%- else -%}FF Conf - the UK's best JavaScript and Web conference in Brighton{%- endif -%}"/>
