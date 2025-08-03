@@ -2,7 +2,7 @@
   "/": {
     "title": "FF Conf 🌟 UK web conference since 2009",
     "description": "FF Conf is a one-day web development conference in Brighton, UK, featuring eight curated sessions on the future of the web.",
-    "image": "/images/cards/base.jpg"
+    "image": "https://ffconf.org/images/cards/base.jpg"
   },
   "/talks": {
     "title": "All the FF Conf Talks since 2009",
