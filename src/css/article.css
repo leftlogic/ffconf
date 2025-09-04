@@ -119,3 +119,7 @@ figcaption {
 figure:has(.mini-pic) {
   float: right;
 }
+
+section > header {
+  padding: 0;
+}
