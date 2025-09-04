@@ -556,7 +556,11 @@
     "photo": "/images/speakers/timh.jpg",
     "bio": "Always enjoyed creating things, and web was the platform that stuck. If I can do it, anyone can!",
     "id": "cjmqffrer3x0m01675i9dow66",
-    "twitter": "twholman"
+    "websites": {
+      "Blog": "http://tholman.com",
+      "@tholman.com": "https://bsky.app/profile/aussie.bsky.social",
+      "LinkedIn": "https://www.linkedin.com/in/twholman/"
+    }
   },
   {
     "id": "2019-empathy",
