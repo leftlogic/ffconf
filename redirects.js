@@ -4,6 +4,7 @@ const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 const readdir = promisify(fs.readdir);
 const Talks = require('./src/_data/talks');
+const next = require('./src/_data/next.json');
 
 const main = async () => {
   const files = await readdir(__dirname + '/redirects');
@@ -21,6 +22,7 @@ const main = async () => {
   const years = new Set();
 
   const staticRedirects = `
+/latest ${next.url} 302
 /wp-content/* /404.html 410
 /wp-includes/* /404.html 410
 /wp/* /404.html 410
