@@ -1017,5 +1017,9 @@
   "/articles/2025_back-to-school-back-to-ffconf-fun-stuff-and-learnings": {
     "description": "FFConf shares back-to-school vibes and highlights Tim Holman's fun talk, plus Lyra Rebane's CSS tips and new browser APIs.",
     "title": "Back to school, back to FFConf: fun stuff and learnings"
+  },
+  "/articles/2025-meet-the-speaker-hannah": {
+    "description": "FFConf welcomes UI Engineer Hannah Clarke to discuss building design system component packages using web components and Stencil.",
+    "title": "Meet our 2025 speakers: Hannah on An Uncomfortable Place"
   }
 }
