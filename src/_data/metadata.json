@@ -1021,5 +1021,9 @@
   "/articles/2025-meet-the-speaker-hannah": {
     "description": "FFConf welcomes UI Engineer Hannah Clarke to discuss building design system component packages using web components and Stencil.",
     "title": "Meet our 2025 speakers: Hannah on An Uncomfortable Place"
+  },
+  "/articles/2025-115-birthday-candles-scholarship-and-accessibility": {
+    "description": "Duke of York's cinema turns 115, and FFConf celebrates 10 years of its scholarship scheme.",
+    "title": "🎂 115 birthday candles, scholarship and accessibility"
   }
 }
