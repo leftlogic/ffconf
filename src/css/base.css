@@ -254,7 +254,6 @@ h1 + h2 {
 }
 
 .pill-button {
-  font-size: 16px;
   /* width: 153px; */
   /* height: 32px; */
   border-radius: 999px;
@@ -306,8 +305,14 @@ body {
 main p,
 main td,
 main li {
-  font-size: 18px;
-  margin: 28px 0;
+  font-size: 14px;
+  margin: 18px 0;
+
+  @media (min-width: 700px) {
+    font-size: 18px;
+    margin: 28px 0;
+  }
+
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -776,7 +781,11 @@ main.snap {
 blockquote {
   border-left: 4px solid var(--salmon);
   margin-left: 0;
-  padding: 0 24px;
+  padding: 0;
+  padding-left: 16px;
+  @media (min-width: 700px) {
+    padding: 0 24px;
+  }
   border-radius: 0;
   margin: 28px 1em 28px 0;
   max-width: 70ch;

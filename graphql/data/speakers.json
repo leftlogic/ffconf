@@ -750,6 +750,10 @@
     "name": "Jonathan Fielding",
     "pronouns": "he/him",
     "twitter": "jonthanfielding",
+    "websites": {
+      "@jonathanfield.ing": "https://bsky.app/profile/jonathanfield.ing",
+      "LinkedIn": "https://www.linkedin.com/in/jonathanfielding/"
+    },
     "photo": "/images/speakers/jonathan.jpg",
     "id": "2023_jonathan",
     "bio": "Escaping from an after school club I found my way back to my classroom where a student teacher showed me BASIC on a Acorn."
@@ -777,7 +781,7 @@
     "name": "Olu Niyi-Awosusi",
     "id": "2024_olu",
     "url": "https://olu.online/",
-    "bio": "I completed the installation of the NTL dial-up on our family computer the first time we had access\nto the internet. It was only putting a CD into the computer and following a wizard but I remember how\nincredibly novel it felt! The internet timed out every 20 minutes and I mostly played games at that\npoint, but I have been extremely online ever since.",
+    "bio": "I completed the installation of the NTL dial-up on our family computer the first time we had access to the internet. It was only putting a CD into the computer and following a wizard but I remember how incredibly novel it felt! The internet timed out every 20 minutes and I mostly played games at that point, but I have been extremely online ever since.",
     "photo": "/images/speakers/olu.jpg"
   },
   {
