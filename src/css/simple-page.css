@@ -63,3 +63,7 @@ main .pill-button:hover {
   color: var(--white);
   text-decoration: underline;
 }
+
+section > header {
+  padding: 0;
+}
