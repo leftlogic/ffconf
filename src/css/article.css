@@ -1,6 +1,6 @@
 .article {
   max-width: 800px;
-  margin: 0 32px;
+  margin: 0 16px;
 }
 
 .article > header h1 {
@@ -122,4 +122,12 @@ figure:has(.mini-pic) {
 
 section > header {
   padding: 0;
+}
+
+ul {
+  padding-left: 16px;
+
+  @media (min-width: 700px) {
+    padding-left: 32px;
+  }
 }

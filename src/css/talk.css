@@ -38,13 +38,15 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 2px;
-  margin-right: 8px;
+  @media (min-width: 700px) {
+    border-radius: 2px;
+    margin-right: 8px;
+  }
   aspect-ratio: 1.6;
-  /* max-height: 328px; */
 }
 
 .speaker-image img {
+  display: none;
   opacity: 0;
 }
 
