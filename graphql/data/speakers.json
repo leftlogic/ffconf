@@ -814,7 +814,13 @@
     "id": "2024_amy",
     "url": "https://www.amyhupe.co.uk/",
     "bio": "When I was little my mum used to tell her friends \"Amy started talking at 18 months old and she\nhasn't stopped since\". And here I am. Doing it again.\n",
-    "photo": "/images/speakers/amy.jpg"
+    "photo": "/images/speakers/amy.jpg",
+    "websites": {
+      "@amyhupe.bsky.social": "https://bsky.app/profile/amyhupe.bsky.social",
+      "LinkedIn": "https://www.linkedin.com/in/amy-hupe-61a3a368/",
+      "Website": "https://www.amyhupe.co.uk/",
+      "Podcast": "https://systems-of-harm.fireside.fm"
+    }
   },
   {
     "name": "Mike Hall",
