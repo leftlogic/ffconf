@@ -128,4 +128,4 @@ Keith concludes by urging the audience to think about their purpose in building 
 
 ---
 
-In "Time" Jeremy Keith meditates on how the relentlessness of time shapes everything we build—software, systems, and ourselves. He argues that in the face of decay, technical debt, and obsolescence, the best we can do is adopt humility, work with constraints, and build systems that age well. He provokes the audience to reflect not just on launch, but on enduring - creating for change, anticipating entropy, and seeing time not as an enemy, but as a partner in what remains over the years.  ￼
+In "Time" Jeremy Keith meditates on how the relentlessness of time shapes everything we build—software, systems, and ourselves. He argues that in the face of decay, technical debt, and obsolescence, the best we can do is adopt humility, work with constraints, and build systems that age well. He provokes the audience to reflect not just on launch, but on enduring - creating for change, anticipating entropy, and seeing time not as an enemy, but as a partner in what remains over the years.

@@ -455,7 +455,10 @@
     "photo": "/images/speakers/jeremyk.jpg",
     "bio": "Jeremy Keith lives in Brighton, England where he makes websites with the splendid design agency [Clearleft](http://clearleft.com). You may know him from such books as [DOM Scripting: JavaScript's New Hope](http://domscripting.com/), [Bulletproof Ajax: The Browser Strikes Back](http://bulletproofajax.com/), and [HTML5 For Web Designers: Return Of The Standards](http://html5forwebdesigners.com/).\n\n\n\nHe's the curator of the [dConstruct conference](http://dconstruct.org/) as well as [Brighton SF](http://brightonsf.adactio.com/), and he organised the world's first [Science Hack Day](http://sciencehackday.com/). He also made the website [Huffduffer](http://huffduffer.com/) to allow people to make podcasts of found sounds—it's like Instapaper for audio files.\n\n\n\nJeremy spends most of his time goofing off on the internet, documenting his time-wasting on [adactio.com](http://adactio.com), where he has been writing for over ten years.",
     "id": "cja08vv5lz6a40116rarmsnbo",
-    "twitter": "adactio"
+    "websites": {
+      "Blog": "https://adactio.com",
+      "@adactio": "https://bsky.app/profile/adactio.com"
+    }
   },
   {
     "name": "Angelina Fabbro",
@@ -520,7 +523,8 @@
     "id": "cjiam2bwoloba0183mu2hxu1v",
     "twitter": "rem@front-end.social",
     "websites": {
-      "Blog": "https://remysharp.com"
+      "Blog": "https://remysharp.com",
+      "@remysharp.com": "https://bsky.app/profile/remysharp.com"
     }
   },
   {
