@@ -938,3 +938,8 @@ details summary {
   cursor: pointer;
   font-weight: bold;
 }
+
+.centre {
+  text-align: center;
+  display: block;
+}
