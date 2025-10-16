@@ -5,7 +5,7 @@ date: 2025-10-16
 
 We are welcoming Asim Hussain to talk about ["Don't be an Idiot"](https://2025.ffconf.org/asim) at FFConf 2025.
 
-We wanted to also thank Asim for taking the time to answer our questions so we can all get to know her a little bit more before [14th November](https://2025.ffconf.org).
+We wanted to also thank Asim for taking the time to answer our questions so we can all get to know him a little bit more before [14th November](https://2025.ffconf.org).
 
 ## About Asim and their talk
 
