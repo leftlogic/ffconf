@@ -64,7 +64,7 @@ const schedule = [
 ];
 
 schedule.forEach((entry) => {
-  if (entry.type === 'talk') {
+  if (entry.type === 'talk' && entry.index) {
     const time = talkSlots[entry.index];
     const talk = talks[entry.index];
     console.log(`- ${time} ${talk}`);
