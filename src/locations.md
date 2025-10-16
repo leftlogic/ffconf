@@ -18,9 +18,9 @@ Below are some high level locations worth knowing about if you intend to visit B
 
 Note that prices on hotels are right at the time of last update.
 
-- [Travelodge](https://www.travelodge.co.uk/hotels/18/Brighton-hotel) - From £53, short walk from station
-- [Ibis](https://www.accorhotels.com/gb/hotel-6444-ibis-brighton-city-centre-station/index.shtml) - From £87, outside the front of station
-- [Leonardo Hotels](https://www.leonardohotels.co.uk/hotels/brighton) - From £122, near train station (previously Jury's Inn)
-- [Leonardo Hotels Waterfront](https://www.leonardohotels.co.uk/hotels/brighton-waterfront) - From 117, close to after party venue
+- [Travelodge](https://www.travelodge.co.uk/hotels/18/Brighton-hotel) - From £89 for two nights, short walk from station
+- [Ibis](https://www.accorhotels.com/gb/hotel-6444-ibis-brighton-city-centre-station/index.shtml) - From £98 for two nights, outside the front of station
+- [Leonardo Hotels](https://www.leonardohotels.co.uk/hotels/brighton) - From £127 for two nights (with "free" membership), near train station (previously Jury's Inn)
+- [Leonardo Hotels Waterfront](https://www.leonardohotels.co.uk/hotels/brighton-waterfront) - From £191 two nights (with "free" membership), close to after party venue
 
 If you know of any other suggestions, please [get in touch](mailto:events@leftlogic.com?subject=Location%20suggestion).

@@ -1,0 +1,76 @@
+/**
+ * Generate the ffconf event schedule.
+ *
+ * Update the `talks` array with exactly eight entries (speaker - talk title)
+ * and run the script to print the schedule.
+ */
+
+/* spellchecker:disable */
+
+const talks = `
+  Hellen Ward - Bias in our products: The case for diversity in tech
+  Chetan Padia - Powerless by Design
+
+  Hannah Clarke - An Uncomfortable Place
+  Sergès Goma - You're in a Code Cult (And That's OK)
+
+  Asim Hussain - Don't be an Idiot
+  Jessica Rose & Eda Eren - Forgetting Machines: AI Coding Tools and Skill
+
+  Surya Rose - Six to Sixteen: A Child's Programming Journey
+  Sacha Judd - The Good Internet: How Fandom Can Reclaim the Web
+`
+  .split('\n')
+  .map((_) => _.trim())
+  .filter(Boolean);
+
+const talkSlots = [
+  '09:50-10:30',
+  '10:30-11:10',
+  '11:40-12:20',
+  '12:20-13:00',
+  '14:30-15:10',
+  '15:10-15:50',
+  '16:15-16:55',
+  '16:55-17:35',
+];
+
+if (talks.length !== talkSlots.length) {
+  throw new Error(
+    `Talk list must contain ${talkSlots.length} entries, but found ${talks.length}.`
+  );
+}
+
+const schedule = [
+  { type: 'static', time: '09:00-09:40', label: 'Registration' },
+  { type: 'static', time: '09:40-09:50', label: 'Opening remarks' },
+  { type: 'talk', index: 0 },
+  { type: 'talk', index: 1 },
+  { type: 'static', time: '11:10-11:40', label: 'Coffee break (30 mins)' },
+  { type: 'talk', index: 2 },
+  { type: 'talk', index: 3 },
+  { type: 'static', time: '13:00-14:30', label: 'Lunch break (90 mins)' },
+  { type: 'talk', index: 4 },
+  { type: 'talk', index: 5 },
+  {
+    type: 'static',
+    time: '15:50-16:15',
+    label: 'Ice cream break (25 minutes)',
+  },
+  { type: 'talk', index: 6 },
+  { type: 'talk', index: 7 },
+  { type: 'static', time: '17:35-17:50', label: 'Closing remarks' },
+  { type: 'static', time: '17:50-Late', label: 'After Party', spacing: '  ' },
+];
+
+schedule.forEach((entry) => {
+  if (entry.type === 'talk') {
+    const time = talkSlots[entry.index];
+    const talk = talks[entry.index];
+    console.log(`- ${time} ${talk}`);
+    return;
+  }
+
+  const spacing = entry.spacing ? entry.spacing : '  ';
+  console.log(`- ${entry.time}${spacing}${entry.label}`);
+});
