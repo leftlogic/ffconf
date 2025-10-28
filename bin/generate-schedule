@@ -64,13 +64,22 @@ const schedule = [
 ];
 
 schedule.forEach((entry) => {
-  if (entry.type === 'talk' && entry.index) {
+  if (entry.type === 'talk' && typeof entry.index === 'number') {
     const time = talkSlots[entry.index];
     const talk = talks[entry.index];
-    console.log(`- ${time} ${talk}`);
+
+    const [speaker, title] = talk.split(' - ').map((_) => _.trim());
+
+    // console.log({ talk, speaker, title });
+
+    // schedule.txt
+    // console.log(`- ${time} ${talk}`);
+
+    // speaking.md
+    console.log(`n. **${speaker}** ${title} - ${time}`);
     return;
   }
 
-  const spacing = entry.spacing ? entry.spacing : '  ';
+  const spacing = entry.spacing ? entry.spacing : ' ';
   console.log(`- ${entry.time}${spacing}${entry.label}`);
 });

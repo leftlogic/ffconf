@@ -1,5 +1,5 @@
 ---
-date: 2024-10-29
+date: "2025-10-28T13:00:00"
 title: Full speaker details
 ---
 
@@ -7,8 +7,7 @@ title: Full speaker details
 
 Firstly - thank you so-so much everyone for joining my merry band of speakers this year!
 
-I'll say this first: **a short acknowledgement that you've read the headlines will set my nerves at ease ❤️**
-
+I'll say this first: **a short acknowledgement via email that you've read the headlines will set my nerves at ease ❤️**
 
 This document includes lots of details, but for those of you that are as allergic to long form as I am, here are the cliff notes:
 
@@ -24,7 +23,7 @@ This document includes lots of details, but for those of you that are as allergi
 
 Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: https://ffconf.org/chat (this is not required!)
 
-We also have a [group whatsapp chat](https://chat.whatsapp.com/IMW8dgoiLdBGmRb5Udw8xt) if you want to join (this is only myself, Julie and open to you) and either ask questions or post pictures of cats (this is actually quite useful for the day to shoot quick questions like *"I need coffee - halp!"*)
+We also have a [group whatsapp chat](https://chat.whatsapp.com/HjYxc1ltuTR78GVxw2acGp) if you want to join (this is only myself, Julie and open to you) and either ask questions or post pictures of cats (this is actually quite useful for the day to shoot quick questions like *"I need coffee - halp!"*)
 
 **A short acknowledgement of this email will set my nerves at ease too ❤️**
 
@@ -49,17 +48,19 @@ ________________________________
 1. Doors open if you want to arrive early - 8:00
 2. Attendee start registration - 9:00
 3. Remy's welcome, conference starts - 9:35
-4. **Olu Niyi-Awosusi** Build Better Webs - 09:50
-5. **Léonie Watson** AI and Accessibility: the Good, the Bad, and the Bollocks - 10:30
+
+4. **Hellen Ward** Bias in our products: The case for diversity in tech - 09:50-10:30
+5. **Chetan Padia** Powerless by Design - 10:30-11:10
 6. (break 30 mins)
-7. **Andy Bell** Get the core right and the resilient code will follow - 11:40
-8. **Kimberley Cook** 0 - 25,000 people! Growing a global community over 10 years - 12:20
+7. **Hannah Clarke** An Uncomfortable Place - 11:40-12:20
+8. **Sergès Goma** You're in a Code Cult (And That's OK) - 12:20-13:00
 9. (lunch break 90 mins - we'll take you to lunch)
-10. **Amy Hupe** It all means nothing in the end - 14:30
-11. **Mike Hall** Debugging the Mind: A Programmer's Guide to Critical Thinking - 15:10
+10. **Asim Hussain** Don't be an Idiot - 14:30-15:10
+11. **Jessica Rose & Eda Eren** Forgetting Machines: AI Coding Tools and Skill - 15:10-15:50
 12. (break 25 mins)
-13. **Michael Kibedi** Death, and how tech forgot about mortality - 16:15
-14. **Imran Afzal** The art of reflection - 16:55 (post event social 18:00 onwards)
+12. **Surya Rose** Six to Sixteen: A Child's Programming Journey - 16:15-16:55
+13. **Sacha Judd** The Good Internet: How Fandom Can Reclaim the Web - 16:55-17:35
+14. (post event social 18:00 onwards - food and drink on us)
 
 ## Getting to Brighton
 
@@ -83,7 +84,7 @@ If you have any specific dietary requirements (that you've not told us about alr
 
 ## Conference day
 
-The conference registration opens at 9:00am. The schedule is in this email and is at https://2024.ffconf.org.
+The conference registration opens at 9:00am. The schedule is in this email and is at https://2025.ffconf.org.
 
 I'll introduce each of you, please make sure **you find me at the start of the break if you're on in the next** segment so that I can make sure you're mic'ed up with your lapel mic.
 
@@ -145,10 +146,8 @@ ________________________________
 
 Once again, any questions, feel free to get in touch with me or Julie - we're watching our email fairly closely in the run up to the conference, so you should get a prompt-ish reply.
 
-If you want to call my (Remy) mobile number is: +44 (0)7590 497258 and Julie is on +44 (0)7888 763822 - and we have a [WhatsApp group](https://chat.whatsapp.com/IMW8dgoiLdBGmRb5Udw8xt) (just myself, Julie and yourselves) that you can join if you like.
+If you want to call my (Remy) mobile number is: +44 (0)7590 497258 and Julie is on +44 (0)7888 763822 - and we have a [WhatsApp group](https://chat.whatsapp.com/HjYxc1ltuTR78GVxw2acGp) (just myself, Julie and yourselves) that you can join if you like.
 
 Otherwise, we'll see you on Thursday evening at your hotel if not before ❤️❤️❤️
 
 Remy & Julie
-
-
