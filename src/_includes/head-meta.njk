@@ -28,6 +28,11 @@
   {%- endif -%}
 {%- endif -%}
 
+{# if the image doesn't start with http - then prepend https://ffconf.org #}
+{%- if not image.startsWith('http') -%}
+  {%- set image = "https://ffconf.org" + image -%}
+{%- endif -%}
+
     <title>{%- if title -%}{{ title }} - ffconf.org{%- else -%}ffconf - Web development & JavaScript conference in Brighton, UK{%- endif -%}</title>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@ffconf" />
