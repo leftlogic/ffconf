@@ -1,15 +1,16 @@
 {%- set url = (page.url | replace(r/\/$/, '') or '/') -%}
 
 {# set title, description and image #}
-{%- set title = metadata[url].title -%}
-{%- set description = metadata[url].description -%}
-{%- set image = metadata[url].image -%}
 
-{%- if not metadata[url] -%}
+
+{%- if metadata[url] -%}
+  {%- set title = metadata[url].title -%}
+  {%- set image = metadata[url].image -%}
+  {%- set description = metadata[url].description -%}
 {# log an error #}
+{%- else -%}
 {{ ("no metadata " + url) | log }}
 {%- endif -%}
-
 
 {%- if not title -%}
   {%- set title = "FF Conf - Web development & JavaScript conference in Brighton, UK" -%}
@@ -33,7 +34,7 @@
     <meta name="twitter:creator" content="@ffconf" />
     <meta property="twitter:image:src" content='{{ image }}' />
     <meta property="og:url" content="https://ffconf.org{{ url }}" />
-    <meta property="og:title" content="{{ metadata[page.url].title }}" />
+    <meta property="og:title" content="{{ title }}" />
     <meta property="og:description" content="{%- if description -%}{{ description }}{%- else -%}FF Conf - the UK's best JavaScript and Web conference in Brighton.{%- endif -%}" />
     <meta property="og:image" content='{{ image }}' />
     <meta name="description" content="{%- if description -%}{{ description }}{%- else -%}FF Conf - the UK's best JavaScript and Web conference in Brighton{%- endif -%}"/>

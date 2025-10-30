@@ -1,5 +1,6 @@
 ---
 title: Future Friends; how you can connect, and break from the doom
+description: Discover how FFConf fosters a welcoming atmosphere with events like Show & Tell, early morning runs, and communal lunches.
 date: 2025-10-30
 ---
 
