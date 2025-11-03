@@ -1,5 +1,6 @@
 .article {
   max-width: 800px;
+  max-width: 70ch;
   margin: 0 auto;
 }
 

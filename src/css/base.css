@@ -327,6 +327,10 @@ main a {
   transition: color 150ms ease-out;
 }
 
+main a:has(strong) {
+  text-decoration-thickness: 2px;
+}
+
 main a:hover {
   color: var(--salmon);
   text-decoration-thickness: 2px;
@@ -794,6 +798,8 @@ blockquote {
 blockquote p {
   font-style: italic;
   margin: 14px 0;
+  color: #767676;
+  max-width: 50ch;
 }
 
 .footer-links {
