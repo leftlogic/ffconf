@@ -1,6 +1,7 @@
 ---
 id: why-attend
 layout: layouts/simple
+description: FFConf fosters community and connection, offering invaluable insights and shared energy that AI cannot replicate.
 ---
 
 # Why attend as a team?
