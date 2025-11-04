@@ -6,7 +6,7 @@ description: FFConf fosters community and connection, offering invaluable insigh
 
 # Why attend as a team?
 
-At it's core, FFConf is about community and connection. The talks from the day facilitate these important aspects and move us towards being better in our workplace and on the web.
+At its core, FFConf is about community and connection. The talks from the day facilitate these important aspects and move us towards being better in our workplace and on the web.
 
 It's not uncommon for a business to send a single individual to an event to then report back to the business what they learnt - partly to share the newly acquired knowledge.
 
