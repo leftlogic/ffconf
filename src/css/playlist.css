@@ -1,0 +1,29 @@
+.playlist-tabs {
+  display: flex;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.playlist-tab {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.5em 1em;
+  border: 2px solid #ccc;
+  border-radius: 8px 8px 0 0;
+  background: #f8f8f8;
+  cursor: pointer;
+  transition: border-color 0.2s, background 0.2s;
+  user-select: none;
+}
+.playlist-tab.selected {
+  border-color: var(--salmon);
+  background: #fff;
+}
+.playlist-tab img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.playlist-tab input[type='radio'] {
+  display: none;
+}

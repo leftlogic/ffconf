@@ -7,7 +7,13 @@
     <link rel="preload" href="/fonts/BasierSquare-Medium-custom.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/BasierSquare-Regular-custom.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/css/base.css">
-    {% if css %}<link rel="stylesheet" href="/css/{{ css }}">{%endif%}
+    {%- if css -%}
+      {% if css is string %}
+    <link rel="stylesheet" href="/css/{{ css }}">{%- else -%}
+        {% for file in css %}
+    <link rel="stylesheet" href="/css/{{ file }}">{%- endfor -%}
+      {%- endif -%}
+    {%- endif %}
     <link rel="stylesheet" href="/css/mq.css">
     <link rel="alternate" type="application/rss+xml" title="Articles, news and community posts about FF Conf" href="/articles.xml">
     {%- include "favicons.njk" -%}
@@ -18,6 +24,13 @@
     </script>
     <script defer data-domain="ffconf.org" src="https://plausible.io/js/script.outbound-links.js"></script>
 <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+    {%- if js -%}
+      {% if js is string %}
+    <link rel="stylesheet" href="/assets/{{ js }}">{%- else -%}
+        {% for file in js %}
+    <link rel="stylesheet" href="/assets/{{ file }}">{%- endfor -%}
+      {%- endif -%}
+    {%- endif %}
   </head>
   <body id="{{ id }}">
     <a href="#main-content" class="skip">Skip to main content</a>
@@ -44,6 +57,7 @@
         {% endfor %}
         </p>
         <ul class="footer-links">
+          <li><a href="/why-attend">Why attend FFConf?</a></li>
           <li><a href="/scholarship">Scholarship</a></li>
           <li><a href="/inclusion">Inclusion Statement</a></li>
           <li><a href="/accessibility">Venue Accessibility</a></li>
