@@ -1,8 +1,27 @@
 ---
 id: playlist
 layout: layouts/simple
+js: playlist.mjs
+css:
+  - simple-page.css
+  - playlist.css
 ---
 
 # The event playlist
 
-<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/playlist/future-friends-conference-ffconf/pl.u-e98lyp5tq8Wky"></iframe>
+Due to having spent his youth in the 80s, Remy has always run the same playlist at FFConf. If you enjoyed it, or wanted to re-live those Rick Rollin' days, the playlist is available below to enjoy again.
+
+<div class="playlist-tabs" id="playlist-tabs">
+	<label class="playlist-tab" id="tab-apple">
+		<input type="radio" name="playlist-service" value="apple" checked>
+		<img src="/images/apple-icon.svg" alt="Apple Music" />
+		Apple Music
+	</label>
+	<label class="playlist-tab" id="tab-spotify">
+		<input type="radio" name="playlist-service" value="spotify">
+		<img src="/images/spotify-icon.svg" alt="Spotify" />
+		Spotify
+	</label>
+</div>
+<div id="playlist-iframe"></div>
+<script src="/assets/playlist.mjs" type="module"></script>

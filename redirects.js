@@ -31,6 +31,7 @@ const main = async () => {
 /wp-* /404.html 410
 /.env* /404.html 410
 /xmlrpc* /404.html 410
+/articles/2025-full-line-up-announced-passing-of-time-and-systems-of-harm /articles/2025-full-line-up-announced,-passing-of-time-and-systems-of-harm 301
   `;
 
   // add the api
