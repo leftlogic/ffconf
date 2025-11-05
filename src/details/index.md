@@ -1,5 +1,5 @@
 ---
-date: 2025-11-06
+date: 2025-11-05T15:00:00
 title: 2025 FFConf details
 author: Julie
 ---
@@ -10,11 +10,11 @@ Please find below important and useful information to make sure your visit to ff
 
 Please note, a full copy of these [details](https://ffconf.org/details/) are online and once loaded are available offline. -->
 
-<!-- <mark>This URL is available offline thanks to a service worker</mark> -->
+<mark>This URL is available offline thanks to a service worker</mark>
 
 <!--<mark><strong>This page will updated as we get closer to {{ tickets.date | format }}</strong></mark>-->
 
-<em>If you're a repeat attendee, you might still have the previous year cached, so please hit refresh if you're seeing "last year"!</em>
+<em>If you're a repeat attendee, you might still have the previous year cached, so please hit refresh if you're seeing the wrong dates!</em>
 
 ## Contents <!-- omit in toc -->
 
@@ -23,14 +23,14 @@ Please note, a full copy of these [details](https://ffconf.org/details/) are onl
 - [Refreshments and lunch](#refreshments-and-lunch)
 - [Lunch with future friends](#lunch-with-future-friends)
 - [Reduce, reuse, recycle](#reduce-reuse-recycle)
-- [Toots, tweets, chat and blog posts](#toots-tweets-chat-and-blog-posts)
+- [Toots, chat and blog posts](#toots-chat-and-blog-posts)
 - [Technology](#technology)
 - [Post conference social](#post-conference-social)
 - [Pre conference](#pre-conference)
   - [Show and Tell with Async - 13 Nov](#show-and-tell-with-async-13-nov)
   - [Pre event networking: running or coffee - 14 Nov](#pre-event-networking-running-or-coffee-14-nov)
 - [Health and Safety](#health-and-safety)
-- [Accessibility](#accessibility)
+- [Accessibility and Toilets](#accessibility-and-toilets)
 - [Contact](#contact)
 
 ## Directions
@@ -99,7 +99,7 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ### Show and Tell with Async - 13 Nov
 
-Our friends at Async run a very special International Show & Tell from 7pm at Projects, Nile House (please note new location). Come along to listen, learn and meet fellow delegates or you could give a five minute talk to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web. 
+Our friends at Async run a very special International Show & Tell from 7pm at Projects, Nile House (please note new location). Come along to listen, learn and meet fellow delegates or you could give a five minute talk to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web.
 
 (https://asyncjs.com/international-show-n-tell-2025/)
 
@@ -117,7 +117,7 @@ Please report any lost property to the registration desk. Left Logic and Duke of
 
 Please note that there is no cloakroom or storage for any items.
 
-## Accessibility
+## Accessibility and Toilets
 
 Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side.
 
@@ -135,7 +135,7 @@ People should be able to use toilet appropriate to how they self identify.
 
 Please use the toilet you feel most comfortable using, and please respect people's right to pee in peace.
 
-Gender neutral and accessible toilet is available on the ground floor near to the exits. 
+Gender neutral and accessible toilet is available on the ground floor near to the exits.
 
 COVID safety. We ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
@@ -151,7 +151,7 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 <!-- ## Sponsors -->
 <!-- omit in toc -->
 
-<!-- Please also take a few minutes to check out our sponsors and the links to their sites, without whom we couldn't run this event. Click on their links and check them all out. Seriously. We can't do this entire event without them. -->
+<!-- Please also take a few minutes to check out our sponsors and the links to their sites, without whom we couldn't run this event. Click on their links and check them all out. Seriously. We can't do this entire event without them.
 
 
 
@@ -162,3 +162,5 @@ Warm wishes, and we'll see you soon!
 Remy & Julie
 
 Left Logic
+
+-->

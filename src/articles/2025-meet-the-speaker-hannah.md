@@ -9,7 +9,7 @@ We want to thank Hannah for taking the time to answer our questions so we can al
 
 ## About Hannah and their talk
 
-![](/images/articles/meet-speakers/2025-hannah.jpg){.mini-pic}
+![](/images/articles/meet-speakers/2025-hannah.jpg.avif){.mini-pic}
 
 - **Title:** An Uncomfortable Place
 - **About the talk:**  How do you build Design System component packages to keep everyone happy regardless of framework? It's not easy (and let's be honest, React die-hards will only be happy with pure React), but we're getting there using web components and Stencil.

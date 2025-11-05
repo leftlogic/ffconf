@@ -11,7 +11,7 @@ We want to thank Sergès for taking the time to answer our questions so we can a
 
 ## About Sergès and their talk
 
-![](/images/articles/meet-speakers/2025-serges.jpg){.mini-pic}
+![](/images/articles/meet-speakers/2025-serges.jpg.avif){.mini-pic}
 
 - **Title:** Sergès You're in a Code Cult (And That's OK)
 - **About the talk:** Programming languages often become more than tools—they’re badges of belonging. This talk explores why devs fight fiercely over languages, even though they share so much in common, uncovering the culture and rivalries behind the code.

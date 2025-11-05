@@ -9,7 +9,7 @@ We wanted to also thank Asim for taking the time to answer our questions so we c
 
 ## About Asim and their talk
 
-![](/images/articles/meet-speakers/2025-asim.jpg){.mini-pic}
+![](/images/articles/meet-speakers/2025-asim.jpg.avif){.mini-pic}
 
 - **Title:** Don't be an Idiot
 - **About the talk:**  Open source isn't a Silicon Valley creation but an ancient tool for sharing power. The same forces behind Athenian democracy shape today’s open standards. As AI takes over tasks, our real challenge is rediscovering collective governance. This talk is about human agency - not doom, not salvation - and yes, psychedelics play a part.

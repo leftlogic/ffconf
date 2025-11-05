@@ -378,7 +378,12 @@ main li {
 
 .body > footer .previous-years a {
   display: inline-block;
-  margin: 0 4px;
+  margin: 0;
+  margin-right: 4px;
+
+  &:first-child {
+    margin-left: 4px;
+  }
 }
 
 .ext::after {
@@ -948,4 +953,15 @@ details summary {
 .centre {
   text-align: center;
   display: block;
+}
+
+@media only screen and (max-width: 700px) {
+  main {
+    /* padding: 0 20px; */
+  }
+
+  .body > footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }

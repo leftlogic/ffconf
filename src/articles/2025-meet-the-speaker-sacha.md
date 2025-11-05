@@ -9,7 +9,7 @@ We wanted to also thank Sacha for taking the time to answer our questions so we 
 
 ## About Sacha and their talk
 
-![](/images/articles/meet-speakers/2025-sacha.jpg){.mini-pic}
+![](/images/articles/meet-speakers/2025-sacha.jpg.avif){.mini-pic}
 
 - **Title:** The Good Internet: How Fandom Can Reclaim the Web
 - **About the talk:**  How to escape the algorithmic doom loops and reclaim our digital lives (Sacha has a [longer description](https://2025.ffconf.org/sacha) on their speaker page)

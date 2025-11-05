@@ -1,10 +1,12 @@
 .article {
   max-width: 800px;
+  max-width: 70ch;
   margin: 0 16px;
 }
 
 .article > header h1 {
   margin: 24px 0 48px 0;
+  line-height: clamp(2.4rem, 6vw, 3.6rem);
 }
 
 .article .body a {

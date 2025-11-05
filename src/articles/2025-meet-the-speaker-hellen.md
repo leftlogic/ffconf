@@ -9,7 +9,7 @@ We want to thank Hellen for taking the time to answer our questions so we can al
 
 ## About Hellen and their talk
 
-![](/images/articles/meet-speakers/2025-hellen.jpg){.mini-pic}
+![](/images/articles/meet-speakers/2025-hellen.jpg.avif){.mini-pic}
 
 - **Title:** Bias in our products: The case for diversity in tech
 - **About the talk:**  Bias isn't just a bug — it's a feature of who builds the product.

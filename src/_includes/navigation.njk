@@ -3,7 +3,7 @@
     <li><a class="shimmer" href="{{ next.url }}"><span class="ext">FFConf {{ next.date | format("YYYY")}}</span></a></li>
     <li{% if page.url.startsWith('/talks/') %} class="selected"{% endif %}><a href="/talks">Talks</a></li>
     <li{% if page.url.startsWith('/articles/') %} class="selected"{% endif %}><a href="/articles">Articles</a></li>
-    <li{% if page.url.startsWith('/jobs/') %} class="selected"{% endif %}><a href="/jobs">Jobs</a></li>
+    {# <li{% if page.url.startsWith('/jobs/') %} class="selected"{% endif %}><a href="/jobs">Jobs</a></li> #}
     <li{% if page.url.startsWith('/photos/') %} class="selected"{% endif %}><a href="/photos">Photos</a></li>
     <li{% if page.url.startsWith('/posts/') %} class="selected"{% endif %}><a href="/posts">Posts</a></li>
     <li{% if page.url.startsWith('/history/') %} class="selected"{% endif %}><a href="/history">History</a></li>
