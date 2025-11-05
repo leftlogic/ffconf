@@ -806,7 +806,11 @@
     "name": "Kimberley Cook",
     "id": "2024_kimberley",
     "url": "https://builtby.kim/",
-    "bio": "I built my first website as part of my media course at college. I loved knowing I could build\nanything, so changed path from originally wanting to study Law at university to Media Production. The\ncourse was perfect for people who didn't know what they wanted to do but liked building things for the\ninternet. So I basically spent 3 years building websites, apps and 3D games. The rest as they say is\nhistory!\n",
+    "websites": {
+      "LinkedIn": "https://www.linkedin.com/in/kimberley-cook-b7571743/",
+      "Website": "https://builtby.kim/"
+    },
+    "bio": "I built my first website as part of my media course at college. I loved knowing I could build anything, so changed path from originally wanting to study Law at university to Media Production. The course was perfect for people who didn't know what they wanted to do but liked building things for the internet. So I basically spent 3 years building websites, apps and 3D games. The rest as they say is history!",
     "photo": "/images/speakers/kimberley.jpg"
   },
   {
