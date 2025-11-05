@@ -1,6 +1,6 @@
 ---
 id: covid
-date: 2022-11-03
+date: 2025-11-06
 layout: layouts/simple
 ---
 
@@ -10,11 +10,10 @@ As much as we're told COVID is over, the reality is that it is not. People are s
 
 This document is a work in progress, and we [welcome any feedback](mailto:events@leftlogic.com?subject=covid%20policy) or suggestions you might have to improve this policy.
 
-1. We politely request that all attendees who have access to a lateral flow, please do a test within 24 hours of the conference and ask anyone who is showing signs of COVID to please stay at home.
-2. Wearing a mask is not mandatory (at time of writing) but are encouraged and welcomed.
+1. We politely request that anyone who is showing signs of COVID to please stay at home.
+2. Wearing a mask is encouraged and welcomed.
 3. Disposable high grade face masks will be available near the entrance of our event venue.
 4. Sanitiser gel dispensers will be made available.
-5. If you wish to practise social distancing during the event, badges will be provided on the day so others know to respect your space.
 
 ## Some comments about our venues
 
