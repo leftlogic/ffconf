@@ -131,7 +131,11 @@ If you do not wish to be included in any official photos, you can get a differen
 
 We regret that there is no lift and consequently the Balcony and Bar can only be accessed by ascending a staircase of 25 steps.
 
-Gender neutral and accessible toilet is available on the ground floor near to the exits. People should be able to use toilet appropriate to how they self identify. Please use the toilet you feel most comfortable using, and please respect people's right to pee in peace.
+People should be able to use toilet appropriate to how they self identify.
+
+Please use the toilet you feel most comfortable using, and please respect people's right to pee in peace.
+
+Gender neutral and accessible toilet is available on the ground floor near to the exits. 
 
 COVID safety. We ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
