@@ -1,6 +1,7 @@
 ---
 title: "Meet our 2025 speakers: Chetan on Powerless by Design"
 date: 2025-11-05
+description: "Chetan Padia will discuss \"Powerless by Design\" at FFConf 2025, exploring user concessions in digital products."
 ---
 
 We are welcoming Chetan Padia to talk about ["Powerless by Design"](https://2025.ffconf.org/chetan) at FFConf 2025.

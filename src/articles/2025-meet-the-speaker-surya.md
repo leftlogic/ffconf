@@ -1,6 +1,7 @@
 ---
 title: "Meet our 2025 speakers: Surya on Six to Sixteen: A Child's Programming Journey"
 date: 2025-11-05
+description: Surya Rose joins FFConf 2025 to discuss their programming journey, starting at age six.
 ---
 
 We are welcoming Surya Rose to talk about ["Six to Sixteen: A Child's Programming Journey"](https://2025.ffconf.org/surya) at FFConf 2025.
