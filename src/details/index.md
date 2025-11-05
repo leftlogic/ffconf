@@ -1,6 +1,6 @@
 ---
-date: 2025-06-25T15:00:00
-title: 2025 ffconf details
+date: 2025-11-06
+title: 2025 FFConf details
 author: Julie
 ---
 
