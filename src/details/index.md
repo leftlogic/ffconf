@@ -12,7 +12,7 @@ Please note, a full copy of these [details](https://ffconf.org/details/) are onl
 
 <!-- <mark>This URL is available offline thanks to a service worker</mark> -->
 
-<mark><strong>This page will updated as we get closer to {{ tickets.date | format }}</strong></mark>
+<!--<mark><strong>This page will updated as we get closer to {{ tickets.date | format }}</strong></mark>-->
 
 <em>If you're a repeat attendee, you might still have the previous year cached, so please hit refresh if you're seeing "last year"!</em>
 
