@@ -1,6 +1,6 @@
 ---
-date: 2025-06-25T15:00:00
-title: 2025 ffconf details
+date: 2025-11-06
+title: 2025 FFConf details
 author: Julie
 ---
 
@@ -12,7 +12,7 @@ Please note, a full copy of these [details](https://ffconf.org/details/) are onl
 
 <!-- <mark>This URL is available offline thanks to a service worker</mark> -->
 
-<mark><strong>This page will updated as we get closer to {{ tickets.date | format }}</strong></mark>
+<!--<mark><strong>This page will updated as we get closer to {{ tickets.date | format }}</strong></mark>-->
 
 <em>If you're a repeat attendee, you might still have the previous year cached, so please hit refresh if you're seeing "last year"!</em>
 
@@ -55,19 +55,19 @@ If see or hear our code of conduct being breached, or have any other concerns or
 
 ## Refreshments and lunch
 
-Tea, coffee, danishes and fruit will be available from 9am in the upstairs bar and the ground floor. Further refreshments will be available from the same locations at the mid morning and mid afternoon breaks. We serve cow, soya and oat milk for the tea and coffee plus vegan and gluten free snack options.
+Tea, coffee, danishes and fruit will be available from 9am in the upstairs bar and the ground floor. Further refreshments will be available from the same locations at the mid morning and mid afternoon breaks. We serve cow, soya and oat milk for the tea and coffee plus vegan and gluten free snack options. If you have a nut allergy, please let us know.
 
 **Please note lunch is not included** but we have [a few recommendations here](https://ffconf.org/food), and a [collection of places](https://ffconf.org/brighton) that Remy & Julie particularly like (with lunch, coffee, sweet and dinner suggestions).
 
 ## Lunch with future friends
 
-If you are coming to FFConf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) or mexican food at [New Unity](https://www.newunity.pub/) for our Lunch with Future Friends.
+If you are coming to FFConf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) or Mexican food at [New Unity](https://www.newunity.pub/) for our Lunch with Future Friends.
 
 ## Reduce, reuse, recycle
 
-The coffee cups we use are compostable but please do bring your own travel mug and water bottle too.
+The coffee cups we use are compostable but please do bring your own travel mug and water bottle too. Feel free to leave your lanyard at the end so they can be reused.
 
-## Toots, tweets, chat and blog posts
+## Toots, chat and blog posts
 
 Yes to all. Hashtag all the things with [#FFConf](https://bsky.app/search?q=%23ffconf).
 
@@ -99,15 +99,17 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ### Show and Tell with Async - 13 Nov
 
-Our friends at Async usually run a very special International Show & Tell.
+Our friends at Async run a very special International Show & Tell from 7pm at Projects, Nile House (please note new location). Come along to listen, learn and meet fellow delegates or you could give a five minute talk to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web. 
 
-More details to follow.
+(https://asyncjs.com/international-show-n-tell-2025/)
+
+After Async, we will be heading to The Walrus on Ship Street. We will NOT be in Al Campo on Thursday evening.
 
 ### Pre event networking: running or coffee - 14 Nov
 
 We are hosting another pre-FFConf run! Meet outside Duke of Yorks at 7:30am led by two friendly FFConf regulars. Open to all abilities, explore beautiful Brighton in a short 30 minute run leaving plenty of time to get showered before registration opens!
 
-Not a runner? Curio Cafe is practically next to Duke of York's and open from 8am and is a great place to grab a coffee and meet fellow attendees: [ffconf.org/morning-network](https://ffconf.org/morning-network).
+For those who prefer a slower start to the day, our friends at Brighton Codebar host a coffee morning from 8AM to welcome delegates for early refreshments at Curio Cafe is practically next to Duke of York's [ffconf.org/morning-network](https://ffconf.org/morning-network).
 
 ## Health and Safety
 
@@ -125,9 +127,15 @@ The Box Office, Kiosk, access toilet and screen are all located on the ground fl
 
 Large print schedules are available on request at the registration desk.
 
+If you do not wish to be included in any official photos, you can get a different coloured lanyard from the photographer or from registration.
+
 We regret that there is no lift and consequently the Balcony and Bar can only be accessed by ascending a staircase of 25 steps.
 
-Gender neutral and accessible toilets are available on the ground floor near to the exits.
+People should be able to use toilet appropriate to how they self identify.
+
+Please use the toilet you feel most comfortable using, and please respect people's right to pee in peace.
+
+Gender neutral and accessible toilet is available on the ground floor near to the exits. 
 
 COVID safety. We ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
