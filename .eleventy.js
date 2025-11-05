@@ -281,6 +281,10 @@ module.exports = function (eleventyConfig) {
   //   ghostMode: false,
   // });
 
+  // eleventyConfig.setTemplateFormats(['md', 'njk']);
+  // eleventyConfig.setMarkdownTemplateEngine('njk');
+  eleventyConfig.setTemplateFormats(['md', 'njk']);
+
   return {
     dir: {
       input: 'src',
