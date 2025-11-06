@@ -23,6 +23,8 @@ Our friends at [Brighton Codebar](https://codebar.io/brighton) have not only all
 
 Kimberley shares how Codebar was started by a small group of women who were annoyed being the only women in their companies and being surrounded by white people and wanted to make a change. I love how they changed the format after the very first meet up when people were too afraid to ask questions and straight away they moved to the unique student/coach set up.
 
+![Codebar: a global charity for minority groups in tech](/images/articles/2025-codebar.avif)
+
 ## Community News
 
 For the FFConf community and the event itself to exist, we do rely on our sponsors for support. We'd like to thank each of them, we'd be grateful if you took a moment in your day to check them each out to find out more:
@@ -30,7 +32,7 @@ For the FFConf community and the event itself to exist, we do rely on our sponso
 - [web.dev](https://web.dev/) - a vast and valuable resource for building a better web from the Chrome for Developers team
 - [TetraLogical](https://tetralogical.com/) - accessibility specialists that both host resources, but also will work with you to build web sites available to all users
 - [Mirus](https://www.wearemirus.com/) - a family run recruitment company with a _very_ human touch
-- [Pleo](https://www.pleo.io/en) - automated finance control for your employees
+- [Pleo](https://www.pleo.io/en) - automated finance control for your employees and integrations that connect to your finance stack
 - [Krystal](https://krystal.io/?utm_source=ffconf) - hosting with data centres in the UK _and_ powered by renewable energy
 
 ---
