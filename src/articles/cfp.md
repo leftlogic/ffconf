@@ -1,7 +1,7 @@
 ---
 title: "ffconf's Call For Papers"
 date: 2019-07-03
-updated: 2025-05-17
+updated: 2025-11-05
 ---
 
 Though this post is timestamped, it applies to nearly every year of FFConf <abbr title="Call for Papers">CFP</abbr> it includes both what I want to hear about (to give you an idea whether something you're passionate about aligns with the topics), and also mine and Julie's [promise to our speakers](#our-promise-to-you).
@@ -9,10 +9,8 @@ Though this post is timestamped, it applies to nearly every year of FFConf <abbr
 You can also follow the [@FFConf.org](https://bsky.app/profile/ffconf.org) BlueSky account for the latest announcements to find out how to join in on this fun!
 
 {% if not next.cfpOpen %}
-<mark>Please note that the 2025 call for proposals is now closed</mark>
+<mark>Please note that the {{ collections.currentYear.year }} call for proposals is now closed</mark>
 {% endif %}
-
-
 
 ## Topics I'm interested in hearing about
 
@@ -69,7 +67,11 @@ Topics that don't work, unless they're genuinely going to change the World, then
 
 Send us the title of your talk, an outline of the talk and any extra information you want us to know about the idea:
 
+{% if next.cfpOpen %}
 <a class="pill pill-cta" href="https://ffconf.org/cfp-apply">Apply now</a>
+{% else %}
+<span class="pill pill-cta">CFP is current closed</a>
+{% endif %}
 
 ## Deadline for submissions and when will you hear back?
 
@@ -91,4 +93,9 @@ All our speakers are treated the same. We will, as always:
 
 So I hope to hear from you soon!
 
+{% if next.cfpOpen %}
 <a class="pill pill-cta" href="https://ffconf.org/cfp-apply">Apply now</a>
+{% else %}
+<span class="pill pill-cta">CFP is current closed</a>
+{% endif %}
+

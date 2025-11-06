@@ -29,14 +29,17 @@
   font-size: 18px;
   color: var(--white);
   padding: 15px 28px;
-  cursor: pointer;
   text-decoration: none;
   max-width: 300px;
   max-width: fit-content;
   margin: 0 auto;
 }
 
-.article .body .pill-cta:hover {
+a.pill-cta {
+  cursor: pointer;
+}
+
+.article .body a.pill-cta:hover {
   color: var(--white);
   text-decoration: underline;
 }

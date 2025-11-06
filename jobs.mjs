@@ -1,7 +1,6 @@
 import { parse } from 'csv-parse/sync';
 import { writeFileSync } from 'fs';
 import { resolve } from 'path';
-import fetch from 'node-fetch';
 import slugify from 'slugify';
 
 const url =
@@ -89,9 +88,8 @@ async function main() {
         return -1;
       } else if (!a.promote && b.promote) {
         return 1;
-      } else {
-        return new Date(b.from) - new Date(a.from);
       }
+      return new Date(b.from) - new Date(a.from);
     });
 
   writeFileSync(resolve('src', '_data', 'jobs.json'), JSON.stringify(jobs));
