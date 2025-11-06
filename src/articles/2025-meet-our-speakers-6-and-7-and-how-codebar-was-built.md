@@ -1,6 +1,6 @@
 ---
 title: Meet our speakers (6 & 7), and how Codebar was built
-date: 2025-11-07
+date: 2025-11-06
 ---
 
 ## Latest Event News
