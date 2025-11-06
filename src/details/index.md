@@ -1,5 +1,5 @@
 ---
-date: 2025-11-05T15:00:00
+date: 2025-11-06T23:00:00
 title: 2025 FFConf details
 author: Julie
 ---
@@ -51,7 +51,7 @@ The day will finish by 6pm. The schedule will be in your programme and online, a
 
 Note that by attending our events, you are agreeing to our [code of conduct](https://ffconf.org/code-of-conduct/).
 
-If see or hear our code of conduct being breached, or have any other concerns or questions, please contact a member of staff (wearing FFConf t-shirts), our BlueSky [@ffconf](https://bsky.app/profile/ffconf.org) DMs are open.
+If see or hear our code of conduct being breached, or have any other concerns or questions, please contact a member of staff (wearing FFConf t-shirts), our Bluesky [@ffconf](https://bsky.app/profile/ffconf.org) DMs are open.
 
 ## Refreshments and lunch
 
@@ -71,7 +71,7 @@ The coffee cups we use are compostable but please do bring your own travel mug a
 
 Yes to all. Hashtag all the things with [#FFConf](https://bsky.app/search?q=%23ffconf).
 
-Feel free to follow us [on BlueSky at @FFConf](https://bsky.app/profile/ffconf.org) for the latest info on the event.
+Feel free to follow us [on Bluesky at @FFConf](https://bsky.app/profile/ffconf.org) for the latest info on the event.
 
 <!-- The event will have live commentary uploaded on our Mastodon account. -->
 
@@ -146,7 +146,7 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 ## Contact
 
 * Email: [events@leftlogic.com](mailto:events@leftlogic.com), or directly: [remy@leftlogic.com](mailto:remy@leftlogic.com) & [julie@leftlogic.com](mailto:julie@leftlogic.com)
-* BlueSky & DM (we have open DMs): [@FFConf](https://bsky.app/profile/ffconf.org)
+* Bluesky & DM (we have open DMs): [@FFConf](https://bsky.app/profile/ffconf.org)
 
 <!-- ## Sponsors -->
 <!-- omit in toc -->
