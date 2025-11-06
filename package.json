@@ -22,27 +22,8 @@
   },
   "author": "Remy Sharp",
   "license": "MIT",
-  "parked": {
-    "@remy/ffconf2009": "^1.1.0",
-    "@remy/ffconf2010": "^1.1.0",
-    "@remy/ffconf2011": "^1.1.0",
-    "@remy/ffconf2012": "^1.1.1",
-    "@remy/ffconf2013": "^1.1.0",
-    "@remy/ffconf2014": "^1.1.0",
-    "@remy/ffconf2015": "^1.1.0",
-    "@remy/ffconf2016": "^1.5.0",
-    "@remy/ffconf2017": "^1.2.3",
-    "@remy/ffconf2018": "1.2.15",
-    "body-parser": "^1.18.2",
-    "cookie-parser": "^1.4.3",
-    "express": "^4.16.2",
-    "graphql-request": "^1.4.0",
-    "jwt-decode": "^2.2.0",
-    "lru-cache": "^4.1.3",
-    "vhost": "^3.0.2"
-  },
   "dependencies": {
-    "@11ty/eleventy-upgrade-help": "^2.0.5",
+    "@11ty/eleventy-upgrade-help": "^3.0.1",
     "apollo-server-micro": "^2.9.4",
     "csv-parse": "^5.3.1",
     "graphql": "^14.4.2",
@@ -54,7 +35,7 @@
     "unidecode": "^0.1.8"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-rss": "^1.0.6",
     "apollo-server-testing": "^2.2.0",
     "cheerio": "^1.0.0-rc.3",

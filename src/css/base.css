@@ -251,6 +251,7 @@ h1 + h2 {
   background-color: var(--salmon);
   color: white;
   margin: 0 8.5px 0 0;
+  margin-bottom: 4px;
 }
 
 .pill-button {
@@ -551,6 +552,15 @@ img.soft {
   background-origin: content-box;
   border-left-width: 0;
   border-right-width: 0;
+
+  p {
+    font-size: 14px;
+    color: #333333;
+
+    @media (min-width: 700px) {
+      font-size: 16px;
+    }
+  }
 }
 
 .newsletter > div {
@@ -956,12 +966,16 @@ details summary {
 }
 
 @media only screen and (max-width: 700px) {
-  main {
-    /* padding: 0 20px; */
-  }
-
   .body > footer {
     padding-left: 20px;
     padding-right: 20px;
   }
+}
+
+mark {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  background: #ddd;
+  border-radius: 2px;
 }

@@ -65,7 +65,7 @@ main .pill-button:hover {
   margin: 0 auto;
 }
 
-.article .body .pill-cta:hover {
+.article .body a.pill-cta:hover {
   color: var(--white);
   text-decoration: underline;
 }

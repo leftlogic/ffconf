@@ -1,6 +1,6 @@
-/* eslint-env service-worker */
+/* eslint-env serviceworker */
 
-const cacheName = 'v2025.2/ffconf/details';
+const cacheName = 'v2025.4/ffconf/details';
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(
@@ -70,10 +70,12 @@ self.addEventListener('fetch', (event) => {
           if (cachedResponse) {
             return cachedResponse;
           }
-          console.log(
-            'failed to fetch from network and cache',
-            event.request.url
-          );
+
+          return new Response('<html><body>This page is not cached', {
+            status: 404,
+            statusText: 'Not Found',
+            headers: { 'Content-Type': 'text/html' },
+          });
         });
       })
   );
