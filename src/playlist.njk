@@ -1,0 +1,34 @@
+---
+id: playlist
+layout: layouts/simple
+js: playlist.mjs
+css:
+- simple-page.css
+- playlist.css
+---
+
+<div class="container" style="display: flex; flex-direction: row">
+  <div>
+    <h1>The event playlist</h1>
+
+    <p>Due to having spent his youth in the 80s, Remy has always run the same playlist at FFConf. If you enjoyed it, or
+      wanted to re-live those Rick Rollin' days, the playlist is available below to enjoy again.</p>
+  </div>
+  <img style="height: fit-content; border-radius: 8px;" src="/images/dance.gif"
+    alt="Remy, in 2015, dances around on stage at FFConf, very, very badly">
+</div>
+
+<div class="playlist-tabs" id="playlist-tabs">
+  <label class="playlist-tab" id="tab-apple">
+    <input type="radio" name="playlist-service" value="apple" checked>
+    <img src="/images/apple-icon.svg" alt="Apple Music" />
+    Apple Music
+  </label>
+  <label class="playlist-tab" id="tab-spotify">
+    <input type="radio" name="playlist-service" value="spotify">
+    <img src="/images/spotify-icon.svg" alt="Spotify" />
+    Spotify
+  </label>
+</div>
+<div id="playlist-iframe"></div>
+<script src="/assets/playlist.mjs" type="module"></script>
