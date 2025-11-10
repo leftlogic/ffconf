@@ -27,3 +27,18 @@
 .playlist-tab input[type='radio'] {
   display: none;
 }
+
+.heading-container {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 720px) {
+    flex-direction: row;
+  }
+
+  img {
+    margin-bottom: 16px;
+    height: fit-content;
+    border-radius: 8px;
+  }
+}
