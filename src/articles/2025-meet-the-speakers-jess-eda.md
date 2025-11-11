@@ -1,6 +1,6 @@
 ---
 title: "Meet our 2025 speakers: Jess & Eda on Forgetting Machines: AI Coding Tools and Skill"
-date: 2025-11-13
+date: 2025-11-11
 description: Jess Rose and Eda Eren explore how AI coding tools may diminish developer learning and impact industry skills.
 ---
 
