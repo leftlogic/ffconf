@@ -1,5 +1,5 @@
 ---
-date: 2025-11-06T23:00:00
+date: 2025-11-12T13:30:00
 title: 2025 FFConf details
 author: Julie
 ---
@@ -19,6 +19,7 @@ Please note, a full copy of these [details](https://ffconf.org/details/) are onl
 ## Contents <!-- omit in toc -->
 
 - [Directions](#directions)
+- [Schedule](#schedule)
 - [Registration - 9am](#registration-9am)
 - [Refreshments and lunch](#refreshments-and-lunch)
 - [Lunch with future friends](#lunch-with-future-friends)
@@ -42,6 +43,25 @@ The conference is being held at the Duke of York's Picturehouse in Brighton, les
 At the moment there are no planned engineering works on the trains, and you can check [up to date changes here](https://www.nationalrail.co.uk/status-and-disruptions/).
 
 <!-- [Hotel recommendations](https://2024.ffconf.org/#locations) can also be found on our website. -->
+
+## Schedule
+
+- 09:00-09:40 Registration
+- 09:40-09:50 Opening remarks
+n. **Hellen Ward** Bias in our products: The case for diversity in tech - 09:50-10:30
+n. **Chetan Padia** Powerless by Design - 10:30-11:10
+- 11:10-11:40 Coffee break (30 mins)
+n. **Hannah Clarke** An Uncomfortable Place - 11:40-12:20
+n. **Sergès Goma** You're in a Code Cult (And That's OK) - 12:20-13:00
+- 13:00-14:30 Lunch break (90 mins)
+n. **Asim Hussain** Don't be an Idiot - 14:30-15:10
+n. **Jessica Rose & Eda Eren** Forgetting Machines: AI Coding Tools and Skill - 15:10-15:50
+- 15:50-16:15 Ice cream break (25 minutes)
+n. **Surya Rose** Six to Sixteen: A Child's Programming Journey - 16:15-16:55
+n. **Sacha Judd** The Good Internet: How Fandom Can Reclaim the Web - 16:55-17:35
+- 17:35-17:50 Closing remarks
+- 17:50-Late  After Party
+
 
 ## Registration - 9am
 
