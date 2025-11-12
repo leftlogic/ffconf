@@ -1,4 +1,4 @@
-@import "/css/article.css";
+@import '/css/article.css';
 
 h3 {
   margin: 28px 0;
@@ -25,14 +25,16 @@ mark {
   opacity: 1;
 }
 
-pre code,pre[class*="language-"] code {
+pre code,
+pre[class*='language-'] code {
   color: #272727;
   background: #f3f3f3;
   padding: 0.5em;
-  -webkit-text-size-adjust: none
+  -webkit-text-size-adjust: none;
 }
 
-pre,pre[class*="language-"] {
+pre,
+pre[class*='language-'] {
   padding: 0 0.2em;
   margin: 10px 0;
   line-height: 1.475;
@@ -56,22 +58,50 @@ pre,pre[class*="language-"] {
   display: block;
   width: 100%;
   overflow: auto;
-  max-width: 100%
+  max-width: 100%;
 }
 
-pre code,pre[class*="language-"] code {
+pre code,
+pre[class*='language-'] code {
   word-wrap: -moz-break-word;
   word-wrap: break-word;
   white-space: pre;
   word-wrap: normal;
-  display: table-cell!important;
-  -webkit-text-size-adjust: none
+  display: table-cell !important;
+  -webkit-text-size-adjust: none;
 }
 
 code {
-  font-family: 'ubuntu mono',menlo,monaco,consolas,courier,'courier new','lucida console',monospace;
+  font-family: 'ubuntu mono', menlo, monaco, consolas, courier, 'courier new',
+    'lucida console', monospace;
 }
 
 .article .body.details a {
   color: var(--salmon);
+}
+
+#schedule + table {
+  margin-top: 12px;
+  border-collapse: collapse;
+  thead {
+    display: none;
+  }
+
+  td {
+    vertical-align: top;
+    padding: 4px;
+  }
+
+  tr {
+    border-bottom: 1px solid #f3f3f3;
+  }
+
+  tbody tr td:first-child {
+    /* font-family: monospace; */
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum';
+    padding-right: 1em;
+    text-align: right;
+    font-family: system-ui;
+  }
 }
