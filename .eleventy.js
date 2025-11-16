@@ -29,7 +29,7 @@ const markdown = markdownIt(options)
   });
 const now = Date.now();
 const livePosts = (p) => p.date <= now;
-const shuffle = (a) => a.sort((a, b) => (Math.random() < 0.5 ? -1 : 1));
+const shuffle = (a) => a.sort(() => (Math.random() < 0.5 ? -1 : 1));
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.setLibrary('md', markdown);
@@ -48,14 +48,15 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter('log', (...args) => {
-    // eslint-disable-next-line no-console
     console.log('log', ...args);
     return '';
   });
 
   eleventyConfig.addFilter('formatSessionSummary', (content) => {
     const parts = content.split('---');
-    if (parts.length !== 2) return { summary: '', content: content };
+    if (parts.length !== 2) {
+      return { summary: '', content: content };
+    }
 
     // The summary is the last part, and the main content is everything before it
     const summary = parts[1].trim();
@@ -90,13 +91,19 @@ module.exports = function (eleventyConfig) {
     format(s, fmt || 'dddd D MMM YYYY')
   );
   eleventyConfig.addFilter('cleanUsername', (s) => {
-    if (!s) return 'UNKNOWN';
-    if (s[0] === '@') s = s.slice(1);
+    if (!s) {
+      return 'UNKNOWN';
+    }
+    if (s[0] === '@') {
+      s = s.slice(1);
+    }
     return s.toLowerCase().replace(/@.*$/, '');
   });
   eleventyConfig.addFilter('pubDate', (s) => parse(s).toUTCString());
   eleventyConfig.addFilter('filename', (s) => {
-    if (s) return basename(s);
+    if (s) {
+      return basename(s);
+    }
   });
   eleventyConfig.addFilter('stringify', require('./src/_filters/stringify'));
   eleventyConfig.addFilter('repeat', (s, n) => {
@@ -122,7 +129,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter('filter', (source, prop, value) => {
     return source.filter((source) => {
       const res = undefsafe(source, prop);
-      return res == value;
+      return res === value;
     });
   });
 
@@ -178,7 +185,7 @@ module.exports = function (eleventyConfig) {
     }
   );
 
-  eleventyConfig.addShortcode('ffconf', () => `FFConf`);
+  eleventyConfig.addShortcode('ffconf', () => 'FFConf');
   eleventyConfig.addShortcode('year', () => new Date().getFullYear());
 
   eleventyConfig.addShortcode('social', function (handle) {
@@ -187,9 +194,9 @@ module.exports = function (eleventyConfig) {
       const [name, host] = handle.split('@');
       // ire@front-end.social
       return `<li><a class="masto" target="_blank" title="${handle}" href="https://${host}/@${name}">${handle}</a></li>`;
-    } else {
-      return `<li><a target="_blank" title="@${handle}" href="https://twitter.com/${handle}">@${handle}</a></li>`;
     }
+
+    return `<li><a target="_blank" title="@${handle}" href="https://twitter.com/${handle}">@${handle}</a></li>`;
   });
 
   // static passthroughs
@@ -205,16 +212,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/*.html');
   // eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
 
-  eleventyConfig.addCollection('randomLatest', async function (collection) {
+  eleventyConfig.addCollection('randomLatest', async function () {
     const talks = await Talks().then((talks) =>
       talks.filter((talk) => liveYears.includes(parseInt(talk.event.year, 10)))
     );
     const n = liveYears.length;
     const first = shuffle(
-      talks.filter((_) => _.event.year == liveYears[n - 1])
+      talks.filter((_) => _.event.year === liveYears[n - 1])
     )[0];
     const second = shuffle(
-      talks.filter((_) => _.event.year == liveYears[n - 2])
+      talks.filter((_) => _.event.year === liveYears[n - 2])
     )[0];
     return [first, second];
   });
@@ -261,7 +268,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addCollection('currentYear', () => currentYear);
 
-  eleventyConfig.addCollection('articleList', function (collection) {
+  eleventyConfig.addCollection('articleList', function () {
     const res = allArticles.map(({ url, data }) => {
       const { title, date, tags, by } = data;
       return {

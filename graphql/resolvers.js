@@ -28,7 +28,7 @@ const Types = {
       ),
   },
   Session: {
-    event: (parent, { live }) => {
+    event: (parent) => {
       return get(events, 'id', parent.eventId);
     },
     speaker: (parent) => {
@@ -56,12 +56,12 @@ const Types = {
         }
 
         if (where.year) {
-          s = s.filter((_) => get(events, 'id', _.eventId).year == where.year);
+          s = s.filter((_) => get(events, 'id', _.eventId).year === where.year);
         }
       }
 
       if (live) {
-        s = s.filter((_) => get(events, 'id', _.eventId).live != false);
+        s = s.filter((_) => get(events, 'id', _.eventId).live !== false);
       }
 
       if (orderBy) {

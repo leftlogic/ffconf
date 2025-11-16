@@ -31,7 +31,9 @@ function parse(s) {
 
   return dates.map((_) => {
     const [a, b = Infinity] = _.split(/\s+/).map((_) => {
-      if (_.trim() === '') return undefined;
+      if (_.trim() === '') {
+        return undefined;
+      }
       const d = new Date(_);
 
       if (!isValid(d)) {
@@ -76,7 +78,7 @@ class WhenDo extends HTMLElement {
       ![DO_OPTIONS.SHOW, DO_OPTIONS.HIDE, DO_OPTIONS.SCROLL].includes(this.do)
     ) {
       throw new Error(
-        `when-do "do" property requires either "show", "hide" or "scroll"`
+        'when-do "do" property requires either "show", "hide" or "scroll"'
       );
     }
 
@@ -121,7 +123,9 @@ class WhenDo extends HTMLElement {
   }
 
   scroll() {
-    if (this.state === DO_OPTIONS.SCROLL) return; // nop
+    if (this.state === DO_OPTIONS.SCROLL) {
+      return; // nop
+    }
     this.show();
     if (this.firstElementChild) {
       this.firstElementChild.scrollIntoView({ behavior: 'smooth' });
@@ -134,14 +138,18 @@ class WhenDo extends HTMLElement {
   }
 
   show() {
-    if (this.state === DO_OPTIONS.SHOW) return; // nop
+    if (this.state === DO_OPTIONS.SHOW) {
+      return; // nop
+    }
     this.setAttribute('style', 'display: contents');
     this.state = DO_OPTIONS.SHOW;
     this.checkTriggered();
   }
 
   hide() {
-    if (this.state === DO_OPTIONS.HIDE) return; // nop
+    if (this.state === DO_OPTIONS.HIDE) {
+      return; // nop
+    }
     this.setAttribute('style', 'display: none');
     this.state = DO_OPTIONS.HIDE;
     this.checkTriggered();

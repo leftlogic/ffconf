@@ -25,6 +25,7 @@ async function main() {
       'salary',
       'approved',
     ],
+    // eslint-disable-next-line camelcase
     skip_empty_lines: true,
     from: 2,
   });
