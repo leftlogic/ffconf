@@ -146,7 +146,10 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter('deTwitterify', (src) => {
-    return `/images/posts/photos/${src.split('/').pop()}`;
+    if (src.includes('twimg')) {
+      return `/images/posts/photos/${src.split('/').pop()}`;
+    }
+    return src;
   });
 
   // dump filter
