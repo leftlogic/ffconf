@@ -19,6 +19,6 @@ Watch [Surya](https://www.youtube.com/watch?v=anF9c2zq1BM&list=PLXmT1r4krsTo5KtT
 
 Thank you so much for all your support this year, it really means the world to both of us. We are grateful for every ticket sale, share on social media, recommendation to a friend or colleague, donation to the scholarship fund - it means so much to a family run conference like ourselves.
 
-You won't hear from us again until May 2026 when we start a new season, so with that, we want to with you all the very best for 2026 and hope to see you on Friday 13th November next year (if not before!).
+You won't hear from us again until May 2026 when we start a new season, so with that, we want to with you all the very best for [2026](https://2026.ffconf.org/) and hope to see you on Friday 13th November next year (if not before!).
 
 – Remy & Julie 👋🎄
