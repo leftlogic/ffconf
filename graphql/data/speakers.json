@@ -852,7 +852,7 @@
     "id": "2025_asim",
     "url": "https://www.linkedin.com/in/jawache/",
     "bio": "Dad bought a Sharp MZ-700 in the 1980s, got it cheap because Sharp had stopped manufacturing them. No games in stores, just a BASIC interpreter on tape, a programming manual, and one tape with 10 games. If I wanted more games, I had to learn to code them myself.",
-    "photo": "/images/speakers/asimh.jpg",
+    "photo": "/images/speakers/asimh.jpg.avif",
     "websites": {
       "LinkedIn": "https://www.linkedin.com/in/jawache/"
     }
@@ -862,7 +862,7 @@
     "id": "2025_chetan",
     "url": "https://chetbox.com/",
     "bio": "I wanted to play computer games like my friends were playing but my parents put a computer with BASIC in front of me and told me to make my own.",
-    "photo": "/images/speakers/chetanp.jpg",
+    "photo": "/images/speakers/chetanp.jpg.avif",
     "websites": {
       "Website": "https://chetbox.com/",
       "LinkedIn": "https://www.linkedin.com/in/chetbox/"
@@ -873,7 +873,7 @@
     "id": "2025_hannah",
     "url": "https://bsky.app/profile/hannahc.bsky.social",
     "bio": "Spent my teenage years learning HTML and CSS for my MySpace profile (my falling stars were next level). Never considered web development when I went to study politics, then glaciology (obviously…), followed by a career running social inclusion projects. But these days I'm a UI Engineer. Full circle.",
-    "photo": "/images/speakers/hannahc.jpg",
+    "photo": "/images/speakers/hannahc.jpg.avif",
     "websites": {
       "BlueSky": "https://bsky.app/profile/hannahc.bsky.social",
       "Medium": "https://medium.com/@_hannahc_",
@@ -885,7 +885,7 @@
     "id": "2025_hellen",
     "url": "https://www.hellenwellsward.com",
     "bio": "I studied drama, which inevitably led to a series of sparkling roles in admin. Somewhere between playing calendar Tetris and speed typing minutes, I thought: \"What if I taught myself to code?\" Somehow this became my new career and I haven't looked back.",
-    "photo": "/images/speakers/hellenw.jpg",
+    "photo": "/images/speakers/hellenw.jpg.avif",
     "websites": {
       "hellenwellsward.com": "https://www.hellenwellsward.com",
       "LinkedIn": "https://www.linkedin.com/in/hellen-ward-7b6984115/"
@@ -896,7 +896,7 @@
     "id": "2025_jessica",
     "url": "https://bsky.app/profile/jesslynnrose.bsky.social",
     "bio": "Jessica: I woke up one day and realized that programming languages are like human languages, but with jobs that paid better and wouldn't make me get a PhD so here I am. Eda: I had an epiphany once that technology is not supposed to be a curse, and programming can be seen as an art form, not just pure science. (Also, that there's always lots to learn, so that's what I decided to do!)",
-    "photo": "/images/speakers/jessica-eda.jpg",
+    "photo": "/images/speakers/jessica-eda.jpg.avif",
     "websites": {
       "BlueSky": "https://bsky.app/profile/jesslynnrose.bsky.social",
       "Mastodon": "https://mastodon.social/@jessie",
@@ -910,7 +910,7 @@
     "id": "2025_sacha",
     "url": "https://www.sachajudd.com",
     "bio": "My first computer was a Commodore Vic 20, aged ten. I was one of the first home users of the internet in Aotearoa/New Zealand in 1993, much to the chagrin of my parents who didn't enjoy paying astronomical rates for dial-up for me to hang out in LambaMOO. My first fandom was The X-Files, and I've lived and breathed transformative fan communities ever since. They're the best (and sometimes the worst!) of the internet. Now I'm weirdly micro-famous for giving tech talks all over the world about Harry Styles.",
-    "photo": "/images/speakers/sachaj.jpg",
+    "photo": "/images/speakers/sachaj.jpg.avif",
     "websites": {
       "Sacha's website": "https://www.sachajudd.com",
       "BlueSky": "https://bsky.app/profile/sachajudd.com",
@@ -922,7 +922,7 @@
     "id": "2025_serges",
     "url": "https://www.linkedin.com/in/devserges/",
     "bio": "When I was 15, I went full hikikomori (iykyk) for an entire summer, locking myself in my parents' basement to build text-based RPG forums with good old HTML, CSS, and JS. I had no idea what I was doing—but I got so obsessed, I somehow turned it into a full-time thing.",
-    "photo": "/images/speakers/sergesg.jpg",
+    "photo": "/images/speakers/sergesg.jpg.avif",
     "websites": {
       "LinkedIn": "https://www.linkedin.com/in/devserges/"
     }
@@ -932,7 +932,7 @@
     "id": "2025_surya",
     "url": "https://gearsco.de/",
     "bio": "When I was six years old, I asked my dad to teach me to code. For some reason it stuck, and ten years later here I am giving a talk about it.",
-    "photo": "/images/speakers/suryar.jpg",
+    "photo": "/images/speakers/suryar.jpg.avif",
     "websites": {
       "Website": "https://gearsco.de/"
     }
