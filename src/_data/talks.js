@@ -1,5 +1,5 @@
-const { createTestClient } = require('apollo-server-testing');
-const { server } = require('../../graphql');
+const { graphql } = require('../../graphql/node_modules/graphql');
+const { schema } = require('../../graphql');
 
 const query = `query {
   sessions(orderBy:order_ASC, live:true) {
@@ -28,23 +28,19 @@ const query = `query {
   }
 }`;
 
-const client = createTestClient(server);
+module.exports = async () => {
+  const { data, errors } = await graphql({ schema, source: query });
 
-module.exports = () => {
-  return new Promise((resolve, reject) => {
-    client
-      .query({ query })
-      .then(({ data }) => {
-        resolve(
-          data.sessions.sort((a, b) => {
-            if (a.event.year === b.event.year) {
-              return a.order < b.order ? -1 : 1;
-            }
+  if (errors && errors.length) {
+    const messages = errors.map((e) => e.message).join('; ');
+    throw new Error(messages);
+  }
 
-            return a.event.year > b.event.year ? -1 : 1;
-          })
-        );
-      })
-      .catch(reject);
+  return data.sessions.sort((a, b) => {
+    if (a.event.year === b.event.year) {
+      return a.order < b.order ? -1 : 1;
+    }
+
+    return a.event.year > b.event.year ? -1 : 1;
   });
 };

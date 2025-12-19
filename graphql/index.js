@@ -1,16 +1,19 @@
-const { ApolloServer, gql } = require('apollo-server-micro');
+const { createYoga, createSchema } = require('graphql-yoga');
 const { readFileSync } = require('fs');
+const path = require('path');
 const resolvers = require('./resolvers');
 
-const typeDefs = gql(readFileSync(__dirname + '/schema.graphql', 'utf8'));
+const typeDefs = readFileSync(path.join(__dirname, 'schema.graphql'), 'utf8');
 
-const server = new ApolloServer({
-  typeDefs,
-  resolvers,
-  playground: true,
-  introspection: true
+const schema = createSchema({ typeDefs, resolvers });
+
+const yoga = createYoga({
+  schema,
+  graphqlEndpoint: '/',
+  landingPage: true,
 });
 
-module.exports = server.createHandler({ path: '/' });
+module.exports = yoga;
 module.exports.resolvers = resolvers;
-module.exports.server = server;
+module.exports.yoga = yoga;
+module.exports.schema = schema;

@@ -1621,5 +1621,101 @@
     "description": "Art and design require imagination, yet in our busy lives, we often neglect reflection, which is essential for self-growth and long-term success; Imran's talk will explore how taking time to reflect can help us learn from our experiences and shape a better future.",
     "slides": "https://media.ffconf.org/2024/8.pdf",
     "video": "https://www.youtube.com/watch?v=y37rDf5gPtI"
+  },
+  {
+    "title": "Bias in our products: The case for diversity in tech",
+    "tags": ["betterment"],
+    "duration": 40,
+    "speakerId": "2025_hellen",
+    "slug": "2025_hellen",
+    "eventId": "2025",
+    "order": 1,
+    "description": "Hellen unpacks how lack of diversity produces biased products—from racially biased soap dispensers to dangerous gaps in AI healthcare—tracing tech’s history, showing modern failures, and urging teams to build more inclusive, representative systems.",
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=1MVJ1mjJGQk&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=1"
+  },
+  {
+    "title": "Powerless by Design",
+    "tags": ["big web ideas"],
+    "duration": 40,
+    "speakerId": "2025_chetan",
+    "slug": "2025_chetan",
+    "eventId": "2025",
+    "order": 2,
+    "description": "Chetan explores how opt-ins, cookies, and mandatory accounts cost users control, and asks how we can design products that truly prioritize user benefit over data extraction.",
+    "slides": "https://media.ffconf.org/2025/2.pdf",
+    "video": "https://www.youtube.com/watch?v=j1h5ft77rQ0&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=2"
+  },
+  {
+    "title": "An Uncomfortable Place",
+    "tags": ["standards", "javascript"],
+    "duration": 40,
+    "speakerId": "2025_hannah",
+    "slug": "2025_hannah",
+    "eventId": "2025",
+    "order": 3,
+    "description": "Hannah shares how her team builds framework-agnostic design system component packages with web components and Stencil, balancing developer expectations—especially the React faithful—while keeping everyone happy.",
+    "slides": "https://media.ffconf.org/2025/3.pdf",
+    "video": "https://www.youtube.com/watch?v=rOHLNP-_Oi0&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=3"
+  },
+  {
+    "title": "You're in a Code Cult (And That's OK)",
+    "tags": ["fun", "big web ideas"],
+    "duration": 40,
+    "speakerId": "2025_serges",
+    "slug": "2025_serges",
+    "eventId": "2025",
+    "order": 4,
+    "description": "Sergès dives into why programming languages become badges of belonging, the rivalries they spark, and what that culture says about the communities we build around code.",
+    "slides": "https://media.ffconf.org/2025/4.pdf",
+    "video": "https://www.youtube.com/watch?v=ab0tDcxmc64&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=4"
+  },
+  {
+    "title": "Don't be an Idiot",
+    "tags": ["big web ideas", "ai"],
+    "duration": 40,
+    "speakerId": "2025_asim",
+    "slug": "2025_asim",
+    "eventId": "2025",
+    "order": 5,
+    "description": "Asim connects ancient democratic practices to modern open source and standards, arguing that our most vital work is governance in an AI age—guarding collective decision-making over mere invention.",
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=Qko6e2VpjIg&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=5"
+  },
+  {
+    "title": "Forgetting Machines: AI Coding Tools and Skill",
+    "tags": ["ai", "betterment"],
+    "duration": 40,
+    "speakerId": "2025_jessica",
+    "slug": "2025_jessica",
+    "eventId": "2025",
+    "order": 6,
+    "description": "Jessica and Eda probe how AI coding tools erode the learning processes that build developer skill, what that means for individuals and the industry, and what we can do to counter the brain drain.",
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=rsV3fC1p90o&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=6"
+  },
+  {
+    "title": "Six to Sixteen: A Child's Programming Journey",
+    "tags": ["betterment"],
+    "duration": 40,
+    "speakerId": "2025_surya",
+    "slug": "2025_surya",
+    "eventId": "2025",
+    "order": 7,
+    "description": "Surya shares a decade-long path from learning to code at age six to speaking about navigating countless technologies, highlighting what helps young developers start and persist.",
+    "slides": null,
+    "video": "https://www.youtube.com/watch?v=anF9c2zq1BM&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=7"
+  },
+  {
+    "title": "The Good Internet: How Fandom Can Reclaim the Web",
+    "tags": ["betterment"],
+    "duration": 40,
+    "speakerId": "2025_sacha",
+    "slug": "2025_sacha",
+    "eventId": "2025",
+    "order": 8,
+    "description": "Sacha traces the web's fandom roots and shows how small, personal, DIY spaces can help us escape algorithmic doom loops, reclaim creativity, and rebuild a more human internet.",
+    "slides": "https://www.sachajudd.com/the-good-internet-directors-cut/",
+    "video": "https://www.youtube.com/watch?v=29-slCtUGMY&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=8&t=117s"
   }
 ]
