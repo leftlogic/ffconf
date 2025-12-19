@@ -1,6 +1,6 @@
 ---
 title: 📺 Final video releases & end of season '25 🛌🎄
-date: "2025-12-19 12:00:00"
+date: "2025-12-19T12:00:00"
 ---
 
 ## The last of 2025
