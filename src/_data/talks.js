@@ -1,4 +1,4 @@
-const { graphql } = require('../../graphql/node_modules/graphql');
+const { graphql } = require('graphql');
 const { schema } = require('../../graphql');
 
 const query = `query {
