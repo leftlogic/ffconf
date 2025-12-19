@@ -1,6 +1,6 @@
 ---
 title: 📺 Final video releases & end of season '25 🛌🎄
-date: 2025-12-20
+date: "2025-12-19 12:00:00"
 ---
 
 ## The last of 2025
@@ -9,11 +9,11 @@ This is our final newsletter of 2025 and with that we present the final sessions
 
 There was many proud parents in the room as [Surya Rose](https://www.youtube.com/watch?v=anF9c2zq1BM&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=7) (16 years old) confidently took to the stage to fulfil his dream and led us on his coding journey from 6 to 16 years old. As our industry continues to exist, it's the young people who will breathe life into it, so Surya's experience is essential.
 
-We were delighted that [Sacha Judd](https://www.youtube.com/watch?v=Zq0WjXn0N9k&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=8) was able to join us all the way from New Zealand! She filled our hearts with the joy of what the Good Internet is. Not just a nostalgic memory but alive today and just as weird as always.
+We were delighted that [Sacha Judd](https://www.youtube.com/watch?v=29-slCtUGMY&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=8) was able to join us all the way from New Zealand! She filled our hearts with the joy of what the Good Internet is. Not just a nostalgic memory but alive today and just as weird as always.
 
 ![Surya and Sasha close out FFConf 2025](/images/articles/session4.avif)
 
-Watch [Surya](https://www.youtube.com/watch?v=anF9c2zq1BM&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=7) and [Sacha's](https://www.youtube.com/watch?v=Zq0WjXn0N9k&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=8) talks today.
+Watch [Surya](https://www.youtube.com/watch?v=anF9c2zq1BM&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=7) and [Sacha's](https://www.youtube.com/watch?v=29-slCtUGMY&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=8) talks today.
 
 ## Huge Thanks
 
