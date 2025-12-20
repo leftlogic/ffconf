@@ -1631,7 +1631,7 @@
     "eventId": "2025",
     "order": 1,
     "description": "Hellen unpacks how lack of diversity produces biased products—from racially biased soap dispensers to dangerous gaps in AI healthcare—tracing tech’s history, showing modern failures, and urging teams to build more inclusive, representative systems.",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2025/1.pdf",
     "video": "https://www.youtube.com/watch?v=1MVJ1mjJGQk&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=1"
   },
   {
@@ -1691,7 +1691,7 @@
     "eventId": "2025",
     "order": 6,
     "description": "Jessica and Eda probe how AI coding tools erode the learning processes that build developer skill, what that means for individuals and the industry, and what we can do to counter the brain drain.",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2025/6.pdf",
     "video": "https://www.youtube.com/watch?v=rsV3fC1p90o&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=6"
   },
   {
@@ -1703,7 +1703,7 @@
     "eventId": "2025",
     "order": 7,
     "description": "Surya shares a decade-long path from learning to code at age six to speaking about navigating countless technologies, highlighting what helps young developers start and persist.",
-    "slides": null,
+    "slides": "https://media.ffconf.org/2025/7.pdf",
     "video": "https://www.youtube.com/watch?v=anF9c2zq1BM&list=PLXmT1r4krsTo5KtThq4dATD_ctsV8mdJQ&index=7"
   },
   {
