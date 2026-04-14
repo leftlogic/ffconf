@@ -1,0 +1,70 @@
+#!/usr/bin/env runprompt
+# ----------------------------------------
+# YAML Frontmatter (runprompt configuration)
+# ----------------------------------------
+# Define the expected output format and a description
+model: googleai/gemini-2.5-flash-lite
+output.format: json
+description: Extracts metadata (title, author, date) from a list of URLs and formats the result as a structured JSON array.
+---
+
+# ----------------------------------------
+# SYSTEM INSTRUCTIONS / TASK DEFINITION
+# ----------------------------------------
+You are an expert web analysis and data serialization engine.
+
+Your task is to process the list of URLs provided in the `{{urls}}` variable below. For each URL, you must browse the content and accurately extract the required metadata fields.
+
+# ----------------------------------------
+# SYSTEM INSTRUCTIONS / TASK DEFINITION
+# ----------------------------------------
+You are an expert web analysis and data serialization engine.
+
+Your task is to process the list of URLs provided in the `{{urls}}` variable below. For each URL, you must browse the content and accurately extract the required metadata fields.
+
+**EXTRACTION RULES:**
+1.  **url:** Must be the exact URL from the input list.
+2.  **title:** Must be the main article or page title.
+3.  **by (author):** Must be the primary author or publishing entity. Derive this from the page content.
+4.  **date:** Must be the publication date in **YYYY-MM-DD** format if possible.
+
+**DATE EXTRACTION LOGIC (PRIORITIZED):**
+
+* **PRIORITY 1: Vercel/Next.js Data:**
+    * Check for the `<script id="__NEXT_DATA__" type="application/json">` tag.
+    * If found, parse the contained JSON and look for a `published` property (often an epoch timestamp). If found, **convert this epoch timestamp into the required YYYY-MM-DD format**.
+
+* **PRIORITY 2: LinkedIn Relative Date Calculation:**
+    * If the URL is from **linkedin.com** and a direct date is not found:
+        * Search for a `<time>` HTML element, which often contains relative time indicators (e.g., "2w", "1d", "3mo").
+        * **Calculate the approximate publication date** by subtracting that relative time from the current date (assume the current date is the time of execution).
+        * Convert the result to the **YYYY-MM-DD format**. For example, if the current date is 2025-12-11 and the time element says "2w", the calculated date is 2025-11-27.
+
+* **PRIORITY 3: Standard Extraction:**
+    * If the above methods fail, look for dates in the URL, article headers, or metadata tags.
+
+**FALLBACK RULE:**
+If the 'by' (author) or 'date' cannot be reliably found after all attempts, the value for that specific field must be the string **"UNKNOWN"**.
+
+**FINAL OUTPUT:**
+Your entire response must be a single, valid JSON array conforming exactly to the specified structure. Do not include any introductory text, markdown formatting other than the JSON block, or explanations.
+
+# ----------------------------------------
+# INPUT DATA (List of URLs)
+# ----------------------------------------
+The following are the URLs you must process. Treat each line as a separate URL:
+
+{{urls}}
+
+# ----------------------------------------
+# DESIRED OUTPUT JSON STRUCTURE
+# ----------------------------------------
+[
+    {
+      "url": "${url}",
+      "by": "${author}",
+      "date": "${date}",
+      "title": "${title}"
+    }
+    // ... continue for all URLs
+]

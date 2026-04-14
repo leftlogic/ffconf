@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+URLS=$(cat urls.txt | jq -Rn '{urls: [inputs | select(startswith("#") | not)] | join("\n") }')
+
+curl https://api.openai.com/v1/responses \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+  "prompt": {
+    "id": "pmpt_693a9e1f57088190a62b5bc749b5a1470f134feeda04b470",
+    "version": "1",
+    "variables": '$URLS'
+  }
+}'
