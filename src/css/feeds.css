@@ -64,89 +64,57 @@
   outline: none;
 }
 
-.feeds-filter-trigger {
+.feeds-filter {
+  margin: 0;
+}
+
+.feeds-filter summary {
+  list-style: none;
+  cursor: pointer;
   background-color: var(--box);
   color: var(--primary);
   font-size: 16px;
   padding: 14px 22px;
-  cursor: pointer;
+  border-radius: 9999px;
+  user-select: none;
+  white-space: nowrap;
 }
 
-.feeds-filter-trigger:hover {
+.feeds-filter summary::-webkit-details-marker {
+  display: none;
+}
+
+.feeds-filter summary::marker {
+  display: none;
+  content: '';
+}
+
+.feeds-filter summary:hover {
   background-color: var(--light-grey);
-  color: var(--primary);
 }
 
-#trigger-year { anchor-name: --trigger-year; }
-#trigger-tag { anchor-name: --trigger-tag; }
-
-#trigger-year:has(+ #popover-year:popover-open),
-#trigger-tag:has(+ #popover-tag:popover-open) {
+.feeds-filter[open] summary {
   background-color: var(--salmon);
   color: white;
 }
 
-.feeds-filter-popover {
-  margin: 0;
-  border: 0;
-  padding: 20px 24px;
+.feeds-filter-body {
   background: white;
+  border: 1px solid var(--light-grey);
   border-radius: 8px;
-  box-shadow: 0 20px 20px 0 rgba(51, 51, 51, 0.2);
-  min-width: 300px;
-  max-width: min(520px, calc(100vw - 40px));
-  color: var(--primary);
+  padding: 20px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px 0 rgba(51, 51, 51, 0.08);
 }
 
-.feeds-filter-popover .pill-list {
-  max-height: 320px;
-  overflow-y: auto;
-  margin: 0;
-}
-
-#popover-year .pill-list {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 8px;
-}
-
-#popover-year .checkbox-pill {
-  margin: 0;
-}
-
-#popover-year .pill {
+.feeds-filter-body .pill-list[data-filter-group='year'] .pill {
   font-variant-numeric: tabular-nums;
-  width: 100%;
-  padding: 6px 0;
-  text-align: center;
 }
 
-#popover-year { position-anchor: --trigger-year; }
-#popover-tag { position-anchor: --trigger-tag; }
-
-@supports (anchor-name: --x) {
-  .feeds-filter-popover {
-    position: absolute;
-    inset: auto;
-    top: calc(anchor(bottom) + 8px);
-    right: anchor(right);
-    bottom: auto;
-    left: auto;
-    margin: 0;
-  }
-}
-
-@supports not (anchor-name: --x) {
-  .feeds-filter-popover {
-    inset: auto;
-    top: 20vh;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-
-.feeds-filter-popover::backdrop {
-  background: transparent;
+.feeds-filter-body .pill-list + .pill-list {
+  border-top: 1px solid var(--light-grey);
+  margin-top: 16px;
+  padding-top: 16px;
 }
 
 .feeds-summary {
@@ -232,20 +200,28 @@
   display: grid;
   grid-template-columns: 100px 1fr;
   grid-template-areas:
-    "photo header"
-    "photo details";
+    'photo header'
+    'photo details';
   align-content: start;
   gap: 4px 16px;
-  padding: 20px;
+  padding: 16px;
   border: 1px solid var(--light-grey);
   border-radius: 6px;
   background: white;
-  transition: border-color 150ms ease-out, box-shadow 150ms ease-out;
+  transition:
+    border-color 80ms ease-out,
+    box-shadow 80ms ease-out;
 }
 
-.feed-card-photo { grid-area: photo; }
-.feed-card-header { grid-area: header; }
-.feed-card-details { grid-area: details; }
+.feed-card-photo {
+  grid-area: photo;
+}
+.feed-card-header {
+  grid-area: header;
+}
+.feed-card-details {
+  grid-area: details;
+}
 
 .feed-card:has(input[data-feed]:checked) {
   border-color: var(--salmon);
@@ -278,7 +254,7 @@
   border-radius: 6px;
   border: 2px solid var(--dark-grey);
   background: white;
-  transition: all 120ms ease-out;
+  transition: all 60ms ease-out;
 }
 
 .feed-card-select input:checked + .check {
@@ -338,7 +314,7 @@
 }
 
 .feed-card-header .talk-title {
-  margin: 0 0 12px 0;
+  margin: 0 0 4px 0;
   font-size: 16px;
   color: var(--primary);
   line-height: 1.3;
@@ -363,23 +339,24 @@
   color: var(--salmon);
 }
 
-.feed-card-header .tag-row {
+.feed-card-details .tag-row {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin: 0 0 14px 0;
+  margin: 0 0 8px 0;
 }
 
-.feed-card-header .tag-row .pill {
+.feed-card-details .tag-row .pill {
   font-size: 13px;
   padding: 4px 12px;
+  margin: 0;
 }
 
 .feed-card-details .speaker-bio {
   font-size: 14px;
   line-height: 1.45;
   color: var(--dark-grey);
-  margin: 8px 0;
+  /* margin: 8px 0; */
 }
 
 details.speaker-bio > summary {
@@ -441,7 +418,7 @@ details.speaker-bio .bio-full {
 .feed-card-details .feed-links {
   display: flex;
   gap: 20px;
-  margin: 14px 0 0 0;
+  margin: 8px 0 0 0;
   font-size: 14px;
 }
 
@@ -470,39 +447,6 @@ details.speaker-bio .bio-full {
     gap: 8px;
   }
 
-  .feeds-filter-trigger {
-    flex: 1 1 auto;
-    padding: 12px 18px;
-    text-align: center;
-  }
-
-  .feeds-filter-popover {
-    position: fixed;
-    top: auto;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: auto;
-    height: auto;
-    min-width: 0;
-    max-width: none;
-    border-radius: 16px 16px 0 0;
-    box-shadow: 0 -12px 24px 0 rgba(51, 51, 51, 0.25);
-    padding: 24px 20px calc(20px + env(safe-area-inset-bottom));
-    max-height: 70vh;
-    overflow-y: auto;
-    margin: 0;
-    transform: none;
-  }
-
-  .feeds-filter-popover::backdrop {
-    background: rgba(0, 0, 0, 0.4);
-  }
-
-  .feeds-filter-popover .pill-list {
-    max-height: none;
-  }
-
   .feeds-summary {
     flex-direction: column;
     align-items: stretch;
@@ -520,9 +464,9 @@ details.speaker-bio .bio-full {
   .feed-card {
     grid-template-columns: 56px 1fr;
     grid-template-areas:
-      "photo header"
-      "details details";
-    gap: 10px 14px;
+      'photo header'
+      'details details';
+    gap: 8px 14px;
     padding: 16px;
   }
 
@@ -538,11 +482,11 @@ details.speaker-bio .bio-full {
 
   .feed-card-header .talk-title {
     font-size: 14px;
-    margin-bottom: 8px;
+    margin-bottom: 0;
   }
 
-  .feed-card-header .tag-row {
-    margin-bottom: 0;
+  .feed-card-details .tag-row {
+    margin-bottom: 8px;
   }
 
   .feed-card-photo {
@@ -551,9 +495,9 @@ details.speaker-bio .bio-full {
   }
 
   .feed-card-details {
-    padding-top: 4px;
+    padding-top: 8px;
     border-top: 1px solid var(--light-grey);
-    margin-top: 6px;
+    margin-top: 0;
   }
 
   .feed-card-details .speaker-bio {

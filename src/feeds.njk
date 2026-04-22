@@ -16,23 +16,20 @@ hide_newsletter: true
       <span class="visuallyhidden">Search</span>
       <input id="feeds-search" type="search" placeholder="Search by name, talk, tag or bio…" autocomplete="off">
     </label>
-
-    <button type="button" id="trigger-year" class="pill-button feeds-filter-trigger" popovertarget="popover-year">Filter by year</button>
-    <div id="popover-year" class="feeds-filter-popover" popover>
-      <div class="pill-list" data-filter-group="year">
-      {% for year in speakerFeeds.years %}
-        <label tabindex="0" class="checkbox-pill"><input value="{{ year }}" type="checkbox" data-year><span class="pill">{{ year }}</span></label>
-      {% endfor %}
-      </div>
+    <details class="feeds-filter">
+      <summary class="pill-button" aria-controls="feeds-filter-body"><span class="label">Filter feeds</span></summary>
+    </details>
+  </div>
+  <div class="feeds-filter-body" id="feeds-filter-body" hidden>
+    <div class="pill-list" data-filter-group="year">
+    {% for year in speakerFeeds.years %}
+      <label tabindex="0" class="checkbox-pill"><input value="{{ year }}" type="checkbox" data-year><span class="pill">{{ year }}</span></label>
+    {% endfor %}
     </div>
-
-    <button type="button" id="trigger-tag" class="pill-button feeds-filter-trigger" popovertarget="popover-tag">Filter by topic</button>
-    <div id="popover-tag" class="feeds-filter-popover" popover>
-      <div class="pill-list" data-filter-group="tag">
-      {% for tag in speakerFeeds.tags %}
-        <label tabindex="0" class="checkbox-pill"><input value="{{ tag }}" type="checkbox" data-tag><span class="pill">{{ tag }}</span></label>
-      {% endfor %}
-      </div>
+    <div class="pill-list" data-filter-group="tag">
+    {% for tag in speakerFeeds.tags %}
+      <label tabindex="0" class="checkbox-pill"><input value="{{ tag }}" type="checkbox" data-tag><span class="pill">{{ tag }}</span></label>
+    {% endfor %}
     </div>
   </div>
 
@@ -64,25 +61,13 @@ hide_newsletter: true
       <div class="feed-card-header">
         <h2>{{ entry.name }}</h2>
         <p class="talk-title"><span class="talk-prefix">Talk:</span> <a href="/talks/{{ entry.talk.slug }}/">{{ entry.talk.title }}</a></p>
+      </div>
+
+      <div class="feed-card-details">
         <p class="tag-row">
           <span class="pill active">{{ entry.talk.year }}</span>
           {% for tag in entry.talk.tags %}<span class="pill">{{ tag }}</span>{% endfor %}
         </p>
-      </div>
-
-      <div class="feed-card-details">
-        {% if entry.bio %}
-          {% set bioText = entry.bio | striptags(true) %}
-          {% if bioText | length > 120 %}
-        <details class="speaker-bio">
-          <summary><strong>About:</strong> <span class="bio-preview">{{ bioText | truncate(120, true, '') }}…<span class="bio-more">more</span></span><span class="bio-less">show less</span></summary>
-          <p class="bio-full">{{ bioText }}</p>
-        </details>
-          {% else %}
-        <p class="speaker-bio"><strong>About:</strong> {{ bioText }}</p>
-          {% endif %}
-        {% endif %}
-
         <p class="feed-links">
           <a href="{{ entry.homepage }}" target="_blank" rel="noopener" class="ext">Homepage</a>
           <a href="{{ entry.feed }}" target="_blank" rel="noopener" class="ext">RSS feed</a>
@@ -110,6 +95,11 @@ hide_newsletter: true
   const yearBoxes = $$('[data-filter-group="year"] input');
   const tagBoxes = $$('[data-filter-group="tag"] input');
   const feedBoxes = $$('input[data-feed]');
+  const filterToggle = $('.feeds-filter');
+  const filterBody = $('#feeds-filter-body');
+  filterToggle.addEventListener('toggle', () => {
+    filterBody.hidden = !filterToggle.open;
+  });
 
   function getChecked(boxes) {
     return boxes.filter((b) => b.checked).map((b) => b.value.toLowerCase());

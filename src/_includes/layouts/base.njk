@@ -4,6 +4,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="source" content="https://github.com/leftlogic/ffconf">
+    <script>
+      (() => {
+        const q = new URL(location).searchParams.get('font');
+        if (q === 'inter') localStorage.setItem('ffconf-font', 'inter');
+        else if (q !== null) localStorage.removeItem('ffconf-font');
+        if (localStorage.getItem('ffconf-font') === 'inter') {
+          document.documentElement.classList.add('inter');
+          const l = document.createElement('link');
+          l.rel = 'stylesheet';
+          l.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap';
+          document.head.appendChild(l);
+        }
+      })();
+    </script>
     <link rel="preload" href="/fonts/BasierSquare-Medium-custom.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/fonts/BasierSquare-Regular-custom.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/css/base.css">
