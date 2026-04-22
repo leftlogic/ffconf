@@ -1,0 +1,352 @@
+---
+permalink: /signature-maker/index.html
+eleventyExcludeFromCollections: true
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>ffconf signature maker</title>
+    <link rel="preload" href="/fonts/BasierSquare-Medium-custom.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/fonts/BasierSquare-Regular-custom.woff2" as="font" type="font/woff2" crossorigin>
+    <style>
+      @font-face {
+        font-family: 'Basier Square';
+        src: url('/fonts/BasierSquare-Regular-custom.woff2') format('woff2');
+        font-weight: 400;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'Basier Square';
+        src: url('/fonts/BasierSquare-Medium-custom.woff2') format('woff2');
+        font-weight: 600;
+        font-display: swap;
+      }
+
+      :root {
+        --bg: #111;
+        --fg: #fff;
+        --accent: #ff7063;
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: 'Basier Square', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #1a1a1a;
+        color: var(--fg);
+        min-height: 100vh;
+        padding: 24px;
+      }
+
+      h1 {
+        font-size: 22px;
+        margin: 0 0 24px 0;
+        font-weight: 600;
+      }
+
+      .wrap {
+        max-width: 820px;
+        margin: 0 auto;
+      }
+
+      .controls {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        font-size: 12px;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        opacity: 0.7;
+        margin-bottom: 6px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px 12px;
+        font-size: 15px;
+        font-family: inherit;
+        background: #2a2a2a;
+        color: var(--fg);
+        border: 1px solid #3a3a3a;
+        border-radius: 4px;
+      }
+
+      input[type="text"]:focus {
+        outline: none;
+        border-color: var(--accent);
+      }
+
+      .buttons {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+
+      button {
+        padding: 10px 18px;
+        font-family: inherit;
+        font-size: 14px;
+        font-weight: 600;
+        background: var(--accent);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button.secondary {
+        background: #2a2a2a;
+        border: 1px solid #3a3a3a;
+      }
+
+      button:hover { filter: brightness(1.1); }
+
+      .preview {
+        background: #000;
+        border-radius: 6px;
+        overflow: hidden;
+        border: 1px solid #2a2a2a;
+      }
+
+      canvas {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .hint {
+        font-size: 12px;
+        opacity: 0.6;
+        margin-top: 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <h1>Signature maker</h1>
+
+      <div class="controls">
+        <div>
+          <label for="leftText">Left text</label>
+          <input type="text" id="leftText">
+        </div>
+        <div>
+          <label for="rightText">Right text</label>
+          <input type="text" id="rightText">
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button id="shuffle" class="secondary">Shuffle photos</button>
+        <button id="download">Download PNG</button>
+      </div>
+
+      <div class="preview">
+        <canvas id="canvas" width="1440" height="780"></canvas>
+      </div>
+
+      <p class="hint">Photos are pulled from <a href="/photos" style="color:var(--accent)">/photos</a>. Shuffle to re-roll the selection.</p>
+    </div>
+
+    <script id="photos-data" type="application/json">{{ photos | stringify | safe }}</script>
+    <script id="next-data" type="application/json">{{ next | stringify | safe }}</script>
+
+    <script type="module">
+      const ALL_PHOTOS = JSON.parse(document.getElementById('photos-data').textContent);
+      const NEXT = JSON.parse(document.getElementById('next-data').textContent);
+
+      // Build defaults from next conference date
+      function ordinal(n) {
+        const s = ['th', 'st', 'nd', 'rd'];
+        const v = n % 100;
+        return n + (s[(v - 20) % 10] || s[v] || s[0]);
+      }
+      const MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      const nextDate = new Date(NEXT.date + 'T00:00:00');
+      const defaultLeft = `Join us ${ordinal(nextDate.getDate())} ${MONTHS[nextDate.getMonth()]}`;
+      const defaultRight = `${nextDate.getFullYear()}.ffconf.org`;
+
+      const canvas = document.getElementById('canvas');
+      const ctx = canvas.getContext('2d');
+
+      // Layout constants (canvas is 2x for crispness)
+      const SCALE = 2;
+      const W = canvas.width;          // 1440
+      const H = canvas.height;         // 780
+      const BAR_H = 140 * SCALE / 2;   // 140 at 1x
+      const GRID_H = H - BAR_H;
+      const COLS = 9;
+      const ROWS = 4;
+      const CELL_W = W / COLS;
+      const CELL_H = GRID_H / ROWS;
+      const GAP = 4 * SCALE / 2;       // tiny separation between tiles
+
+      const leftInput = document.getElementById('leftText');
+      const rightInput = document.getElementById('rightText');
+      leftInput.value = defaultLeft;
+      rightInput.value = defaultRight;
+
+      let selectedPhotos = [];
+      const imageCache = new Map();
+
+      function shuffle(arr) {
+        const a = arr.slice();
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+      }
+
+      function pickPhotos() {
+        const needed = COLS * ROWS;
+        const shuffled = shuffle(ALL_PHOTOS);
+        // If we have fewer than needed (unlikely), repeat
+        const out = [];
+        while (out.length < needed) {
+          out.push(...shuffled);
+        }
+        return out.slice(0, needed);
+      }
+
+      function loadImage(src) {
+        if (imageCache.has(src)) return imageCache.get(src);
+        const p = new Promise((resolve, reject) => {
+          const img = new Image();
+          img.crossOrigin = 'anonymous';
+          img.onload = () => resolve(img);
+          img.onerror = () => reject(new Error('Failed to load ' + src));
+          img.src = src;
+        });
+        imageCache.set(src, p);
+        return p;
+      }
+
+      function drawHeart(cx, cy, r, color) {
+        ctx.save();
+        ctx.fillStyle = color;
+        ctx.beginPath();
+        // Classic two-lobe heart, centred on (cx, cy)
+        const topY = cy - r * 0.6;
+        ctx.moveTo(cx, cy + r);
+        ctx.bezierCurveTo(cx + r * 1.4, cy + r * 0.2, cx + r * 1.2, topY - r * 0.5, cx + r * 0.55, topY - r * 0.3);
+        ctx.bezierCurveTo(cx + r * 0.2, topY - r * 0.1, cx, topY + r * 0.1, cx, cy - r * 0.1);
+        ctx.bezierCurveTo(cx, topY + r * 0.1, cx - r * 0.2, topY - r * 0.1, cx - r * 0.55, topY - r * 0.3);
+        ctx.bezierCurveTo(cx - r * 1.2, topY - r * 0.5, cx - r * 1.4, cy + r * 0.2, cx, cy + r);
+        ctx.closePath();
+        ctx.fill();
+        ctx.restore();
+      }
+
+      function drawCover(img, dx, dy, dw, dh) {
+        const ir = img.width / img.height;
+        const dr = dw / dh;
+        let sx = 0, sy = 0, sw = img.width, sh = img.height;
+        if (ir > dr) {
+          // image is wider — crop sides
+          sw = img.height * dr;
+          sx = (img.width - sw) / 2;
+        } else {
+          sh = img.width / dr;
+          sy = (img.height - sh) / 2;
+        }
+        ctx.drawImage(img, sx, sy, sw, sh, dx, dy, dw, dh);
+      }
+
+      async function render() {
+        ctx.fillStyle = '#000';
+        ctx.fillRect(0, 0, W, H);
+
+        // Draw photo grid
+        const imgs = await Promise.all(
+          selectedPhotos.map((p) => loadImage('/images/photos/' + p).catch(() => null))
+        );
+
+        for (let r = 0; r < ROWS; r++) {
+          for (let c = 0; c < COLS; c++) {
+            const idx = r * COLS + c;
+            const img = imgs[idx];
+            const x = c * CELL_W + GAP / 2;
+            const y = r * CELL_H + GAP / 2;
+            const w = CELL_W - GAP;
+            const h = CELL_H - GAP;
+            if (img) {
+              drawCover(img, x, y, w, h);
+            } else {
+              ctx.fillStyle = '#222';
+              ctx.fillRect(x, y, w, h);
+            }
+          }
+        }
+
+        // Bottom bar
+        ctx.fillStyle = '#000';
+        ctx.fillRect(0, GRID_H, W, BAR_H);
+
+        const leftText = leftInput.value.trim();
+        const rightText = rightInput.value.trim();
+
+        const fontSize = 42;
+        ctx.font = `600 ${fontSize}px 'Basier Square', -apple-system, sans-serif`;
+        ctx.fillStyle = '#fff';
+        ctx.textBaseline = 'middle';
+
+        const barCenterY = GRID_H + BAR_H / 2;
+        const padX = 40;
+
+        ctx.textAlign = 'left';
+        ctx.fillText(leftText, padX, barCenterY);
+
+        ctx.textAlign = 'right';
+        ctx.fillText(rightText, W - padX, barCenterY);
+
+        // Yellow heart in middle — drawn as a path so colour is consistent
+        // across platforms (emoji glyphs vary by OS/font)
+        drawHeart(W / 2, barCenterY, fontSize * 0.55, '#ffd43a');
+      }
+
+      async function renderSafe() {
+        try {
+          await render();
+        } catch (err) {
+          console.error(err);
+        }
+      }
+
+      function reshuffle() {
+        selectedPhotos = pickPhotos();
+        renderSafe();
+      }
+
+      leftInput.addEventListener('input', renderSafe);
+      rightInput.addEventListener('input', renderSafe);
+      document.getElementById('shuffle').addEventListener('click', reshuffle);
+
+      document.getElementById('download').addEventListener('click', async () => {
+        await renderSafe();
+        const url = canvas.toDataURL('image/png');
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'ffconf-signature.png';
+        a.click();
+      });
+
+      // Ensure the webfont is loaded before the first render so text is crisp
+      if (document.fonts && document.fonts.ready) {
+        await document.fonts.ready;
+      }
+
+      reshuffle();
+    </script>
+  </body>
+</html>
