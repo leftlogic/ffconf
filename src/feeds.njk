@@ -1,0 +1,226 @@
+---
+layout: layouts/base.njk
+css: feeds.css
+hide_newsletter: true
+---
+
+<section class="feeds">
+  <header>
+    <h1>Speaker feeds</h1>
+    <p class="intro">Browse speakers from past FFConfs who still publish on their own blog. Filter by year or topic, search by name or session keyword, then download an <abbr title="Outline Processor Markup Language">OPML</abbr> file of the feeds you picked and drop it into your feed reader.</p>
+    <p class="feeds-missing">If your feed is missing, <a href="mailto:events@leftlogic.com?subject=FFConf%20feeds%20page">get in touch</a>.</p>
+  </header>
+
+  <div class="feeds-controls">
+    <label class="search">
+      <span class="visuallyhidden">Search</span>
+      <input id="feeds-search" type="search" placeholder="Search by name, talk, tag or bio…" autocomplete="off">
+    </label>
+
+    <button type="button" id="trigger-year" class="pill-button feeds-filter-trigger" popovertarget="popover-year">Filter by year</button>
+    <div id="popover-year" class="feeds-filter-popover" popover>
+      <div class="pill-list" data-filter-group="year">
+      {% for year in speakerFeeds.years %}
+        <label tabindex="0" class="checkbox-pill"><input value="{{ year }}" type="checkbox" data-year><span class="pill">{{ year }}</span></label>
+      {% endfor %}
+      </div>
+    </div>
+
+    <button type="button" id="trigger-tag" class="pill-button feeds-filter-trigger" popovertarget="popover-tag">Filter by topic</button>
+    <div id="popover-tag" class="feeds-filter-popover" popover>
+      <div class="pill-list" data-filter-group="tag">
+      {% for tag in speakerFeeds.tags %}
+        <label tabindex="0" class="checkbox-pill"><input value="{{ tag }}" type="checkbox" data-tag><span class="pill">{{ tag }}</span></label>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="feeds-summary">
+    <p><span id="feeds-count">{{ speakerFeeds.entries | length }}</span> feeds · <span id="feeds-selected">0</span> selected</p>
+    <div class="feeds-actions">
+      <button type="button" class="link-button" id="feeds-select-visible">Select visible</button>
+      <button type="button" class="link-button" id="feeds-clear">Clear selection</button>
+      <button type="button" class="pill-button" id="feeds-download" disabled>Download OPML</button>
+    </div>
+  </div>
+
+  <ol class="feeds-list" id="feeds-list">
+  {% for entry in speakerFeeds.entries %}
+    <li class="feed-card"
+        data-year="{{ entry.talk.year }}"
+        data-tags="{{ entry.talk.tags | join(' | ') | lower }}"
+        data-search="{{ entry.name | lower }} {{ entry.talk.title | lower }} {{ entry.talk.tags | join(' ') | lower }} {{ entry.bio | lower | truncate(400, true, '') }}">
+      <label class="feed-card-select">
+        <input type="checkbox" data-feed data-name="{{ entry.name }}" data-feed-url="{{ entry.feed }}" data-homepage="{{ entry.homepage }}">
+        <span class="check" aria-hidden="true"></span>
+        <span class="visuallyhidden">Include {{ entry.name }} in OPML</span>
+      </label>
+
+      <a class="feed-card-photo" href="/talks/{{ entry.talk.slug }}/" style="background-image: url({{ entry.photo }})" aria-label="View {{ entry.name }}'s talk">
+        <img src="{{ entry.photo }}" alt="" loading="lazy">
+      </a>
+
+      <div class="feed-card-header">
+        <h2>{{ entry.name }}</h2>
+        <p class="talk-title"><span class="talk-prefix">Talk:</span> <a href="/talks/{{ entry.talk.slug }}/">{{ entry.talk.title }}</a></p>
+        <p class="tag-row">
+          <span class="pill active">{{ entry.talk.year }}</span>
+          {% for tag in entry.talk.tags %}<span class="pill">{{ tag }}</span>{% endfor %}
+        </p>
+      </div>
+
+      <div class="feed-card-details">
+        {% if entry.bio %}
+          {% set bioText = entry.bio | striptags(true) %}
+          {% if bioText | length > 120 %}
+        <details class="speaker-bio">
+          <summary><strong>About:</strong> <span class="bio-preview">{{ bioText | truncate(120, true, '') }}…<span class="bio-more">more</span></span><span class="bio-less">show less</span></summary>
+          <p class="bio-full">{{ bioText }}</p>
+        </details>
+          {% else %}
+        <p class="speaker-bio"><strong>About:</strong> {{ bioText }}</p>
+          {% endif %}
+        {% endif %}
+
+        <p class="feed-links">
+          <a href="{{ entry.homepage }}" target="_blank" rel="noopener" class="ext">Homepage</a>
+          <a href="{{ entry.feed }}" target="_blank" rel="noopener" class="ext">RSS feed</a>
+        </p>
+      </div>
+    </li>
+  {% endfor %}
+  </ol>
+
+  <p class="feeds-empty" id="feeds-empty" hidden>No speakers match your filters.</p>
+</section>
+
+<script defer async>
+(() => {
+  const list = $('#feeds-list');
+  const cards = $$('.feed-card');
+  const search = $('#feeds-search');
+  const countEl = $('#feeds-count');
+  const selectedEl = $('#feeds-selected');
+  const downloadBtn = $('#feeds-download');
+  const selectVisibleBtn = $('#feeds-select-visible');
+  const clearBtn = $('#feeds-clear');
+  const emptyEl = $('#feeds-empty');
+
+  const yearBoxes = $$('[data-filter-group="year"] input');
+  const tagBoxes = $$('[data-filter-group="tag"] input');
+  const feedBoxes = $$('input[data-feed]');
+
+  function getChecked(boxes) {
+    return boxes.filter((b) => b.checked).map((b) => b.value.toLowerCase());
+  }
+
+  function applyFilters() {
+    const years = getChecked(yearBoxes);
+    const tags = getChecked(tagBoxes);
+    const q = (search.value || '').trim().toLowerCase();
+
+    let visible = 0;
+    cards.forEach((card) => {
+      const year = card.dataset.year;
+      const cardTags = card.dataset.tags;
+      const haystack = card.dataset.search;
+
+      let match = true;
+      if (years.length && !years.includes(year)) match = false;
+      if (match && tags.length && !tags.some((t) => cardTags.split(' | ').includes(t))) match = false;
+      if (match && q && !haystack.includes(q)) match = false;
+
+      card.hidden = !match;
+      if (match) visible++;
+    });
+
+    countEl.textContent = visible;
+    emptyEl.hidden = visible !== 0;
+  }
+
+  function updateSelected() {
+    const n = feedBoxes.filter((b) => b.checked).length;
+    selectedEl.textContent = n;
+    downloadBtn.disabled = n === 0;
+  }
+
+  function xmlEscape(s) {
+    return String(s || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  }
+
+  function buildOPML() {
+    const picked = feedBoxes.filter((b) => b.checked);
+    const seen = new Set();
+    const outlines = [];
+    picked.forEach((b) => {
+      const url = b.dataset.feedUrl;
+      if (seen.has(url)) return;
+      seen.add(url);
+      outlines.push(
+        '    <outline type="rss" text="' + xmlEscape(b.dataset.name) +
+        '" title="' + xmlEscape(b.dataset.name) +
+        '" xmlUrl="' + xmlEscape(url) +
+        '" htmlUrl="' + xmlEscape(b.dataset.homepage) + '"/>'
+      );
+    });
+    const now = new Date().toUTCString();
+    return [
+      '<?xml version="1.0" encoding="UTF-8"?>',
+      '<opml version="2.0">',
+      '  <head>',
+      '    <title>FFConf speaker feeds</title>',
+      '    <dateCreated>' + now + '</dateCreated>',
+      '    <ownerName>FFConf</ownerName>',
+      '  </head>',
+      '  <body>',
+      outlines.join('\n'),
+      '  </body>',
+      '</opml>',
+      '',
+    ].join('\n');
+  }
+
+  function download() {
+    const opml = buildOPML();
+    const blob = new Blob([opml], { type: 'text/x-opml' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'ffconf-feeds.opml';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  yearBoxes.concat(tagBoxes).forEach((b) => b.addEventListener('change', applyFilters));
+  search.addEventListener('input', applyFilters);
+  feedBoxes.forEach((b) => b.addEventListener('change', updateSelected));
+
+  selectVisibleBtn.addEventListener('click', () => {
+    cards.forEach((card) => {
+      if (!card.hidden) {
+        const cb = card.querySelector('input[data-feed]');
+        if (cb) cb.checked = true;
+      }
+    });
+    updateSelected();
+  });
+
+  clearBtn.addEventListener('click', () => {
+    feedBoxes.forEach((b) => (b.checked = false));
+    updateSelected();
+  });
+
+  downloadBtn.addEventListener('click', download);
+
+  applyFilters();
+  updateSelected();
+})();
+</script>
