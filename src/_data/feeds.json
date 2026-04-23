@@ -35,11 +35,6 @@
     "feed": "https://ohhelloana.blog/feed.xml"
   },
   {
-    "name": "Andrew Betts",
-    "homepage": "https://trib.tv/",
-    "feed": "https://trib.tv/feed"
-  },
-  {
     "name": "Andrew Nesbitt",
     "homepage": "https://nesbitt.io/",
     "feed": "https://nesbitt.io/feed.xml"
@@ -283,11 +278,6 @@
     "name": "Paul Lewis",
     "homepage": "https://aerotwist.com/",
     "feed": "https://aerotwist.com/blog/feed/"
-  },
-  {
-    "name": "Peter-Paul Koch",
-    "homepage": "https://quirksmode.org/",
-    "feed": "https://quirksmode.org/blog/atom.xml"
   },
   {
     "name": "Phil Hawksworth",

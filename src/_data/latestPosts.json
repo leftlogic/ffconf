@@ -1,458 +1,458 @@
 {
+  "https://ada.is/feed": {
+    "title": "Try out your website in the spatial web",
+    "url": "https://webkit.org/blog/15421/try-out-your-website-in-the-spatial-web/",
+    "date": "2024-06-12T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
   "http://addyosmani.com/rss.xml": {
     "title": "Agent Harness Engineering",
     "url": "https://addyosmani.com/blog/agent-harness-engineering/",
     "date": "2026-04-19T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://alicebartlett.co.uk/feed.xml": {
     "title": "Week 398: Fizzy",
     "url": "https://alicebartlett.co.uk/blog/weaknotes-398",
     "date": "2026-04-19T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://ada.is/feed": {
-    "title": "Try out your website in the spatial web",
-    "url": "https://webkit.org/blog/15421/try-out-your-website-in-the-spatial-web/",
-    "date": "2024-06-12T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://infrequently.org/feed/": {
     "title": "The Web Is An Antitrust Wedge",
     "url": "https://infrequently.org/2026/04/the-web-is-an-antitrust-wedge/",
     "date": "2026-04-03T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://nesbitt.io/feed.xml": {
-    "title": "brief",
-    "url": "https://nesbitt.io/2026/04/21/brief.html",
-    "date": "2026-04-21T10:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://amyhupe.co.uk/atom.xml": {
     "title": "Sorry seems to be the most overused word",
     "url": "https://amyhupe.co.uk/articles/sorry-seems-to-be-the-most-overused-word/",
     "date": "2026-01-10T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://gericci.me/feed.xml": {
-    "title": "There's No Place Like the Browser",
-    "url": "https://gericci.me/no-place-like-the-browser.html",
-    "date": "2025-11-17T12:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://bell.bz/feed.xml": {
-    "title": "I want an alarm clock",
-    "url": "https://bell.bz/i-want-an-alarm-clock/",
-    "date": "2026-04-01T15:30:16.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://nesbitt.io/feed.xml": {
+    "title": "brief",
+    "url": "https://nesbitt.io/2026/04/21/brief.html",
+    "date": "2026-04-21T10:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://wingolog.org/feed": {
     "title": "on hayek's bastards",
     "url": "https://wingolog.org/archives/2026/04/20/on-hayeks-bastards",
     "date": "2026-04-20T21:35:03.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://javascriptweblog.wordpress.com/feed/": {
-    "title": "Of Classes and Arrow Functions (a cautionary tale)",
-    "url": "https://javascriptweblog.wordpress.com/2015/11/02/of-classes-and-arrow-functions-a-cautionary-tale/",
-    "date": "2015-11-02T14:30:55.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://www.annashipman.co.uk/atom.xml": {
-    "title": "Engineering Productivity in 2026: Where AI Actually Pays Off",
-    "url": "https://www.annashipman.co.uk/jfdi/ai-productivity-panel.html",
-    "date": "2026-02-27T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://bell.bz/feed.xml": {
+    "title": "I want an alarm clock",
+    "url": "https://bell.bz/i-want-an-alarm-clock/",
+    "date": "2026-04-01T15:30:16.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://goteoc.substack.com/feed": {
     "title": "What is sustainability?",
     "url": "https://goteoc.substack.com/p/what-is-sustainability",
     "date": "2026-02-12T16:05:46.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://bcook.ca/feed/": {
-    "title": "Projects",
-    "url": "https://bcook.ca/projects/",
-    "date": "2025-03-20T23:05:08.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://javascriptweblog.wordpress.com/feed/": {
+    "title": "Of Classes and Arrow Functions (a cautionary tale)",
+    "url": "https://javascriptweblog.wordpress.com/2015/11/02/of-classes-and-arrow-functions-a-cautionary-tale/",
+    "date": "2015-11-02T14:30:55.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://www.ambershand.co.uk/blog/rss.xml": {
     "title": "The power of embracing bold action",
     "url": "https://www.ambershand.co.uk/blog/the-power-of-embracing-bold-action",
     "date": "2024-02-28T18:14:07.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://gericci.me/feed.xml": {
+    "title": "There's No Place Like the Browser",
+    "url": "https://gericci.me/no-place-like-the-browser.html",
+    "date": "2025-11-17T12:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://www.annashipman.co.uk/atom.xml": {
+    "title": "Engineering Productivity in 2026: Where AI Actually Pays Off",
+    "url": "https://www.annashipman.co.uk/jfdi/ai-productivity-panel.html",
+    "date": "2026-02-27T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://bcook.ca/feed/": {
+    "title": "Projects",
+    "url": "https://bcook.ca/projects/",
+    "date": "2025-03-20T23:05:08.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://brucelawson.co.uk/feed/": {
     "title": "Reading List 357",
     "url": "https://brucelawson.co.uk/2026/reading-list-357/",
     "date": "2026-04-10T15:52:01.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://benjaminbenben.com/atom.xml": {
-    "title": "Offline QR Codes",
-    "url": "https://benjaminbenben.com/2025/08/19/offline-qr-codes/",
-    "date": "2025-08-19T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://charlottedann.com/rss.xml": {
-    "title": "Soft-blob physics",
-    "url": "https://charlottedann.com/article/soft-blob-physics",
-    "date": "2023-10-13T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://caolan.uk/feed/notes/": {
     "title": "The Story of DOM Patch",
     "url": "https://caolan.uk/notes/2026-04-16_the_story_of_dom_patch.cm",
     "date": "2026-04-16T12:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://charlottedann.com/rss.xml": {
+    "title": "Soft-blob physics",
+    "url": "https://charlottedann.com/article/soft-blob-physics",
+    "date": "2023-10-13T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://benjaminbenben.com/atom.xml": {
+    "title": "Offline QR Codes",
+    "url": "https://benjaminbenben.com/2025/08/19/offline-qr-codes/",
+    "date": "2025-08-19T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://ohhelloana.blog/feed.xml": {
     "title": "Offline break in New Forest",
     "url": "https://ohhelloana.blog/new-forest/",
     "date": "2026-04-01T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://awfulwoman.com/index.xml": {
     "title": "Right now",
     "url": "https://awfulwoman.com/now/",
     "date": "2025-09-23T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "http://brendandawes.com/blog/feed": {
-    "title": "That Was The Week That Was — 19th April 2026",
-    "url": "http://brendandawes.com/blog/1265-twtwtw-19-apr-2026",
-    "date": "2026-04-19T11:12:15.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://danwebb.net/feed.xml": {
-    "title": "Safety First",
-    "url": "https://danwebb.net/posts/safety-first/",
-    "date": "2025-11-02T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://cwilso.com/feed/": {
     "title": "Tick.",
     "url": "https://cwilso.com/2026/04/17/tick-2/",
     "date": "2026-04-18T00:00:21.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://hannah.wf/rss/": {
-    "title": "Ghost & Ember @ EmberCamp",
-    "url": "https://hannah.wf/embercamp-2015/",
-    "date": "2015-11-04T12:48:49.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://christianheilmann.com/feed/": {
-    "title": "How do developers define their worth when code is written by AI?",
-    "url": "https://christianheilmann.com/2026/04/21/how-do-developers-define-their-worth-when-code-is-written-by-ai/",
-    "date": "2026-04-21T09:22:17.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://danwebb.net/feed.xml": {
+    "title": "Safety First",
+    "url": "https://danwebb.net/posts/safety-first/",
+    "date": "2025-11-02T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://csswizardry.com/feed": {
     "title": "font-family Doesn’t Fall Back the Way You Think",
     "url": "https://csswizardry.com/2026/04/font-family-doesnt-fall-back-the-way-you-think/",
     "date": "2026-04-10T11:30:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://hannah.wf/rss/": {
+    "title": "Ghost & Ember @ EmberCamp",
+    "url": "https://hannah.wf/embercamp-2015/",
+    "date": "2015-11-04T12:48:49.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "http://brendandawes.com/blog/feed": {
+    "title": "That Was The Week That Was — 19th April 2026",
+    "url": "http://brendandawes.com/blog/1265-twtwtw-19-apr-2026",
+    "date": "2026-04-19T11:12:15.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://joreteg.com/rss": {
     "title": "Project Fugu: A New Hope",
     "url": "https://joreteg.com/blog/project-fugu-a-new-hope",
     "date": "2020-06-11T06:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://heydonworks.com/feed": {
-    "title": "Leveraging The Super Keyword In Custom Elements",
-    "url": "https://heydonworks.com/article/leveraging-the-super-keyword-in-custom-elements/",
-    "date": "2025-12-30T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://bitsofco.de/feed/feed.xml": {
     "title": "When is :focus-visible visible?",
     "url": "https://bitsofco.de/when-is-focus-visible-visible/",
     "date": "2023-03-21T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://adactio.com/journal/rss": {
-    "title": "Dilation",
-    "url": "https://adactio.com/journal/22534",
-    "date": "2026-04-20T09:18:06.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://livelaugh.blog/rss.xml": {
-    "title": "weekly retro #63: there's a lot of depression in this one",
-    "url": "https://livelaugh.blog/posts/weekly-retro-63/",
-    "date": "2026-04-19T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://heydonworks.com/feed": {
+    "title": "Leveraging The Super Keyword In Custom Elements",
+    "url": "https://heydonworks.com/article/leveraging-the-super-keyword-in-custom-elements/",
+    "date": "2025-12-30T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://jakearchibald.com/posts.rss": {
     "title": "Importing vs fetching JSON",
     "url": "https://jakearchibald.com/2025/importing-vs-fetching-json/",
     "date": "2025-10-22T01:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://christianheilmann.com/feed/": {
+    "title": "How do developers define their worth when code is written by AI?",
+    "url": "https://christianheilmann.com/2026/04/21/how-do-developers-define-their-worth-when-code-is-written-by-ai/",
+    "date": "2026-04-21T09:22:17.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://writing.jan.io/feed.xml": {
     "title": "Vegan Japan October 2025 Edition",
     "url": "http://writing.jan.io/2026/02/15/vegan-japan.html",
     "date": "2026-02-14T23:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://jessica.tech/feed.xml": {
-    "title": "Tech For Good-ish Jobs Jess Found, Feb 2026",
-    "url": "https://jessica.tech/blog/jobslistfeb/",
-    "date": "2026-03-02T14:58:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://livelaugh.blog/rss.xml": {
+    "title": "weekly retro #63: there's a lot of depression in this one",
+    "url": "https://livelaugh.blog/posts/weekly-retro-63/",
+    "date": "2026-04-19T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://www.joehart.co.uk/feed.xml": {
     "title": "Book Thoughts: Pandora's Star & Judas Unchained by Peter F Hamilton",
     "url": "https://joehart.co.uk/blogs/book-thoughts-pandoras-star-peter-f-hamilton/",
     "date": "2026-03-09T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://builtby.kim/feed.xml": {
-    "title": "Best Beauty",
-    "url": "builtby.kim/web%20development/2016/09/03/best-beauty/",
-    "date": "2016-09-03T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://adactio.com/journal/rss": {
+    "title": "Dilation",
+    "url": "https://adactio.com/journal/22534",
+    "date": "2026-04-20T09:18:06.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://kenneth.io/api/feed.xml": {
-    "title": "Playify - A tool to play your iTunes music in Spotify",
-    "url": "https://kenneth.io/post/playify-a-tool-to-play-your-itunes-music-in-spotify",
-    "date": "2010-02-28T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://jessica.tech/feed.xml": {
+    "title": "Tech For Good-ish Jobs Jess Found, Feb 2026",
+    "url": "https://jessica.tech/blog/jobslistfeb/",
+    "date": "2026-03-02T14:58:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://medium.com/feed/@jonthanfielding": {
     "title": "Using GitHub Copilot To Migrate Cookiecutter from Python to Node.js",
     "url": "https://jonthanfielding.medium.com/using-github-copilot-to-migrate-cookiecutter-from-python-to-node-js-8b70e5f892a7?source=rss-f6c7d7bff0c9------2",
     "date": "2026-03-08T08:51:21.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://builtby.kim/feed.xml": {
+    "title": "Best Beauty",
+    "url": "builtby.kim/web%20development/2016/09/03/best-beauty/",
+    "date": "2016-09-03T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://kenneth.io/api/feed.xml": {
+    "title": "Playify - A tool to play your iTunes music in Spotify",
+    "url": "https://kenneth.io/post/playify-a-tool-to-play-your-itunes-music-in-spotify",
+    "date": "2010-02-28T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://loftio.co.uk/feed/": {
     "title": "The power of the one day conference",
     "url": "https://loftio.co.uk/the-power-of-the-one-day-conference/",
     "date": "2025-05-02T13:50:14.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://webdirections.org/category/blog/feed/": {
     "title": "Constitutional Prompting: Making AI Coding Agents Reliable Without the Iteration Tax — Prem Pillai at AI Engineer Melbourne 2026",
     "url": "https://webdirections.org/blog/constitutional-prompting-making-ai-coding-agents-reliable-without-the-iteration-tax-prem-pillai-at-ai-engineer-melbourne-2026/",
     "date": "2026-04-23T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://lisilinhart.info/feed.xml": {
-    "title": "Five Tips for Joining as a Staff Engineer",
-    "url": "https://lisilinhart.info/posts/joining-as-a-staff-engineer",
-    "date": "2024-11-26T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://maggieappleton.com/rss.xml": {
-    "title": "One Developer, Two Dozen Agents, Zero Alignment",
-    "url": "https://maggieappleton.com/zero-alignment/",
-    "date": "2026-04-13T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://johnkpaul.com/atom.xml": {
-    "title": "Elm Un-googleables",
-    "url": "http://johnkpaul.com/blog/2016/02/16/elm-ungooglables/",
-    "date": "2016-02-16T05:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://tink.uk/feed.xml": {
     "title": "Tag, you're it",
     "url": "https://tink.uk/tag-your-it/",
     "date": "2025-06-15T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
-  "https://marijnhaverbeke.nl/feed.atom": {
-    "title": "CodeMirror 0.60",
-    "url": "http://groups.google.com/group/codemirror/browse_thread/thread/a61369720512a23c",
-    "date": null,
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+  "https://maggieappleton.com/rss.xml": {
+    "title": "One Developer, Two Dozen Agents, Zero Alignment",
+    "url": "https://maggieappleton.com/zero-alignment/",
+    "date": "2026-04-13T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://lisilinhart.info/feed.xml": {
+    "title": "Five Tips for Joining as a Staff Engineer",
+    "url": "https://lisilinhart.info/posts/joining-as-a-staff-engineer",
+    "date": "2024-11-26T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://johnkpaul.com/atom.xml": {
+    "title": "Elm Un-googleables",
+    "url": "http://johnkpaul.com/blog/2016/02/16/elm-ungooglables/",
+    "date": "2016-02-16T05:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://marcysutton.com/rss.xml": {
     "title": "On Joining Khan Academy",
     "url": "https://marcysutton.com/on-joining-khan-academy/",
     "date": "2026-01-30T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://marijnhaverbeke.nl/feed.atom": {
+    "title": "CodeMirror 0.60",
+    "url": "http://groups.google.com/group/codemirror/browse_thread/thread/a61369720512a23c",
+    "date": null,
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://www.first-and-fifteenth.co/rss/": {
     "title": "Fifteenth #17: On unlearning",
     "url": "https://www.first-and-fifteenth.co/fifteenth-17-on-unlearning/",
     "date": "2026-04-15T06:30:15.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://aresluna.org/main.rss": {
     "title": "System shock",
     "url": "https://aresluna.org/system-shock",
     "date": "2026-03-27T15:02:13.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://www.paulbakaus.com/writing/rss/": {
     "title": "Carving Shaders Out of Claude Code",
     "url": "https://www.paulbakaus.com/carving-shaders-out-of-claude-code/",
     "date": "2026-03-26T19:39:28.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://meowni.ca/atom.xml": {
     "title": "The taxonomy is loose",
     "url": "https://meowni.ca/posts/taxonomy-is-loose/",
     "date": "2026-04-13T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://aerotwist.com/blog/feed/": {
-    "title": "The Making of a Logo",
-    "url": "https://aerotwist.com/blog/the-making-of-a-logo/",
-    "date": "2025-01-15T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://olu.online/feed/?type=rss": {
     "title": "weeknotes #59",
     "url": "https://olu.online/weeknotes-59/",
     "date": "2026-03-29T21:30:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://humanwhocodes.com/feeds/blog.xml": {
     "title": "Improving developer velocity with GitHub merge queue",
     "url": "https://humanwhocodes.com/blog/2026/04/improving-developer-velocity-github-merge-queue/",
     "date": "2026-04-06T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://aerotwist.com/blog/feed/": {
+    "title": "The Making of a Logo",
+    "url": "https://aerotwist.com/blog/the-making-of-a-logo/",
+    "date": "2025-01-15T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://paul.kinlan.me/index.xml": {
     "title": "<generate-html> Web Component",
     "url": "https://paul.kinlan.me/projects/generate-html-element/",
     "date": "2025-12-27T12:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://rachelandrew.co.uk/feed/": {
     "title": "What would a 2026 CSS Anthology look like?",
     "url": "https://rachelandrew.co.uk/archives/2026/04/23/what-would-a-2026-css-anthology-look-like/",
     "date": "2026-04-23T07:40:29.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://rmurphey.com/feed/feed.xml": {
-    "title": "Eng ladders, promotions & glue work",
-    "url": "https://rmurphey.com/posts/eng-ladder-glue-work/",
-    "date": "2021-12-23T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "http://feeds.feedburner.com/robertnyman": {
-    "title": "Four types of people you will come across during your working life",
-    "url": "https://robertnyman.com/2023/12/20/four-types-of-people-you-will-come-across-during-your-working-life/",
-    "date": "2023-12-20T16:24:18.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://www.skeptic.org.uk/author/mike-hall/feed/": {
-    "title": "What little you know about Jack the Ripper’s victims is almost certainly wrong",
-    "url": "https://www.skeptic.org.uk/2025/11/what-little-you-know-about-jack-the-rippers-victims-is-almost-certainly-wrong/",
-    "date": "2025-11-26T10:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://remysharp.com/blog.xml": {
-    "title": "Fixing my slow Mac network speeds",
-    "url": "https://remysharp.com/2026/03/26/fixing-my-slow-mac-network-speeds",
-    "date": "2026-03-26T09:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://blog.rumyra.com/feed.xml": {
-    "title": "Laser Cutting a Jigsaw Puzzle",
-    "url": "https://blog.rumyra.com/2021-01-30-laser-cutting-a-jigsaw-puzzle",
-    "date": "2021-01-30T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://www.sarasoueidan.com/blog/index.xml": {
-    "title": "CSS to speech: alternative text for CSS-generated content",
-    "url": "https://www.sarasoueidan.com/blog/alt-text-for-css-generated-content/",
-    "date": "2025-09-17T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://whitep4nth3r.com/feed.xml": {
-    "title": "I released a song for the first time in 15 years",
-    "url": "https://whitep4nth3r.com/blog/new-electronica-music-manchester-uk/",
-    "date": "2026-04-23T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://finokoye.com/feed/": {
-    "title": "Into the discourse – HYBRID ‘Sowing and Trekking Through Time: Science Fiction Imagines a Revolutionary 2024’",
-    "url": "https://finokoye.com/2024/06/17/into-the-discourse-hybrid-sowing-and-trekking-through-time-science-fiction-imagines-a-revolutionary-2024/",
-    "date": "2024-06-17T22:33:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://jenson.org/feed/": {
-    "title": "The Ma of a New Machine",
-    "url": "https://jenson.org/ma/",
-    "date": "2026-04-13T12:42:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://seblee.me/feed/": {
-    "title": "Review of 2021",
-    "url": "https://seblee.me/2022/09/review-of-2021/",
-    "date": "2022-09-08T09:34:38.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://simonwillison.net/atom/everything/": {
-    "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
-    "url": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
-    "date": "2026-04-22T16:45:23.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://www.communilogue.co/blog?format=rss": {
-    "title": "Five Minute Keynote: Compassionate Collaboration",
-    "url": "https://www.communilogue.co/blog/2024/5/7/five-minute-keynote-compassionate-collaboration",
-    "date": "2024-04-02T15:22:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://localghost.dev/feed.xml": {
-    "title": "Stop generating, start thinking",
-    "url": "https://localghost.dev/blog/stop-generating-start-thinking/",
-    "date": "2026-02-08T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://www.kryogenix.org/days/feed/": {
-    "title": "Calculating a rolling average without keeping all the numbers around",
-    "url": "https://www.kryogenix.org/days/2026/03/14/calculating-a-rolling-average-without-keeping-all-the-numbers-around/",
-    "date": "2026-03-14T23:23:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://gearsco.de/blog.xml": {
-    "title": "Building a Blog in Gleam",
-    "url": "https://gearsco.de/blog/blog-in-gleam",
-    "date": "2026-01-20T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://tholman.com/feed.xml": {
-    "title": "Modernized JavaScript 90’s Cursor Effects, that we all know and love",
-    "url": "https://tholman.com/post/cursor-effects/",
-    "date": "2020-07-03T04:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://tobiasahlin.com/feed.xml": {
-    "title": "Responsive type scales with composable CSS utilities",
-    "url": "https://tobiasahlin.com/blog/responsive-fluid-css-type-scales/",
-    "date": "2023-09-22T01:12:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://www.sachajudd.com/feed/": {
-    "title": "ffconf – Brighton",
-    "url": "https://www.sachajudd.com/ffconf-brighton/",
-    "date": "2025-11-14T00:07:44.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://acko.net/atom.xml": {
-    "title": "The L in \"LLM\" Stands for Lying",
-    "url": "https://acko.net/blog/the-l-in-llm-stands-for-lying/",
-    "date": "2026-03-03T23:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
-  },
-  "https://soledadpenades.com/feed": {
-    "title": "Fix files that cannot be deleted in Nextcloud",
-    "url": "https://soledadpenades.com/posts/2025/fix-files-that-cannot-be-deleted-in-nextcloud/",
-    "date": "2025-12-11T13:07:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   },
   "https://philhawksworth.dev/feed.xml": {
     "title": "Displaying your full-sized YouTube thumbnail or a custom OG image in a Twitter card",
     "url": "https://www.hawksworx.com/blog/displaying-your-full-sized-you-tube-thumbnail-or-a-custom-og-image-in-a-twitter-card/",
     "date": "2023-07-05T00:00:00.000Z",
-    "fetchedAt": "2026-04-23T11:19:19.114Z"
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://blog.rumyra.com/feed.xml": {
+    "title": "Laser Cutting a Jigsaw Puzzle",
+    "url": "https://blog.rumyra.com/2021-01-30-laser-cutting-a-jigsaw-puzzle",
+    "date": "2021-01-30T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://rmurphey.com/feed/feed.xml": {
+    "title": "Eng ladders, promotions & glue work",
+    "url": "https://rmurphey.com/posts/eng-ladder-glue-work/",
+    "date": "2021-12-23T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://www.skeptic.org.uk/author/mike-hall/feed/": {
+    "title": "What little you know about Jack the Ripper’s victims is almost certainly wrong",
+    "url": "https://www.skeptic.org.uk/2025/11/what-little-you-know-about-jack-the-rippers-victims-is-almost-certainly-wrong/",
+    "date": "2025-11-26T10:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "http://feeds.feedburner.com/robertnyman": {
+    "title": "Four types of people you will come across during your working life",
+    "url": "https://robertnyman.com/2023/12/20/four-types-of-people-you-will-come-across-during-your-working-life/",
+    "date": "2023-12-20T16:24:18.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://whitep4nth3r.com/feed.xml": {
+    "title": "I released a song for the first time in 15 years",
+    "url": "https://whitep4nth3r.com/blog/new-electronica-music-manchester-uk/",
+    "date": "2026-04-23T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://www.sarasoueidan.com/blog/index.xml": {
+    "title": "CSS to speech: alternative text for CSS-generated content",
+    "url": "https://www.sarasoueidan.com/blog/alt-text-for-css-generated-content/",
+    "date": "2025-09-17T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://seblee.me/feed/": {
+    "title": "Review of 2021",
+    "url": "https://seblee.me/2022/09/review-of-2021/",
+    "date": "2022-09-08T09:34:38.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://simonwillison.net/atom/everything/": {
+    "title": "Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model",
+    "url": "https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything",
+    "date": "2026-04-22T16:45:23.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://finokoye.com/feed/": {
+    "title": "Into the discourse – HYBRID ‘Sowing and Trekking Through Time: Science Fiction Imagines a Revolutionary 2024’",
+    "url": "https://finokoye.com/2024/06/17/into-the-discourse-hybrid-sowing-and-trekking-through-time-science-fiction-imagines-a-revolutionary-2024/",
+    "date": "2024-06-17T22:33:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://jenson.org/feed/": {
+    "title": "The Ma of a New Machine",
+    "url": "https://jenson.org/ma/",
+    "date": "2026-04-13T12:42:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://remysharp.com/blog.xml": {
+    "title": "Fixing my slow Mac network speeds",
+    "url": "https://remysharp.com/2026/03/26/fixing-my-slow-mac-network-speeds",
+    "date": "2026-03-26T09:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://www.communilogue.co/blog?format=rss": {
+    "title": "Five Minute Keynote: Compassionate Collaboration",
+    "url": "https://www.communilogue.co/blog/2024/5/7/five-minute-keynote-compassionate-collaboration",
+    "date": "2024-04-02T15:22:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://localghost.dev/feed.xml": {
+    "title": "Stop generating, start thinking",
+    "url": "https://localghost.dev/blog/stop-generating-start-thinking/",
+    "date": "2026-02-08T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://www.kryogenix.org/days/feed/": {
+    "title": "Calculating a rolling average without keeping all the numbers around",
+    "url": "https://www.kryogenix.org/days/2026/03/14/calculating-a-rolling-average-without-keeping-all-the-numbers-around/",
+    "date": "2026-03-14T23:23:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://tholman.com/feed.xml": {
+    "title": "Modernized JavaScript 90’s Cursor Effects, that we all know and love",
+    "url": "https://tholman.com/post/cursor-effects/",
+    "date": "2020-07-03T04:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://gearsco.de/blog.xml": {
+    "title": "Building a Blog in Gleam",
+    "url": "https://gearsco.de/blog/blog-in-gleam",
+    "date": "2026-01-20T00:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://tobiasahlin.com/feed.xml": {
+    "title": "Responsive type scales with composable CSS utilities",
+    "url": "https://tobiasahlin.com/blog/responsive-fluid-css-type-scales/",
+    "date": "2023-09-22T01:12:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://www.sachajudd.com/feed/": {
+    "title": "ffconf – Brighton",
+    "url": "https://www.sachajudd.com/ffconf-brighton/",
+    "date": "2025-11-14T00:07:44.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://acko.net/atom.xml": {
+    "title": "The L in \"LLM\" Stands for Lying",
+    "url": "https://acko.net/blog/the-l-in-llm-stands-for-lying/",
+    "date": "2026-03-03T23:00:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
+  },
+  "https://soledadpenades.com/feed": {
+    "title": "Fix files that cannot be deleted in Nextcloud",
+    "url": "https://soledadpenades.com/posts/2025/fix-files-that-cannot-be-deleted-in-nextcloud/",
+    "date": "2025-12-11T13:07:00.000Z",
+    "fetchedAt": "2026-04-23T11:28:08.213Z"
   }
 }

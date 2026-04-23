@@ -84,5 +84,9 @@ module.exports = async () => {
     new Set(matched.flatMap((m) => m.talk.tags))
   ).sort();
 
-  return { entries: matched, years, tags };
+  const totalSpeakers = new Set(
+    allTalks.filter((t) => t.speaker).map((t) => normalise(t.speaker.name))
+  ).size;
+
+  return { entries: matched, years, tags, totalSpeakers };
 };

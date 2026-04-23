@@ -1,0 +1,613 @@
+---
+layout: layouts/base.njk
+permalink: /feeds-mock/index.html
+hide_newsletter: true
+---
+
+{% set sample = speakerFeeds.entries | slice(6) | first %}
+
+<style>
+  .mock {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 32px;
+  }
+  .mock h1 { margin-bottom: 8px; }
+  .mock .lede { color: var(--dark-grey); margin: 0 0 40px 0; max-width: 60ch; }
+
+  .variant {
+    margin-bottom: 56px;
+  }
+  .variant header {
+    border-bottom: 1px solid var(--light-grey);
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+  }
+  .variant h2 {
+    font-size: 22px;
+    margin: 0 0 4px 0;
+  }
+  .variant .note {
+    color: var(--dark-grey);
+    font-size: 14px;
+    margin: 0;
+    max-width: 60ch;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  @media (min-width: 720px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  /* ---------- Variant A: stripped ---------- */
+  .va {
+    position: relative;
+    display: grid;
+    grid-template-columns: 64px 1fr auto;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    background: white;
+  }
+  .va img { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; display: block; }
+  .va .who { min-width: 0; }
+  .va .who h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--primary);
+    line-height: 1.25;
+  }
+  .va .who p {
+    margin: 2px 0 0 0;
+    font-size: 14px;
+    color: var(--dark-grey);
+    line-height: 1.3;
+  }
+  .va .who a { color: inherit; text-decoration: none; }
+  .va .who a:hover { color: var(--salmon); }
+  .va .feed-link {
+    font-size: 14px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    white-space: nowrap;
+  }
+  .va .feed-link:hover { color: var(--salmon); }
+
+  /* ---------- Variant B: name-forward, no photo frame ---------- */
+  .vb {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    gap: 8px 24px;
+    padding: 20px 24px;
+    border-radius: 10px;
+    background: var(--box);
+  }
+  .vb h3 {
+    grid-column: 1 / -1;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--primary);
+    line-height: 1.15;
+  }
+  .vb p {
+    margin: 0;
+    font-size: 14px;
+    color: var(--dark-grey);
+    line-height: 1.35;
+  }
+  .vb a.homepage {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--light-grey);
+  }
+  .vb a.homepage:hover { color: var(--salmon); text-decoration-color: currentColor; }
+  .vb .sub {
+    padding: 8px 16px;
+    background: white;
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary);
+    text-decoration: none;
+    white-space: nowrap;
+    align-self: start;
+  }
+  .vb .sub:hover { background: var(--salmon); color: white; }
+
+  /* ---------- Variant C: latest-post forward ---------- */
+  .vc {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 14px;
+    padding: 16px;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    background: white;
+  }
+  .vc img { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; display: block; }
+  .vc .body { min-width: 0; }
+  .vc .who {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .vc .who h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary);
+    line-height: 1.2;
+    min-width: 0;
+  }
+  .vc .icon-row {
+    display: flex;
+    gap: 4px;
+    flex: 0 0 auto;
+  }
+  .vc .icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: var(--dark-grey);
+    text-decoration: none;
+    transition: color 80ms ease-out, background 80ms ease-out;
+  }
+  .vc .icon-btn:hover {
+    color: var(--primary);
+    background: var(--box);
+  }
+  .vc .icon-btn svg { width: 16px; height: 16px; display: block; }
+  .vc .body .talk {
+    margin: 2px 0 10px 0;
+    font-size: 13px;
+    color: var(--dark-grey);
+    line-height: 1.3;
+  }
+  .vc .latest {
+    display: block;
+    padding: 10px 12px;
+    background: var(--box);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--primary);
+  }
+  .vc .latest:hover { background: var(--light-grey); }
+  .vc .latest .label {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--dark-grey);
+    font-weight: 500;
+  }
+  .vc .latest .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 2px;
+  }
+
+  /* ---------- Variant E: C + selectable ---------- */
+  .ve {
+    position: relative;
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    gap: 14px;
+    padding: 16px;
+    padding-right: 52px;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: border-color 80ms ease-out, box-shadow 80ms ease-out;
+  }
+  .ve:hover { border-color: var(--dark-grey); }
+  .ve.selected { border-color: var(--salmon); box-shadow: 0 0 0 1px var(--salmon); }
+  .ve img { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; display: block; }
+  .ve .body { min-width: 0; }
+  .ve .who { display: flex; align-items: center; gap: 8px; }
+  .ve .who h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary);
+    line-height: 1.2;
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+  .ve .who h3 .year {
+    font-weight: normal;
+    color: var(--dark-grey);
+    font-size: 14px;
+    margin-left: 2px;
+  }
+  .ve .icon-row { display: flex; gap: 2px; flex: 0 0 auto; }
+  .ve .icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+    color: var(--dark-grey);
+    text-decoration: none;
+    transition: color 80ms ease-out, background 80ms ease-out;
+  }
+  .ve .icon-btn:hover { color: var(--primary); background: var(--box); }
+  .ve .icon-btn svg { width: 15px; height: 15px; display: block; }
+  .ve .talk {
+    margin: 2px 0 10px 0;
+    font-size: 13px;
+    color: var(--dark-grey);
+    line-height: 1.3;
+  }
+  .ve .latest {
+    display: block;
+    padding: 10px 12px;
+    background: var(--box);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--primary);
+  }
+  .ve .latest:hover { background: var(--light-grey); }
+  .ve .latest .meta {
+    display: block;
+  }
+  .ve .latest .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--dark-grey);
+    font-weight: 500;
+  }
+  .ve .latest .date {
+    font-size: 11px;
+    color: var(--dark-grey);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .ve .latest .date::before {
+    content: ' · ';
+  }
+  .ve .latest .title {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 2px;
+  }
+  .ve .check {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--light-grey);
+    border-radius: 5px;
+    background: white;
+    transition: all 60ms ease-out;
+  }
+  .ve:hover .check { border-color: var(--dark-grey); }
+  .ve.selected .check {
+    background: var(--salmon);
+    border-color: var(--salmon);
+    position: absolute;
+  }
+  .ve.selected .check::after {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><polyline points='5 12 10 17 19 7'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+  }
+
+  /* ---------- Variant F: minimal selectable + icons ---------- */
+  .vf {
+    position: relative;
+    display: grid;
+    grid-template-columns: 48px 1fr auto;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: border-color 80ms ease-out, box-shadow 80ms ease-out;
+  }
+  .vf:hover { border-color: var(--dark-grey); }
+  .vf.selected { border-color: var(--salmon); box-shadow: 0 0 0 1px var(--salmon); }
+  .vf img { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; display: block; }
+  .vf .who { min-width: 0; }
+  .vf .who h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary);
+    line-height: 1.25;
+  }
+  .vf .who p {
+    margin: 2px 0 0 0;
+    font-size: 13px;
+    color: var(--dark-grey);
+    line-height: 1.3;
+  }
+  .vf .actions { display: flex; align-items: center; gap: 4px; }
+  .vf .icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    color: var(--dark-grey);
+    text-decoration: none;
+    transition: color 80ms ease-out, background 80ms ease-out;
+  }
+  .vf .icon-btn:hover { color: var(--primary); background: var(--box); }
+  .vf .icon-btn svg { width: 15px; height: 15px; display: block; }
+  .vf .check {
+    width: 24px;
+    height: 24px;
+    border: 2px solid var(--light-grey);
+    border-radius: 5px;
+    background: white;
+    margin-left: 4px;
+    transition: all 60ms ease-out;
+  }
+  .vf:hover .check { border-color: var(--dark-grey); }
+  .vf.selected .check {
+    background: var(--salmon);
+    border-color: var(--salmon);
+    position: relative;
+  }
+  .vf.selected .check::after {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><polyline points='5 12 10 17 19 7'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+  }
+
+  /* ---------- Variant D: card-as-action ---------- */
+  .vd {
+    position: relative;
+    display: grid;
+    grid-template-columns: 48px 1fr 24px;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    border: 1px solid var(--light-grey);
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    transition: background 80ms ease-out;
+  }
+  .vd:hover { background: var(--box); }
+  .vd img { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; display: block; }
+  .vd .who { min-width: 0; }
+  .vd .who h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary);
+    line-height: 1.25;
+  }
+  .vd .who p {
+    margin: 2px 0 0 0;
+    font-size: 13px;
+    color: var(--dark-grey);
+    line-height: 1.3;
+  }
+  .vd .check {
+    width: 22px;
+    height: 22px;
+    border: 2px solid var(--light-grey);
+    border-radius: 5px;
+    background: white;
+  }
+  .vd.selected { border-color: var(--salmon); box-shadow: 0 0 0 1px var(--salmon); background: white; }
+  .vd.selected .check { background: var(--salmon); border-color: var(--salmon); position: relative; }
+  .vd.selected .check::after {
+    content: '';
+    position: absolute; inset: 0;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><polyline points='5 12 10 17 19 7'/></svg>");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+  }
+</style>
+
+<section class="mock">
+  <h1>Feed card mock-ups</h1>
+  <p class="lede">Four directions for tightening the speaker feed card. Not production — a sandbox to see shapes at real data density before picking one. Each uses the same four speakers.</p>
+
+  {% set picks = speakerFeeds.entries | slice(4) | first %}
+
+  <section class="variant">
+    <header>
+      <h2>A — Row, stripped</h2>
+      <p class="note">Current card minus the pills and divider. One name size, one muted talk-title line, homepage as the single action. Photo circle. Good if you want the least visual change.</p>
+    </header>
+    <div class="grid">
+      {% for i in range(0, 4) %}
+      {% set entry = speakerFeeds.entries[i] %}
+      <div class="va">
+        <img src="{{ entry.photo }}" alt="" loading="lazy">
+        <div class="who">
+          <h3><a href="/talks/{{ entry.talk.slug }}/">{{ entry.name }}</a></h3>
+          <p>{{ entry.talk.title }}</p>
+        </div>
+        <a class="feed-link" href="{{ entry.feed }}" target="_blank" rel="noopener">RSS →</a>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="variant">
+    <header>
+      <h2>B — Name-forward, soft tile</h2>
+      <p class="note">No photo. Big speaker name, talk as caption, subscribe pill on the right. Reads like a directory list. Loses photo recognition but much calmer — fewer things to scan per card.</p>
+    </header>
+    <div class="grid">
+      {% for i in range(0, 4) %}
+      {% set entry = speakerFeeds.entries[i] %}
+      <div class="vb">
+        <h3>{{ entry.name }}</h3>
+        <p><a class="homepage" href="{{ entry.homepage }}" target="_blank" rel="noopener">{{ entry.homepage | replace('https://', '') | replace('http://', '') | replace(r/\/$/, '') }}</a></p>
+        <a class="sub" href="{{ entry.feed }}" target="_blank" rel="noopener">Subscribe</a>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="variant">
+    <header>
+      <h2>C — Latest post forward</h2>
+      <p class="note">Puts the latest blog-post title on the card. Answers "why would I subscribe?" without me having to click through. Homepage + RSS as icon buttons in the top-right; talk title shrinks to muted caption since it's secondary here.</p>
+    </header>
+    <div class="grid">
+      {% for i in range(0, 4) %}
+      {% set entry = speakerFeeds.entries[i] %}
+      <div class="vc">
+        <img src="{{ entry.photo }}" alt="" loading="lazy">
+        <div class="body">
+          <div class="who">
+            <h3>{{ entry.name }}</h3>
+            <div class="icon-row">
+              <a class="icon-btn" href="{{ entry.homepage }}" target="_blank" rel="noopener" aria-label="{{ entry.name }}'s homepage" title="Homepage">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <circle cx="12" cy="12" r="9"/>
+                  <path d="M3 12h18"/>
+                  <path d="M12 3a14 14 0 0 1 4 9 14 14 0 0 1-4 9 14 14 0 0 1-4-9 14 14 0 0 1 4-9z"/>
+                </svg>
+              </a>
+              <a class="icon-btn" href="{{ entry.feed }}" target="_blank" rel="noopener" aria-label="{{ entry.name }}'s RSS feed" title="RSS feed">
+                <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M6.18 15.64a2.18 2.18 0 1 1 0 4.36 2.18 2.18 0 0 1 0-4.36zM4 4.44A.44.44 0 0 1 4.44 4c8.6 0 15.56 6.96 15.56 15.56a.44.44 0 0 1-.44.44h-2.83a.44.44 0 0 1-.44-.42A11.85 11.85 0 0 0 4.42 7.71.44.44 0 0 1 4 7.27V4.44zm0 5.66a.44.44 0 0 1 .44-.44c5.45 0 9.87 4.42 9.9 9.87a.44.44 0 0 1-.44.43h-2.83a.44.44 0 0 1-.44-.43 6.2 6.2 0 0 0-6.19-6.18A.44.44 0 0 1 4 12.93V10.1z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <p class="talk">{{ entry.talk.title }} · {{ entry.talk.year }}</p>
+          {% if entry.latest %}
+          <a class="latest" href="{{ entry.latest.url }}" target="_blank" rel="noopener">
+            <span class="label">Latest post</span>
+            <span class="title">{{ entry.latest.title }}</span>
+          </a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  {% set iconGlobe %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 4 9 14 14 0 0 1-4 9 14 14 0 0 1-4-9 14 14 0 0 1 4-9z"/></svg>{% endset %}
+  {% set iconRss %}<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.18 15.64a2.18 2.18 0 1 1 0 4.36 2.18 2.18 0 0 1 0-4.36zM4 4.44A.44.44 0 0 1 4.44 4c8.6 0 15.56 6.96 15.56 15.56a.44.44 0 0 1-.44.44h-2.83a.44.44 0 0 1-.44-.42A11.85 11.85 0 0 0 4.42 7.71.44.44 0 0 1 4 7.27V4.44zm0 5.66a.44.44 0 0 1 .44-.44c5.45 0 9.87 4.42 9.9 9.87a.44.44 0 0 1-.44.43h-2.83a.44.44 0 0 1-.44-.43 6.2 6.2 0 0 0-6.19-6.18A.44.44 0 0 1 4 12.93V10.1z"/></svg>{% endset %}
+
+  <section class="variant">
+    <header>
+      <h2>E — C plus selectable card</h2>
+      <p class="note">Latest post + icon buttons from C, but the whole card is a selection target with a checkmark in the top-right. Clicking the photo or card toggles selection; icons and latest-post link are click-through.</p>
+    </header>
+    <div class="grid">
+      {% for i in range(0, 4) %}
+      {% set entry = speakerFeeds.entries[i] %}
+      <div class="ve" data-toggle>
+        <img src="{{ entry.photo }}" alt="" loading="lazy">
+        <div class="body">
+          <div class="who">
+            <h3>{{ entry.name }} <span class="year">· {{ entry.talk.year }}</span></h3>
+            <div class="icon-row">
+              <a class="icon-btn" href="{{ entry.homepage }}" target="_blank" rel="noopener" aria-label="{{ entry.name }}'s homepage" title="Homepage">{{ iconGlobe | safe }}</a>
+              <a class="icon-btn" href="{{ entry.feed }}" target="_blank" rel="noopener" aria-label="{{ entry.name }}'s RSS feed" title="RSS feed">{{ iconRss | safe }}</a>
+            </div>
+          </div>
+          <p class="talk">{{ entry.talk.title }}</p>
+          {% if entry.latest %}
+          <a class="latest" href="{{ entry.latest.url }}" target="_blank" rel="noopener">
+            <span class="meta">
+              <span class="label">Latest post</span>
+              {% if entry.latest.date %}<time class="date" datetime="{{ entry.latest.date }}">{{ entry.latest.date | format('D MMM YYYY') }}</time>{% endif %}
+            </span>
+            <span class="title">{{ entry.latest.title }}</span>
+          </a>
+          {% endif %}
+        </div>
+        <span class="check" aria-hidden="true"></span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="variant">
+    <header>
+      <h2>F — Minimal selectable row</h2>
+      <p class="note">One-line density like the old D, but with homepage + RSS icons alongside the check. No latest post, no talk caption beyond the basics. Cheapest path to "pick feeds" if the latest-post block feels like too much.</p>
+    </header>
+    <div class="grid">
+      {% for i in range(0, 4) %}
+      {% set entry = speakerFeeds.entries[i] %}
+      <div class="vf" data-toggle>
+        <img src="{{ entry.photo }}" alt="" loading="lazy">
+        <div class="who">
+          <h3>{{ entry.name }}</h3>
+          <p>{{ entry.talk.title }} · {{ entry.talk.year }}</p>
+        </div>
+        <div class="actions">
+          <a class="icon-btn" href="{{ entry.homepage }}" target="_blank" rel="noopener" aria-label="{{ entry.name }}'s homepage" title="Homepage">{{ iconGlobe | safe }}</a>
+          <a class="icon-btn" href="{{ entry.feed }}" target="_blank" rel="noopener" aria-label="{{ entry.name }}'s RSS feed" title="RSS feed">{{ iconRss | safe }}</a>
+          <span class="check" aria-hidden="true"></span>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="variant">
+    <header>
+      <h2>D — Card-as-target</h2>
+      <p class="note">Whole card is the selection target (click anywhere to toggle). One photo, one name, one muted talk-title caption, a check on the right. Built for the OPML picker flow — you're there to pick feeds, so make picking feel like the primary action.</p>
+    </header>
+    <div class="grid">
+      {% for i in range(0, 4) %}
+      {% set entry = speakerFeeds.entries[i] %}
+      <div class="vd" data-toggle>
+        <img src="{{ entry.photo }}" alt="" loading="lazy">
+        <div class="who">
+          <h3>{{ entry.name }}</h3>
+          <p>{{ entry.talk.title }}</p>
+        </div>
+        <span class="check" aria-hidden="true"></span>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+</section>
+
+<script>
+  document.querySelectorAll('[data-toggle]').forEach(el => {
+    el.addEventListener('click', e => {
+      if (e.target.closest('a')) return;
+      el.classList.toggle('selected');
+    });
+  });
+</script>
