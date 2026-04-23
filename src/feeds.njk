@@ -72,6 +72,14 @@ hide_newsletter: true
           <a href="{{ entry.homepage }}" target="_blank" rel="noopener" class="ext">Homepage</a>
           <a href="{{ entry.feed }}" target="_blank" rel="noopener" class="ext">RSS feed</a>
         </p>
+
+        {% if entry.latest %}
+        <p class="latest-post">
+          <span class="latest-label">Latest post:</span>
+          <a href="{{ entry.latest.url }}" target="_blank" rel="noopener" class="ext">{{ entry.latest.title }}</a>
+          {% if entry.latest.date %}<time class="latest-date" datetime="{{ entry.latest.date }}">{{ entry.latest.date | format("D MMM YYYY") }}</time>{% endif %}
+        </p>
+        {% endif %}
       </div>
     </li>
   {% endfor %}

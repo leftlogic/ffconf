@@ -1,8 +1,17 @@
+const fs = require('fs');
+const path = require('path');
 const feeds = require('./feeds.json');
 const talks = require('./talks');
 const liveYears = require('../../graphql/data/events.json')
   .filter((_) => _.live !== false)
   .map((_) => _.year);
+
+let latestPosts = {};
+try {
+  latestPosts = JSON.parse(
+    fs.readFileSync(path.join(__dirname, 'latestPosts.json'), 'utf8')
+  );
+} catch {}
 
 const normalise = (s) =>
   (s || '')
@@ -52,6 +61,7 @@ module.exports = async () => {
       bio: talk.speaker.bio || '',
       homepage: feed.homepage,
       feed: feed.feed,
+      latest: latestPosts[feed.feed] || null,
       talk: {
         title: talk.title,
         slug: talk.slug,

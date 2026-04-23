@@ -13,6 +13,7 @@
     "server": "PORT=3333 node ./graphql/server",
     "dev": "eleventy --serve --quiet",
     "jobs": "node ./jobs.mjs",
+    "latest-posts": "node ./bin/latest-posts.mjs",
     "redirects": "node ./redirects.js",
     "prebuild": "npm run jobs",
     "build": "eleventy && npm run redirects && test -e dist/index.html"

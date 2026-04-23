@@ -432,6 +432,43 @@ details.speaker-bio .bio-full {
   color: var(--salmon);
 }
 
+.feed-card-details .latest-post {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--dark-grey);
+  margin: 8px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: baseline;
+}
+
+.feed-card-details .latest-label {
+  color: var(--dark-grey);
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+}
+
+.feed-card-details .latest-post a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.feed-card-details .latest-post a:hover {
+  color: var(--salmon);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.feed-card-details .latest-date {
+  color: var(--dark-grey);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 .feeds-empty {
   text-align: center;
   padding: 60px 20px;
