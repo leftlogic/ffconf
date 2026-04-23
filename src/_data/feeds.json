@@ -1,0 +1,382 @@
+[
+  {
+    "name": "Ada Rose Edwards",
+    "homepage": "https://ada.is/",
+    "feed": "https://ada.is/feed"
+  },
+  {
+    "name": "Addy Osmani",
+    "homepage": "https://addyosmani.com/",
+    "feed": "http://addyosmani.com/rss.xml"
+  },
+  {
+    "name": "Alex Russell",
+    "homepage": "https://infrequently.org/",
+    "feed": "https://infrequently.org/feed/"
+  },
+  {
+    "name": "Alice Bartlett",
+    "homepage": "https://alicebartlett.co.uk/",
+    "feed": "https://alicebartlett.co.uk/feed.xml"
+  },
+  {
+    "name": "Amber Shand",
+    "homepage": "https://www.ambershand.co.uk/",
+    "feed": "https://www.ambershand.co.uk/blog/rss.xml"
+  },
+  {
+    "name": "Amy Hupe",
+    "homepage": "https://amyhupe.co.uk/",
+    "feed": "https://amyhupe.co.uk/atom.xml"
+  },
+  {
+    "name": "Ana Rodrigues",
+    "homepage": "https://ohhelloana.blog/",
+    "feed": "https://ohhelloana.blog/feed.xml"
+  },
+  {
+    "name": "Andrew Nesbitt",
+    "homepage": "https://nesbitt.io/",
+    "feed": "https://nesbitt.io/feed.xml"
+  },
+  {
+    "name": "Andy Bell",
+    "homepage": "https://bell.bz/",
+    "feed": "https://bell.bz/feed.xml"
+  },
+  {
+    "name": "Andy Wingo",
+    "homepage": "https://wingolog.org/",
+    "feed": "https://wingolog.org/feed"
+  },
+  {
+    "name": "Angela Ricci",
+    "homepage": "https://gericci.me/",
+    "feed": "https://gericci.me/feed.xml"
+  },
+  {
+    "name": "Angus Croll",
+    "homepage": "https://javascriptweblog.wordpress.com/",
+    "feed": "https://javascriptweblog.wordpress.com/feed/"
+  },
+  {
+    "name": "Anna Shipman",
+    "homepage": "https://www.annashipman.co.uk/",
+    "feed": "https://www.annashipman.co.uk/atom.xml"
+  },
+  {
+    "name": "Asim Hussain",
+    "homepage": "https://asim.dev/",
+    "feed": "https://goteoc.substack.com/feed"
+  },
+  {
+    "name": "Ben Foxall",
+    "homepage": "https://benjaminbenben.com/",
+    "feed": "https://benjaminbenben.com/atom.xml"
+  },
+  {
+    "name": "Blaine Cook",
+    "homepage": "https://bcook.ca/",
+    "feed": "https://bcook.ca/feed/"
+  },
+  {
+    "name": "Brendan Dawes",
+    "homepage": "https://brendandawes.com/",
+    "feed": "http://brendandawes.com/blog/feed"
+  },
+  {
+    "name": "Bruce Lawson",
+    "homepage": "https://brucelawson.co.uk/",
+    "feed": "https://brucelawson.co.uk/feed/"
+  },
+  {
+    "name": "Caolan McMahon",
+    "homepage": "https://caolan.uk/",
+    "feed": "https://caolan.uk/feed/notes/"
+  },
+  {
+    "name": "Charlie Owen",
+    "homepage": "https://awfulwoman.com/",
+    "feed": "https://awfulwoman.com/index.xml"
+  },
+  {
+    "name": "Charlotte Dann",
+    "homepage": "https://charlottedann.com/",
+    "feed": "https://charlottedann.com/rss.xml"
+  },
+  {
+    "name": "Chris Wilson",
+    "homepage": "https://cwilso.com/",
+    "feed": "https://cwilso.com/feed/"
+  },
+  {
+    "name": "Christian Heilmann",
+    "homepage": "https://christianheilmann.com/",
+    "feed": "https://christianheilmann.com/feed/"
+  },
+  {
+    "name": "Dan Webb",
+    "homepage": "https://danwebb.net/",
+    "feed": "https://danwebb.net/feed.xml"
+  },
+  {
+    "name": "Florence Okoye",
+    "homepage": "https://finokoye.com/",
+    "feed": "https://finokoye.com/feed/"
+  },
+  {
+    "name": "Hannah Wolfe",
+    "homepage": "https://hannah.wf/",
+    "feed": "https://hannah.wf/rss/"
+  },
+  {
+    "name": "Harry Roberts",
+    "homepage": "https://csswizardry.com/",
+    "feed": "https://csswizardry.com/feed"
+  },
+  {
+    "name": "Henrik Joreteg",
+    "homepage": "https://joreteg.com/",
+    "feed": "https://joreteg.com/rss"
+  },
+  {
+    "name": "Heydon Pickering",
+    "homepage": "https://heydonworks.com/",
+    "feed": "https://heydonworks.com/feed"
+  },
+  {
+    "name": "Ire Aderinokun",
+    "homepage": "https://bitsofco.de/",
+    "feed": "https://bitsofco.de/feed/feed.xml"
+  },
+  {
+    "name": "Jake Archibald",
+    "homepage": "https://jakearchibald.com/",
+    "feed": "https://jakearchibald.com/posts.rss"
+  },
+  {
+    "name": "Jan Lehnardt",
+    "homepage": "https://jan.prima.de/",
+    "feed": "https://writing.jan.io/feed.xml"
+  },
+  {
+    "name": "Jenn Schiffer",
+    "homepage": "https://jennschiffer.com/",
+    "feed": "https://livelaugh.blog/rss.xml"
+  },
+  {
+    "name": "Jeremy Keith",
+    "homepage": "https://adactio.com/",
+    "feed": "https://adactio.com/journal/rss"
+  },
+  {
+    "name": "Jessica Rose & Eda Eren",
+    "homepage": "https://jessica.tech/",
+    "feed": "https://jessica.tech/feed.xml"
+  },
+  {
+    "name": "Joe Hart",
+    "homepage": "https://www.joehart.co.uk/",
+    "feed": "https://www.joehart.co.uk/feed.xml"
+  },
+  {
+    "name": "John Allsopp",
+    "homepage": "https://johnfallsopp.com/",
+    "feed": "https://webdirections.org/category/blog/feed/"
+  },
+  {
+    "name": "John K. Paul",
+    "homepage": "https://johnkpaul.com/",
+    "feed": "https://johnkpaul.com/atom.xml"
+  },
+  {
+    "name": "Jonathan Fielding",
+    "homepage": "https://www.jonathanfielding.com/",
+    "feed": "https://medium.com/feed/@jonthanfielding"
+  },
+  {
+    "name": "Kenneth Auchenberg",
+    "homepage": "https://kenneth.io/",
+    "feed": "https://kenneth.io/api/feed.xml"
+  },
+  {
+    "name": "Kimberley Cook",
+    "homepage": "https://builtby.kim/",
+    "feed": "https://builtby.kim/feed.xml"
+  },
+  {
+    "name": "Lex Lofthouse",
+    "homepage": "https://loftio.co.uk/",
+    "feed": "https://loftio.co.uk/feed/"
+  },
+  {
+    "name": "Lisi Linhart",
+    "homepage": "https://lisilinhart.info/",
+    "feed": "https://lisilinhart.info/feed.xml"
+  },
+  {
+    "name": "Léonie Watson",
+    "homepage": "https://tink.uk/",
+    "feed": "https://tink.uk/feed.xml"
+  },
+  {
+    "name": "Maggie Appleton",
+    "homepage": "https://maggieappleton.com/",
+    "feed": "https://maggieappleton.com/rss.xml"
+  },
+  {
+    "name": "Marcin Wichary",
+    "homepage": "https://aresluna.org/",
+    "feed": "https://aresluna.org/main.rss"
+  },
+  {
+    "name": "Marcy Sutton",
+    "homepage": "https://marcysutton.com/",
+    "feed": "https://marcysutton.com/rss.xml"
+  },
+  {
+    "name": "Marijn Haverbeke",
+    "homepage": "https://marijnhaverbeke.nl/",
+    "feed": "https://marijnhaverbeke.nl/feed.atom"
+  },
+  {
+    "name": "Michael Kibedi",
+    "homepage": "https://www.uxmichael.co/",
+    "feed": "https://www.first-and-fifteenth.co/rss/"
+  },
+  {
+    "name": "Mike Hall",
+    "homepage": "https://skeptic.org.uk/author/mike-hall/",
+    "feed": "https://www.skeptic.org.uk/author/mike-hall/feed/"
+  },
+  {
+    "name": "Monica Dinculescu",
+    "homepage": "https://meowni.ca/",
+    "feed": "https://meowni.ca/atom.xml"
+  },
+  {
+    "name": "Nicholas Zakas",
+    "homepage": "https://humanwhocodes.com/",
+    "feed": "https://humanwhocodes.com/feeds/blog.xml"
+  },
+  {
+    "name": "Olu Niyi-Awosusi",
+    "homepage": "https://olu.online/",
+    "feed": "https://olu.online/feed/?type=rss"
+  },
+  {
+    "name": "Paul Bakaus",
+    "homepage": "https://www.paulbakaus.com/",
+    "feed": "https://www.paulbakaus.com/writing/rss/"
+  },
+  {
+    "name": "Paul Kinlan",
+    "homepage": "https://paul.kinlan.me/",
+    "feed": "https://paul.kinlan.me/index.xml"
+  },
+  {
+    "name": "Paul Lewis",
+    "homepage": "https://aerotwist.com/",
+    "feed": "https://aerotwist.com/blog/feed/"
+  },
+  {
+    "name": "Phil Hawksworth",
+    "homepage": "https://philhawksworth.dev/",
+    "feed": "https://philhawksworth.dev/feed.xml"
+  },
+  {
+    "name": "Rachel Andrew",
+    "homepage": "https://rachelandrew.co.uk/",
+    "feed": "https://rachelandrew.co.uk/feed/"
+  },
+  {
+    "name": "Rebecca Murphey",
+    "homepage": "https://rmurphey.com/",
+    "feed": "https://rmurphey.com/feed/feed.xml"
+  },
+  {
+    "name": "Remy Sharp",
+    "homepage": "https://remysharp.com/",
+    "feed": "https://remysharp.com/blog.xml"
+  },
+  {
+    "name": "Robert Nyman",
+    "homepage": "https://robertnyman.com/",
+    "feed": "http://feeds.feedburner.com/robertnyman"
+  },
+  {
+    "name": "Ruth John",
+    "homepage": "https://ruthjohn.com/",
+    "feed": "https://blog.rumyra.com/feed.xml"
+  },
+  {
+    "name": "Sacha Judd",
+    "homepage": "https://www.sachajudd.com/",
+    "feed": "https://www.sachajudd.com/feed/"
+  },
+  {
+    "name": "Salma Alam-Naylor",
+    "homepage": "https://whitep4nth3r.com/",
+    "feed": "https://whitep4nth3r.com/feed.xml"
+  },
+  {
+    "name": "Sara Soueidan",
+    "homepage": "https://www.sarasoueidan.com/",
+    "feed": "https://www.sarasoueidan.com/blog/index.xml"
+  },
+  {
+    "name": "Scott Jenson",
+    "homepage": "https://jenson.org/",
+    "feed": "https://jenson.org/feed/"
+  },
+  {
+    "name": "Seb Lee-Delisle",
+    "homepage": "https://seblee.me/",
+    "feed": "https://seblee.me/feed/"
+  },
+  {
+    "name": "Sharon Steed",
+    "homepage": "https://www.communilogue.co/",
+    "feed": "https://www.communilogue.co/blog?format=rss"
+  },
+  {
+    "name": "Simon Willison",
+    "homepage": "https://simonwillison.net/",
+    "feed": "https://simonwillison.net/atom/everything/"
+  },
+  {
+    "name": "Soledad Penadés",
+    "homepage": "https://soledadpenades.com/",
+    "feed": "https://soledadpenades.com/feed"
+  },
+  {
+    "name": "Sophie Koonin",
+    "homepage": "https://localghost.dev/",
+    "feed": "https://localghost.dev/feed.xml"
+  },
+  {
+    "name": "Steven Wittens",
+    "homepage": "https://acko.net/",
+    "feed": "https://acko.net/atom.xml"
+  },
+  {
+    "name": "Stuart Langridge",
+    "homepage": "https://www.kryogenix.org/",
+    "feed": "https://www.kryogenix.org/days/feed/"
+  },
+  {
+    "name": "Surya Rose",
+    "homepage": "https://gearsco.de/",
+    "feed": "https://gearsco.de/blog.xml"
+  },
+  {
+    "name": "Tim Holman",
+    "homepage": "https://tholman.com/",
+    "feed": "https://tholman.com/feed.xml"
+  },
+  {
+    "name": "Tobias Ahlin",
+    "homepage": "https://tobiasahlin.com/",
+    "feed": "https://tobiasahlin.com/feed.xml"
+  }
+]

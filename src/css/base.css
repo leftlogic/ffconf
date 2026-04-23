@@ -1,7 +1,8 @@
 /* custom font with ligature for FFC => ffc */
 @font-face {
   font-family: 'BasierSquare';
-  src: url('/fonts/BasierSquare-Medium-custom.woff2') format('woff2'),
+  src:
+    url('/fonts/BasierSquare-Medium-custom.woff2') format('woff2'),
     url('/fonts/BasierSquare-Medium-custom.woff') format('woff');
   font-weight: 500;
   font-style: normal;
@@ -9,7 +10,8 @@
 
 @font-face {
   font-family: 'BasierSquare';
-  src: url('/fonts/BasierSquare-Regular-custom.woff2') format('woff2'),
+  src:
+    url('/fonts/BasierSquare-Regular-custom.woff2') format('woff2'),
     url('/fonts/BasierSquare-Regular-custom.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -23,6 +25,11 @@
   --box: #f4f4f4;
   --salmon: #ff7063;
   --salmon-dark: #c04001; /* #D95E39;*/
+  --font-family: 'BasierSquare', sans-serif;
+}
+
+html.inter {
+  --font-family: 'Inter', sans-serif;
 }
 
 * {
@@ -47,7 +54,7 @@ strong * {
 /* Text styles */
 
 html {
-  font-family: 'BasierSquare';
+  font-family: var(--font-family);
   scroll-behavior: smooth;
   min-height: 100%;
 }
@@ -146,8 +153,7 @@ h1 + h2 {
   gap: 24px;
 }
 
-.talk .urls a[href^='https://']
-{
+.talk .urls a[href^='https://'] {
   display: inline-block;
   background: url(/images/external-link.svg) no-repeat;
   height: 20px;
@@ -156,8 +162,7 @@ h1 + h2 {
   color: var(--primary);
 }
 
-.talk .urls a[href^="https://twitter.com"]
-{
+.talk .urls a[href^='https://twitter.com'] {
   display: inline-block;
   background: url(/images/twitter.svg) no-repeat;
   height: 20px;
@@ -166,8 +171,7 @@ h1 + h2 {
   color: var(--primary);
 }
 
-.talk .urls a[href^='https://bsky.app/profile/']
-{
+.talk .urls a[href^='https://bsky.app/profile/'] {
   display: inline-block;
   background: url(/images/bsky.svg) no-repeat;
   height: 20px;
@@ -176,8 +180,7 @@ h1 + h2 {
   color: var(--primary);
 }
 
-.talk .urls a[href^='https://www.linkedin.com/in/']
-{
+.talk .urls a[href^='https://www.linkedin.com/in/'] {
   display: inline-block;
   background: url(/images/linkedin.svg) no-repeat;
   height: 20px;
@@ -186,8 +189,7 @@ h1 + h2 {
   color: var(--primary);
 }
 
-.talk .urls a[href^="https://"]:hover
-{
+.talk .urls a[href^='https://']:hover {
   color: var(--salmon);
 }
 
@@ -245,6 +247,7 @@ h1 + h2 {
   /* text-transform: lowercase; */
   padding: 6px 18px;
   display: inline-block;
+  align-content: center;
 }
 
 .pill.active {
@@ -527,7 +530,7 @@ img.soft {
 }
 
 .talk-card p {
-  font-family: BasierSquare;
+  font-family: var(--font-family);
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
@@ -547,7 +550,8 @@ img.soft {
   border: solid 2px var(--salmon);
   background-color: var(--white);
   padding: 8px;
-  background: url(/images/top-grey.svg) no-repeat top right,
+  background:
+    url(/images/top-grey.svg) no-repeat top right,
     url(/images/bottom-grey.svg) no-repeat bottom left;
   background-origin: content-box;
   border-left-width: 0;
@@ -576,7 +580,7 @@ img.soft {
 }
 
 .newsletter h2 {
-  font-family: BasierSquare;
+  font-family: var(--font-family);
   font-size: 32px;
   font-weight: 500;
   line-height: 1.25;

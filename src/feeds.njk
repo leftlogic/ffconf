@@ -1,0 +1,260 @@
+---
+layout: layouts/base.njk
+css: feeds.css
+hide_newsletter: true
+---
+
+<section class="feeds">
+  <header>
+    <h1>Speaker feeds</h1>
+    <p class="intro">Browse speakers from past FFConfs who still publish on their own blog. Filter by year or topic, search by name or session keyword, then download an <abbr title="Outline Processor Markup Language">OPML</abbr> file of the feeds you picked and drop it into your feed reader.</p>
+    <p class="feeds-missing">If you're a speaker, and your feed is missing, <a href="mailto:events@leftlogic.com?subject=FFConf%20feeds%20page">please get in touch</a>.</p>
+  </header>
+
+  <div class="feeds-controls">
+    <label class="search">
+      <span class="visuallyhidden">Search</span>
+      <input id="feeds-search" type="search" placeholder="Search by name, talk, tag or bio…" autocomplete="off">
+    </label>
+    <details class="feeds-filter">
+      <summary class="pill-button" aria-controls="feeds-filter-body"><span class="label">Filter speakers</span></summary>
+    </details>
+  </div>
+  <div class="feeds-filter-body" id="feeds-filter-body" hidden>
+    <div class="pill-list" data-filter-group="sort">
+      <label tabindex="0" class="checkbox-pill"><input value="latest" type="radio" name="sort" data-sort checked><span class="pill">Sort by latest post</span></label>
+      <label tabindex="0" class="checkbox-pill"><input value="year" type="radio" name="sort" data-sort><span class="pill">Sort by year spoken</span></label>
+      <label tabindex="0" class="checkbox-pill"><input value="name" type="radio" name="sort" data-sort><span class="pill">Sort by name</span></label>
+    </div>
+    <div class="pill-list" data-filter-group="year">
+    {% for year in speakerFeeds.years %}
+      <label tabindex="0" class="checkbox-pill"><input value="{{ year }}" type="checkbox" data-year><span class="pill">{{ year }}</span></label>
+    {% endfor %}
+    </div>
+    <div class="pill-list" data-filter-group="tag">
+    {% for tag in speakerFeeds.tags %}
+      <label tabindex="0" class="checkbox-pill"><input value="{{ tag }}" type="checkbox" data-tag><span class="pill">{{ tag }}</span></label>
+    {% endfor %}
+    </div>
+  </div>
+
+  <div class="feeds-summary">
+    <p><span id="feeds-count">{{ speakerFeeds.entries | length }}</span> of {{ speakerFeeds.totalSpeakers }} speakers · <span id="feeds-selected">0</span> selected</p>
+    <div class="feeds-actions">
+      <button type="button" class="link-button" id="feeds-select-visible">Select visible</button>
+      <button type="button" class="link-button" id="feeds-clear">Clear selection</button>
+      <button type="button" class="pill-button" id="feeds-download" disabled>Download OPML</button>
+    </div>
+  </div>
+
+  {% set iconGlobe %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 4 9 14 14 0 0 1-4 9 14 14 0 0 1-4-9 14 14 0 0 1 4-9z"/></svg>{% endset %}
+  {% set iconRss %}<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.18 15.64a2.18 2.18 0 1 1 0 4.36 2.18 2.18 0 0 1 0-4.36zM4 4.44A.44.44 0 0 1 4.44 4c8.6 0 15.56 6.96 15.56 15.56a.44.44 0 0 1-.44.44h-2.83a.44.44 0 0 1-.44-.42A11.85 11.85 0 0 0 4.42 7.71.44.44 0 0 1 4 7.27V4.44zm0 5.66a.44.44 0 0 1 .44-.44c5.45 0 9.87 4.42 9.9 9.87a.44.44 0 0 1-.44.43h-2.83a.44.44 0 0 1-.44-.43 6.2 6.2 0 0 0-6.19-6.18A.44.44 0 0 1 4 12.93V10.1z"/></svg>{% endset %}
+
+  <ol class="feeds-list" id="feeds-list">
+  {% for entry in speakerFeeds.entries %}
+    <li class="feed-card"
+        data-year="{{ entry.talk.year }}"
+        data-tags="{{ entry.talk.tags | join(' | ') | lower }}"
+        data-name="{{ entry.name | lower }}"
+        {% if entry.latest and entry.latest.date %}data-latest="{{ entry.latest.date | format('YYYYMMDD') }}"{% endif %}
+        data-search="{{ entry.name | lower }} {{ entry.talk.title | lower }} {{ entry.talk.tags | join(' ') | lower }} {{ entry.bio | lower | truncate(400, true, '') }}">
+      <input type="checkbox" class="visuallyhidden" id="feed-{{ entry.talk.slug }}" data-feed data-name="{{ entry.name }}" data-feed-url="{{ entry.feed }}" data-homepage="{{ entry.homepage }}">
+      <label for="feed-{{ entry.talk.slug }}" class="visuallyhidden">Include {{ entry.name }} in OPML</label>
+
+      <img class="feed-card-photo" src="{{ entry.photo }}" alt="" loading="lazy">
+
+      <div class="feed-card-who">
+        <h2>{{ entry.name }} <span class="year">· {{ entry.talk.year }}</span></h2>
+        <div class="feed-card-icons">
+          <a class="icon-btn" href="{{ entry.homepage }}" target="_blank" rel="noopener" aria-label="{{ entry.name }}'s homepage" title="Homepage">{{ iconGlobe | safe }}</a>
+          <a class="icon-btn" href="{{ entry.feed }}" target="_blank" rel="noopener" aria-label="{{ entry.name }}'s RSS feed" title="RSS feed">{{ iconRss | safe }}</a>
+        </div>
+      </div>
+      <p class="feed-card-talk"><a href="/talks/{{ entry.talk.slug }}/">{{ entry.talk.title }}</a></p>
+
+      {% if entry.latest %}
+      <div class="feed-card-latest">
+        <span class="meta">
+          <span class="label">Latest post</span>{% if entry.latest.date %}<time class="date" datetime="{{ entry.latest.date }}">{{ entry.latest.date | format('D MMM YYYY') }}</time>{% endif %}
+        </span>
+        <a href="{{ entry.latest.url }}" target="_blank" rel="noopener" class="title">{{ entry.latest.title }}</a>
+      </div>
+      {% endif %}
+
+      <span class="check" aria-hidden="true"></span>
+    </li>
+  {% endfor %}
+  </ol>
+
+  <p class="feeds-empty" id="feeds-empty" hidden>No speakers match your filters.</p>
+</section>
+
+<script defer async>
+(() => {
+  const list = $('#feeds-list');
+  const cards = $$('.feed-card');
+  const search = $('#feeds-search');
+  const countEl = $('#feeds-count');
+  const selectedEl = $('#feeds-selected');
+  const downloadBtn = $('#feeds-download');
+  const selectVisibleBtn = $('#feeds-select-visible');
+  const clearBtn = $('#feeds-clear');
+  const emptyEl = $('#feeds-empty');
+
+  const yearBoxes = $$('[data-filter-group="year"] input');
+  const tagBoxes = $$('[data-filter-group="tag"] input');
+  const sortRadios = $$('[data-filter-group="sort"] input');
+  const feedBoxes = $$('input[data-feed]');
+  const filterToggle = $('.feeds-filter');
+  const filterBody = $('#feeds-filter-body');
+  filterToggle.addEventListener('toggle', () => {
+    filterBody.hidden = !filterToggle.open;
+  });
+
+  function getChecked(boxes) {
+    return boxes.filter((b) => b.checked).map((b) => b.value.toLowerCase());
+  }
+
+  function applyFilters() {
+    const years = getChecked(yearBoxes);
+    const tags = getChecked(tagBoxes);
+    const q = (search.value || '').trim().toLowerCase();
+
+    let visible = 0;
+    cards.forEach((card) => {
+      const year = card.dataset.year;
+      const cardTags = card.dataset.tags;
+      const haystack = card.dataset.search;
+
+      let match = true;
+      if (years.length && !years.includes(year)) match = false;
+      if (match && tags.length && !tags.some((t) => cardTags.split(' | ').includes(t))) match = false;
+      if (match && q && !haystack.includes(q)) match = false;
+
+      card.hidden = !match;
+      if (match) visible++;
+    });
+
+    countEl.textContent = visible;
+    emptyEl.hidden = visible !== 0;
+  }
+
+  function updateSelected() {
+    const n = feedBoxes.filter((b) => b.checked).length;
+    selectedEl.textContent = n;
+    downloadBtn.disabled = n === 0;
+  }
+
+  function xmlEscape(s) {
+    return String(s || '')
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  }
+
+  function buildOPML() {
+    const picked = feedBoxes.filter((b) => b.checked);
+    const seen = new Set();
+    const outlines = [];
+    picked.forEach((b) => {
+      const url = b.dataset.feedUrl;
+      if (seen.has(url)) return;
+      seen.add(url);
+      outlines.push(
+        '    <outline type="rss" text="' + xmlEscape(b.dataset.name) +
+        '" title="' + xmlEscape(b.dataset.name) +
+        '" xmlUrl="' + xmlEscape(url) +
+        '" htmlUrl="' + xmlEscape(b.dataset.homepage) + '"/>'
+      );
+    });
+    const now = new Date().toUTCString();
+    return [
+      '<?xml version="1.0" encoding="UTF-8"?>',
+      '<opml version="2.0">',
+      '  <head>',
+      '    <title>FFConf speaker feeds</title>',
+      '    <dateCreated>' + now + '</dateCreated>',
+      '    <ownerName>FFConf</ownerName>',
+      '  </head>',
+      '  <body>',
+      outlines.join('\n'),
+      '  </body>',
+      '</opml>',
+      '',
+    ].join('\n');
+  }
+
+  function download() {
+    const opml = buildOPML();
+    const blob = new Blob([opml], { type: 'text/x-opml' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'ffconf-feeds.opml';
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  const nameRank = new Map();
+  cards
+    .slice()
+    .sort((a, b) => a.dataset.name.localeCompare(b.dataset.name))
+    .forEach((card, idx) => nameRank.set(card, idx));
+
+  function applySort() {
+    const mode = (sortRadios.find((r) => r.checked) || {}).value || 'latest';
+    cards.forEach((card, idx) => {
+      let order = idx;
+      if (mode === 'latest') {
+        const d = card.dataset.latest ? parseInt(card.dataset.latest, 10) : 0;
+        order = d ? 99999999 - d : 99999999;
+      } else if (mode === 'year') {
+        const y = parseInt(card.dataset.year, 10) || 0;
+        order = 9999 - y;
+      } else if (mode === 'name') {
+        order = nameRank.get(card) || 0;
+      }
+      card.style.order = order;
+    });
+  }
+
+  yearBoxes.concat(tagBoxes).forEach((b) => b.addEventListener('change', applyFilters));
+  sortRadios.forEach((r) => r.addEventListener('change', applySort));
+  search.addEventListener('input', applyFilters);
+  feedBoxes.forEach((b) => b.addEventListener('change', updateSelected));
+
+  cards.forEach((card) => {
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('a, input, label')) return;
+      const cb = card.querySelector('input[data-feed]');
+      cb.checked = !cb.checked;
+      cb.dispatchEvent(new Event('change'));
+    });
+  });
+
+  selectVisibleBtn.addEventListener('click', () => {
+    cards.forEach((card) => {
+      if (!card.hidden) {
+        const cb = card.querySelector('input[data-feed]');
+        if (cb) cb.checked = true;
+      }
+    });
+    updateSelected();
+  });
+
+  clearBtn.addEventListener('click', () => {
+    feedBoxes.forEach((b) => (b.checked = false));
+    updateSelected();
+  });
+
+  downloadBtn.addEventListener('click', download);
+
+  applyFilters();
+  updateSelected();
+  applySort();
+})();
+</script>
