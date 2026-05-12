@@ -9,7 +9,7 @@
   {%- set description = metadata[url].description -%}
 {# log an error #}
 {%- else -%}
-{{ ("no metadata " + url) | log }}
+{# {{ ("no metadata " + url) | log }} #}
 {%- endif -%}
 
 {%- if not title -%}

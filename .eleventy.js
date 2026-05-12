@@ -216,15 +216,15 @@ module.exports = function (eleventyConfig) {
   // eleventyConfig.addPassthroughCopy('src/browserconfig.xml');
 
   eleventyConfig.addCollection('randomLatest', async function () {
-    const talks = await Talks().then((talks) =>
-      talks.filter((talk) => liveYears.includes(parseInt(talk.event.year, 10)))
-    );
+    const talks = await Talks().then((talks) => {
+      return talks.filter((talk) => liveYears.includes(parseInt(talk.event.year, 10)));
+    });;
     const n = liveYears.length;
     const first = shuffle(
-      talks.filter((_) => _.event.year === liveYears[n - 1])
+      talks.filter((_) => parseInt(_.event.year, 10) === liveYears[n - 1])
     )[0];
     const second = shuffle(
-      talks.filter((_) => _.event.year === liveYears[n - 2])
+      talks.filter((_) => parseInt(_.event.year, 10) === liveYears[n - 2])
     )[0];
     return [first, second];
   });
