@@ -4,14 +4,22 @@
     "photo": "/images/speakers/christianh.jpg.avif",
     "bio": "Web Architect and standards evangelist at Yahoo UK: Frontloaded and zipped up - do loose types sink ships.",
     "id": "cja08vl66ydqz0175zyd5mdf7",
-    "twitter": "codepo8"
+    "websites": {
+      "Blog": "https://christianheilmann.com/",
+      "BlueSky": "https://bsky.app/profile/codepo8.bsky.social",
+      "Mastodon": "https://toot.cafe/@codepo8"
+    }
   },
   {
     "name": "Simon Willison",
     "photo": "/images/speakers/simonw.jpg.avif",
     "bio": "International speaker and renowned developer, talking about Web API mischief with JavaScript.",
     "id": "cja08vl6aydr50175qjou1tq5",
-    "twitter": "simonw"
+    "websites": {
+      "Blog": "https://simonwillison.net/",
+      "BlueSky": "https://bsky.app/profile/simonwillison.net",
+      "Mastodon": "https://fedi.simonwillison.net/@simon"
+    }
   },
   {
     "name": "Todd Kloots",
@@ -25,28 +33,43 @@
     "photo": "/images/speakers/stuartl.jpg.avif",
     "bio": "Stuart is a web hacker, author, and speaker living in the UK, talking about: New things that HTML5 provides to JavaScript hackers.",
     "id": "cja08vl6iypdy0183rs4kb01z",
-    "twitter": "sil"
+    "websites": {
+      "Blog": "https://www.kryogenix.org/",
+      "BlueSky": "https://bsky.app/profile/sil.kryogenix.org",
+      "Mastodon": "https://mastodon.social/@sil"
+    }
   },
   {
     "name": "Robert Nyman",
     "photo": "/images/speakers/robertn.jpg.avif",
     "bio": "Working in the frontend since 1998, talking about JavaScript: from birth to closure.",
     "id": "cja08vl6qz6350116mv0u5el5",
-    "twitter": "robertnyman"
+    "websites": {
+      "Blog": "https://robertnyman.com/",
+      "BlueSky": "https://bsky.app/profile/robertnyman.com"
+    }
   },
   {
     "name": "Jake Archibald",
     "photo": "/images/speakers/jakea.jpg.avif",
     "bio": "Jake worked on the BBC's Glow JavaScript library, talking about: Optimising where it hurts.",
     "id": "cja08vl6yytem0160p0evgdpc",
-    "twitter": "jaffathecake"
+    "websites": {
+      "Blog": "https://jakearchibald.com/",
+      "BlueSky": "https://bsky.app/profile/jakearchibald.com",
+      "Mastodon": "https://mastodon.social/@jaffathecake"
+    }
   },
   {
     "name": "Peter-Paul Koch",
     "photo": "/images/speakers/ppk.jpg.avif",
     "bio": "The author of the infinitely useful QuirksMode talking about: W3C Widgets.",
     "id": "cja08vl70ype40183xs595g0b",
-    "twitter": "ppk"
+    "websites": {
+      "Blog": "https://quirksmode.org/quirksblog/",
+      "BlueSky": "https://bsky.app/profile/quirksmode.org",
+      "Mastodon": "https://front-end.social/@ppk"
+    }
   },
   {
     "name": "Glenn Jones",
@@ -60,42 +83,63 @@
     "photo": "/images/speakers/rika.jpg.avif",
     "bio": "Rik Arends is co-founder and CTO of Cloud9 IDE, Inc (previously Ajax.org).",
     "id": "cja08vv27ypmc0183z6k65khl",
-    "twitter": "rikarends"
+    "websites": {
+      "Mastodon": "https://fosstodon.org/@rikarends"
+    }
   },
   {
     "name": "Phil Hawksworth",
     "photo": "/images/speakers/philh.jpg.avif",
     "bio": "Phil is a JavaScript developer who has been developing web applications since the late 90s. These days, he's the Technical Director for The Team.",
     "id": "cja08vv27yw4b0131i2cso4so",
-    "twitter": "philhawksworth"
+    "websites": {
+      "Blog": "https://philhawksworth.dev/",
+      "BlueSky": "https://bsky.app/profile/philhawksworth.dev",
+      "Mastodon": "https://indieweb.social/@philhawksworth"
+    }
   },
   {
     "name": "Nicholas Zakas",
     "photo": "/images/speakers/nicholasz.jpg.avif",
     "bio": "Nicholas C. Zakas worked at Yahoo! for almost five years, building and defining front-end strategy for some of Yahoo's largest sites.",
     "id": "cja08vv27z68l0116g18qqd1k",
-    "twitter": "slicknet"
+    "websites": {
+      "Blog": "https://humanwhocodes.com/",
+      "BlueSky": "https://bsky.app/profile/humanwhocodes.com",
+      "Mastodon": "https://fosstodon.org/@nzakas"
+    }
   },
   {
     "name": "Marijn Haverbeke",
     "photo": "/images/speakers/marijnh.jpg.avif",
     "bio": "Author of Eloquent JavaScript and main developer of CodeMirror.",
     "id": "cja08vv29ypmf0183ldqlgp83",
-    "twitter": "MarijnJH"
+    "websites": {
+      "Blog": "https://marijnhaverbeke.nl/",
+      "Mastodon": "https://mastodon.social/@marijn"
+    }
   },
   {
     "name": "Jan Lehnardt",
     "photo": "/images/speakers/janl.jpg.avif",
     "bio": "Jan is a contributor to Apache CouchDB and co-organizer of JSConf.eu, the other great JavaScript conference.",
     "id": "cja08vv2fybf90146azikutj0",
-    "twitter": "janl"
+    "websites": {
+      "Blog": "https://jan.prima.de/",
+      "BlueSky": "https://bsky.app/profile/janl.bsky.narrativ.es",
+      "Mastodon": "https://narrativ.es/@janl"
+    }
   },
   {
     "name": "Brendan Dawes",
     "photo": "/images/speakers/brendand.jpg.avif",
     "bio": "Brendan Dawes is Creative Director for magneticNorth, a digital design company based in Manchester, UK.",
     "id": "cja08vv2fyw4h01311whb66nh",
-    "twitter": "brendandawes"
+    "websites": {
+      "Blog": "https://brendandawes.com/",
+      "BlueSky": "https://bsky.app/profile/brendandawes.xyz",
+      "Mastodon": "https://mastodon.social/@brendandawes"
+    }
   },
   {
     "name": "Paul Rouget",
@@ -109,28 +153,42 @@
     "photo": "/images/speakers/marcinw.jpg.avif",
     "bio": "Marcin Wichary has been coding HTML by hand since 1994 and still finds it fascinating today as a senior user experience designer and developer at Google.",
     "id": "cja08vv2oytkd01600jndhkd8",
-    "twitter": "mwichary"
+    "websites": {
+      "Blog": "https://aresluna.org/",
+      "BlueSky": "https://bsky.app/profile/aresluna.org",
+      "Mastodon": "https://mastodon.online/@mwichary"
+    }
   },
   {
     "name": "Dan Webb",
     "photo": "/images/speakers/danw.jpg.avif",
     "bio": "Dan Webb is a british JavaScript bloke working on the platform team at Twitter. Recently he's spent a lot of time delving into the dark recesses of cross domain communication and security while working on @anywhere. In the past, as director of Massive Robot, he's been involved in a wide range of projects including work for Channel 4, A Bathing Ape and People's Music Store as well as popular Twitter app, twaud.io. When he's not doing that he's DJing, hording trainers and drinking fine beers.",
     "id": "cja08vv2oyw4n013157oul576",
-    "twitter": "danwrong"
+    "websites": {
+      "Blog": "https://danwebb.net/",
+      "BlueSky": "https://bsky.app/profile/danwrong.bsky.social"
+    }
   },
   {
     "name": "James Kyle",
     "photo": "/images/speakers/jamesk.jpg.avif",
     "bio": "I dropped out of high school at 16, made email templates for a marketing internship, then started selling WordPress installs for $50",
     "id": "cja08vv2pz68r0116jlsshe16",
-    "twitter": "thejameskyle"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/jamie.build",
+      "Mastodon": "https://mastodon.lol/@jamiebuilds"
+    }
   },
   {
     "name": "Alex Russell",
     "photo": "/images/speakers/alexr.jpg.avif",
     "bio": "Alex Russell is a software engineer at Google. Prior to joining Google he contributed to the development of the Dojo Toolkit. He's fighting IE 6 so you don't have to.",
     "id": "cja08vv2qydxr017524tkum24",
-    "twitter": "slightlylate"
+    "websites": {
+      "Blog": "https://infrequently.org/",
+      "BlueSky": "https://bsky.app/profile/infrequently.org",
+      "Mastodon": "https://toot.cafe/@slightlyoff"
+    }
   },
   {
     "name": "Jeremy Ashkenas",
@@ -144,28 +202,43 @@
     "photo": "/images/speakers/brianl.jpg.avif",
     "bio": "Co-creator of XUI and contributor to the open source PhoneGap project, Brian LeRoux believes that the future of the Internet is mobile and will rely on web standards, open source and developers like you. Brian is a software developer at Nitobi Software.",
     "id": "cja08vv2tydxw0175voatkmun",
-    "twitter": "brianleroux"
+    "websites": {
+      "Website": "https://webdev.rip/",
+      "BlueSky": "https://bsky.app/profile/brianleroux.bsky.social",
+      "Mastodon": "https://indieweb.social/@brianleroux"
+    }
   },
   {
     "name": "Paul Bakaus",
     "photo": "/images/speakers/paulb.jpg.avif",
     "bio": "Paul is the CTO of the browser game startup Dextrose AG, as well as a jQuery team member and his corporate work mostly focusses on UX, UI and tricky JavaScript challenges. He is well known in the JavaScript community for having created the popular user interface framework jQuery UI, where he was the driving force behind many of its plugins.\n\n\n\nIn 2010, he finally decided it‘s time for a long envisioned challenge – delivering the first commercial game engine for the web, running pluginless in web browsers. In addition to his main work, he enjoys his well booked speaking engagements at various conferences around the world. His favorite topics cover innovative user interfaces and experiences, JavaScript wisdom and of course, jQuery.",
     "id": "cja08vv2wydy10175btyw1ouj",
-    "twitter": "pbakaus"
+    "websites": {
+      "Blog": "https://www.paulbakaus.com/",
+      "BlueSky": "https://bsky.app/profile/pbakaus.bsky.social"
+    }
   },
   {
     "name": "Blaine Cook",
     "photo": "/images/speakers/blainec.jpg.avif",
     "bio": "A glowing green screen, still fascinating despite its sole output: \"SYNTAX ERROR\"; Years later, the moment I used ATA and ATDT to talk to a friend.",
     "id": "cja08vv2wz68x011683fs5wdg",
-    "twitter": "blaine"
+    "websites": {
+      "Blog": "https://bcook.ca/",
+      "BlueSky": "https://bsky.app/profile/blaine.bsky.social",
+      "Mastodon": "https://mastodon.social/@blaine"
+    }
   },
   {
     "name": "Bruce Lawson",
     "photo": "/images/speakers/brucel.jpg.avif",
     "bio": "1981, my Physics teacher made up a UK101 kit in a tiny computer room which I could use instead of Physical Exercise. So I programmed games.",
     "id": "cja08vv30ybfi0146qmveu28w",
-    "twitter": "brucel"
+    "websites": {
+      "Blog": "https://brucelawson.co.uk/",
+      "BlueSky": "https://bsky.app/profile/brucel.bsky.social",
+      "Mastodon": "https://social.vivaldi.net/@brucelawson"
+    }
   },
   {
     "name": "Umar Hansa",
@@ -179,28 +252,40 @@
     "photo": "/images/speakers/monicad.jpg.avif",
     "bio": "I found out my mum always won at the QBasic Gorrilas game bc she changed the other player's code to randomly miss. Then she taught me how.",
     "id": "cja08vv32z69301169js2nkeb",
-    "twitter": "notwaldorf"
+    "websites": {
+      "Blog": "https://meowni.ca/",
+      "BlueSky": "https://bsky.app/profile/notwaldorf.bsky.social"
+    }
   },
   {
     "name": "Addy Osmani",
     "photo": "/images/speakers/addyo.jpg.avif",
     "bio": "At 16, wrote a web browser in C++ to understand how HTML, CSS and JavaScript worked…15 years later, still learning",
     "id": "cja08vv33ytkn01604t3emflr",
-    "twitter": "addyosmani"
+    "websites": {
+      "Blog": "https://addyosmani.com/",
+      "BlueSky": "https://bsky.app/profile/addyosmani.bsky.social"
+    }
   },
   {
     "name": "Katie Fenn",
     "photo": "/images/speakers/katief.jpg.avif",
     "bio": "In 2001 I started making post signatures for a Final Fantasy forum, and then started coding new features for the forum itself.",
     "id": "cja08vv34ypmt0183k3tidohl",
-    "twitter": "katie_fenn"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/katiefenn.bsky.social",
+      "Mastodon": "https://front-end.social/@katiefenn"
+    }
   },
   {
     "name": "Ashley Williams",
     "photo": "/images/speakers/ashleyw.jpg.avif",
     "bio": "",
     "id": "cja08vv3cydy70175auxl35sa",
-    "twitter": "ag_dubs"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/agdubs.bsky.social",
+      "Mastodon": "https://mastodon.social/@ag_dubs"
+    }
   },
   {
     "name": "Mariko Kosaka",
@@ -208,7 +293,7 @@
     "bio": "",
     "id": "cja08vv3cyw4t01313bxca2a1",
     "websites": {
-      "@kosamari.bsky.social": "https://bsky.app/profile/kosamari.bsky.social",
+      "BlueSky": "https://bsky.app/profile/kosamari.bsky.social",
       "LinkedIn": "https://www.linkedin.com/in/kosamari/",
       "Website": "https://kosamari.com/"
     }
@@ -218,22 +303,31 @@
     "photo": "/images/speakers/sebl.jpg.avif",
     "bio": "Seb has been working in digital media for over 15 years and is the founding partner at award winning digital agency Plug-in Media. He is a specialist in games, physics, motion detection, 3D and visual effects (such as particle systems). His work has pushed the boundaries of what is possible on the web, and has received many accolades including a BAFTA for the Plug-in Media project Big and Small.\n\n\n\nAs a member of the Papervision3D team, he is an expert in 3D. He is regularly invited to speak at conferences, and has presented at iDesign, FITC, FlashForward and many others.",
     "id": "cja08vv3dybfo0146faablkh2",
-    "twitter": "seb_ly"
+    "websites": {
+      "Blog": "https://seblee.me/",
+      "BlueSky": "https://bsky.app/profile/seblee.me",
+      "Mastodon": "https://mastodon.social/@seb_ly"
+    }
   },
   {
     "name": "Léonie Watson",
     "photo": "/images/speakers/leoniew.jpg.avif",
     "bio": "",
     "id": "cja08vv3gypmz0183kufh870j",
-    "twitter": "LeonieWatson"
+    "websites": {
+      "Blog": "https://tink.uk/",
+      "BlueSky": "https://bsky.app/profile/tink.uk",
+      "Mastodon": "https://front-end.social/@tink"
+    }
   },
   {
     "name": "Rachel Andrew",
     "photo": "/images/speakers/rachela.jpg.avif",
     "id": "cja08vv3nybfu0146wfapxv6a",
     "websites": {
-      "Blog": "https://rachelandrew.co.uk",
-      "@rachelandrew.bsky.social": "https://bsky.app/profile/rachelandrew.bsky.social"
+      "Blog": "https://rachelandrew.co.uk/",
+      "BlueSky": "https://bsky.app/profile/rachelandrew.co.uk",
+      "Mastodon": "https://front-end.social/@rachelandrew"
     }
   },
   {
@@ -241,36 +335,49 @@
     "photo": "/images/speakers/jenns.jpg.avif",
     "bio": "my kid laptop had a hangman game written in BASIC and i accessed the source and rigged it to cheat against my half sister!",
     "id": "cja08vv3qytku0160zziw76vf",
-    "twitter": "jennschiffer"
+    "websites": {
+      "Blog": "https://jennschiffer.com/",
+      "BlueSky": "https://bsky.app/profile/jennschiffer.com",
+      "Mastodon": "https://gardenstate.social/@jenn"
+    }
   },
   {
     "name": "John K. Paul",
     "photo": "/images/speakers/johnp.jpg.avif",
     "bio": "",
     "id": "cja08vv3vyw4z0131gse68e4t",
-    "twitter": "johnkpaul"
+    "twitter": "johnkpaul",
+    "websites": {
+      "Blog": "https://johnkpaul.com/"
+    }
   },
   {
     "name": "Paul Lewis",
     "photo": "/images/speakers/paull.jpg.avif",
     "bio": "",
     "id": "cja08vv3vz6990116jbd0tn25",
-    "twitter": "aerotwist"
+    "websites": {
+      "Blog": "https://aerotwist.com/",
+      "BlueSky": "https://bsky.app/profile/aerotwist.com",
+      "Mastodon": "https://mastodon.social/@aerotwist"
+    }
   },
   {
     "name": "Robin Mehner",
     "photo": "/images/speakers/robinm.jpg.avif",
     "bio": "",
     "id": "cja08vv40ybg00146ttgm7ppm",
-    "twitter": "rmehner"
+    "websites": {
+      "Mastodon": "https://chaos.social/@rmehner"
+    }
   },
   {
     "name": "Lena Reinhard",
     "photo": "/images/speakers/lenar.jpg.avif",
     "bio": "",
     "id": "cja08vv40ydyd0175nrzrxpec",
-    "twitter": "",
     "websites": {
+      "BlueSky": "https://bsky.app/profile/lenareinhard.com",
       "Blog": "https://www.lenareinhard.com/",
       "LinkedIn": "https://www.linkedin.com/in/lenareinhard/"
     }
@@ -280,91 +387,133 @@
     "photo": "/images/speakers/scottj.jpg.avif",
     "bio": "",
     "id": "cja08vv40yw550131uh9ympf4",
-    "twitter": "scottjenson"
+    "websites": {
+      "Blog": "https://jenson.org/",
+      "BlueSky": "https://bsky.app/profile/jenson.org",
+      "Mastodon": "https://social.coop/@scottjenson"
+    }
   },
   {
     "name": "Mathieu 'p01' Henri",
     "photo": "/images/speakers/mathieuh.jpg.avif",
     "bio": "",
     "id": "cja08vv41z69f0116a4fpd06u",
-    "twitter": "p01"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/p01.bsky.social",
+      "Mastodon": "https://mastodon.social/@p01"
+    }
   },
   {
     "name": "Joe Hart",
     "photo": "/images/speakers/joeh.jpg.avif",
     "bio": "Parents got me Lego Mindstorms for Xmas, used it and got frustrated that the software didn't let me do exactly what I wanted. Thus here I am",
     "id": "cja08vv43ypn50183me8s6q7m",
-    "twitter": "joehart"
+    "websites": {
+      "Blog": "https://www.joehart.co.uk/",
+      "BlueSky": "https://bsky.app/profile/joehart.bsky.social",
+      "Mastodon": "https://social.lol/@joehart"
+    }
   },
   {
     "name": "Andy Wingo",
     "photo": "/images/speakers/andyw.jpg.avif",
     "bio": "",
     "id": "cja08vv46ytl0016047iqtw1v",
-    "twitter": "andywingo"
+    "websites": {
+      "Blog": "https://wingolog.org/",
+      "BlueSky": "https://bsky.app/profile/wingolog.org",
+      "Mastodon": "https://mastodon.social/@wingo"
+    }
   },
   {
     "name": "Anna Shipman",
     "photo": "/images/speakers/annas.jpg.avif",
     "bio": "",
     "id": "cja08vv48yw5b0131tim3djsj",
-    "twitter": "annashipman"
+    "websites": {
+      "Blog": "https://www.annashipman.co.uk/",
+      "BlueSky": "https://bsky.app/profile/annashipman.bsky.social"
+    }
   },
   {
     "name": "Ada Rose Edwards",
     "photo": "/images/speakers/adar.jpg.avif",
     "bio": "",
     "id": "cja08vv4eypne0183z9gnnawn",
-    "twitter": "Lady_Ada_King"
+    "websites": {
+      "Blog": "https://ada.is/",
+      "BlueSky": "https://bsky.app/profile/adarose.dev",
+      "Mastodon": "https://mastodon.social/@ada"
+    }
   },
   {
     "name": "Sara Soueidan",
     "photo": "/images/speakers/saras.jpg.avif",
     "bio": "",
     "id": "cja08vv4eytl601608mzhwjry",
-    "twitter": "sarasoueidan"
+    "websites": {
+      "Blog": "https://www.sarasoueidan.com/",
+      "BlueSky": "https://bsky.app/profile/sarasoueidan.com",
+      "Mastodon": "https://mastodon.social/@SaraSoueidan"
+    }
   },
   {
     "name": "Andrew Martin",
     "photo": "/images/speakers/andrewm.jpg.avif",
     "bio": "",
     "id": "cja08vv4fypnf0183byoz6mzp",
-    "twitter": "sublimino"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/sublimi.no"
+    }
   },
   {
     "name": "Soledad Penadés",
     "photo": "/images/speakers/soledadp.jpg.avif",
     "bio": "",
     "id": "cja08vv4hybg7014667pbw53m",
-    "twitter": "supersole"
+    "websites": {
+      "Blog": "https://soledadpenades.com/",
+      "Mastodon": "https://5013.es/@supersole"
+    }
   },
   {
     "name": "Tobias Ahlin",
     "photo": "/images/speakers/tobiasa.jpg.avif",
     "bio": "",
     "id": "cja08vv4hz69m0116smudx1yz",
-    "twitter": "tobiasahlin"
+    "twitter": "tobiasahlin",
+    "websites": {
+      "Blog": "https://tobiasahlin.com/"
+    }
   },
   {
     "name": "Hannah Wolfe",
     "photo": "/images/speakers/hannahw.jpg.avif",
     "bio": "",
     "id": "cja08vv4kybgc0146g8wivkx7",
-    "twitter": "ErisDS"
+    "twitter": "ErisDS",
+    "websites": {
+      "Blog": "https://hannah.wf/"
+    }
   },
   {
     "name": "Martin Kleppe",
     "photo": "/images/speakers/martink.jpg.avif",
     "bio": "",
     "id": "cja08vv4nyw5h0131snlhf1ur",
-    "twitter": "aemkei"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/aemkei.bsky.social"
+    }
   },
   {
     "name": "Ben Foxall",
     "photo": "/images/speakers/benf.jpg.avif",
     "bio": "",
     "id": "cja08vv4tyw5n01317mkhojw3",
-    "twitter": "benjaminbenben"
+    "websites": {
+      "Blog": "https://benjaminbenben.com/",
+      "BlueSky": "https://bsky.app/profile/benfoxall.bsky.social"
+    }
   },
   {
     "name": "Joe McCann",
@@ -378,77 +527,112 @@
     "photo": "/images/speakers/andrewn.jpg.avif",
     "bio": "Andrew is a passionate full stack developer. He spends most of his days programming in Ruby, playing with Node.js, contributing to open source projects and organising local developer user groups. He also aspires to one day take over the world with a fleet of JavaScript powered quadcopters.",
     "id": "cja08vv4yytlc0160vc1w09i0",
-    "twitter": "teabass"
+    "websites": {
+      "Blog": "https://nesbitt.io/",
+      "BlueSky": "https://bsky.app/profile/andrewnez.bsky.social",
+      "Mastodon": "https://mastodon.social/@andrewnez"
+    }
   },
   {
     "name": "Chris Wilson",
     "photo": "/images/speakers/chrisw.jpg.avif",
     "bio": "Chris Wilson has worked on NCSA Mosaic, IE and now Chrome as an Open Web advocate.  He loves enabling awesome user experiences on the web.",
     "id": "cja08vv4yz69v0116yzp98bj7",
-    "twitter": "cwilso"
+    "websites": {
+      "Blog": "https://cwilso.com/",
+      "BlueSky": "https://bsky.app/profile/cwilso.bsky.social",
+      "Mastodon": "https://mastodon.social/@cdub"
+    }
   },
   {
     "name": "Henrik Joreteg",
     "photo": "/images/speakers/henrikj.jpg.avif",
     "bio": "",
     "id": "cja08vv4zz69w0116piin7txb",
-    "twitter": "HenrikJoreteg"
+    "websites": {
+      "Blog": "https://joreteg.com/",
+      "BlueSky": "https://bsky.app/profile/henrikjoreteg.bsky.social"
+    }
   },
   {
     "name": "Caolan McMahon",
     "photo": "/images/speakers/caolanm.jpg.avif",
     "bio": "",
     "id": "cja08vv56ydyo01753h80yav8",
-    "twitter": "caolan"
+    "websites": {
+      "Blog": "https://caolan.uk/",
+      "Mastodon": "https://hachyderm.io/@caolan"
+    }
   },
   {
     "name": "Angus Croll",
     "photo": "/images/speakers/angusc.jpg.avif",
     "bio": "Angus is a displaced Brit who now works for Twitter's web platform team in San Francisco, and is one of the principal authors and maintainers of Twitter's Flight web framework. He's obsessed with JavaScript and literature in equal measure, and is a passionate advocate for the greater involvement of artists and creative thinkers in software.",
     "id": "cja08vv56ypnt0183koqgbgm4",
-    "twitter": "angustweets"
+    "websites": {
+      "Blog": "https://javascriptweblog.wordpress.com/",
+      "BlueSky": "https://bsky.app/profile/angustweets.bsky.social"
+    }
   },
   {
     "name": "Marcy Sutton",
     "photo": "/images/speakers/marcys.jpg.avif",
     "bio": "",
     "id": "cja08vv58ydys0175nr5h6d1y",
-    "twitter": "marcysutton"
+    "websites": {
+      "Blog": "https://marcysutton.com/",
+      "BlueSky": "https://bsky.app/profile/marcysutton.com"
+    }
   },
   {
     "name": "Andrew Grieve",
     "photo": "/images/speakers/andrewg.jpg.avif",
     "bio": "Andrew is a developer at Google who has worked on several mobile web projects, including Gmail and Google Docs. More recently, he's been leading a team working full-time on Cordova Android & iOS ports, both as part of the \"make the web better\" initiative, as well as a part of the Chrome Apps team",
     "id": "cja08vv5aydyu0175f6hq3840",
-    "twitter": "grieveandrew"
+    "websites": {
+      "Mastodon": "https://mastodon.social/@agrieve"
+    }
   },
   {
     "name": "James Pearce",
     "photo": "/images/speakers/jamesp.jpg.avif",
     "bio": "Head of Mobile Developer Relations at Facebook, a developer and writer with a special passion for mobile and exploring its untapped potential.",
     "id": "cja08vv5gypnz0183fsckwiyd",
-    "twitter": "jamespearce"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/jamespearce.bsky.social"
+    }
   },
   {
     "name": "Kenneth Auchenberg",
     "photo": "/images/speakers/kennetha.jpg.avif",
     "bio": "",
     "id": "cja08vv5hybgk0146lmh1w0ne",
-    "twitter": "auchenberg"
+    "websites": {
+      "Blog": "https://kenneth.io/",
+      "BlueSky": "https://bsky.app/profile/auchenberg.bsky.social"
+    }
   },
   {
     "name": "Paul Kinlan",
     "photo": "/images/speakers/paulk.jpg.avif",
     "bio": "Developer Advocate @ Google on Chrome. Mr [Web Intents](http://webintents.org). Developer of many techie things including Twollo, Twe2, Topicala, Ahoyo and FriendDeck.",
     "id": "cja08vv5iytlj016001ogyi65",
-    "twitter": "Paul_Kinlan"
+    "websites": {
+      "Blog": "https://paul.kinlan.me/",
+      "BlueSky": "https://bsky.app/profile/paul.kinlan.me",
+      "Mastodon": "https://status.kinlan.me/@paul"
+    }
   },
   {
     "name": "Steven Wittens",
     "photo": "/images/speakers/stevenw.jpg.avif",
     "bio": "[Steven Wittens](http://acko.net) is a wannabe demo scener, recreational mathematician and maker of webs front and back who desperately wants the browser to become a real boy already.",
     "id": "cja08vv5kybgp01469x4fzq7b",
-    "twitter": "unconed"
+    "websites": {
+      "Blog": "https://acko.net/",
+      "BlueSky": "https://bsky.app/profile/unconed.bsky.social",
+      "Mastodon": "https://mstdn.io/@unconed"
+    }
   },
   {
     "name": "Jeremy Keith",
@@ -456,8 +640,9 @@
     "bio": "Jeremy Keith lives in Brighton, England where he makes websites with the splendid design agency [Clearleft](http://clearleft.com). You may know him from such books as [DOM Scripting: JavaScript's New Hope](http://domscripting.com/), [Bulletproof Ajax: The Browser Strikes Back](http://bulletproofajax.com/), and [HTML5 For Web Designers: Return Of The Standards](http://html5forwebdesigners.com/).\n\n\n\nHe's the curator of the [dConstruct conference](http://dconstruct.org/) as well as [Brighton SF](http://brightonsf.adactio.com/), and he organised the world's first [Science Hack Day](http://sciencehackday.com/). He also made the website [Huffduffer](http://huffduffer.com/) to allow people to make podcasts of found sounds—it's like Instapaper for audio files.\n\n\n\nJeremy spends most of his time goofing off on the internet, documenting his time-wasting on [adactio.com](http://adactio.com), where he has been writing for over ten years.",
     "id": "cja08vv5lz6a40116rarmsnbo",
     "websites": {
-      "Blog": "https://adactio.com",
-      "@adactio": "https://bsky.app/profile/adactio.com"
+      "Blog": "https://adactio.com/",
+      "BlueSky": "https://bsky.app/profile/adactio.com",
+      "Mastodon": "https://mastodon.social/@adactio"
     }
   },
   {
@@ -472,21 +657,30 @@
     "photo": "/images/speakers/andrewb.jpg.avif",
     "bio": "Founder of [Assanka](http://assanka.net), the company acquired earlier this year by the FT, Andrew now heads up FT Labs (the team that builds some of the world's finest HTML5 web apps) and is co-chair of the W3C 'Fixing appcache' community group.",
     "id": "cja08vv5nytlp0160shw4038g",
-    "twitter": "triblondon"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/triblondon.trib.tv"
+    }
   },
   {
     "name": "John Allsopp",
     "photo": "/images/speakers/johna.jpg.avif",
     "bio": "[John](http://johnfallsopp.com/) has been doing things to the web since before many of you were born. This is not necessarily a good thing.",
     "id": "cja08vv5nyw5x0131rxqfu88g",
-    "twitter": "johnallsopp"
+    "websites": {
+      "Blog": "https://johnfallsopp.com/",
+      "BlueSky": "https://bsky.app/profile/johnallsopp.bsky.social",
+      "Mastodon": "https://indieweb.social/@johnallsopp"
+    }
   },
   {
     "name": "Rebecca Murphey",
     "photo": "/images/speakers/rebeccam.jpg.avif",
     "bio": "Senior JS dev at [Bocoup](http://bocoup.com/), client-side architecture fanatic, co-host of the long-lost [yayQuery](http://yayquery.com/) podcast",
     "id": "cja08vv5oyw5y0131v58pybct",
-    "twitter": "rmurphey"
+    "websites": {
+      "Blog": "https://rmurphey.com/",
+      "BlueSky": "https://bsky.app/profile/rmurphey.bsky.social"
+    }
   },
   {
     "name": "Anna Debenham",
@@ -500,31 +694,40 @@
     "photo": "/images/speakers/anat.jpg.avif",
     "bio": "Loves maths, especially geometry. Enjoys playing with code. Passionate about experimenting & learning new things. Fascinated by astrophysics and science in general. Huge fan of technological advance & its applications in all fields. Shows an interest in motor sports, drawing, classic cartoons, rock music, cuddling toys and animals with sharp claws & big teeth. Dreams about owning a real tiger.",
     "id": "cja08vv5wydz30175mf1sfrf1",
-    "twitter": "thebabydino"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/anatudor.bsky.social",
+      "Mastodon": "https://mastodon.social/@anatudor"
+    }
   },
   {
     "name": "Lisi Linhart",
     "photo": "/images/speakers/lisil.jpg.avif",
     "bio": "Studied city planning for some time, but since I'm quite an impatient person and it takes decades to build cities, I decided to build websites instead. Still loving having immediate results and instant feedback from people interacting with what I build.",
     "id": "cjialrmraly2g0197f58ajmiw",
-    "twitter": "lisi_linhart"
+    "twitter": "lisi_linhart",
+    "websites": {
+      "Blog": "https://lisilinhart.info/"
+    }
   },
   {
     "name": "Jo Franchetti",
     "photo": "/images/speakers/jof.jpg.avif",
     "bio": "After studying (and hating) electronic engineering, I thought I'd teach myself HTML/CSS as a better fit for my love of tech+creativity. I wrote some terrible portfolio sites, applied for 50 million jobs and eventually one let me start my career! ",
     "id": "cjialznbzly4m01978yji2mx8",
-    "twitter": "ThisIsJoFrank"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/thisisjofrank.bsky.social",
+      "Mastodon": "https://mastodon.social/@thisisjofrank"
+    }
   },
   {
     "name": "Remy Sharp",
     "photo": "/images/speakers/remys.jpg.avif",
     "bio": "My dad gave me a ZX BASIC listing for Star Wars, in '88 (I think?). I spent the day coding. My codes did not work. So began my devlife.",
     "id": "cjiam2bwoloba0183mu2hxu1v",
-    "twitter": "rem@front-end.social",
     "websites": {
-      "Blog": "https://remysharp.com",
-      "@remysharp.com": "https://bsky.app/profile/remysharp.com"
+      "Blog": "https://remysharp.com/",
+      "BlueSky": "https://bsky.app/profile/remysharp.com",
+      "Mastodon": "https://front-end.social/@rem"
     }
   },
   {
@@ -532,28 +735,39 @@
     "photo": "/images/speakers/jennyw.jpg.avif",
     "bio": "Combining an electronics & art background, they joined the tech world as a PHP developer and now works as a Community Engineer.",
     "id": "cjiooiyc6r0ma0197vdfxbrx9",
-    "twitter": "miss_jwo@mastodon.social"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/jwo.ng",
+      "Mastodon": "https://mastodon.social/@miss_jwo"
+    }
   },
   {
     "name": "Eleanor Haproff",
     "photo": "/images/speakers/eleanorh.jpg.avif",
     "bio": "Founded a startup, ran out of money, had to learn to code to build the product and absolutely loved it. Decided to be a developer.",
     "id": "cjipuukojraca0197ta3c2f2j",
-    "twitter": "EleanorHaproff"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/eleanorhaproff.bsky.social"
+    }
   },
   {
     "name": "Willian Martins",
     "photo": "/images/speakers/willianm.jpg.avif",
     "bio": "I started doing CS trying to be a game developer, but I ended up doing UI engineering instead which is as funny as playing PS4 ＼(＾▽＾)／.",
     "id": "cjlxzmc8200l70147y9mtir5z",
-    "twitter": "wmsbill"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/willian.dev"
+    }
   },
   {
     "name": "Charlie Owen",
     "photo": "/images/speakers/charlieo.jpg.avif",
     "bio": "I realised I wasn't an engineer the second I started making things for the web. I'm a designer (a very grumpy one). That doesn't mean I don't code. It's just that I design for people first, rather than skipping ahead to the technology.",
     "id": "cjmhspwl21vjw01831v8o4qrz",
-    "twitter": "sonniesedge"
+    "websites": {
+      "Blog": "https://awfulwoman.com/",
+      "BlueSky": "https://bsky.app/profile/awfulwoman.bsky.social",
+      "Mastodon": "https://indieweb.social/@awfulwoman"
+    }
   },
   {
     "name": "Tim Holman",
@@ -561,8 +775,8 @@
     "bio": "Always enjoyed creating things, and web was the platform that stuck. If I can do it, anyone can!",
     "id": "cjmqffrer3x0m01675i9dow66",
     "websites": {
-      "Blog": "http://tholman.com",
-      "@tholman.com": "https://bsky.app/profile/aussie.bsky.social",
+      "Blog": "https://tholman.com/",
+      "BlueSky": "https://bsky.app/profile/aussie.bsky.social",
       "LinkedIn": "https://www.linkedin.com/in/twholman/"
     }
   },
@@ -572,52 +786,70 @@
     "photo": "/images/speakers/sharons.jpg.avif",
     "name": "Sharon Steed",
     "websites": {
-      "@sharonsteed.co": "https://bsky.app/profile/sharonsteed.co",
-      "LinkedIn": "https://www.linkedin.com/in/sharon-steed/",
-      "Website": "https://www.communilogue.co/"
+      "Blog": "https://www.communilogue.co/",
+      "BlueSky": "https://bsky.app/profile/sharonsteed.co",
+      "LinkedIn": "https://www.linkedin.com/in/sharon-steed/"
     }
   },
   {
     "id": "2019-nerdverse",
     "bio": "My dad brought home our first family computer, a second-hand Commodore 64, when all of my friends were already using PCs with Windows 3.1. I fell in love with programming from that first day of typing commands in BASIC.",
     "photo": "/images/speakers/suzh.jpg.avif",
-    "twitter": "noopkat",
-    "name": "Suz Hinton"
+    "name": "Suz Hinton",
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/noopkat.fragile.systems"
+    }
   },
   {
     "id": "2019-ms-makes-money",
     "bio": "I'm a failed designer who learned it the hard way: I was much better at coding my portfolio site than I was at designing it. I decided to admit defeat and stick with keyboards and clearfixes.",
     "photo": "/images/speakers/harryr.jpg.avif",
-    "twitter": "csswizardry",
-    "name": "Harry Roberts"
+    "name": "Harry Roberts",
+    "websites": {
+      "Blog": "https://csswizardry.com/",
+      "BlueSky": "https://bsky.app/profile/csswizardry.com",
+      "Mastodon": "https://webperf.social/@csswizardry"
+    }
   },
   {
     "id": "2019-git",
     "bio": "Needed a 5th option to study at AS level. Asked the person next to me. Started with the Computing A level now we here.",
     "photo": "/images/speakers/aliceb.jpg.avif",
-    "twitter": "alicebartlett",
-    "name": "Alice Bartlett"
+    "name": "Alice Bartlett",
+    "websites": {
+      "Blog": "https://alicebartlett.co.uk/",
+      "BlueSky": "https://bsky.app/profile/alicebartlett.bsky.social"
+    }
   },
   {
     "id": "2019-perf",
     "bio": "I wanted to study English, but my final test results weren't good enough. I was looking through all majors I could apply for at Uni and found out HCI-like degree course",
     "photo": "/images/speakers/annam.jpg.avif",
-    "twitter": "szynszyliszys",
-    "name": "Anna Migas"
+    "name": "Anna Migas",
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/szynszyliszys.bsky.social"
+    }
   },
   {
     "id": "2019-art",
     "bio": "Got carried away tweaking Tumblr themes, discovered it hurt my fingers less than my other teen hobby of weaving chainmaille, been tip tapping ever since.",
     "photo": "/images/speakers/charlotted.jpg.avif",
-    "twitter": "charlotte_dann",
-    "name": "Charlotte Dann"
+    "name": "Charlotte Dann",
+    "websites": {
+      "Blog": "https://charlottedann.com/",
+      "BlueSky": "https://bsky.app/profile/charlottedann.bsky.social",
+      "Mastodon": "https://mastodon.social/@charlottedann"
+    }
   },
   {
     "id": "2019-privacy",
     "bio": "In my teens I made fan sites for local bands and a showcase for my own creepy goth art. Slicing pictures of websites into table layouts even though they’d been uncool for a couple of years already, because I just did what the first search result told me.",
     "photo": "/images/speakers/laurak.jpg.avif",
     "name": "Laura Kalbag",
-    "twitter": "LauraKalbag"
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/laurakalbag.com",
+      "Mastodon": "https://mastodon.laurakalbag.com/@laura"
+    }
   },
   {
     "id": "2019-what-does-it-take",
@@ -629,12 +861,15 @@
   {
     "name": "Florence Okoye",
     "pronouns": "she/her",
-    "twitter": "finokoye",
     "photo": "/images/speakers/finokoye.jpg.avif",
     "id": "2022_finokoye",
-    "bio": "always wanted to do interesting things and making them at least vaguely useful!"
+    "bio": "always wanted to do interesting things and making them at least vaguely useful!",
+    "websites": {
+      "Blog": "https://finokoye.com/",
+      "BlueSky": "https://bsky.app/profile/finokoye.bsky.social",
+      "Mastodon": "https://mastodon.social/@FINOkoye"
+    }
   },
-
   {
     "name": "Heydon Pickering",
     "pronouns": "he/they",
@@ -642,30 +877,36 @@
     "id": "2022_heydonworks",
     "bio": "started making websites to share the music I was making, using images of text (because web fonts didn't exist), layout tables, and multiple embedded Flash animations... so it's just as well I never managed to work out how to publish any of them",
     "websites": {
-      "@heydonworks.com": "https://bsky.app/profile/heydonworks.com",
       "Blog": "https://heydonworks.com/",
+      "BlueSky": "https://bsky.app/profile/heydonworks.com",
+      "Mastodon": "https://front-end.social/@heydon",
       "Webbed Briefs": "https://briefs.video/"
     }
   },
-
   {
     "name": "Lex Lofthouse",
     "pronouns": "she/her",
-    "twitter": "loftio",
     "photo": "/images/speakers/loftio.jpg.avif",
     "id": "2022_loftio",
-    "bio": "Ever since my Dad taught me Photoshop when I was 13, I was doomed to become a designer. Almost 20 years later and I think I can say I'm somewhat ok at it, thanks Dad."
+    "bio": "Ever since my Dad taught me Photoshop when I was 13, I was doomed to become a designer. Almost 20 years later and I think I can say I'm somewhat ok at it, thanks Dad.",
+    "websites": {
+      "Blog": "https://loftio.co.uk/",
+      "BlueSky": "https://bsky.app/profile/loftio.co.uk",
+      "Mastodon": "https://typo.social/@loftio"
+    }
   },
-
   {
     "name": "Sophie Koonin",
     "pronouns": "she/her",
-    "twitter": "type__error",
     "photo": "/images/speakers/type__error.jpg.avif",
     "id": "2022_type__error",
-    "bio": "Something like… \"GeoCities, `<marquee>` and NeoPets shopfronts\"!"
+    "bio": "Something like… \"GeoCities, `<marquee>` and NeoPets shopfronts\"!",
+    "websites": {
+      "Blog": "https://localghost.dev/",
+      "BlueSky": "https://bsky.app/profile/localghost.dev",
+      "Mastodon": "https://social.lol/@sophie"
+    }
   },
-
   {
     "name": "Lily Madar",
     "pronouns": "she/her",
@@ -674,141 +915,175 @@
     "id": "2022_lily_2point0",
     "bio": "When first introduced to HTML, I spent hours trying to replicate a Mondrian painting out of `<table>`s. Then I moved to Flash for more interesting AR experiments and interactions. Before being forced into JavaScript. I never looked back."
   },
-
   {
     "name": "Natalia Waniczek",
     "pronouns": "she/her",
-    "twitter": "lil_natw",
     "photo": "/images/speakers/lil_natw.jpg.avif",
     "id": "2022_lil_natw",
     "bio": "My dad bought us our first computer when I was 2 which meant I was exposed to technology from a very young age. As I was growing up I was a hybrid of an athlete and a nerd. Deep down I always knew I'd end up working with tech in one way or another!",
     "websites": {
-      "@lilnatw.bsky.social": "https://bsky.app/profile/lilnatw.bsky.social"
+      "BlueSky": "https://bsky.app/profile/lilnatw.bsky.social"
     }
   },
-
   {
     "name": "Sareh Heidari",
     "pronouns": "she/her",
-    "twitter": "sareh88",
     "photo": "/images/speakers/sareh88.jpg.avif",
     "id": "2022_sareh88",
-    "bio": "Enjoying solving puzzles led to studying maths; then detoured into nanotechnology in academia. I missed the human element, so trained as a web developer, to use tech for good. #WebAccessibility all the way!"
+    "bio": "Enjoying solving puzzles led to studying maths; then detoured into nanotechnology in academia. I missed the human element, so trained as a web developer, to use tech for good. #WebAccessibility all the way!",
+    "websites": {
+      "BlueSky": "https://bsky.app/profile/sareh88.bsky.social",
+      "Mastodon": "https://front-end.social/@Sareh88"
+    }
   },
-
   {
     "name": "Ruth John",
     "pronouns": "she/her",
-    "twitter": "rumyra",
     "photo": "/images/speakers/rumyra.jpg.avif",
     "id": "2022_rumyra",
-    "bio": "Twenty years ago I finished my degree and promised myself I wouldn't pursue a job in programming after a disastrous unit in Java... Then someone offered me a PHP job and I was also pretty bad at that, but quite ok at HTML, CSS & JS it turned out. Never say never, but ask me again in twenty years."
+    "bio": "Twenty years ago I finished my degree and promised myself I wouldn't pursue a job in programming after a disastrous unit in Java... Then someone offered me a PHP job and I was also pretty bad at that, but quite ok at HTML, CSS & JS it turned out. Never say never, but ask me again in twenty years.",
+    "websites": {
+      "Blog": "https://ruthjohn.com/",
+      "Mastodon": "https://front-end.social/@Rumyra"
+    }
   },
-
   {
     "name": "Amber Shand",
     "pronouns": "she/her",
     "twitter": "amberleetech",
     "photo": "/images/speakers/amber.jpg.avif",
     "id": "2023_amber",
-    "bio": "I was told that because I didn't have a Computer Science degree, I wouldn't be able to learn how to code, I didn't listen and I'm now a multi award software engineer, keynote speaker and consultant"
+    "bio": "I was told that because I didn't have a Computer Science degree, I wouldn't be able to learn how to code, I didn't listen and I'm now a multi award software engineer, keynote speaker and consultant",
+    "websites": {
+      "Blog": "https://www.ambershand.co.uk/"
+    }
   },
-
   {
     "name": "Maggie Appleton",
     "pronouns": "she/her",
-    "twitter": "Mappletons",
     "photo": "/images/speakers/maggie.jpg.avif",
     "id": "2023_maggie",
-    "bio": "Built an elaborate Neopets page using only the HTML `<table>` element for positioning and layout. Graduated to maximalist design aesthetics and animated cursors with CSS on MySpace."
+    "bio": "Built an elaborate Neopets page using only the HTML `<table>` element for positioning and layout. Graduated to maximalist design aesthetics and animated cursors with CSS on MySpace.",
+    "websites": {
+      "Blog": "https://maggieappleton.com/",
+      "BlueSky": "https://bsky.app/profile/maggieappleton.com",
+      "Mastodon": "https://indieweb.social/@maggie"
+    }
   },
-
   {
     "name": "Angela Ricci",
     "pronouns": "she/her",
-    "twitter": "gericci@indieweb.social",
     "photo": "/images/speakers/angela.jpg.avif",
     "id": "2023_angela",
-    "bio": "I fell into a cauldron of a magic potion called the web, when it was still cooking. Since then, web technologies became my super power for designing new interfaces."
+    "bio": "I fell into a cauldron of a magic potion called the web, when it was still cooking. Since then, web technologies became my super power for designing new interfaces.",
+    "websites": {
+      "Blog": "https://gericci.me/",
+      "Mastodon": "https://indieweb.social/@gericci"
+    }
   },
-
   {
     "name": "Ire Aderinokun",
     "pronouns": "she/her",
-    "twitter": "ire@front-end.social",
     "photo": "/images/speakers/ire.jpg.avif",
     "id": "2023_ire",
-    "bio": "I was a little too obsessed with Neopets as a teenager and had to build the best profile page. Once I started down that rabbit hole I was hooked!"
+    "bio": "I was a little too obsessed with Neopets as a teenager and had to build the best profile page. Once I started down that rabbit hole I was hooked!",
+    "websites": {
+      "Blog": "https://bitsofco.de/",
+      "BlueSky": "https://bsky.app/profile/ire.bsky.social",
+      "Mastodon": "https://front-end.social/@ire"
+    }
   },
-
   {
     "name": "Steven Goodwin",
     "pronouns": "he/him",
-    "twitter": "MarquisdeGeek",
     "photo": "/images/speakers/steven.jpg.avif",
     "id": "2023_steven",
-    "bio": "I have been involved in computing, science, and technology since the family computer, a Sinclair ZX81, moved in with me to become my first piece of domesticated hardware."
+    "bio": "I have been involved in computing, science, and technology since the family computer, a Sinclair ZX81, moved in with me to become my first piece of domesticated hardware.",
+    "websites": {
+      "Mastodon": "https://ohai.social/@marquisdegeek"
+    }
   },
-
   {
     "name": "Jonathan Fielding",
     "pronouns": "he/him",
-    "twitter": "jonthanfielding",
     "websites": {
-      "@jonathanfield.ing": "https://bsky.app/profile/jonathanfield.ing",
+      "Blog": "https://www.jonathanfielding.com/",
+      "BlueSky": "https://bsky.app/profile/jonathanfield.ing",
+      "Mastodon": "https://mastodon.social/@jonthanfielding",
       "LinkedIn": "https://www.linkedin.com/in/jonathanfielding/"
     },
     "photo": "/images/speakers/jonathan.jpg.avif",
     "id": "2023_jonathan",
     "bio": "Escaping from an after school club I found my way back to my classroom where a student teacher showed me BASIC on a Acorn."
   },
-
   {
     "name": "Ana Rodrigues",
     "pronouns": "she/her",
-    "twitter": "ohhelloana@mastodon.social",
     "photo": "/images/speakers/ana.jpg.avif",
     "id": "2023_ana",
-    "bio": "In the early 2000s, I needed more than my favourite band's official website. So I learned how to code in order to build a proper fan site."
+    "bio": "In the early 2000s, I needed more than my favourite band's official website. So I learned how to code in order to build a proper fan site.",
+    "websites": {
+      "Blog": "https://ohhelloana.blog/",
+      "BlueSky": "https://bsky.app/profile/ohhelloana.blog",
+      "Mastodon": "https://mastodon.social/@ohhelloana"
+    }
   },
-
   {
     "name": "Salma Alam-Naylor",
     "pronouns": "she/her",
-    "twitter": "whitep4nth3r",
     "photo": "/images/speakers/salma.jpg.avif",
     "id": "2023_salma",
-    "bio": "This is what happens when you combine a high school music teacher, a comedian, a front end developer, and the strange novelty of live streaming on the internet."
+    "bio": "This is what happens when you combine a high school music teacher, a comedian, a front end developer, and the strange novelty of live streaming on the internet.",
+    "websites": {
+      "Blog": "https://whitep4nth3r.com/",
+      "BlueSky": "https://bsky.app/profile/whitep4nth3r.com",
+      "Mastodon": "https://mastodon.social/@whitep4nth3r"
+    }
   },
-
   {
     "name": "Olu Niyi-Awosusi",
     "id": "2024_olu",
     "url": "https://olu.online/",
     "bio": "I completed the installation of the NTL dial-up on our family computer the first time we had access to the internet. It was only putting a CD into the computer and following a wizard but I remember how incredibly novel it felt! The internet timed out every 20 minutes and I mostly played games at that point, but I have been extremely online ever since.",
-    "photo": "/images/speakers/olu.jpg.avif"
+    "photo": "/images/speakers/olu.jpg.avif",
+    "websites": {
+      "Blog": "https://olu.online/",
+      "BlueSky": "https://bsky.app/profile/olu.online",
+      "Mastodon": "https://social.gfsc.studio/@oluOnline"
+    }
   },
   {
     "name": "Léonie Watson",
     "id": "2024_léonie",
     "url": "https://tink.uk/",
     "bio": "Copied code from Apple magazine onto my Dad's Apple IIE in about 1982. Syntax error on line 1. Studied Performing Arts in the early 90s. Didn't get famous. Bought a modem. Joined Compuserv. Not entirely sure what happened to the next 30 years, but apparently here I am.",
-    "photo": "/images/speakers/leonie2.jpg.avif"
+    "photo": "/images/speakers/leonie2.jpg.avif",
+    "websites": {
+      "Blog": "https://tink.uk/",
+      "BlueSky": "https://bsky.app/profile/tink.uk",
+      "Mastodon": "https://w3c.social/@tink"
+    }
   },
   {
     "name": "Andy Bell",
     "id": "2024_andy",
     "url": "https://piccalil.li/",
     "bio": "I got fed up of developers messing up my design work, so I learned HTML and CSS out of spite.",
-    "photo": "/images/speakers/andy.jpg.avif"
+    "photo": "/images/speakers/andy.jpg.avif",
+    "websites": {
+      "Blog": "https://bell.bz/",
+      "BlueSky": "https://bsky.app/profile/bell.bz",
+      "Mastodon": "https://mastodon.social/@belldotbz"
+    }
   },
   {
     "name": "Kimberley Cook",
     "id": "2024_kimberley",
     "url": "https://builtby.kim/",
     "websites": {
-      "LinkedIn": "https://www.linkedin.com/in/kimberley-cook-b7571743/",
-      "Website": "https://builtby.kim/"
+      "Blog": "https://builtby.kim/",
+      "BlueSky": "https://bsky.app/profile/kimberleycook.bsky.social",
+      "LinkedIn": "https://www.linkedin.com/in/kimberley-cook-b7571743/"
     },
     "bio": "I built my first website as part of my media course at college. I loved knowing I could build anything, so changed path from originally wanting to study Law at university to Media Production. The course was perfect for people who didn't know what they wanted to do but liked building things for the internet. So I basically spent 3 years building websites, apps and 3D games. The rest as they say is history!",
     "photo": "/images/speakers/kimberley.jpg.avif"
@@ -820,9 +1095,10 @@
     "bio": "When I was little my mum used to tell her friends \"Amy started talking at 18 months old and she hasn't stopped since\". And here I am. Doing it again.",
     "photo": "/images/speakers/amy.jpg.avif",
     "websites": {
-      "@amyhupe.bsky.social": "https://bsky.app/profile/amyhupe.bsky.social",
+      "Blog": "https://amyhupe.co.uk/",
+      "BlueSky": "https://bsky.app/profile/amyhupe.bsky.social",
+      "Mastodon": "https://social.design.systems/@Amy_Hupe",
       "LinkedIn": "https://www.linkedin.com/in/amy-hupe-61a3a368/",
-      "Website": "https://www.amyhupe.co.uk/",
       "Podcast": "https://systems-of-harm.fireside.fm"
     }
   },
@@ -831,21 +1107,32 @@
     "id": "2024_mike",
     "url": "https://www.skeptic.org.uk/author/mike-hall/",
     "bio": "I dabbled with BASIC on the BBC Micro and Amstrad 464, and got a loose handle on ADA95 and 68000 assembler at university. But my real start in software was building a PHP3-powered chatroom for sci-fi fans in 1999.",
-    "photo": "/images/speakers/mike.jpg.avif"
+    "photo": "/images/speakers/mike.jpg.avif",
+    "websites": {
+      "Blog": "https://skeptic.org.uk/author/mike-hall/",
+      "BlueSky": "https://bsky.app/profile/mikehall314.bsky.social"
+    }
   },
   {
     "name": "Michael Kibedi",
     "id": "2024_michael",
     "url": "https://www.uxmichael.co/",
     "bio": "Many sunny afternoons trying (unsuccessfully) to get an Amstrad 464 to run a BASIC game. Years later, little did I know that I would prefer to use the power of words to write instead of a code!",
-    "photo": "/images/speakers/michael.jpg.avif"
+    "photo": "/images/speakers/michael.jpg.avif",
+    "websites": {
+      "Blog": "https://www.uxmichael.co/",
+      "BlueSky": "https://bsky.app/profile/uxmichael.co"
+    }
   },
   {
     "name": "Imran Afzal",
     "id": "2024_imran",
     "url": "https://www.imranafzal.com/",
     "bio": "As a kid, I was often told by teachers and friends that I could start a cult. I'm an adult now, and people are still telling me the same. Maybe I will start that cult.",
-    "photo": "/images/speakers/imran.jpg.avif"
+    "photo": "/images/speakers/imran.jpg.avif",
+    "websites": {
+      "Website": "https://www.imranafzal.com/"
+    }
   },
   {
     "name": "Asim Hussain",
@@ -854,6 +1141,7 @@
     "bio": "Dad bought a Sharp MZ-700 in the 1980s, got it cheap because Sharp had stopped manufacturing them. No games in stores, just a BASIC interpreter on tape, a programming manual, and one tape with 10 games. If I wanted more games, I had to learn to code them myself.",
     "photo": "/images/speakers/asimh.jpg.avif",
     "websites": {
+      "Blog": "https://asim.dev/",
       "LinkedIn": "https://www.linkedin.com/in/jawache/"
     }
   },
@@ -864,6 +1152,7 @@
     "bio": "I wanted to play computer games like my friends were playing but my parents put a computer with BASIC in front of me and told me to make my own.",
     "photo": "/images/speakers/chetanp.jpg.avif",
     "websites": {
+      "BlueSky": "https://bsky.app/profile/chetbox.com",
       "Website": "https://chetbox.com/",
       "LinkedIn": "https://www.linkedin.com/in/chetbox/"
     }
@@ -887,7 +1176,7 @@
     "bio": "I studied drama, which inevitably led to a series of sparkling roles in admin. Somewhere between playing calendar Tetris and speed typing minutes, I thought: \"What if I taught myself to code?\" Somehow this became my new career and I haven't looked back.",
     "photo": "/images/speakers/hellenw.jpg.avif",
     "websites": {
-      "hellenwellsward.com": "https://www.hellenwellsward.com",
+      "Website": "https://www.hellenwellsward.com",
       "LinkedIn": "https://www.linkedin.com/in/hellen-ward-7b6984115/"
     }
   },
@@ -898,11 +1187,11 @@
     "bio": "Jessica: I woke up one day and realized that programming languages are like human languages, but with jobs that paid better and wouldn't make me get a PhD so here I am. Eda: I had an epiphany once that technology is not supposed to be a curse, and programming can be seen as an art form, not just pure science. (Also, that there's always lots to learn, so that's what I decided to do!)",
     "photo": "/images/speakers/jessica-eda.jpg.avif",
     "websites": {
+      "Blog": "https://jessica.tech/",
       "BlueSky": "https://bsky.app/profile/jesslynnrose.bsky.social",
       "Mastodon": "https://mastodon.social/@jessie",
       "Bad Website Club!": "https://badwebsite.club/",
-      "freeCodeCamp": "https://www.freecodecamp.org/news/author/edae",
-      "Unsplash": "https://unsplash.com/@rivea0"
+      "freeCodeCamp": "https://www.freecodecamp.org/news/author/edae"
     }
   },
   {
@@ -912,7 +1201,7 @@
     "bio": "My first computer was a Commodore Vic 20, aged ten. I was one of the first home users of the internet in Aotearoa/New Zealand in 1993, much to the chagrin of my parents who didn't enjoy paying astronomical rates for dial-up for me to hang out in LambaMOO. My first fandom was The X-Files, and I've lived and breathed transformative fan communities ever since. They're the best (and sometimes the worst!) of the internet. Now I'm weirdly micro-famous for giving tech talks all over the world about Harry Styles.",
     "photo": "/images/speakers/sachaj.jpg.avif",
     "websites": {
-      "Sacha's website": "https://www.sachajudd.com",
+      "Blog": "https://www.sachajudd.com/",
       "BlueSky": "https://bsky.app/profile/sachajudd.com",
       "LinkedIn": "https://www.linkedin.com/in/sachajudd/"
     }
@@ -924,7 +1213,7 @@
     "bio": "When I was 15, I went full hikikomori (iykyk) for an entire summer, locking myself in my parents' basement to build text-based RPG forums with good old HTML, CSS, and JS. I had no idea what I was doing—but I got so obsessed, I somehow turned it into a full-time thing.",
     "photo": "/images/speakers/sergesg.jpg.avif",
     "websites": {
-      "LinkedIn": "https://www.linkedin.com/in/devserges/"
+      "Website": "https://www.linkedin.com/in/devserges/"
     }
   },
   {
@@ -934,7 +1223,8 @@
     "bio": "When I was six years old, I asked my dad to teach me to code. For some reason it stuck, and ten years later here I am giving a talk about it.",
     "photo": "/images/speakers/suryar.jpg.avif",
     "websites": {
-      "Website": "https://gearsco.de/"
+      "Blog": "https://gearsco.de/",
+      "BlueSky": "https://bsky.app/profile/gearsco.de"
     }
   }
 ]
