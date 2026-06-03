@@ -193,13 +193,37 @@ h1 + h2 {
   color: var(--salmon);
 }
 
-.talk .urls a.masto {
-  display: inline-block;
-  background: url(/images/mastodon.svg) no-repeat;
-  height: 20px;
-  padding-left: 30px;
-  line-height: 20px;
-  color: var(--primary);
+.talk .urls {
+  a[href^='https://5013.es/@'],
+  a[href^='https://chaos.social/@'],
+  a[href^='https://fedi.simonwillison.net/@'],
+  a[href^='https://fosstodon.org/@'],
+  a[href^='https://front-end.social/@'],
+  a[href^='https://gardenstate.social/@'],
+  a[href^='https://hachyderm.io/@'],
+  a[href^='https://indieweb.social/@'],
+  a[href^='https://mastodon.'],
+  a[href^='https://mstdn.io/@'],
+  a[href^='https://narrativ.es/@'],
+  a[href^='https://ohai.social/@'],
+  a[href^='https://social.'],
+  a[href^='https://status.kinlan.me/@'],
+  a[href^='https://toot.cafe/@'],
+  a[href^='https://typo.social/@'],
+  a[href^='https://w3c.social/@'],
+  a[href^='https://webperf.social/@'],
+  a.masto {
+    display: inline-block;
+    background: url(/images/mastodon.svg) no-repeat;
+    height: 20px;
+    padding-left: 30px;
+    line-height: 20px;
+    color: var(--primary);
+
+    &:hover {
+      color: var(--salmon);
+    }
+  }
 }
 
 .talk .urls a.masto:hover {
