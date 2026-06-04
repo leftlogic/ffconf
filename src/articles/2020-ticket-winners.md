@@ -10,7 +10,7 @@ Firstly we'd like to thank all those bloggers who participated and we can tell y
 So, the winners of the draw are:
 
 - [Sophie Koonin](https://localghost.dev/)
-- [Josh Hudson](https://wearetilt.com/ffconf-2019-developers-conference/)
+- [Josh Hudson](https://web.archive.org/web/20260308032216/https://wearetilt.com/ffconf-2019-developers-conference/)
 
 Congratulations to you both - and we'll be in touch via email.
 

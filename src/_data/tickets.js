@@ -1,3 +1,7 @@
+// These constants need to be updated when a new event is announced
+const launch = '2026-06-25T10:00:00';
+
+
 let year = new Date().getFullYear();
 let secondFriday = getSecondFridayOfNovember(year);
 let open = true;
@@ -14,12 +18,12 @@ if (date > secondFriday) {
  */
 module.exports = {
   date: secondFriday,
-  open,
+  launch,
+  open, // this is set to false after the event
   // needs to be manually updated
   url: 'https://app.tickettailor.com/checkout/view-event/id/6028948/chk/fe2b/',
   summary:
     'accessibility, AI, web components, tools, community, workplace, and more!',
-  launch: '2026-06-25T10:00:00'
 };
 
 function getSecondFridayOfNovember(year) {

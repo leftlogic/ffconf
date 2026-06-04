@@ -107,7 +107,7 @@ css: tickets.css
       </when-do>
       <when-do datetime="2026-06-25T10:00:00" do="hide">
         <p><rem-days-to date="{{ tickets.launch  | format("YYYY-MM-DD") }}">Tickets available in <slot>a short number of</slot> days!</rem-days-to></p>
-        <p class="ticket-buy"><a href="#">Tickets on sale soon</a></p>
+        <p class="ticket-buy"><a href="{{ next.url }}">Tickets on sale soon</a></p>
       </when-do>
 
       <p>{{ tickets.date | format }} - 9am-6pm</p>
