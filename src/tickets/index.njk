@@ -101,14 +101,14 @@ css: tickets.css
 
   <div class="grid">
     <aside>
-      <p><rem-days-to date="{{ tickets.date  | format("YYYY-MM-DD") }}"><slot>Not many</slot> working days left to get your&nbsp;ticket!</rem-days-to></p>
       <when-do datetime="2026-06-25T10:00:00" do="show">
+        <p><rem-days-to date="{{ tickets.date  | format("YYYY-MM-DD") }}"><slot>Not many</slot> working days left to get your&nbsp;ticket!</rem-days-to></p>
         <p class="ticket-buy"><a href="{{ tickets.url }}">Buy tickets now</a></p>
       </when-do>
       <when-do datetime="2026-06-25T10:00:00" do="hide">
+        <p><rem-days-to date="{{ tickets.launch  | format("YYYY-MM-DD") }}">Tickets available in <slot>a short number of</slot> days!</rem-days-to></p>
         <p class="ticket-buy"><a href="#">Tickets on sale soon</a></p>
       </when-do>
-
 
       <p>{{ tickets.date | format }} - 9am-6pm</p>
       <p class="summary">Eight sessions on {{ tickets.summary }}</p>

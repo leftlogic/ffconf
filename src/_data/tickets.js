@@ -19,6 +19,7 @@ module.exports = {
   url: 'https://app.tickettailor.com/checkout/view-event/id/6028948/chk/fe2b/',
   summary:
     'accessibility, AI, web components, tools, community, workplace, and more!',
+  launch: '2026-06-25T10:00:00'
 };
 
 function getSecondFridayOfNovember(year) {
