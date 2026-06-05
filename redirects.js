@@ -4,7 +4,7 @@ const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 const readdir = promisify(fs.readdir);
 const Talks = require('./src/_data/talks');
-const next = require('./src/_data/next.json');
+const next = require('./src/_data/next');
 
 const main = async () => {
   const files = await readdir(__dirname + '/redirects');
