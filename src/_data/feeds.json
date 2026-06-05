@@ -378,5 +378,10 @@
     "name": "Tobias Ahlin",
     "homepage": "https://tobiasahlin.com/",
     "feed": "https://tobiasahlin.com/feed.xml"
+  },
+  {
+    "name": "Peter-Paul Koch",
+    "homepage": "https://quirksmode.org/",
+    "feed": "https://quirksmode.org/quirksblog/rss.xml"
   }
 ]
