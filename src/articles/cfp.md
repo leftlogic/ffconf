@@ -90,6 +90,7 @@ All our speakers are treated the same. We will, as always:
 - ~35 minute talk, generally we don't do Q&A and it's best to err on the side of "there is no wifi"
 - A free pass to the next FFConf, and for evermore part of our growing and much loved speaker alumni. If you bought a ticket for FFConf, we'll refund the ticket (as we don't expect, or want, our speakers to pay)
 - Uphold our [conference code of conduct](/code-of-conduct) (available on our yearly sites), both for you, and our attendees
+- We will **not** modify or render your speaker photo using AI without your explicit consent (although to date, we don't do this)
 
 So I hope to hear from you soon!
 
