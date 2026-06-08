@@ -1,7 +1,7 @@
 ---
 title: "ffconf's Call For Papers"
 date: 2019-07-03
-updated: 2026-04-14
+updated: 2026-06-08
 ---
 
 Though this post is timestamped, it applies to nearly every year of FFConf <abbr title="Call for Papers">CFP</abbr> it includes both what I want to hear about (to give you an idea whether something you're passionate about aligns with the topics), and also mine and Julie's [promise to our speakers](#our-promise-to-you).
@@ -18,11 +18,18 @@ Here are the topics that I often think about around FFConf in no particular orde
 
 ## Most recent ideas
 
-- Using accessibility tools for the average dev, devtools, screen readers, braille readers and more
-- How can we use tech to make an impact for good
-- Disconnecting from Big Web and the alternatives
-- Switching thinking from React components to Web Components
-- AI Act and surrounding legislations, what it means, how to protect people and how do we push back
+the web that wasn't
+
+- Using a11y tools - primarily how to control screen readers, but also the different technologies used (brail display, etc)
+- AI act legislation, how to protect people (high risk ai bill in the UK)
+- How can we use tech to make an impact (geo, political)
+- Disconnecting from big web and the alternatives
+- 10 ways to absolutely break the browser
+- Talking hard(ware)
+- Making music / DJ quality
+- 20:20 vision on the last 20 years behind and ahead
+- How to collect (performance) data to argue/prove your case
+- Whistle stop tour of the indie web: blogs, web components, web mentions, web rings
 
 These are the topics that are piquing my interest lately, and below are further topics I'm (usually) always interested in.
 
