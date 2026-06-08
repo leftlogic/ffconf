@@ -18,8 +18,7 @@ Here are the topics that I often think about around FFConf in no particular orde
 
 ## Most recent ideas
 
-the web that wasn't
-
+- The web that wasn't
 - Using a11y tools - primarily how to control screen readers, but also the different technologies used (brail display, etc)
 - AI act legislation, how to protect people (high risk ai bill in the UK)
 - How can we use tech to make an impact (geo, political)
