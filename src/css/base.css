@@ -17,20 +17,9 @@
   font-style: normal;
 }
 
-:root {
-  --primary: #333333;
-  --light-grey: #efefef;
-  --dark-grey: #796a6a; /* #7e7070; /*#979797;*/
-  --white: #ffffff;
-  --box: #f4f4f4;
-  --salmon: #ff7063;
-  --salmon-dark: #c04001; /* #D95E39;*/
-  --font-family: 'BasierSquare', sans-serif;
-}
-
-html.inter {
-  --font-family: 'Inter', sans-serif;
-}
+/* Design tokens (custom properties incl. --primary, --salmon, --font-family
+   and the html.inter override) now live in css/tokens.css, loaded before this
+   file in layouts/base.njk. See style-guide/README.md for the catalogue. */
 
 * {
   box-sizing: border-box;

@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
+    "@xenova/transformers": "^2.17.2",
     "@11ty/eleventy-plugin-rss": "^1.0.6",
     "apollo-server-testing": "^2.25.3",
     "date-fns": "^1.30.1",

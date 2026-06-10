@@ -1,0 +1,159 @@
+/* =========================================================================
+   FFConf — Design Tokens (LIVE / source of truth)
+   -------------------------------------------------------------------------
+   This file is loaded before base.css in layouts/base.njk and is the single
+   source for the CSS custom properties used across the site. The legacy
+   un-prefixed aliases at the bottom (--primary, --salmon, …) are what the
+   existing stylesheets reference, so they must stay until those rules are
+   migrated to the --ff-* names.
+
+   Catalogue + rationale: style-guide/README.md
+   Tooling mirror (Figma/build): style-guide/tokens.json
+   Keep all three in step when the language changes.
+
+   Naming: --ff-<group>-<role>.
+   ========================================================================= */
+
+:root {
+  /* ---------------------------------------------------------------------
+     COLOR — Brand
+     --------------------------------------------------------------------- */
+  --ff-color-salmon: #ff7063; /* primary brand accent: CTAs, active pills, links-on-hover, rules */
+  --ff-color-salmon-dark: #c04001; /* hover/pressed state for salmon surfaces */
+
+  /* COLOR — Ink (text) */
+  --ff-color-ink: #333333; /* default body + heading text */
+  --ff-color-ink-muted: #796a6a; /* secondary/meta text (footer, captions, dates) */
+  --ff-color-ink-quote: #767676; /* blockquote body */
+  --ff-color-ink-code: #272727; /* code foreground */
+
+  /* COLOR — Surface */
+  --ff-color-white: #ffffff;
+  --ff-color-box: #f4f4f4; /* default soft panel / pill / input background */
+  --ff-color-box-alt: #f9f9f9; /* .image-and-text panel */
+  --ff-color-code-bg: #f3f3f3; /* <pre>/<code> background, table row borders */
+  --ff-color-mark-bg: #dddddd; /* <mark> callout background */
+  --ff-color-overlay-dark: #1e1e1e; /* talk-card image gradient foot */
+
+  /* COLOR — Line / border */
+  --ff-color-border: #efefef; /* hairlines, card borders, the "light-grey" */
+  --ff-color-border-strong: #cccccc; /* code block + playlist tab borders */
+
+  /* COLOR — Shadow (rgba, kept as full values for box-shadow) */
+  --ff-shadow-dropdown: 0 20px 20px 0 rgba(51, 51, 51, 0.2); /* filter flyout */
+  --ff-shadow-menu: 0 7px 10px 0 rgba(0, 0, 0, 0.11); /* open mobile menu */
+  --ff-shadow-card: 0 4px 12px 0 rgba(51, 51, 51, 0.08); /* feeds filter body */
+
+  /* ---------------------------------------------------------------------
+     TYPOGRAPHY
+     --------------------------------------------------------------------- */
+  --ff-font-sans: 'BasierSquare', sans-serif; /* brand face; has FFC=>ffc ligature */
+  --ff-font-sans-alt: 'Inter', sans-serif; /* opt-in via html.inter / ?font=inter */
+  --ff-font-mono: 'ubuntu mono', menlo, monaco, consolas, courier, 'courier new',
+    'lucida console', monospace;
+
+  --ff-weight-regular: 400; /* body copy */
+  --ff-weight-medium: 500; /* headings, links, nav, card titles */
+  --ff-weight-strong: 600; /* <strong> */
+
+  /* Type scale (px as authored). Fluid headings noted in the style guide. */
+  --ff-text-2xs: 11px; /* feed card meta */
+  --ff-text-xs: 12px; /* footer */
+  --ff-text-s: 13px; /* feed card talk */
+  --ff-text-sm: 14px; /* body @ mobile, small print */
+  --ff-text-base: 16px; /* secondary body, controls */
+  --ff-text-md: 18px; /* body @ ≥700px, nav, buttons */
+  --ff-text-lg: 22px; /* sub-headings, talk-card title, home h2 @ mobile */
+  --ff-text-xl: 24px; /* job h1 */
+  --ff-text-2xl: 32px; /* h1, section h2 */
+  --ff-text-3xl: 42px; /* home h2 @ ≥700px */
+  --ff-text-4xl: 56px; /* h1 @ ≥700px, home h2 @ ≥900px */
+
+  --ff-leading-tight: 1.2; /* h1, large display */
+  --ff-leading-heading: 1.27; /* h2 / card titles */
+  --ff-leading-snug: 1.33; /* dense list copy */
+  --ff-leading-body: 1.4; /* body paragraphs */
+  --ff-leading-base: 1.3; /* global default (set on *) */
+
+  /* ---------------------------------------------------------------------
+     SPACE — 4px base grid (most padding/margin is a multiple of 4/8)
+     --------------------------------------------------------------------- */
+  --ff-space-1: 4px;
+  --ff-space-2: 8px;
+  --ff-space-3: 12px;
+  --ff-space-4: 16px;
+  --ff-space-5: 18px; /* off-grid but very common (list/body rhythm) */
+  --ff-space-6: 20px;
+  --ff-space-7: 24px;
+  --ff-space-8: 28px;
+  --ff-space-9: 32px; /* the dominant page gutter */
+  --ff-space-10: 40px;
+  --ff-space-12: 48px;
+  --ff-space-15: 60px;
+  --ff-space-20: 80px;
+  --ff-space-22: 88px;
+  --ff-space-25: 100px;
+
+  --ff-gutter: 32px; /* default content padding */
+  --ff-gutter-mobile: 20px; /* ≤700px content padding */
+  --ff-gutter-wide: 40px; /* ≥700px main / footer padding */
+
+  /* ---------------------------------------------------------------------
+     RADIUS
+     --------------------------------------------------------------------- */
+  --ff-radius-xs: 2px; /* cards, images, soft panels */
+  --ff-radius-sm: 3px; /* code blocks */
+  --ff-radius: 4px; /* soft images, content boxes */
+  --ff-radius-md: 6px; /* feed card sub-elements */
+  --ff-radius-lg: 8px; /* feed filter body, playlist tabs */
+  --ff-radius-pill: 9999px; /* pills, buttons, inputs (999px is used too) */
+  --ff-radius-circle: 50%; /* avatars */
+
+  /* ---------------------------------------------------------------------
+     LAYOUT — max widths
+     --------------------------------------------------------------------- */
+  --ff-max-body: 1200px; /* <body> shell */
+  --ff-max-feeds: 1100px; /* feeds page */
+  --ff-max-talk: 920px; /* talk page */
+  --ff-max-prose: 70ch; /* article/text measure (≈800px) */
+
+  /* ---------------------------------------------------------------------
+     MOTION
+     --------------------------------------------------------------------- */
+  --ff-ease: ease-out;
+  --ff-ease-in: ease-in;
+  --ff-dur-fast: 60ms; /* checkbox tick */
+  --ff-dur-quick: 80ms; /* feed card hover */
+  --ff-dur-snappy: 100ms; /* button hover */
+  --ff-dur: 150ms; /* link colour transition */
+  --ff-dur-slow: 200ms; /* mobile menu slide */
+
+  /* ---------------------------------------------------------------------
+     LEGACY ALIASES — what the existing stylesheets reference.
+     Keep these until the rules are migrated to the --ff-* names.
+     --------------------------------------------------------------------- */
+  --primary: var(--ff-color-ink);
+  --light-grey: var(--ff-color-border);
+  --dark-grey: var(--ff-color-ink-muted);
+  --white: var(--ff-color-white);
+  --box: var(--ff-color-box);
+  --salmon: var(--ff-color-salmon);
+  --salmon-dark: var(--ff-color-salmon-dark);
+  --font-family: var(--ff-font-sans);
+}
+
+/* Alternate typeface, toggled by the inline script in layouts/base.njk
+   (html.inter, persisted in localStorage as ffconf-font=inter). */
+html.inter {
+  --font-family: var(--ff-font-sans-alt);
+}
+
+/* Breakpoints are not custom properties (CSS can't use vars in media
+   queries). Documented here for reference — see BREAKPOINTS in the guide:
+     460px  feeds → single column / hide icons
+     700px  PRIMARY: mobile ↔ desktop switch (gutters, type, nav)
+     720px  feeds 2-col, playlist row
+     800px  posts → 2 masonry columns
+     840px  wider menu spacing
+     900px  home hero h2 → 56px
+*/

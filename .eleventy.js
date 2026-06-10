@@ -145,6 +145,43 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  // Related talks for the talk page "Keep watching" group. Prefers the
+  // semantically-related talks from talksRelated.json, then backfills any
+  // remaining slots with talks that share a tag with the current talk.
+  // Returns full talk objects, deduped, capped at `limit`.
+  eleventyConfig.addFilter('relatedTalks', (talks, current, curated, limit = 3) => {
+    const bySlug = new Map(talks.map((talk) => [talk.slug, talk]));
+    const seen = new Set([current.slug]);
+    const result = [];
+
+    // 1. curated (semantic) related talks
+    for (const item of curated || []) {
+      if (result.length >= limit) { break; }
+      const talk = bySlug.get(item.slug);
+      if (talk && !seen.has(talk.slug)) {
+        seen.add(talk.slug);
+        result.push(talk);
+      }
+    }
+
+    // 2. backfill from tag matches
+    if (result.length < limit) {
+      const tags = new Set(current.tags || []);
+      if (tags.size) {
+        for (const talk of talks) {
+          if (result.length >= limit) { break; }
+          if (seen.has(talk.slug)) { continue; }
+          if ((talk.tags || []).some((tag) => tags.has(tag))) {
+            seen.add(talk.slug);
+            result.push(talk);
+          }
+        }
+      }
+    }
+
+    return result;
+  });
+
   eleventyConfig.addFilter('deTwitterify', (src) => {
     if (src.includes('twimg')) {
       return `/images/posts/photos/${src.split('/').pop()}`;

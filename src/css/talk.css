@@ -15,7 +15,7 @@
 }
 
 .talk .descriptions {
-  padding: 0 32px 32px 32px;
+  padding: 0 16px 32px;
   max-width: 70ch;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .talk .links > * {
-  padding: 25px 32px;
+  padding: 20px 16px;
   margin: 8px 0;
 }
 
@@ -148,5 +148,268 @@
   .talk > header,
   .talk .descriptions {
     padding: 0;
+  }
+}
+
+/* ===================================================================
+   About speaker → Related talks → Related reading
+   (design-handoff: "Talk Section (About to Related)")
+   =================================================================== */
+.talk-extras {
+  padding: 0 16px 32px;
+}
+
+@media only screen and (min-width: 700px) {
+  .talk-extras {
+    padding: 0;
+  }
+}
+
+.talk-extras .section-h2,
+.talk-extras .related-head h2 {
+  font-size: var(--ff-text-lg);
+  font-weight: var(--ff-weight-medium);
+  line-height: var(--ff-leading-heading);
+  margin: 0 0 var(--ff-space-6);
+  color: var(--ff-color-ink);
+}
+
+/* ---- About + socials ---- */
+.about-block {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: var(--ff-space-6);
+  align-items: start;
+  margin-top: var(--ff-space-6);
+  grid-template-areas:
+    'avatar links'
+    'avatar text';
+
+  .about-text {
+    grid-area: text;
+    width: 50ch;
+    text-wrap: pretty;
+  }
+
+  .urls {
+    grid-area: links;
+  }
+}
+.about-avatar {
+  width: 88px;
+  height: 88px;
+  border-radius: var(--ff-radius-circle);
+  background: var(--ff-color-box);
+  overflow: hidden;
+  grid-area: avatar;
+}
+.about-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.about-text > :first-child {
+  margin-top: 0;
+}
+.about-text p {
+  font-size: var(--ff-text-md);
+  line-height: var(--ff-leading-body);
+}
+.about-text .urls {
+  margin-top: var(--ff-space-5);
+  flex-wrap: wrap;
+}
+
+/* ---- Related (shared header) ---- */
+.talk-extras .related {
+  margin-top: var(--ff-space-20);
+}
+.related-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--ff-space-4);
+  margin-bottom: var(--ff-space-7);
+}
+.related-head .all-link {
+  font-size: var(--ff-text-base);
+  font-weight: var(--ff-weight-medium);
+  color: var(--ff-color-ink-muted);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color var(--ff-dur) var(--ff-ease);
+}
+.related-head .all-link:hover {
+  color: var(--ff-color-salmon);
+}
+.related-subhead {
+  font-size: var(--ff-text-base);
+  font-weight: var(--ff-weight-medium);
+  color: var(--ff-color-ink-muted);
+  margin: var(--ff-space-9) 0 var(--ff-space-5);
+}
+.related-subhead:first-of-type {
+  margin-top: 0;
+}
+
+/* ---- Talk tiles ---- */
+.talk-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--ff-space-4);
+}
+.related-card {
+  position: relative;
+  display: block;
+  aspect-ratio: 1;
+  border-radius: var(--ff-radius);
+  overflow: hidden;
+  text-decoration: none;
+  color: var(--ff-color-white);
+  background: #2a2a2a;
+
+  @media (min-width: 720px) {
+    aspect-ratio: 4 / 5;
+  }
+}
+.related-card .card-img {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s var(--ff-ease);
+}
+.related-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(30, 30, 30, 0) 30%,
+    var(--ff-color-overlay-dark) 100%
+  );
+  transition: background var(--ff-dur) var(--ff-ease);
+}
+.related-card:hover::after {
+  background: linear-gradient(
+    180deg,
+    rgba(192, 64, 1, 0) 20%,
+    rgba(255, 112, 99, 0.92) 100%
+  );
+}
+.related-card:hover .card-img {
+  transform: scale(1.05);
+}
+/* keep tile copy white on hover (overrides the global `main a:hover` salmon) */
+.talk-extras .related-card,
+.talk-extras .related-card:hover {
+  color: var(--ff-color-white);
+}
+.related-card .card-body {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: var(--ff-space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--ff-space-3);
+}
+.related-card .card-pill {
+  align-self: flex-start;
+  background: var(--ff-color-white);
+  color: var(--ff-color-ink);
+  font-size: var(--ff-text-sm);
+  font-weight: var(--ff-weight-medium);
+  padding: 4px 12px;
+  border-radius: var(--ff-radius-pill);
+}
+.related-card .card-title {
+  font-size: var(--ff-text-lg);
+  font-weight: var(--ff-weight-medium);
+  line-height: var(--ff-leading-heading);
+}
+.related-card .card-speaker {
+  font-size: var(--ff-text-sm);
+  opacity: 0.85;
+}
+.related-card .card-media {
+  display: flex;
+  gap: 10px;
+  margin-top: 2px;
+}
+.related-card .card-media span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: var(--ff-text-2xs);
+  font-weight: var(--ff-weight-medium);
+  opacity: 0.9;
+}
+.related-card .card-media svg {
+  width: 13px;
+  height: 13px;
+}
+
+/* ---- Related reading (title links) ---- */
+.articles-list {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid var(--ff-color-border);
+}
+.article-row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--ff-space-5);
+  padding: var(--ff-space-5) 2px;
+  border-bottom: 1px solid var(--ff-color-border);
+  text-decoration: none;
+  color: var(--ff-color-ink);
+  transition:
+    padding-left var(--ff-dur) var(--ff-ease),
+    color var(--ff-dur) var(--ff-ease);
+}
+.article-row:hover {
+  padding-left: var(--ff-space-4);
+  color: var(--ff-color-salmon);
+  text-decoration: none;
+}
+.article-row .ar-title {
+  font-size: var(--ff-text-md);
+  font-weight: var(--ff-weight-medium);
+  line-height: var(--ff-leading-heading);
+  flex: 1;
+}
+.article-row .ar-arrow {
+  font-size: 18px;
+  opacity: 0;
+  transform: translateX(-6px);
+  transition:
+    opacity var(--ff-dur) var(--ff-ease),
+    transform var(--ff-dur) var(--ff-ease);
+}
+.article-row:hover .ar-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.about {
+  margin-top: var(--ff-space-12);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 880px) {
+  .talk-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 720px) {
+  .talk-grid {
+    grid-template-columns: 1fr;
+  }
+  .article-row {
+    gap: var(--ff-space-4);
   }
 }

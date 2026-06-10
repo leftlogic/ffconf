@@ -8,6 +8,22 @@ layout: layouts/base.njk
 css: talk.css
 ---
 
+{% macro talkCard(t) %}
+<a class="related-card" href="/talks/{{ t.slug }}/">
+  <span class="card-img"{% if t.speaker.photo %} style="background-image: url({{ t.speaker.photo }})"{% endif %}></span>
+  <span class="card-body">
+    {% if t.tags | length %}<span class="card-pill">{{ t.tags[0] }}</span>{% endif %}
+    <span class="card-title">{{ t.title }}</span>
+    <span class="card-speaker">{{ t.speaker.name }}</span>
+    <span class="card-media">
+      {% if t.audio %}<span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="3" y="14" width="4" height="6" rx="1.5" fill="currentColor" stroke="none"/><rect x="17" y="14" width="4" height="6" rx="1.5" fill="currentColor" stroke="none"/></svg> Audio</span>{% endif %}
+      {% if t.video %}<span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 8l5 4-5 4z"/></svg> Video</span>{% endif %}
+      {% if t.slides %}<span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5" width="16" height="12" rx="1.5"/></svg> Slides</span>{% endif %}
+    </span>
+  </span>
+</a>
+{% endmacro %}
+
 <section class="talk">
   <header>
     <a class="back Link-Dark-Left" href="/talks">Back to all Talks</a>
@@ -54,18 +70,79 @@ css: talk.css
       </details>
     </section>
   {% endif %}
-
-    <h2>About {{ talk.speaker.name }}</h2>
-    {% if talk.speaker.bio %}<div>{{ talk.speaker.bio | markdown | safe }}</div>
-    {% else %}<div><p><em>{{ talk.speaker.name }} spoke back when we didn't ask for bios, but do checkout their links.</em></p></div>{% endif %}
-    <ul class="urls">
-      {% if talk.speaker.twitter %}
-      {% social talk.speaker.twitter %}
-      {% endif %}
-      {% for item in talk.speaker.websites %}
-        <li><a target="_blank" href="{{ item.url }}">{{ item.title }}</a></li>
-      {% endfor %}
-    </ul>
   </section>
+
+  <div class="talk-extras">
+
+    <!-- About the speaker -->
+    <section class="about" aria-label="About the speaker">
+      <h2 class="section-h2">About {{ talk.speaker.name }}</h2>
+      <div class="about-block">
+        <div class="about-avatar">
+          {% if talk.speaker.photo %}<img src="{{ talk.speaker.photo }}" alt="{{ talk.speaker.name }}" width="88" height="88" loading="lazy">{% endif %}
+        </div>
+        <div class="about-text">
+          {% if talk.speaker.bio %}{{ talk.speaker.bio | markdown | safe }}
+          {% else %}<p><em>{{ talk.speaker.name }} spoke back when we didn't ask for bios, but do checkout their links.</em></p>{% endif %}
+        </div>
+        <ul class="urls">
+          {% if talk.speaker.twitter %}{% social talk.speaker.twitter %}{% endif %}
+          {% for item in talk.speaker.websites %}
+            <li><a target="_blank" href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <!-- Keep watching -->
+    {% set yearTalks = talks | filter('event.year', talk.event.year) %}
+    {# Related talks: curated (talksRelated.json) first, backfilled with tag matches, max 3. #}
+    {% set related = talks | relatedTalks(talk, talksRelated[talk.slug], 3) %}
+    {% if (yearTalks | length > 1) or (related | length) %}
+    <section class="related keep-watching" aria-label="Related talks">
+      <div class="related-head">
+        <h2>Keep watching</h2>
+        <a class="all-link" href="/talks">All talks <span aria-hidden="true">→</span></a>
+      </div>
+
+      {% if yearTalks | length > 1 %}
+      <p class="related-subhead">More from ffconf {{ talk.event.year }}</p>
+      <div class="talk-grid">
+        {% set shown = 0 %}
+        {% for t in yearTalks %}
+          {% if t.slug != talk.slug and shown < 3 %}{{ talkCard(t) }}{% set shown = shown + 1 %}{% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if related | length %}
+      <p class="related-subhead">Related by topic{% if talk.tags | length %} — {{ talk.tags | join(", ") }}{% endif %}</p>
+      <div class="talk-grid">
+        {% for t in related %}{{ talkCard(t) }}{% endfor %}
+      </div>
+      {% endif %}
+    </section>
+    {% endif %}
+{#
+    <!-- Related reading -->
+    {% set readingArticles = articlesRelated[talk.slug] or [] %}
+    {% if readingArticles | length %}
+    <section class="related related-reading" aria-label="Related articles">
+      <div class="related-head">
+        <h2>Related reading</h2>
+        <a class="all-link" href="/articles">All articles <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="articles-list">
+        {% for item in readingArticles %}
+        <a class="article-row" href="{{ item.url }}">
+          <span class="ar-title">{{ item.title }}</span>
+          <span class="ar-arrow" aria-hidden="true">→</span>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %} #}
+
+  </div>
 
 </section>
