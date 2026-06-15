@@ -10,6 +10,7 @@ const fs = require('fs');
 const liveYears = require('./graphql/data/events.json')
   .filter((_) => _.live !== false)
   .map((_) => _.year);
+const next = require('./src/_data/next');
 const currentYear = require('./graphql/data/events.json')
   .filter((_) => _.live === false)
   .pop();
@@ -69,6 +70,11 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addFilter('inThePast', (year) => {
+    if (year === new Date().getFullYear()) {
+      if (next.date > new Date()) {
+        return false;
+      }
+    }
     return year <= new Date().getFullYear();
   });
 
