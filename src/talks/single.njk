@@ -105,6 +105,13 @@ css: talk.css
         <a class="all-link" href="/talks">All talks <span aria-hidden="true">→</span></a>
       </div>
 
+      {% if related | length %}
+      <p class="related-subhead">Related by topic{% if talk.tags | length %} — {{ talk.tags | join(", ") }}{% endif %}</p>
+      <div class="talk-grid">
+        {% for t in related %}{{ talkCard(t) }}{% endfor %}
+      </div>
+      {% endif %}
+
       {% if yearTalks | length > 1 %}
       <p class="related-subhead">More from ffconf {{ talk.event.year }}</p>
       <div class="talk-grid">
@@ -115,12 +122,7 @@ css: talk.css
       </div>
       {% endif %}
 
-      {% if related | length %}
-      <p class="related-subhead">Related by topic{% if talk.tags | length %} — {{ talk.tags | join(", ") }}{% endif %}</p>
-      <div class="talk-grid">
-        {% for t in related %}{{ talkCard(t) }}{% endfor %}
-      </div>
-      {% endif %}
+
     </section>
     {% endif %}
 {#

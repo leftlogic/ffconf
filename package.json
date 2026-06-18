@@ -15,7 +15,8 @@
     "latest-posts": "node ./bin/latest-posts.mjs",
     "redirects": "node ./redirects.js",
     "prebuild": "npm run jobs",
-    "build": "npm run latest-posts; eleventy && npm run redirects && test -e dist/index.html"
+    "build": "npm run latest-posts; eleventy && npm run redirects && test -e dist/index.html",
+    "related": "node ./bin/generate-related.mjs"
   },
   "author": "Remy Sharp",
   "license": "MIT",
