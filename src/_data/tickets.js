@@ -21,7 +21,7 @@ module.exports = {
   launch,
   open, // this is set to false after the event
   // needs to be manually updated
-  url: 'https://app.tickettailor.com/checkout/view-event/id/6028948/chk/fe2b/',
+  url: 'https://www.tickettailor.com/checkout/view-event/id/8487726/chk/0db6',
   summary:
     'accessibility, AI, web components, tools, community, workplace, and more!',
 };
