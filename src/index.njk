@@ -6,11 +6,16 @@ css: home.css
 
 <section>
   <header class="vevent">
-    <h2 class="summary">FFConf is a full day of eight carefully curated sessions for an audience that cares about the future of the web, and who want their ideas challenged.</h2>
-    <a href="{{ next.url }}" class="block" target="_blank">
-      <p class="next-icon">Latest event</p>
-      <h3><abbr class="url dtstart" title="{{ next.date }}">{{ next.date | format }}</abbr></h3>
-    </a>
+    <h2 class="summary">FFConf is a room full of people who still give a damn about the web and it's community.</h2>
+    <div class="next-event">
+      <a href="{{ next.url }}" class="block" target="_blank">
+        <p class="next-icon">Latest event</p>
+        <h3><abbr class="url dtstart" title="{{ next.date }}">{{ next.date | format }}</abbr></h3>
+      </a>
+      <a href="{{ next.tickets }}" class="block ticket-icon" target="_blank">
+        Tickets
+      </a>
+    </div>
     <a href="{{ collections.posts.url }}" class="next">
       <p class="post-icon">Latest blog post</p>
       <h3 class="url">{{ collections.posts.data.title }}</h3>

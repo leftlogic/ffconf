@@ -6,9 +6,12 @@
   padding: 32px;
 
   background-color: var(--salmon);
-  background-image: url(/images/hero/3a.jpg), url(/images/hero/1.jpg),
-    url(/images/hero/3.jpg);
-  background-position: top left, top center, top right;
+  background-image:
+    url(/images/hero/3a.jpg), url(/images/hero/1.jpg), url(/images/hero/3.jpg);
+  background-position:
+    top left,
+    top center,
+    top right;
   background-size: 34%, 34%, 34%;
   background-repeat: no-repeat, no-repeat, no-repeat;
   padding-top: 30%;
@@ -20,7 +23,9 @@
 
 #home main h2 {
   font-size: 22px;
-  font-feature-settings: 'liga' 1, 'calt' 1; /* Enable common ligatures and contextual alternates */
+  font-feature-settings:
+    'liga' 1,
+    'calt' 1; /* Enable common ligatures and contextual alternates */
   font-variant-ligatures: no-common-ligatures;
 
   font-weight: 500;
@@ -35,6 +40,15 @@
   background-size: 30px;
   line-height: 36px;
   padding-left: 46px;
+}
+
+#home main .ticket-icon {
+  font-size: 18px;
+  background: url(/images/tickets.svg) no-repeat;
+  background-size: 30px;
+  line-height: 36px;
+  padding-left: 46px;
+  background-position: left center;
 }
 
 #home main .post-icon {
@@ -79,9 +93,12 @@ a.block {
 
   #home main {
     /* background-color: var(--salmon); */
-    background-image: url(/images/hero/3a.jpg), url(/images/hero/1.jpg),
-      url(/images/hero/3.jpg);
-    background-position: top left, top center, top right;
+    background-image:
+      url(/images/hero/3a.jpg), url(/images/hero/1.jpg), url(/images/hero/3.jpg);
+    background-position:
+      top left,
+      top center,
+      top right;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-size: 34%, 34%, 34%;
     padding-top: 16.666%;
@@ -146,7 +163,8 @@ a.block {
     opacity: 1;
   }
   30% {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+    text-shadow:
+      0 0 10px rgba(255, 255, 255, 0.5),
       0 0 20px rgba(255, 255, 255, 0.5);
     transform: scale3d(1.005, 1.005, 1);
   }
@@ -161,4 +179,17 @@ a.block {
   animation: textExplosion 1.2s cubic-bezier(0.25, 0.1, 0.25, 1) 1;
   color: white;
   will-change: transform, text-shadow;
+}
+
+#home .next-event {
+  display: flex;
+  flex-direction: column;
+
+  .ticket-icon {
+    display: flex;
+    text-decoration: underline;
+    font-weight: 600;
+    align-items: center;
+    text-decoration-thickness: 3px;
+  }
 }
