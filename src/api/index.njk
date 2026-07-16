@@ -6,11 +6,13 @@ permalink: /api/index.json
   {
     "year": {{ year }},
     "url": "https://{{ year }}.ffconf.org",
+    "apiEndpoint": "https://ffconf.org/api/event/{{ year }}/",
     "sessions": [
     {%- for talk in talks | filter("event.year", year) -%}
       {
         "title": "{{ talk.title  | jsonEscape | safe }}",
-        "description": "{{ talk.description  | jsonEscape | safe }}"
+        "description": "{{ talk.description  | jsonEscape | safe }}",
+        "permalink": "https://ffconf.org/talks/{{ talk.slug }}"
       }{%- if not loop.last -%},{%- endif -%}
       {%- endfor -%}
     ]

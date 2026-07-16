@@ -6,7 +6,7 @@ pagination:
 permalink: /api/event/{{ year }}/index.json
 ---
 [
-{%- for talk in talks | filter("event.year", year) -%}
+{%- for talk in talks | filter("event.year", year ~ "") -%}
   {
     "title": "{{ talk.title | jsonEscape | safe }}",
     "description": "{{ talk.description | jsonEscape | safe }}",
@@ -14,7 +14,8 @@ permalink: /api/event/{{ year }}/index.json
     "slug": "{{ talk.slug }}",
     "order": {{ talk.order | stringify | safe }},
     "time": "{{ talk.time }}",
-    "tags": {{ talk.tags | stringify | safe }}
+    "tags": {{ talk.tags | stringify | safe }},
+    "apiEndpoint": "https://ffconf.org/api/session/{{ talk.slug }}/"
   }{%- if not loop.last -%},{%- endif -%}
 {%- endfor -%}
 ]
