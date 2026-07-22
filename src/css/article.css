@@ -125,6 +125,11 @@ figure:has(.mini-pic) {
   float: right;
 }
 
+img.mini-pic {
+  float: right;
+  margin: 0 0 16px 16px !important;
+}
+
 section > header {
   padding: 0;
 }

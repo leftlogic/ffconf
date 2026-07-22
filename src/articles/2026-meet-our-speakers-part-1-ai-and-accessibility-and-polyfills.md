@@ -21,7 +21,7 @@ Read Cyd's [full interview](https://ffconf.org/articles/2026-meet-the-speaker-cy
 
 In 2024, we welcomed Léonie Watson back on stage, this time to talk about [AI and Accessibility: the Good, the Bad, and the Bollocks](https://ffconf.org/talks/2024_l%C3%A9onie/)
 
-![Léonie presenting on stage in 2024](https://assets.ffconf.org/img/2026/07/FKTuK7eUlu-2024-lw.jpg "A woman, Léonie, with chin-length, vibrant purple hair and a black mock-neck top. She is standing behind a lectern, looking slightly upward and speaking.")
+![A woman, Léonie, with chin-length, vibrant purple hair and a black mock-neck top. She is standing behind a lectern, looking slightly upward and speaking.](https://assets.ffconf.org/img/2026/07/FKTuK7eUlu-2024-lw.jpg "Léonie presenting on stage in 2024")
 
 She talked about the benefits of using AI as a blind person including the incredible level of detail her screen reader provides in describing images and videos when using AI.
 

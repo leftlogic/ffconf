@@ -27,6 +27,7 @@ const markdown = markdownIt(options)
   .use(require('markdown-it-implicit-figures'), {
     figcaption: true,
     lazyLoading: true,
+    figureOnTitle: true
   });
 const now = Date.now();
 const livePosts = (p) => p.date <= now;
