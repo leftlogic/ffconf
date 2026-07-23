@@ -104,7 +104,7 @@ module.exports = function (eleventyConfig) {
     if (s[0] === '@') {
       s = s.slice(1);
     }
-    return s.toLowerCase().replace(/@.*$/, '');
+    return s.toLowerCase(); //.replace(/@.*$/, '');
   });
   eleventyConfig.addFilter('pubDate', (s) => parse(s).toUTCString());
   eleventyConfig.addFilter('filename', (s) => {
