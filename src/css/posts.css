@@ -15,6 +15,10 @@
   margin: 0;
 }
 
+.post-list .post-item p + p {
+  margin-top: 12px;
+}
+
 .post-list a {
   color: var(--primary);
   transition: color 150ms ease-out;
