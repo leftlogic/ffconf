@@ -7,7 +7,7 @@ date: 2026-09-03
 
 Welcome back! Here in The Sharp House, the kids are back to school after a fantastic summer full of long walks, poker games (for _pretend_ money!) and sea swims.
 
-![It's Somerset not the Caribbean!](https://assets.ffconf.org/img/2026/09/q5LcPZQD5Y-pxl-20260807-201704694-1.jpg "Silhouette of a long-haired person stepping across rocky tidal flats along a coastline under a vivid orange sunset sky")
+![Silhouette of a long-haired person stepping across rocky tidal flats along a coastline under a vivid orange sunset sky](https://assets.ffconf.org/img/2026/09/q5LcPZQD5Y-pxl-20260807-201704694-1.jpg "It's Somerset not the Caribbean!")
 
 But back to FFConf, and:
 
@@ -19,7 +19,7 @@ We also now have **six speakers live** on the website with two more to announce 
 
 To ease us back into the autumn term, check out Ruth John's [Day Disco](https://ffconf.org/talks/2022_rumyra_talk/) as she whizzes us through step sequencers, Path 2D and web codecs.
 
-![Ruth jams at FFConf 2022](https://assets.ffconf.org/img/2026/09/nUUch8zibE-52501483716-703b67bc4b-k-1.jpg 'Ruth John stands behind a podium decorated with a static-textured overlay and the red and blue "#ffconf" logo. She is wearing a dark patterned top and dark trousers, facing towards the audience inside a classic theatre stage with warm lighting. Behind her, a large presentation screen displays rows of brightly coloured guitar pick shapes in shades of pink, green, blue, and purple, each containing the letters "ff."')
+![Ruth John stands behind a podium decorated with a static-textured overlay and the red and blue "#ffconf" logo. She is wearing a dark patterned top and dark trousers, facing towards the audience inside a classic theatre stage with warm lighting. Behind her, a large presentation screen displays rows of brightly coloured guitar pick shapes in shades of pink, green, blue, and purple, each containing the letters "ff."](https://assets.ffconf.org/img/2026/09/nUUch8zibE-52501483716-703b67bc4b-k-1.jpg 'Ruth jams at FFConf 2022')
 
 Ruth gives us some additional reading which can be found here:
 
