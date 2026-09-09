@@ -25,7 +25,8 @@ const markdown = markdownIt(options)
   .use(require('./lib/markdown-it-named-headings'))
   .use(require('markdown-it-attrs'))
   .use(require('markdown-it-implicit-figures'), {
-    figcaption: true,
+    keepAlt: true,
+    figcaption: 'title',
     lazyLoading: true,
     figureOnTitle: true
   });
