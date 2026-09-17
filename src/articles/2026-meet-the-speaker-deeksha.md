@@ -1,7 +1,6 @@
 ---
 title: "Meet our 2026 speakers: Deeksha on Lessons on chaos, customers, and better systems"
-date: 2029-07-22
-note: not ready
+date: 2026-09-17
 ---
 
 We are welcoming Deeksha Bhushan with their talk: ["Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant"](https://2026.ffconf.org/#dee) at FFConf 2026.
@@ -15,36 +14,50 @@ We wanted to also thank Deeksha for taking the time to answer our questions so w
 - **Title:** Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant
 - **About the talk:** The best insights about users and systems come from unexpected places. Two years supervising a chicken restaurant taught me more about building better experiences than any classroom ever could.
 
-- **Deeksha's origin story:** I created my first website in 1994. More than 30 years later I am still creating stuff for the web – with slightly more divs and JavaScript, and a bit less tables, frames and image maps. The web has taken an amazing journey and I am so happy to be a part of it.
+- **Deeksha's origin story:** I've been my family's unofficial IT department since I was a child. From broken TV remotes to vanished music libraries, everything was game. I now live on a different continent to most of them, and they still video call me instead of asking my brother, who's often in the room with them. Turns out translating "it's not working" into what someone actually needs is the job I've been doing all along.
 
 ## The warm up questions
 
-**What's the most cursed thing you've ever built in CSS just to see if you could?**
+**A chicken restaurant is an interesting place to find life lessons! What's the first image that comes to mind when you think back to it?**
 
-> Somehow that shouldn't be a difficult question to answer, but I'm afraid in my case it is. I've been experimenting with CSS for almost 30 years, and pretty much everything we did in those early years was about finding new ways to make CSS do increasingly difficult layouts with ever more convoluted techniques.
+> The first image isn't a moment. It's the people. The people I worked with, the people I worked for, and most importantly, the people I served. Everyone who walked through that door had their own story, and every one of those stories turned into a lesson. Not just UX lessons, either, life lessons too.
 >
-> Beyond that, a few projects come to mind. CSS DOOM is certainly a top contender. Drawing SVG with CSS animation on a vintage oscilloscope was up there too – right until the moment the scope exploded. But in the end I'd have to give it to the CSS Flamethrower: a project that let me use CSS custom properties and animations to control a real-life flamethrower.
+> And some were just...cooking lessons disguised as complaints. Could you believe that someone once said, "my chicken isn't burnt enough," and they were dead serious. That was another lesson about feedback right there on the grill.
 
-**You built your first website in 1994: tables, frames and image maps and all. What's something today's CSS lets you do that would have felt like pure magic back then?**
+**If this talk arrived as a takeaway order, what's in the box?**
 
-> The last 30 years on the web have been a constant onslaught of pure magic. If you'd asked me 20 years ago, I would have said absolute and relative positioning. Fifteen years ago, it would have been media queries and flexbox. Then came custom properties, and Grid, and :has(). But right now? I still can't believe we finally have container queries and anchor positioning.
+> Well, in my opinion, reading about the contents of a takeaway box isn't nearly as fun as actually digging in.
 >
-> And while we complain about the web being overshadowed by frameworks and held back by the whims of browser vendors, the reality is that developing for the web has never been as amazing as it is today.
+> But if I had to offer a sneak peek, I'd offer this: your mains include chaos on a busy Friday night, a griller squinting at the order screen, and variety in the form of a different customer with a different problem every time you blink.
+>
+> Your very important sides include the RICE method, which I promise is a framework I'm proposing and not just an excuse to talk about my favourite side of spicy rice, and a lesson from a manager that shaped how I saw my job, and then quietly turned that perception on its head.
+>
+> All of this will hopefully come together to satiate the listeners' hunger for how to apply user-focused thinking to improve any work that they do.
 
 ## About the work and the talk
 
-**You even got network multiplayer running. How much JavaScript did you have to "sprinkle on" before it stopped being a CSS project?**
+**Your talk description says the best insights come from unexpected places. When did it click that the restaurant was quietly teaching you something?**
 
-> Define 'sprinkle'... When I started the CSS DOOM project earlier this year, I originally wanted to use as little JavaScript as possible. But that is, of course, relative. While the rendering is fully in CSS, the actual game loop is a somewhat loose port of the original game, and we need JavaScript for that. In the original game the renderer and game loop were intertwined, and a lot of work went into separating the two — so that the renderer could just take simple commands from the game loop and translate them immediately into CSS by setting classes or custom properties. For example, when you walk around the level, the game loop does all kinds of calculations in JavaScript, but all the renderer does is update four CSS custom properties, and the browser just renders the scene for you.
+> It clicked because of an offhand comment actually. One of the grillers turned to me one day and I don't even know if they were joking, but they said something like, "wouldn't it be cool if you could use your actual degree and training to sort this screen out?".
 >
-> That's also what made network multiplayer relatively easy to bolt on. Yes, it involved a lot of extra JavaScript for the WebRTC connections, but the renderer just worked.
+> On the screen that the grillers used to cook orders, the font was tiny, way too far from where anyone was standing, and people were squinting to read their orders.
+>
+> I hadn't really connected my UX brain to my restaurant job until that moment. Eventually, someone at the central office did get the font size and contrast changed, and almost overnight, mistakes reduced, service sped up, everyone was just...happier. And I remember thinking that that's not a kitchen fix. That's UX.
 
-**After 30+ years on the web, what still makes you want to try something as gloriously impractical as this?**
+**What's one thing the restaurant work taught you that you wish everyone in tech knew?**
 
-> I think the only appropriate answer here is "because I can." I love the web. It's been fundamental to everything I've created, and I simply can't imagine not building new things for the web platform — or exploring new directions for it, no matter how impractical or ridiculous.
+> The main thing really is that it's the people.
+>
+> People just want to be seen and heard.
+>
+> Your staff want to be listened to so they can have some say in what makes their day easier.
+>
+> Your customers want a good experience, definitely, but a lot of the time, they just want to have a moan and feel like someone's actually taken it on board. And when you get that right, on both sides, that's when things actually work.
+>
+> It's exactly the same in tech. You can throw the fanciest tools at something, design for whichever stakeholder shouts loudest, chase whatever shiny thing is trending that month, but if you're not actually thinking about the person using the thing, none of it matters. The design just won't do its job.
 
 ---
 
-Find out more about Niels online on their [website](https://nielsleenheer.com/) or [BlueSky](https://bsky.app/profile/html5test.com).
+Find out more about Deeksha online at [LinkedIn](https://www.linkedin.com/in/deeksha-bhushan/).
 
 Join us in November to see Niels's talk: [2026.ffconf.org](https://2026.ffconf.org)
