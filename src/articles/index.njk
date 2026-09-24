@@ -19,7 +19,7 @@ permalink: "articles/page-{{ pagination.pageNumber }}/index.html"
   <li class="{% for tag in article.data.tags %}{{ tag | slugify }}{% endfor %}">
     <a {% if article.url.startsWith('http') %}target="_blank"{% endif %} href="{{ article.url }}">{{article.data.title}}{% if article.data.by %}<span class="byLine"> by {{ article.data.by }}</span>{% endif %}</a>
     <span class="pills">
-        <span class="pill active">{{ article.data.date | format("MMM YYYY") }}</span>{% for tag in article.data.tags %}<span class="pill active tag">{{ tag }}</span>{% endfor %}
+        <span class="pill active">{{ article.data.date | format("D MMM YYYY") }}</span>{% for tag in article.data.tags %}<span class="pill active tag">{{ tag }}</span>{% endfor %}
     </span>
   </li>
   {% endfor %}
