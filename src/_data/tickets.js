@@ -23,7 +23,7 @@ module.exports = {
   // needs to be manually updated
   url: 'https://www.tickettailor.com/checkout/view-event/id/8487726/chk/0db6',
   summary:
-    'accessibility, AI, web components, tools, community, workplace, and more!',
+    'CSS, accessibility, performance, motion, sustainability, the web\'s values, and where our industry goes next.',
 };
 
 function getSecondFridayOfNovember(year) {
