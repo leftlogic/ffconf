@@ -7,7 +7,8 @@
 
   background-color: var(--salmon);
   background-image:
-    url(/images/hero/3a.jpg), url(/images/hero/1.jpg), url(/images/hero/3.jpg);
+    url(/images/hero/3a.avif), url(/images/hero/1.avif),
+    url(/images/hero/3.avif);
   background-position:
     top left,
     top center,
@@ -94,7 +95,8 @@ a.block {
   #home main {
     /* background-color: var(--salmon); */
     background-image:
-      url(/images/hero/3a.jpg), url(/images/hero/1.jpg), url(/images/hero/3.jpg);
+      url(/images/hero/3a.avif), url(/images/hero/1.avif),
+      url(/images/hero/3.avif);
     background-position:
       top left,
       top center,
