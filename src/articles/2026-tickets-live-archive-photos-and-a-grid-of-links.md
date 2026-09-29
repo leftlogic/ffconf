@@ -9,7 +9,7 @@ We have **[launched tickets](https://2026.ffconf.org)** with a reduced early bir
 
 There are already four excellent sessions on the website covering a range of topics, including animation, mad CSS experiments, user system learnings from a chicken restaurant and a talk on answers between layoffs, AI hype and an industry we may struggle to recognise.
 
-There's more talks to be announced. This is an event full of people who still give a damn about the web and it's community - with talks meant to be experienced, _not_ bookmarked.
+There's more talks to be announced. This is an event full of people who still give a damn about the web and its community - with talks meant to be experienced, _not_ bookmarked.
 
 **[So join us on Friday 13th November, and become a better citizen on the web.](https://2026.ffconf.org)**
 
