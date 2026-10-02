@@ -22,6 +22,6 @@ Local Brighton-based Bamboo Nine, [wrote](https://www.bamboonine.co.uk/blog/ffco
 
 Each year FFConf has a broad range of talks for people who work with the web. From ethics and privacy, to how junior developers think and how we can support them, to the biases we unconditionally add to work and how we can challenge these, to how side and indie projects can inspire us to be better developers, designers and managers.
 
-**Limited [**tickets**](/tickets) are still available and the event is held in Brighton on Friday 14th November.**
+**Limited [**tickets**](/tickets) are still available and the event is held in Brighton on Friday 13th November.**
 
 Send your team. Your business will benefit from a renewed fire in their work. Happy team: happy business.
