@@ -1,6 +1,6 @@
 ---
 title: "Meet our 2026 speakers: Cennydd on Revenants"
-date: 2026-10-08
+date: 2026-09-24
 ---
 
 We are welcoming Cennydd Bowles with their talk: ["Revenants"](https://2026.ffconf.org/#cennydd) at FFConf 2026.
