@@ -1,6 +1,6 @@
 ---
 title: "Meet our 2026 speakers: Hidde on The future of the web is green"
-date: 2029-09-23
+date: 2026-10-08
 ---
 
 We are welcoming Hidde de Vries with his talk: ["The future of the web is green"](https://2026.ffconf.org/#hidde) at FFConf 2026.
