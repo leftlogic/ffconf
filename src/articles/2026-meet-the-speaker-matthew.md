@@ -1,6 +1,6 @@
 ---
 title: "Meet our 2026 speakers: Matthew on 25 years of traintimes.org.uk"
-date: 2026-10-15
+date: 2026-10-22
 ---
 
 We are welcoming Matthew Somerville with his talk: ["The journey of a fast accessible web app: lessons from 25 years of traintimes.org.uk"](https://2026.ffconf.org/#matthew) at FFConf 2026.
