@@ -827,7 +827,8 @@ blockquote {
   max-width: 70ch;
 }
 
-blockquote p {
+blockquote p,
+blockquote li {
   font-style: italic;
   margin: 14px 0;
   color: #767676;
