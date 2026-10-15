@@ -1,5 +1,5 @@
 ---
-date: "2025-10-28T14:00:00"
+date: "2026-10-15T14:00:00"
 title: Full speaker details
 ---
 
@@ -11,13 +11,13 @@ I'll say this first: **a short acknowledgement via email that you've read the he
 
 This document includes lots of details, but for those of you that are as allergic to long form as I am, here are the cliff notes:
 
-- **Thursday 7:00pm**, meet us in your hotel foyer (Leonardo Hotels - formerly Jury's Inn, Brighton) to move on to the speaker's meal.
+- **Thursday 12 November, 7:00pm**, meet us in your hotel foyer (Leonardo Hotels - formerly Jury's Inn, Brighton) to move on to the speaker's meal.
 - This document contains the schedule so at the very least, please make sure you know when you're on!
 - Conference registration starts at **9:00am** with the first talk at 9:50am - please find me (usually near the stage) **during the breaks if you're on in that next section** so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
 - Talks are **30-35mins @ 1920x1080** from your laptop, we don't do Q&A.
 - **There is little/no internet** so best not to rely on it. I've got a mifi that you can use (let me know ahead of time), but err on the side of offline, give me heads up if you need it.
 - If you can, please send me your slides the day before, I can pass this onto our stenographer to help with the live captions.
-- Friday evening - post event social until late (or as late as you like) - **dinner and drinks are on us**.
+- Friday 13 November evening - post event social until late (or as late as you like) - **dinner and drinks are on us**.
 - **Code of Conduct** - if you see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
 - If you're feeling ill (or COVID rears it's head) please let me know, I have contingencies in place.
 
@@ -25,7 +25,7 @@ Any questions/issues/special requests please email (or call, our mobile numbers 
 
 We also have a [group whatsapp chat](https://chat.whatsapp.com/HjYxc1ltuTR78GVxw2acGp) if you want to join (this is only myself, Julie and open to you) and either ask questions or post pictures of cats (this is actually quite useful for the day to shoot quick questions like *"I need coffee - halp!"*)
 
-**A short [acknowledgement](mailto:events@leftlogic.com?subject=FFConf2025) of this email will set my nerves at ease too ❤️**
+**A short [acknowledgement](mailto:events@leftlogic.com?subject=FFConf2026) of this email will set my nerves at ease too ❤️**
 
 The full detail follows.
 
@@ -35,8 +35,8 @@ ________________________________
 - [Schedule](#schedule)
 - [Getting to Brighton](#getting-to-brighton)
 - [Accommodation](#accommodation)
-- [Thursday evening](#thursday-evening)
-- [Conference day](#conference-day)
+- [Thursday evening (12 November)](#thursday-evening-12-november)
+- [Conference day (Friday 13 November)](#conference-day-friday-13-november)
 - [The internet](#the-internet)
 - [Friday lunch (90mins)](#friday-lunch-90mins)
 - [Post event social / Friday dinner](#post-event-social-friday-dinner)
@@ -48,18 +48,19 @@ ________________________________
 1. Doors open if you want to arrive early - 8:00
 2. Attendee start registration - 9:00
 3. Remy's welcome, conference starts - 9:35
-4. **Hellen Ward** Bias in our products: The case for diversity in tech - 09:50-10:30
-5. **Chetan Padia** Powerless by Design - 10:30-11:10
-6. (break 30 mins)
-7. **Hannah Clarke** An Uncomfortable Place - 11:40-12:20
-8. **Sergès Goma** You're in a Code Cult (And That's OK) - 12:20-13:00
+4. **Niels Leenheer** CSS is DOOMed - 09:50-10:30
+5. **Helen Brockelbank** Under one canvas: building a more inclusive browser game - 10:30-11:10
+6. (coffee break 30 mins)
+7. **Matthew Somerville** The journey of a fast accessible web app: lessons from 25 years of traintimes.org.uk - 11:40-12:20
+8. **Cyd Stumpel** Prefers enhanced motion - 12:20-13:00
 9. (lunch break 90 mins - we'll take you to lunch)
-10. **Asim Hussain** Don't be an Idiot - 14:30-15:10
-11. **Jessica Rose & Eda Eren** Forgetting Machines: AI Coding Tools and Skill - 15:10-15:50
-12. (break 25 mins)
-12. **Surya Rose** Six to Sixteen: A Child's Programming Journey - 16:15-16:55
-13. **Sacha Judd** The Good Internet: How Fandom Can Reclaim the Web - 16:55-17:35
-14. (post event social 18:00 onwards - food and drink on us)
+10. **Deeksha Bhushan** Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant - 14:30-15:10
+11. **Hidde de Vries** The future of the web is green - 15:10-15:50
+12. (ice cream break 25 mins)
+13. **Cennydd Bowles** Revenants - 16:15-16:55
+14. **Lena Reinhard** We Were Meant To Be - 16:55-17:35
+15. Closing remarks - 17:35-17:50
+16. (post event social 18:00 onwards - food and drink on us)
 
 ## Getting to Brighton
 
@@ -73,17 +74,16 @@ Check in for the hotel is 3pm and checkout is 11am.
 
 If you arrive earlier, and the hotel doesn't have the room ready, we've been told that the hotel will store your travel bags until then.
 
-## Thursday evening
-
+## Thursday evening (12 November)
 We're taking you out for some dinner at [Bills Brighton](https://bills-website.co.uk/restaurants/brighton/).
 
 We'll come and pick you up at the hotel foyer at 7pm where, depending on weather, we'll walk through town to the restaurant. If it's driving rain (something that's ever so uncommon in the UK…), we'll sort out a cab and head down together.
 
 The restaurant has good range of vegan and non-vegan options (the link above lets you filter by dietary requirements in the menu).
 
-## Conference day
+## Conference day (Friday 13 November)
 
-The conference registration opens at 9:00am. The schedule is in this email and is at https://2025.ffconf.org.
+The conference registration opens at 9:00am. The schedule is in this email and is at https://2026.ffconf.org.
 
 I'll introduce each of you, please make sure **you find me at the start of the break if you're on in the next** segment so that I can make sure you're mic'ed up with your lapel mic.
 
