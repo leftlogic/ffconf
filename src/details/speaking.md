@@ -1,5 +1,5 @@
 ---
-date: "2026-10-15T14:00:00"
+date: "2026-10-16T13:00:00"
 title: Full speaker details
 ---
 
@@ -21,11 +21,11 @@ This document includes lots of details, but for those of you that are as allergi
 - **Code of Conduct** - if you see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
 - If you're feeling ill (or COVID rears it's head) please let me know, I have contingencies in place.
 
-Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: https://ffconf.org/chat (this is not required!)
+Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: [https://ffconf.org/chat][chat] (this is not required!)
 
-We also have a [group whatsapp chat](https://chat.whatsapp.com/HjYxc1ltuTR78GVxw2acGp) if you want to join (this is only myself, Julie and open to you) and either ask questions or post pictures of cats (this is actually quite useful for the day to shoot quick questions like *"I need coffee - halp!"*)
+We also have a [group whatsapp chat][whatsapp] if you want to join (this is only myself, Julie and open to you) and either ask questions or post pictures of cats (this is actually quite useful for the day to shoot quick questions like *"I need coffee - halp!"*)
 
-**A short [acknowledgement](mailto:events@leftlogic.com?subject=FFConf2026) of this email will set my nerves at ease too ❤️**
+**A short [acknowledgement][ack] of this email will set my nerves at ease too ❤️**
 
 The full detail follows.
 
@@ -37,11 +37,17 @@ ________________________________
 - [Accommodation](#accommodation)
 - [Thursday evening (12 November)](#thursday-evening-12-november)
 - [Conference day (Friday 13 November)](#conference-day-friday-13-november)
-- [The internet](#the-internet)
 - [Friday lunch (90mins)](#friday-lunch-90mins)
 - [Post event social / Friday dinner](#post-event-social-friday-dinner)
 - [Accessibility and COVID](#accessibility-and-covid)
 - [Code of Conduct](#code-of-conduct)
+- [Frequently Anticipated Questions](#frequently-anticipated-questions)
+  - [Is there wifi?](#is-there-wifi)
+  - [Is there a comfort monitor?](#is-there-a-comfort-monitor)
+  - [Do we have a clicker/power/european adapter/X?](#do-we-have-a-clickerpowereuropean-adapterx)
+  - [What happens if I overrun?](#what-happens-if-i-overrun)
+  - [What if my question isn't answered?](#what-if-my-question-isnt-answered)
+- [Contact us](#contact-us)
 
 ## Schedule
 
@@ -68,14 +74,16 @@ Julie has got in touch with you individually to help arrange getting you into ou
 
 ## Accommodation
 
-For those of you staying in the Leonardo Hotels Brighton (which is right by the train station). For those of you coming by train, it's a few minutes walk: https://ffconf.org/station-to-hotel - exit the rear of Brighton Train Station (if you come through the gates, you'll turn immediately left and start heading for the car park as if you're walking back in the direction the train came from). Once at the rear, continue walking that direction for, say about 2 minutes, depending on your leg length and you'll be at the hotel. Simple, but if you get stuck or lost, don't hesitate to get in touch (phone numbers at the end of this email).
+For those of you staying in the Leonardo Hotels Brighton (which is right by the train station). For those of you coming by train, it's a few minutes walk: [https://ffconf.org/station-to-hotel][station] - exit the rear of Brighton Train Station (if you come through the gates, you'll turn immediately left and start heading for the car park as if you're walking back in the direction the train came from).
+
+Once at the rear, continue walking that direction for, say about 2 minutes, depending on your leg length and you'll be at the hotel. Simple, but if you get stuck or lost, don't hesitate to get in touch (phone numbers at the end of this email).
 
 Check in for the hotel is 3pm and checkout is 11am.
 
 If you arrive earlier, and the hotel doesn't have the room ready, we've been told that the hotel will store your travel bags until then.
 
 ## Thursday evening (12 November)
-We're taking you out for some dinner at [Bills Brighton](https://bills-website.co.uk/restaurants/brighton/).
+We're taking you out for some dinner at [Bills Brighton][bills].
 
 We'll come and pick you up at the hotel foyer at 7pm where, depending on weather, we'll walk through town to the restaurant. If it's driving rain (something that's ever so uncommon in the UK…), we'll sort out a cab and head down together.
 
@@ -83,7 +91,7 @@ The restaurant has good range of vegan and non-vegan options (the link above let
 
 ## Conference day (Friday 13 November)
 
-The conference registration opens at 9:00am. The schedule is in this email and is at https://2026.ffconf.org.
+The conference registration opens at 9:00am. The schedule is in this email and is also on this year's [FFConf web site][2026].
 
 I'll introduce each of you, please make sure **you find me at the start of the break if you're on in the next** segment so that I can make sure you're mic'ed up with your lapel mic.
 
@@ -95,10 +103,6 @@ We're projecting on a cinema screen - your slides can and should be: 1920x1080. 
 
 If you want to do any extended technical set up, ideally arrive at 8:00am whilst we're doing the tech setup. Otherwise, it's pretty straightforward to connect up your power, video and audio (if it applies) and we can do a test in the break before your talk.
 
-## The internet
-
-...at the venue is not reliable. I mean, it's a freaking cinema, why would it have internet?! But we do have work arounds. If you absolutely have to have the web, let me know ahead of time and we'll put you on one of my MIFIs.
-
 ## Friday lunch (90mins)
 
 We've pre-booked a table at a local fish and chip restaurant for Friday. No visit to the bestest seafront city would be complete without a jolly good Brighton meal!
@@ -109,7 +113,7 @@ We've got the menu with vegan & vegetarian options which I'll share with you all
 
 The private venue we've hired for our social serves food until 9pm. All food and drink are on us, please make sure to grab tokens from us and find us when you want to order food.
 
-Some of us will head back to the hotel to drop stuff off, others will go directly to the after party. It'll end around midnight (or earlier depending on demand … or [evacuations](https://tweets.remysharp.com/1189506219368685569/) as we did in 2018!).
+Some of us will head back to the hotel to drop stuff off, others will go directly to the after party. It'll end around midnight (or earlier depending on demand … or [evacuations][evacuation] as we did in 2018!).
 
 ## Accessibility and COVID
 
@@ -127,26 +131,65 @@ Gender neutral and accessible toilets are available on the ground floor near to 
 
 COVID safety. We ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
-Please also take a moment to review our [COVID policy](https://ffconf.org/covid/)
+Please also take a moment to review our [COVID policy][covid]
 
 Remy and Julie want to ensure that everyone is able to have access therefore should you have any special requests please contact us in advance so we can accommodate your needs.
 
 ## Code of Conduct
 
-We use the https://ffconf.org/code-of-conduct/ as our code of conduct, and we ask that you familiarise yourself with it and if you're unsure if your slides or content could be a problem, please get in touch with me any time to talk about them. I'll help as much as I can.
+We use the [https://ffconf.org/code-of-conduct/][coc] as our code of conduct, and we ask that you familiarise yourself with it and if you're unsure if your slides or content could be a problem, please get in touch with me any time to talk about them. I'll help as much as I can.
 
-We've included this on everyone's lanyard, and equally goes for all of you: If you see or hear the code of conduct being breached, please speak to me (Remy), Julie or one of our volunteers wearing FFConf t-shirts. You can also phone or text us (numbers at the end of this email) or send a DM to [@ffconf.org](https://bsky.app/profile/ffconf.org) on BlueSky.
+We've included this on everyone's lanyard, and equally goes for all of you: If you see or hear the code of conduct being breached, please speak to me (Remy), Julie or one of our volunteers wearing FFConf t-shirts. You can also phone or text us (numbers at the end of this email) or send a DM to [@ffconf.org][bluesky] on BlueSky.
 
 If there's anything you're unsure about in your slides, please feel free to reach out to me to check. Equally, if you want any extra eyes on your slides, please feel free to ask.
 
 *If you've read this far, I'll be amazed. But also, you're amazing for reading this far (or at least skimming to this bit).*
 
-________________________________
+## Frequently Anticipated Questions
+
+### Is there wifi?
+
+Not really. There is, but it's a cinema and every other person's phone will be trying to connect to it.
+
+It's a safer bet to have offline support, especially if your slides are hosted (like on Google Slides or Figma).
+
+We do have a dedicated mifi as a last resort - if you _really_ need this, let me know as early as you can on the day so we can sort you out.
+
+### Is there a comfort monitor?
+
+There is. Just off to the right of the podium on the floor. If I recall, it'll have the slide you're presenting from and it'll show the run time of your talk.
+
+### Do we have a clicker/power/european adapter/X?
+
+Let me know what you need and I'm sure we can arrange it. We do have spare clickers and we also have most power adapters.
+
+If you're travelling from outside the UK, hopefully you have a plug adapter, but if not - just let us know as soon as you can (BEFORE THE DAY!) and we'll make sure to pick one up.
+
+### What happens if I overrun?
+
+An eagle will swoop into the cinema, grab you by your collar and unceremoniously dump you back into your seat.
+
+### What if my question isn't answered?
+
+See below! All our contact details.
+
+## Contact us
 
 Once again, any questions, feel free to get in touch with me or Julie - we're watching our email fairly closely in the run up to the conference, so you should get a prompt-ish reply.
 
-If you want to call my (Remy) mobile number is: +44 (0)7590 497258 and Julie is on +44 (0)7888 763822 - and we have a [WhatsApp group](https://chat.whatsapp.com/HjYxc1ltuTR78GVxw2acGp) (just myself, Julie and yourselves) that you can join if you like.
+If you want to call my (Remy) mobile number is: +44 (0)7590 497258 and Julie is on +44 (0)7888 763822 - and we have a [WhatsApp group][whatsapp] (just myself, Julie and yourselves) that you can join if you like.
 
 Otherwise, we'll see you on Thursday evening at your hotel if not before ❤️❤️❤️
 
 Remy & Julie
+
+[2026]: https://2026.ffconf.org
+[ack]: mailto:events@leftlogic.com?subject=FFConf2026
+[bills]: https://bills-website.co.uk/restaurants/brighton/
+[bluesky]: https://bsky.app/profile/ffconf.org
+[chat]: https://ffconf.org/chat
+[coc]: https://ffconf.org/code-of-conduct/
+[covid]: https://ffconf.org/covid/
+[evacuation]: https://tweets.remysharp.com/1189506219368685569/
+[station]: https://ffconf.org/station-to-hotel
+[whatsapp]: https://chat.whatsapp.com/FBzVAQU7HjXIyiPzbh2IAM
