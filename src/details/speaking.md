@@ -54,18 +54,18 @@ ________________________________
 1. Doors open if you want to arrive early - 8:00
 2. Attendee start registration - 9:00
 3. Remy's welcome, conference starts - 9:35
-4. **Niels Leenheer** CSS is DOOMed - 09:50-10:30
-5. **Helen Brockelbank** Under one canvas: building a more inclusive browser game - 10:30-11:10
-6. (coffee break 30 mins)
-7. **Matthew Somerville** The journey of a fast accessible web app: lessons from 25 years of traintimes.org.uk - 11:40-12:20
-8. **Cyd Stumpel** Prefers enhanced motion - 12:20-13:00
-9. (lunch break 90 mins - we'll take you to lunch)
-10. **Deeksha Bhushan** Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant - 14:30-15:10
-11. **Hidde de Vries** The future of the web is green - 15:10-15:50
-12. (ice cream break 25 mins)
-13. **Cennydd Bowles** Revenants - 16:15-16:55
-14. **Lena Reinhard** We Were Meant To Be - 16:55-17:35
-15. Closing remarks - 17:35-17:50
+4. **Niels Leenheer** CSS is DOOMed - 09:50
+5. **Helen Brockelbank** Under one canvas: building a more inclusive browser game - 10:30
+6. (coffee break 30 mins) - 11:10
+7. **Matthew Somerville** The journey of a fast accessible web app: lessons from 25 years of traintimes.org.uk - 11:40
+8. **Cyd Stumpel** Prefers enhanced motion - 12:20
+9. (lunch break 90 mins - we'll take you to lunch) - 13:00
+10. **Deeksha Bhushan** Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant - 14:30
+11. **Hidde de Vries** The future of the web is green - 15:10
+12. (ice cream break 25 mins) - 15:50
+13. **Cennydd Bowles** Revenants - 16:15
+14. **Lena Reinhard** We Were Meant To Be - 16:55
+15. Closing remarks - 17:35
 16. (post event social 18:00 onwards - food and drink on us)
 
 ## Getting to Brighton
