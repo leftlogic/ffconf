@@ -1,5 +1,5 @@
 ---
-date: "2026-10-16T13:00:00"
+date: "2026-10-19T10:00:00"
 title: Full speaker details
 ---
 
@@ -13,7 +13,7 @@ This document includes lots of details, but for those of you that are as allergi
 
 - **Thursday 12 November, 7:00pm**, meet us in your hotel foyer (Leonardo Hotels - formerly Jury's Inn, Brighton) to move on to the speaker's meal.
 - This document contains the schedule so at the very least, please make sure you know when you're on!
-- Conference registration starts at **9:00am** with the first talk at 9:50am - please find me (usually near the stage) **during the breaks if you're on in that next section** so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
+- Conference registration starts at **9:00am** with conference starting at at 9:35am - please find me (usually near the stage) **during the breaks if you're on in that next section** so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
 - Talks are **30-35mins @ 1920x1080** from your laptop, we don't do Q&A.
 - **There is little/no internet** so best not to rely on it. I've got a mifi that you can use (let me know ahead of time), but err on the side of offline, give me heads up if you need it.
 - If you can, please send me your slides the day before, I can pass this onto our stenographer to help with the live captions.
