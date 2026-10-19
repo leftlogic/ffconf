@@ -19,7 +19,7 @@ This document includes lots of details, but for those of you that are as allergi
 - If you can, please send me your slides the day before, I can pass this onto our stenographer to help with the live captions.
 - Friday 13 November evening - post event social until late (or as late as you like) - **dinner and drinks are on us**.
 - **Code of Conduct** - if you see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
-- If you're feeling ill (or COVID rears it's head) please let me know, I have contingencies in place.
+- If you're feeling ill (or COVID rears its head) please let me know, I have contingencies in place.
 
 Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: [https://ffconf.org/chat][chat] (this is not required!)
 
