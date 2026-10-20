@@ -1,5 +1,5 @@
 ---
-date: "2026-10-16T13:00:00"
+date: "2026-10-19T10:00:00"
 title: Full speaker details
 ---
 
@@ -13,13 +13,13 @@ This document includes lots of details, but for those of you that are as allergi
 
 - **Thursday 12 November, 7:00pm**, meet us in your hotel foyer (Leonardo Hotels - formerly Jury's Inn, Brighton) to move on to the speaker's meal.
 - This document contains the schedule so at the very least, please make sure you know when you're on!
-- Conference registration starts at **9:00am** with the first talk at 9:50am - please find me (usually near the stage) **during the breaks if you're on in that next section** so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
+- Conference registration starts at **9:00am** with conference starting at at 9:35am - please find me (usually near the stage) **during the breaks if you're on in that next section** so I can hook you up (with lapel mic battery pack needs to attach to your clothing, please bear this in mind). The podium will have both speakers' machines for that upcoming session.
 - Talks are **30-35mins @ 1920x1080** from your laptop, we don't do Q&A.
 - **There is little/no internet** so best not to rely on it. I've got a mifi that you can use (let me know ahead of time), but err on the side of offline, give me heads up if you need it.
 - If you can, please send me your slides the day before, I can pass this onto our stenographer to help with the live captions.
 - Friday 13 November evening - post event social until late (or as late as you like) - **dinner and drinks are on us**.
 - **Code of Conduct** - if you see or hear the code being breached, please contact Julie or myself directly, and if you're unsure of anything in your slides, please get in touch.
-- If you're feeling ill (or COVID rears it's head) please let me know, I have contingencies in place.
+- If you're feeling ill (or COVID rears its head) please let me know, I have contingencies in place.
 
 Any questions/issues/special requests please email (or call, our mobile numbers are at the bottom of this email). We have the (a rather quiet) Discord channel - if you join the channel, we'll invite you to the "green room" where you can ping us too: [https://ffconf.org/chat][chat] (this is not required!)
 
@@ -54,18 +54,18 @@ ________________________________
 1. Doors open if you want to arrive early - 8:00
 2. Attendee start registration - 9:00
 3. Remy's welcome, conference starts - 9:35
-4. **Niels Leenheer** CSS is DOOMed - 09:50-10:30
-5. **Helen Brockelbank** Under one canvas: building a more inclusive browser game - 10:30-11:10
-6. (coffee break 30 mins)
-7. **Matthew Somerville** The journey of a fast accessible web app: lessons from 25 years of traintimes.org.uk - 11:40-12:20
-8. **Cyd Stumpel** Prefers enhanced motion - 12:20-13:00
-9. (lunch break 90 mins - we'll take you to lunch)
-10. **Deeksha Bhushan** Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant - 14:30-15:10
-11. **Hidde de Vries** The future of the web is green - 15:10-15:50
-12. (ice cream break 25 mins)
-13. **Cennydd Bowles** Revenants - 16:15-16:55
-14. **Lena Reinhard** We Were Meant To Be - 16:55-17:35
-15. Closing remarks - 17:35-17:50
+4. **Niels Leenheer** CSS is DOOMed - 09:50
+5. **Helen Brockelbank** Under one canvas: building a more inclusive browser game - 10:30
+6. (coffee break 30 mins) - 11:10
+7. **Matthew Somerville** The journey of a fast accessible web app: lessons from 25 years of traintimes.org.uk - 11:40
+8. **Cyd Stumpel** Prefers enhanced motion - 12:20
+9. (lunch break 90 mins - we'll take you to lunch) - 13:00
+10. **Deeksha Bhushan** Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant - 14:30
+11. **Hidde de Vries** The future of the web is green - 15:10
+12. (ice cream break 25 mins) - 15:50
+13. **Cennydd Bowles** Revenants - 16:15
+14. **Lena Reinhard** We Were Meant To Be - 16:55
+15. Closing remarks - 17:35
 16. (post event social 18:00 onwards - food and drink on us)
 
 ## Getting to Brighton
