@@ -48,6 +48,6 @@ And from another attendee:
 
 ## Tickets
 
-**FFConf is on Friday 13th November at the Duke of York's Picturehouse, Brighton. Student prices are available on our [tickets](/tickets) page.**
+**FFConf is on Friday 13th November at the Duke of York's Picturehouse, Brighton. Student prices are available on our [tickets](/next) page.**
 
 Lecturers: if you'd like to bring a group, [get in touch](/contact).
