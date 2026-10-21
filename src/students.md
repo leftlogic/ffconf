@@ -18,6 +18,8 @@ Your course teaches you how to build or design. FFConf puts you in a room with t
 
 **Meeting the industry without the "networking".** Breaks, lunch and the post-social are where conversations with working developers, designers, product people, and future colleagues, happen naturally.
 
+![A group of about fifteen people in FFConf t-shirts and lanyards, smiling with arms raised on stage in front of a projected screen.](/images/54943708414-ffconf-2025-072.avif "Everyone is welcome at FFConf")
+
 ## In their words
 
 Nicola Adele Simmonds attended in 2023 while studying for a Masters in Web Design. She found the opening talk on imposter syndrome:
