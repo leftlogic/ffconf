@@ -40,9 +40,9 @@ Tereza K., a self-described shy introvert, first came on a scholarship in 2019 a
 
 [Read Tereza's write-up](https://dev.to/terezak/ffconf-2023-3jh0).
 
-A past scholarship recipient told us:
+Surya Rose who attended as a student, and more recently [as a speaker](https://ffconf.org/talks/2025_surya/), said:
 
-> The inspirational speakers and welcoming community were a big part of giving me the confidence to keep coding, attend bootcamp and become a developer.
+> Attending ffconf has been a great way for me to meet professionals in the industry, learn about new programming concepts I hadn't thought about before, and above all, a lot of fun.
 
 And from another attendee:
 
