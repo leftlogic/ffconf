@@ -1,5 +1,5 @@
 ---
-title: Run, Eat, Connect: Your FFConf Guide and…Ben Affleck?!
+title: "Run, Eat, Connect: Your FFConf Guide and…Ben Affleck?!"
 date: 2026-10-22
 ---
 
