@@ -1,12 +1,12 @@
 ---
-date: 2025-11-12T14:25:00
-title: 2025 FFConf details
+date: 2026-10-15T12:00:00
+title: 2026 FFConf details
 author: Julie
 ---
 
 <!-- Hi there,
 
-Please find below important and useful information to make sure your visit to ffconf on Friday 8th November 2024 is a super dooper awesome time!
+Please find below important and useful information to make sure your visit to ffconf on Friday 13th November 2026 is a super dooper awesome time!
 
 Please note, a full copy of these [details](https://ffconf.org/details/) are online and once loaded are available offline. -->
 
@@ -28,8 +28,8 @@ Please note, a full copy of these [details](https://ffconf.org/details/) are onl
 - [Technology](#technology)
 - [Post conference social](#post-conference-social)
 - [Pre conference](#pre-conference)
-  - [Show and Tell with Async - 13 Nov](#show-and-tell-with-async-13-nov)
-  - [Pre event networking: running or coffee - 14 Nov](#pre-event-networking-running-or-coffee-14-nov)
+  - [Show and Tell with Async - 12 Nov](#show-and-tell-with-async-12-nov)
+  - [Pre event networking: running or coffee - 13 Nov](#pre-event-networking-running-or-coffee-13-nov)
 - [Health and Safety](#health-and-safety)
 - [Accessibility and Toilets](#accessibility-and-toilets)
 - [Contact](#contact)
@@ -46,27 +46,27 @@ At the moment there are no planned engineering works on the trains, and you can 
 
 ## Schedule
 
-| Time  | Session                                                                      |
-| ----- | ---------------------------------------------------------------------------- |
-| 09:00 | Registration                                                                 |
-| 09:40 | Opening remarks                                                              |
-| 09:50 | **Hellen Ward** – Bias in our products: The case for diversity in tech       |
-| 10:30 | **Chetan Padia** – Powerless by Design                                       |
-| 11:10 | Coffee break (30 mins)                                                       |
-| 11:40 | **Hannah Clarke** – An Uncomfortable Place                                   |
-| 12:20 | **Sergès Goma** – You're in a Code Cult (And That's OK)                      |
-| 13:00 | Lunch break (90 mins)                                                        |
-| 14:30 | **Asim Hussain** – Don't be an Idiot                                         |
-| 15:10 | **Jessica Rose & Eda Eren** – Forgetting Machines: AI Coding Tools and Skill |
-| 15:50 | Ice cream break (25 minutes)                                                 |
-| 16:15 | **Surya Rose** – Six to Sixteen: A Child's Programming Journey               |
-| 16:55 | **Sacha Judd** – The Good Internet: How Fandom Can Reclaim the Web           |
-| 17:35 | Closing remarks                                                              |
-| 17:50 | After Party until late                                                       |
+| Time  | Session                                                                                                          |
+| ----- | ---------------------------------------------------------------------------------------------------------------- |
+| 09:00 | Registration                                                                                                     |
+| 09:35 | Opening remarks                                                                                                  |
+| 09:50 | **Niels Leenheer** – CSS is DOOMed                                                                               |
+| 10:30 | **Helen Brockelbank** – Under one canvas: building a more inclusive browser game                                 |
+| 11:10 | Coffee break (30 mins)                                                                                           |
+| 11:40 | **Matthew Somerville** – The journey of a fast accessible web app: lessons from 25 years of traintimes.org.uk    |
+| 12:20 | **Cyd Stumpel** – Prefers enhanced motion                                                                        |
+| 13:00 | Lunch break (90 mins)                                                                                            |
+| 14:30 | **Deeksha Bhushan** – Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant |
+| 15:10 | **Hidde de Vries** – The future of the web is green                                                              |
+| 15:50 | Ice cream break (25 minutes)                                                                                     |
+| 16:15 | **Cennydd Bowles** – Revenants                                                                                   |
+| 16:55 | **Lena Reinhard** – We Were Meant To Be                                                                          |
+| 17:35 | Closing remarks                                                                                                  |
+| 18:00 | After Party until late                                                                                           |
 
 ## Registration - 9am
 
-Doors open at 9am for registration and the conference starts at 9:40am sharp! There are no tickets for the conference, but please bring a form of identification (bank card, driving licence etc) to pick up your delegate programme which also acts as your pass. Please keep your lanyard with you at all times as you will need it to get back into the venue.
+Doors open at 9am for registration and the conference starts at 9:35am sharp! There are no tickets for the conference, but please bring a form of identification (bank card, driving licence etc) to pick up your delegate programme which also acts as your pass. Please keep your lanyard with you at all times as you will need it to get back into the venue.
 
 The day will finish by 6pm. The schedule will be in your programme and online, and if your device supports Service Workers, the site will also work offline.
 
@@ -118,15 +118,13 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ## Pre conference
 
-### Show and Tell with Async - 13 Nov
+### Show and Tell with Async - 12 Nov
 
-Our friends at Async run a very special International Show & Tell from 7pm at Projects, Nile House (please note new location). Come along to listen, learn and meet fellow delegates or you could give a five minute talk to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web.
-
-(https://asyncjs.com/international-show-n-tell-2025/)
+Our friends at Async run a very special International Show & Tell from 7pm at Projects, Nile House. Come along to listen, learn and meet fellow delegates or you could give a five minute talk to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web.
 
 After Async, we will be heading to The Walrus on Ship Street. We will NOT be in Al Campo on Thursday evening.
 
-### Pre event networking: running or coffee - 14 Nov
+### Pre event networking: running or coffee - 13 Nov
 
 We are hosting another pre-FFConf run! Meet outside Duke of Yorks at 7:30am led by two friendly FFConf regulars. Open to all abilities, explore beautiful Brighton in a short 30 minute run leaving plenty of time to get showered before registration opens!
 
