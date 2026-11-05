@@ -82,7 +82,7 @@ Tea, coffee, danishes and fruit will be available from 9am in the upstairs bar a
 
 ## Lunch with future friends
 
-If you are coming to FFConf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) OR XXXX for our Lunch with Future Friends.
+If you are coming to FFConf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) for our Lunch with Future Friends.
 
 ## Reduce, reuse, recycle
 
@@ -92,7 +92,7 @@ The coffee cups we use are compostable but please do bring your own travel mug a
 
 Yes to all. Hashtag all the things with [#FFConf](https://bsky.app/search?q=%23ffconf).
 
-Please follow the event on [LinkedIn](https://www.linkedin.com/company/ffconf) and add yourselves as attending to start the connections early. Post event, please share your experiences on LinkedIn using #FFConf
+Please follow the event on [LinkedIn](https://www.linkedin.com/company/ffconf) and add yourselves as attending to start making connections early. Post event, if you share your experiences on LinkedIn please use #FFConf
 
 Feel free to follow us [on Bluesky at @FFConf](https://bsky.app/profile/ffconf.org) for the latest info on the event.
 
@@ -154,7 +154,7 @@ Please use the toilet you feel most comfortable using, and please respect people
 
 Gender neutral and accessible toilet is available on the ground floor near to the exits.
 
-Prayer Room - unfortunately the cinema does not have a dedicated room but there is a quiet area, please ask at registration and we will be able to show you. 
+Prayer Room - unfortunately the cinema does not have a dedicated room but there is a quiet area, please ask at registration and we will be able to direct you. 
 
 COVID safety. We ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
