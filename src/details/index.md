@@ -60,7 +60,7 @@ At the moment there are no planned engineering works on the trains, and you can 
 | 15:10 | **Hidde de Vries** – The future of the web is green                                                              |
 | 15:50 | Ice cream break (25 minutes)                                                                                     |
 | 16:15 | **Cennydd Bowles** – Revenants                                                                                   |
-| 16:55 | **Lena Reinhard** – R&D of the Modern Human                                                                          |
+| 16:55 | **Lena Reinhard** – R&D of the Modern Human                                                                      |
 | 17:35 | Closing remarks                                                                                                  |
 | 18:00 | After Party until late                                                                                           |
 
@@ -112,7 +112,7 @@ We hope you will join us at OhSo Social again. There will be food available to o
 
 Oh So Social - [250a Kings Rd, Brighton BN1 1NB](https://goo.gl/maps/ZHdtZQLsg5LuDfQK8) - on the beach, near the green doughnut on the west of the Brighton Palace Pier (to the right of the pier if you're facing the sea).
 
-Walking Directions: [ffconf.org/party](https://ffconf.org/party)
+Walking Directions: [ffconf.org/social](https://ffconf.org/social)
 
 ## Pre conference
 
@@ -154,7 +154,7 @@ Please use the toilet you feel most comfortable using, and please respect people
 
 Gender neutral and accessible toilet is available on the ground floor near to the exits.
 
-Prayer Room - unfortunately the cinema does not have a dedicated room but there is a quiet area, please ask at registration and we will be able to direct you. 
+Prayer Room - unfortunately the cinema does not have a dedicated room but there is a quiet area, please ask at registration and we will be able to direct you.
 
 COVID safety. We ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
@@ -172,9 +172,9 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 
 <!-- Please also take a few minutes to check out our sponsors and the links to their sites, without whom we couldn't run this event. Click on their links and check them all out. Seriously. We can't do this entire event without them.
 
-[Chrome](https://developer.chrome.com) - "Keep up to date with the latest in Chrome and our tools for developers. We love FFConf ♥️ 
+[Chrome](https://developer.chrome.com) - "Keep up to date with the latest in Chrome and our tools for developers. We love FFConf ♥️
 
-[TetraLogical](https://tetralogical.com/) - build accessible websites and apps with confidence by dipping into our free resources, or chat with us about assessments, training, and consultancy. 
+[TetraLogical](https://tetralogical.com/) - build accessible websites and apps with confidence by dipping into our free resources, or chat with us about assessments, training, and consultancy.
 
 [Legal & General](https://careers.legalandgeneral.com/working-for-us/?ref=ffconf2026)  - "We’re delighted that Legal & General will once again be sponsoring this year’s ffconf. We’ll be offering scholarships so we can ensure that the brightest young minds from a variety of backgrounds are able to contribute to crucial conversations about the future of the web. We have first-hand experience of this event and, as a result, we’re delighted to partner with ffconf. We’re proud to work alongside the organisers to make sure this year’s conference is the most successful so far!"
 
