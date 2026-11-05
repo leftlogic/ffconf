@@ -1,6 +1,6 @@
 /* eslint-env serviceworker */
 
-const cacheName = 'v2025.4/ffconf/details';
+const cacheName = 'v2026.1/ffconf/details';
 
 self.addEventListener('activate', (e) => {
   e.waitUntil(
