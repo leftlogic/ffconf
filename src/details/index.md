@@ -1,5 +1,5 @@
 ---
-date: 2026-11-04T12:00:00
+date: 2026-11-05T22:00
 title: 2026 FFConf details
 author: Julie
 ---
