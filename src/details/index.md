@@ -1,5 +1,5 @@
 ---
-date: 2026-10-15T12:00:00
+date: 2026-11-04T12:00:00
 title: 2026 FFConf details
 author: Julie
 ---
@@ -60,7 +60,7 @@ At the moment there are no planned engineering works on the trains, and you can 
 | 15:10 | **Hidde de Vries** – The future of the web is green                                                              |
 | 15:50 | Ice cream break (25 minutes)                                                                                     |
 | 16:15 | **Cennydd Bowles** – Revenants                                                                                   |
-| 16:55 | **Lena Reinhard** – We Were Meant To Be                                                                          |
+| 16:55 | **Lena Reinhard** – R&D of the Modern Human                                                                          |
 | 17:35 | Closing remarks                                                                                                  |
 | 18:00 | After Party until late                                                                                           |
 
@@ -72,33 +72,31 @@ The day will finish by 6pm. The schedule will be in your programme and online, a
 
 Note that by attending our events, you are agreeing to our [code of conduct](https://ffconf.org/code-of-conduct/).
 
-If see or hear our code of conduct being breached, or have any other concerns or questions, please contact a member of staff (wearing FFConf t-shirts), our Bluesky [@ffconf](https://bsky.app/profile/ffconf.org) DMs are open.
+If you see or hear our code of conduct being breached, or have any other concerns or questions, please contact a member of staff (wearing FFConf t-shirts), our Bluesky [@ffconf](https://bsky.app/profile/ffconf.org) DMs are open.
 
 ## Refreshments and lunch
 
-Tea, coffee, danishes and fruit will be available from 9am in the upstairs bar and the ground floor. Further refreshments will be available from the same locations at the mid morning and mid afternoon breaks. We serve cow, soya and oat milk for the tea and coffee plus vegan and gluten free snack options. If you have a nut allergy, please let us know.
+Tea, coffee, danishes and fruit will be available from 9am in the upstairs bar and the ground floor. Further refreshments will be available from the same locations at the mid morning and mid afternoon breaks. We serve cow, soya and oat milk for the tea and coffee plus vegan and gluten free snack options. If you have a **nut allergy**, please let us know.
 
 **Please note lunch is not included** but we have [a few recommendations here](https://ffconf.org/food), and a [collection of places](https://ffconf.org/brighton) that Remy & Julie particularly like (with lunch, coffee, sweet and dinner suggestions).
 
 ## Lunch with future friends
 
-If you are coming to FFConf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) or Mexican food at [New Unity](https://www.newunity.pub/) for our Lunch with Future Friends.
+If you are coming to FFConf for the first time, travelling alone or just want to meet new people, we have tables reserved at [Alcampo Lounge](https://goo.gl/maps/LjgEszGnouR53Hqq5) OR XXXX for our Lunch with Future Friends.
 
 ## Reduce, reuse, recycle
 
-The coffee cups we use are compostable but please do bring your own travel mug and water bottle too. Feel free to leave your lanyard at the end so they can be reused.
+The coffee cups we use are compostable but please do bring your own travel mug and water bottle too. Please leave your lanyard at the end so they can be reused.
 
 ## Toots, chat and blog posts
 
 Yes to all. Hashtag all the things with [#FFConf](https://bsky.app/search?q=%23ffconf).
 
+Please follow the event on [LinkedIn](https://www.linkedin.com/company/ffconf) and add yourselves as attending to start the connections early. Post event, please share your experiences on LinkedIn using #FFConf
+
 Feel free to follow us [on Bluesky at @FFConf](https://bsky.app/profile/ffconf.org) for the latest info on the event.
 
-<!-- The event will have live commentary uploaded on our Mastodon account. -->
-
 Please feel free to also [join our Discord](https://ffconf.org/chat) for extra curricular chatter (it's quiet and friendly, so bring your voice&nbsp;❤️).
-
-Post-event, please blog about your experiences or post on LinkedIn using #FFConf
 
 ## Technology
 
@@ -110,7 +108,7 @@ Err on the side of low tech and an open mind and you'll get the most from the ev
 
 ## Post conference social
 
-We hope you will join us at OhSo Social again. There will be food available to order until 9pm and you can collect your drinks voucher on the door so please bring your name badge/lanyard with you. We will also have a range of board games so try an old favourite or learn a new game and make new friends.
+We hope you will join us at OhSo Social again. There will be food available to order until 9pm and you can collect your drinks voucher on the door so please bring your name badge with you. We will also have a range of board games so try an old favourite or learn a new game and make new friends.
 
 Oh So Social - [250a Kings Rd, Brighton BN1 1NB](https://goo.gl/maps/ZHdtZQLsg5LuDfQK8) - on the beach, near the green doughnut on the west of the Brighton Palace Pier (to the right of the pier if you're facing the sea).
 
@@ -120,9 +118,9 @@ Walking Directions: [ffconf.org/party](https://ffconf.org/party)
 
 ### Show and Tell with Async - 12 Nov
 
-Our friends at Async run a very special International Show & Tell from 7pm at Projects, Nile House. Come along to listen, learn and meet fellow delegates or you could give a five minute talk to tell us about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web.
+Our friends at Async run a very special International Show & Tell from 7pm at Runway East (different location to 2025). Come along to listen, learn and meet fellow delegates or you could give a five minute talk about something… a project, a library, a technique, a story, or anything else about JavaScript, related tech (HTML, CSS, SVG, etc), or the wider world of web. [More information and sign up here](https://asyncjs.com/events/)
 
-After Async, we will be heading to The Walrus on Ship Street. We will NOT be in Al Campo on Thursday evening.
+After Async, we will be heading to [Worlds End](https://www.worldsend.pub/) (new venue). We will NOT be in Al Campo or Walrus on Thursday evening.
 
 ### Pre event networking: running or coffee - 13 Nov
 
@@ -138,23 +136,25 @@ Please note that there is no cloakroom or storage for any items.
 
 ## Accessibility and Toilets
 
-Live Captioning will be provided by White Coat Captioning. The screen will be located on the stage on the left hand side.
+Live Captioning will be provided by humans at White Coat Captioning. The screen will be located on the stage on the left hand side.
 
 The ground floor is accessible to customers with limited mobility including wheelchair users.
 
 The Box Office, Kiosk, access toilet and screen are all located on the ground floor. From the foyer there is a small ramp from which to access the Kiosk and Screen.
 
+We regret that there is no lift and consequently the Balcony and Bar can only be accessed by ascending a staircase of 25 steps.
+
 Large print schedules are available on request at the registration desk.
 
 If you do not wish to be included in any official photos, you can get a different coloured lanyard from the photographer or from registration.
-
-We regret that there is no lift and consequently the Balcony and Bar can only be accessed by ascending a staircase of 25 steps.
 
 People should be able to use toilet appropriate to how they self identify.
 
 Please use the toilet you feel most comfortable using, and please respect people's right to pee in peace.
 
 Gender neutral and accessible toilet is available on the ground floor near to the exits.
+
+Prayer Room - unfortunately the cinema does not have a dedicated room but there is a quiet area, please ask at registration and we will be able to show you. 
 
 COVID safety. We ask anyone who is showing signs of COVID to please stay at home. We welcome the use of masks indoors.
 
@@ -172,7 +172,11 @@ Remy and Julie want to ensure that everyone is able to have access therefore sho
 
 <!-- Please also take a few minutes to check out our sponsors and the links to their sites, without whom we couldn't run this event. Click on their links and check them all out. Seriously. We can't do this entire event without them.
 
+[Chrome](https://developer.chrome.com) - "Keep up to date with the latest in Chrome and our tools for developers. We love FFConf ♥️ 
 
+[TetraLogical](https://tetralogical.com/) - build accessible websites and apps with confidence by dipping into our free resources, or chat with us about assessments, training, and consultancy. 
+
+[Legal & General](https://careers.legalandgeneral.com/working-for-us/?ref=ffconf2026)  - "We’re delighted that Legal & General will once again be sponsoring this year’s ffconf. We’ll be offering scholarships so we can ensure that the brightest young minds from a variety of backgrounds are able to contribute to crucial conversations about the future of the web. We have first-hand experience of this event and, as a result, we’re delighted to partner with ffconf. We’re proud to work alongside the organisers to make sure this year’s conference is the most successful so far!"
 
 * * *
 
