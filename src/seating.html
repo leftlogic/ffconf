@@ -1,0 +1,259 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>ffconf Seat Counter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=IBM+Plex+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: one 21-column auditorium grid, row toggles both sides, column toggles above, live count bar on top */
+:root {
+  --bg: #f6f5f8;
+  --surface: #ffffff;
+  --fg: #1d1a24;
+  --muted: #6c6578;
+  --line: #d9d4e1;
+  --seat: #2f8f6b;
+  --seat-rear: #7a6aa8;
+  --seat-off: #e7e3ec;
+  --access: #2f6fb8;
+  --accent: #c2410c;
+  --display: "Bricolage Grotesque", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15131a; --surface: #1e1b25; --fg: #ece8f2; --muted: #9b93a8; --line: #352f40;
+    --seat: #3fb487; --seat-rear: #9d8ed0; --seat-off: #2a2632; --access: #5b9be0; --accent: #f08a4b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15131a; --surface: #1e1b25; --fg: #ece8f2; --muted: #9b93a8; --line: #352f40;
+  --seat: #3fb487; --seat-rear: #9d8ed0; --seat-off: #2a2632; --access: #5b9be0; --accent: #f08a4b;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--fg); font-family: var(--mono); padding: 16px; }
+main { max-width: 920px; margin: 0 auto; display: grid; gap: 20px; }
+
+header { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 12px 24px; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(1.4rem, 4vw, 2rem); margin: 0; text-wrap: balance; }
+h1 small { display: block; font-family: var(--mono); font-weight: 400; font-size: 0.75rem; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+
+.count { display: flex; align-items: baseline; gap: 6px; font-variant-numeric: tabular-nums; }
+.count strong { font-family: var(--display); font-weight: 800; font-size: clamp(2.2rem, 7vw, 3.2rem); line-height: 1; color: var(--accent); }
+.count span { color: var(--muted); }
+
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 2; background: var(--bg); padding-block: 8px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; border-bottom: 1px solid var(--line); }
+.bar .meta { margin-right: auto; color: var(--muted); font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+button.tool { font: inherit; font-size: 0.8rem; padding: 6px 12px; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; }
+button.tool:hover { border-color: var(--muted); }
+button.tool.primary { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+
+.plan { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px clamp(6px, 2vw, 20px) 20px; }
+.screen { font-family: var(--display); font-weight: 500; text-align: center; letter-spacing: 0.4em; font-size: 0.75rem; color: var(--muted); border-top: 3px solid var(--fg); margin: 14px 8% 0; padding-top: 4px; }
+
+.grid { display: grid; grid-template-columns: 1.6em repeat(21, minmax(0, 1fr)) 1.6em; gap: clamp(2px, 0.6vw, 5px) clamp(1px, 0.4vw, 4px); user-select: none; -webkit-user-select: none; }
+.gap-row { grid-column: 1 / -1; height: clamp(10px, 3vw, 26px); }
+
+.row-btn, .col-btn { font: inherit; border: 0; background: none; color: var(--fg); cursor: pointer; padding: 0; border-radius: 4px; }
+.row-btn { font-weight: 600; font-size: clamp(0.65rem, 2vw, 0.85rem); }
+.row-btn:hover, .col-btn:hover { background: var(--seat-off); }
+.row-btn[data-state="none"] { color: var(--muted); text-decoration: line-through; }
+.col-btn { height: 14px; display: grid; place-items: center; }
+.col-btn::before { content: ""; width: 60%; height: 4px; border-radius: 2px; background: var(--fg); }
+.col-btn[data-state="some"]::before { background: var(--muted); }
+.col-btn[data-state="none"]::before { background: transparent; outline: 1px solid var(--muted); }
+
+.seat { aspect-ratio: 1 / 0.9; max-width: 100%; border: 0; padding: 0; cursor: pointer; touch-action: none;
+  background: var(--seat); border-radius: 2px 2px 30% 30%; box-shadow: inset 0 -3px 0 rgb(0 0 0 / 0.18); }
+.seat.rear { background: var(--seat-rear); }
+.seat.access { background: var(--access); border-radius: 2px; }
+.seat.access::after { content: "♿"; font-size: clamp(0.45rem, 1.6vw, 0.75rem); color: #fff; }
+.seat.sofa-l { border-radius: 2px 0 0 30%; margin-right: calc(-1 * clamp(1px, 0.4vw, 4px)); }
+.seat.sofa-m { border-radius: 0; margin-inline: calc(-1 * clamp(1px, 0.4vw, 4px)); }
+.seat.sofa-r { border-radius: 0 2px 30% 0; margin-left: calc(-1 * clamp(1px, 0.4vw, 4px)); }
+.seat[aria-pressed="false"] { background: var(--seat-off); box-shadow: inset 0 0 0 1px var(--line); }
+.seat[aria-pressed="false"]::after { opacity: 0.3; }
+.seat:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.legend { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.75rem; color: var(--muted); }
+.legend i { display: inline-block; width: 12px; height: 11px; border-radius: 2px; vertical-align: -1px; margin-right: 6px; }
+@media (prefers-reduced-motion: no-preference) { .seat { transition: background-color 0.12s; } }
+</style>
+
+<main>
+  <header>
+    <h1><small>Duke of York's Picturehouse</small>ffconf seating</h1>
+    <div class="count" aria-live="polite"><strong id="selected">0</strong><span>/ <span id="total">0</span> seats</span></div>
+  </header>
+
+  <div class="bar">
+    <span class="meta" id="meta"></span>
+    <button class="tool" id="stalls" type="button">Stalls</button>
+    <button class="tool" id="rear" type="button">Rear</button>
+    <button class="tool primary" id="reset" type="button">Reset</button>  </div>
+
+  <section class="plan">
+    <div class="grid" id="grid"></div>
+    <div class="screen">SCREEN</div>
+  </section>
+
+  <div class="legend">
+    <span><i style="background:var(--seat)"></i>Stalls</span>
+    <span><i style="background:var(--seat-rear)"></i>Rear</span>
+    <span>Click or drag to paint seats · row letters and column bars toggle groups</span>
+  </div>
+</main>
+
+<script>
+// s seat, w wheelchair space, L/M/R sofa parts, . empty — 21 columns, left to right as seen from the screen
+const STALLS = {
+  A: 'ssss.sssssssssss.ssss', B: '.sss..ssssssssss.sss.', C: 'ssss.sssssssssss.ssss',
+  D: 'ssss..ssssssssss.ssss', E: 'ssss.sssssssssss.ssss', F: 'ssss..ssssssssss.ssss',
+  G: '.sss.sssssssssss.ssss', H: '.sss..ssssssssss.sss.', J: '.sss.sssssssssss.sss.',
+  K: 'ssss...ssssssss..ssss', L: 'ssss.sssssssssss.ssss', M: 'ssss...ssssssss..ssss',
+  N: '.sss.sssssssssss.sss.', P: '....ssssssssssss.....',
+};
+const REAR = { Q: 'sss...sssssss...sssss', R: 'ss...sssssssss..ss.ss', S: 'ss.................ss' };
+// stalls seat numbers by column index (0-based)
+const STALL_NUM = [19, 18, 17, 16, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, null, 4, 3, 2, 1];
+
+const grid = document.getElementById('grid');
+const seats = [];
+const rowBtns = [];
+const colBtns = [];
+
+const cell = (el, col, row) => { el.style.gridColumn = col; el.style.gridRow = row; grid.append(el); };
+
+let gridRow = 1;
+
+function addRow(letter, pattern, rear) {
+  const total = pattern.replace(/[.w]/g, '').length;
+  let fromRight = 0;
+  const made = [];
+  for (let c = 20; c >= 0; c--) {
+    const t = pattern[c];
+    if (t === '.') continue;
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'seat' + (rear ? ' rear' : '') + (t === 'w' ? ' access' : '') +
+      (t === 'L' ? ' sofa-l' : t === 'M' ? ' sofa-m' : t === 'R' ? ' sofa-r' : '');
+    let label;
+    if (t === 'w') label = `Row ${letter} wheelchair space`;
+    else { fromRight++; label = `Row ${letter} seat ${rear ? fromRight : STALL_NUM[c]}`; }
+    b.setAttribute('aria-label', label);
+    b.setAttribute('aria-pressed', 'true');
+    b.dataset.row = letter; b.dataset.col = c;
+    b.dataset.kind = t === 'w' ? 'access' : rear ? 'rear' : 'stalls';
+    cell(b, c + 2, gridRow);
+    made.push(b);
+  }
+  seats.push(...made);
+  for (const side of [1, 23]) {
+    const r = document.createElement('button');
+    r.type = 'button'; r.className = 'row-btn'; r.textContent = letter; r.dataset.row = letter;
+    r.setAttribute('aria-label', `Toggle row ${letter}`);
+    cell(r, side, gridRow); rowBtns.push(r);
+  }
+  gridRow++;
+}
+
+for (const [k, p] of Object.entries(REAR).reverse()) addRow(k, p, true);
+const gap = document.createElement('div'); gap.className = 'gap-row'; gap.style.gridRow = gridRow++; grid.append(gap);
+for (const [k, p] of Object.entries(STALLS).reverse()) addRow(k, p, false);
+for (let c = 0; c < 21; c++) {
+  const b = document.createElement('button');
+  b.type = 'button'; b.className = 'col-btn'; b.dataset.col = c;
+  b.setAttribute('aria-label', `Toggle column ${c + 1}`);
+  cell(b, c + 2, gridRow); colBtns.push(b);
+}
+
+const on = s => s.getAttribute('aria-pressed') === 'true';
+const set = (s, v) => s.setAttribute('aria-pressed', String(v));
+
+function toggleGroup(list) {
+  const v = !list.every(on);
+  list.forEach(s => set(s, v));
+  update();
+}
+
+function stateOf(list) {
+  const n = list.filter(on).length;
+  return n === list.length ? 'all' : n === 0 ? 'none' : 'some';
+}
+
+// URL state: one bit per seat in a fixed A→S, left→right order, base64url in the hash. Empty hash = all selected.
+const ORDER = [...'ABCDEFGHJKLMNPQRS'];
+const canon = [...seats].sort((a, b) =>
+  ORDER.indexOf(a.dataset.row) - ORDER.indexOf(b.dataset.row) || a.dataset.col - b.dataset.col);
+
+function encode() {
+  if (canon.every(on)) return '';
+  const bytes = new Uint8Array(Math.ceil(canon.length / 8));
+  canon.forEach((s, i) => { if (on(s)) bytes[i >> 3] |= 1 << (i & 7); });
+  return btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+function decode(token) {
+  if (!token) { canon.forEach(s => set(s, true)); return; }
+  try {
+    const bin = atob(token.replace(/-/g, '+').replace(/_/g, '/'));
+    if (bin.length !== Math.ceil(canon.length / 8)) return;
+    canon.forEach((s, i) => set(s, Boolean(bin.charCodeAt(i >> 3) & (1 << (i & 7)))));
+  } catch {}
+}
+
+function syncUrl() {
+  const token = encode();
+  try { history.replaceState(null, '', token ? `#${token}` : location.pathname + location.search); } catch {}
+}
+
+addEventListener('hashchange', () => { decode(location.hash.slice(1)); update(); });
+
+function update() {
+  syncUrl();
+  const chairs = seats;
+  const stalls = chairs.filter(s => s.dataset.kind === 'stalls');
+  const rear = chairs.filter(s => s.dataset.kind === 'rear');
+  document.getElementById('selected').textContent = chairs.filter(on).length;
+  document.getElementById('total').textContent = chairs.length;
+  document.getElementById('meta').textContent =
+    `Stalls ${stalls.filter(on).length}/${stalls.length} · Rear ${rear.filter(on).length}/${rear.length}`;
+  rowBtns.forEach(b => b.dataset.state = stateOf(seats.filter(s => s.dataset.row === b.dataset.row)));
+  colBtns.forEach(b => b.dataset.state = stateOf(seats.filter(s => s.dataset.col === b.dataset.col)));
+}
+
+// click-drag painting
+let paint = null;
+grid.addEventListener('pointerdown', e => {
+  const s = e.target.closest('.seat');
+  if (!s) return;
+  e.preventDefault();
+  paint = !on(s);
+  set(s, paint); update();
+});
+grid.addEventListener('pointermove', e => {
+  if (paint === null) return;
+  const s = document.elementFromPoint(e.clientX, e.clientY)?.closest('.seat');
+  if (s && on(s) !== paint) { set(s, paint); update(); }
+});
+addEventListener('pointerup', () => paint = null);
+addEventListener('pointercancel', () => paint = null);
+
+grid.addEventListener('click', e => {
+  const s = e.target.closest('.seat');
+  if (s && e.detail === 0) { set(s, !on(s)); update(); } // keyboard
+  const r = e.target.closest('.row-btn');
+  if (r) toggleGroup(seats.filter(x => x.dataset.row === r.dataset.row));
+  const c = e.target.closest('.col-btn');
+  if (c) toggleGroup(seats.filter(x => x.dataset.col === c.dataset.col));
+});
+
+for (const kind of ['stalls', 'rear'])
+  document.getElementById(kind).addEventListener('click', () => toggleGroup(seats.filter(s => s.dataset.kind === kind)));
+document.getElementById('reset').addEventListener('click', () => { seats.forEach(s => set(s, true)); update(); });
+
+decode(location.hash.slice(1));
+update();
+</script>
+
+</body></html>

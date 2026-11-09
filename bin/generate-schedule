@@ -8,17 +8,14 @@
 /* spellchecker:disable */
 
 const talks = `
-  Hellen Ward - Bias in our products: The case for diversity in tech
-  Chetan Padia - Powerless by Design
-
-  Hannah Clarke - An Uncomfortable Place
-  Sergès Goma - You're in a Code Cult (And That's OK)
-
-  Asim Hussain - Don't be an Idiot
-  Jessica Rose & Eda Eren - Forgetting Machines: AI Coding Tools and Skill
-
-  Surya Rose - Six to Sixteen: A Child's Programming Journey
-  Sacha Judd - The Good Internet: How Fandom Can Reclaim the Web
+Niels Leenheer CSS is DOOMed
+Helen Brockelbank Under one canvas: building a more inclusive browser game
+Matthew Somerville The journey of a fast accessible web app: lessons from 25 years of traintimes.org.uk
+Cyd Stumpel Prefers enhanced motion
+Deeksha Bhushan Extra Hot Takes: Lessons on chaos, customers, and better systems from a chicken restaurant
+Hidde de Vries The future of the web is green
+Cennydd Bowles Revenants
+Lena Reinhard We Were Meant To Be
 `
   .split('\n')
   .map((_) => _.trim())
