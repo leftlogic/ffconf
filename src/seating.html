@@ -107,13 +107,13 @@ button.tool.primary { background: var(--fg); color: var(--bg); border-color: var
 <script>
 // s seat, w wheelchair space, L/M/R sofa parts, . empty — 21 columns, left to right as seen from the screen
 const STALLS = {
-  A: 'ssss.sssssssssss.ssss', B: '.sss..ssssssssss.sss.', C: 'ssss.sssssssssss.ssss',
+  A: '.sss.sssssssssss.....', B: '.sss..ssssssssss.sss.', C: 'ssss.sssssssssss.ssss',
   D: 'ssss..ssssssssss.ssss', E: 'ssss.sssssssssss.ssss', F: 'ssss..ssssssssss.ssss',
-  G: '.sss.sssssssssss.ssss', H: '.sss..ssssssssss.sss.', J: '.sss.sssssssssss.sss.',
-  K: 'ssss...ssssssss..ssss', L: 'ssss.sssssssssss.ssss', M: 'ssss...ssssssss..ssss',
+  G: 'ssss.sssssssssss.ssss', H: '.sss..ssssssssss.sss.', J: '.sss.sssssssssss.sss.',
+  K: 'ssss..ssssssssss.ssss', L: 'ssss.sssssssssss.ssss', M: 'ssss..ssssssssss.ssss',
   N: '.sss.sssssssssss.sss.', P: '....ssssssssssss.....',
 };
-const REAR = { Q: 'sss...sssssss...sssss', R: 'ss...sssssssss..ss.ss', S: 'ss.................ss' };
+const REAR = { Q: '.LMR..sssssss...sssss', R: '.LR..sssssssss..LR.LR', S: '.LR................LR' };
 // stalls seat numbers by column index (0-based)
 const STALL_NUM = [19, 18, 17, 16, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, null, 4, 3, 2, 1];
 
