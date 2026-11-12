@@ -25,7 +25,7 @@ The logo started with the original plan was to simply change the colours, but qu
 
 Then the logos start to have back stories:
 
-- 2013 was a Super Meatboy vs Street fighter designed by [Geri Cody](https://www.hellogeri.com/)
+- 2013 was a Super Meatboy vs Street fighter designed by [Geri Coady](https://www.hellogeri.com/)
 - 2014 was inspired by the CERN hack day [Remy did in 2013](https://web.archive.org/web/20140706165305/http://line-mode.cern.ch/makingof/) recreating the LineMode Browser
 - 2015 was the [Stars Wars vector arcade cabinet](https://www.arcade-museum.com/Videogame/star-wars)
 - 2016 was rooted in the community that had joined us over the years
